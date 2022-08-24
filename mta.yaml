@@ -1,0 +1,72 @@
+ID: dcmhub_vin_ep1
+_schema-version: '2.1'
+version: 0.0.1
+modules:
+  - name: dcmhub_vin_ep1-db
+    type: hdb
+    path: db
+    requires:
+      - name: dcmhub_vin_ep1-hdi-container
+      - name: cross-container-service
+        group: SERVICE_REPLACEMENTS
+        properties:
+          key: ServiceName_1
+          service: '~{the-service-name}'      
+  - name: xsjs_vin_ep1
+    type: nodejs
+    path: xsjs_vin_ep1
+    properties:
+      SESSION_TIMEOUT: 15
+      INCOMING_CONNECTION_TIMEOUT: 900000
+    provides:
+      - name: xsjs_api
+        properties:
+          url: '${default-url}'
+    requires:
+      - name: dcmhub_vin_ep1-hdi-container
+      - name: dcmhub_vin_ep1-db
+      - name: dcmhub_vin_ep1-uaa
+  - name: tool_vin_ep1
+    type: html5
+    path: tool_vin_ep1
+    requires:
+      - name: flp-tool_vin_ep1-client
+      - name: dcmhub_vin_ep1-uaa
+      - name: dcmhub_vin_ep1-ui5
+      - name: xsjs_api
+        group: destinations
+        properties:
+          name: xsjs_api
+          url: '~{url}'
+          forwardAuthToken: true
+          timeout: 900000
+resources:
+  - name: dcmhub_vin_ep1-hdi-container
+    type: com.sap.xs.hdi-container
+    properties:
+      hdi-container-name: '${service-name}'
+  - name: cross-container-service
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: DCMHUB-VIN-EP1
+    properties:
+      the-service-name: '${service-name}'
+  - name: dcmhub_vin_ep1-ui5
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: sapui5_sb
+      service-plan: sapui5-1.71
+  - name: dcmhub_vin_ep1-uaa
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: portal-uaa-dcmhubflp_whirlpool
+      service-plan: space
+  - name: flp-tool_vin_ep1-client
+    type: com.sap.portal.site-content
+    parameters:
+      config:
+        siteId: dcmhubflp_whirlpool
+  - name: dcmhub_vin_ep1-fs
+    type: com.sap.xs.fs
+    parameters:
+      service-name: FILEDIR_EP1        
