@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::EKET" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table EKET"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_EKET">
+    <resourceUri>EP1_EKET</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_EKET">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="MANDT"/>
+    </attribute>
+    <attribute id="EBELN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="EBELP"/>
+    </attribute>
+    <attribute id="ETENR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETENR"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ETENR"/>
+    </attribute>
+    <attribute id="EINDT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EINDT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="EINDT"/>
+    </attribute>
+    <attribute id="SLFDT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SLFDT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="SLFDT"/>
+    </attribute>
+    <attribute id="LPEIN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LPEIN"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="LPEIN"/>
+    </attribute>
+    <attribute id="MENGE" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="MENGE"/>
+    </attribute>
+    <attribute id="AMENG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AMENG"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="AMENG"/>
+    </attribute>
+    <attribute id="WEMNG" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEMNG"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="WEMNG"/>
+    </attribute>
+    <attribute id="WAMNG" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAMNG"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="WAMNG"/>
+    </attribute>
+    <attribute id="UZEIT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UZEIT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="UZEIT"/>
+    </attribute>
+    <attribute id="BANFN" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANFN"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="BANFN"/>
+    </attribute>
+    <attribute id="BNFPO" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNFPO"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="BNFPO"/>
+    </attribute>
+    <attribute id="ESTKZ" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESTKZ"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ESTKZ"/>
+    </attribute>
+    <attribute id="QUNUM" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUNUM"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="QUNUM"/>
+    </attribute>
+    <attribute id="QUPOS" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUPOS"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="QUPOS"/>
+    </attribute>
+    <attribute id="MAHNZ" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAHNZ"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="MAHNZ"/>
+    </attribute>
+    <attribute id="BEDAT" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEDAT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="BEDAT"/>
+    </attribute>
+    <attribute id="RSNUM" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSNUM"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="RSNUM"/>
+    </attribute>
+    <attribute id="SERNR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNR"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="SERNR"/>
+    </attribute>
+    <attribute id="FIXKZ" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIXKZ"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="FIXKZ"/>
+    </attribute>
+    <attribute id="GLMNG" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLMNG"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="GLMNG"/>
+    </attribute>
+    <attribute id="DABMG" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DABMG"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="DABMG"/>
+    </attribute>
+    <attribute id="CHARG" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHARG"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="CHARG"/>
+    </attribute>
+    <attribute id="LICHA" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LICHA"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="LICHA"/>
+    </attribute>
+    <attribute id="CHKOM" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHKOM"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="CHKOM"/>
+    </attribute>
+    <attribute id="VERID" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERID"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="VERID"/>
+    </attribute>
+    <attribute id="ABART" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABART"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ABART"/>
+    </attribute>
+    <attribute id="MNG02" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MNG02"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="MNG02"/>
+    </attribute>
+    <attribute id="DAT01" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DAT01"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="DAT01"/>
+    </attribute>
+    <attribute id="ALTDT" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALTDT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ALTDT"/>
+    </attribute>
+    <attribute id="AULWE" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AULWE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="AULWE"/>
+    </attribute>
+    <attribute id="MBDAT" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBDAT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="MBDAT"/>
+    </attribute>
+    <attribute id="MBUHR" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBUHR"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="MBUHR"/>
+    </attribute>
+    <attribute id="LDDAT" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LDDAT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="LDDAT"/>
+    </attribute>
+    <attribute id="LDUHR" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LDUHR"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="LDUHR"/>
+    </attribute>
+    <attribute id="TDDAT" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDDAT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="TDDAT"/>
+    </attribute>
+    <attribute id="TDUHR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDUHR"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="TDUHR"/>
+    </attribute>
+    <attribute id="WADAT" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WADAT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="WADAT"/>
+    </attribute>
+    <attribute id="WAUHR" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAUHR"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="WAUHR"/>
+    </attribute>
+    <attribute id="ELDAT" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ELDAT"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ELDAT"/>
+    </attribute>
+    <attribute id="ELUHR" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ELUHR"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ELUHR"/>
+    </attribute>
+    <attribute id="ANZSN" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZSN"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ANZSN"/>
+    </attribute>
+    <attribute id="NODISP" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NODISP"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="NODISP"/>
+    </attribute>
+    <attribute id="GEO_ROUTE" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEO_ROUTE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="GEO_ROUTE"/>
+    </attribute>
+    <attribute id="ROUTE_GTS" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROUTE_GTS"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ROUTE_GTS"/>
+    </attribute>
+    <attribute id="GTS_IND" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GTS_IND"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="GTS_IND"/>
+    </attribute>
+    <attribute id="TSP" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSP"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="TSP"/>
+    </attribute>
+    <attribute id="CD_LOCNO" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CD_LOCNO"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="CD_LOCNO"/>
+    </attribute>
+    <attribute id="CD_LOCTYPE" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CD_LOCTYPE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="CD_LOCTYPE"/>
+    </attribute>
+    <attribute id="SEL" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEL"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="SEL"/>
+    </attribute>
+    <attribute id="CCI" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCI"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="CCI"/>
+    </attribute>
+    <attribute id="SEN" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEN"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="SEN"/>
+    </attribute>
+    <attribute id="PSEL" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSEL"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="PSEL"/>
+    </attribute>
+    <attribute id="PCCI" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PCCI"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="PCCI"/>
+    </attribute>
+    <attribute id="PSEN" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSEN"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="PSEN"/>
+    </attribute>
+    <attribute id="DNO" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DNO"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="DNO"/>
+    </attribute>
+    <attribute id="SHM" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHM"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="SHM"/>
+    </attribute>
+    <attribute id="SMB" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMB"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="SMB"/>
+    </attribute>
+    <attribute id="ECC" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ECC"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="ECC"/>
+    </attribute>
+    <attribute id="PLC" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLC"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="PLC"/>
+    </attribute>
+    <attribute id="KEY_ID" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KEY_ID"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="KEY_ID"/>
+    </attribute>
+    <attribute id="OTB_VALUE" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTB_VALUE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="OTB_VALUE"/>
+    </attribute>
+    <attribute id="OTB_CURR" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTB_CURR"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="OTB_CURR"/>
+    </attribute>
+    <attribute id="OTB_RES_VALUE" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTB_RES_VALUE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="OTB_RES_VALUE"/>
+    </attribute>
+    <attribute id="OTB_SPEC_VALUE" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTB_SPEC_VALUE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="OTB_SPEC_VALUE"/>
+    </attribute>
+    <attribute id="SPR_RSN_PROFILE" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPR_RSN_PROFILE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="SPR_RSN_PROFILE"/>
+    </attribute>
+    <attribute id="BUDG_TYPE" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDG_TYPE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="BUDG_TYPE"/>
+    </attribute>
+    <attribute id="OTB_STATUS" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTB_STATUS"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="OTB_STATUS"/>
+    </attribute>
+    <attribute id="OTB_REASON" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTB_REASON"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="OTB_REASON"/>
+    </attribute>
+    <attribute id="CHECK_TYPE" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHECK_TYPE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="CHECK_TYPE"/>
+    </attribute>
+    <attribute id="DL_ID" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DL_ID"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="DL_ID"/>
+    </attribute>
+    <attribute id="HANDOVER_DATE" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HANDOVER_DATE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="HANDOVER_DATE"/>
+    </attribute>
+    <attribute id="NO_SCEM" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NO_SCEM"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="NO_SCEM"/>
+    </attribute>
+    <attribute id="DNG_DATE" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DNG_DATE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="DNG_DATE"/>
+    </attribute>
+    <attribute id="DNG_TIME" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DNG_TIME"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="DNG_TIME"/>
+    </attribute>
+    <attribute id="CNCL_ANCMNT_DONE" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CNCL_ANCMNT_DONE"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="CNCL_ANCMNT_DONE"/>
+    </attribute>
+    <attribute id="DATESHIFT_NUMBER" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATESHIFT_NUMBER"/>
+      <keyMapping columnObjectName="EP1_EKET" columnName="DATESHIFT_NUMBER"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

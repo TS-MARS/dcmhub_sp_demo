@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FEBKO" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table FEBKO"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_FEBKO">
+    <resourceUri>EP1_FEBKO</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_FEBKO">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="MANDT"/>
+    </attribute>
+    <attribute id="ANWND" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANWND"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ANWND"/>
+    </attribute>
+    <attribute id="ABSND" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABSND"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ABSND"/>
+    </attribute>
+    <attribute id="AZIDT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AZIDT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="AZIDT"/>
+    </attribute>
+    <attribute id="EMKEY" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMKEY"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="EMKEY"/>
+    </attribute>
+    <attribute id="KUKEY" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUKEY"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="KUKEY"/>
+    </attribute>
+    <attribute id="ASTAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASTAT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ASTAT"/>
+    </attribute>
+    <attribute id="DSTAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DSTAT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="DSTAT"/>
+    </attribute>
+    <attribute id="VB1OK" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VB1OK"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="VB1OK"/>
+    </attribute>
+    <attribute id="VB2OK" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VB2OK"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="VB2OK"/>
+    </attribute>
+    <attribute id="KIPRE" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KIPRE"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="KIPRE"/>
+    </attribute>
+    <attribute id="VFDAT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VFDAT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="VFDAT"/>
+    </attribute>
+    <attribute id="GRP01" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRP01"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="GRP01"/>
+    </attribute>
+    <attribute id="XKEP1" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKEP1"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="XKEP1"/>
+    </attribute>
+    <attribute id="GRP02" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRP02"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="GRP02"/>
+    </attribute>
+    <attribute id="XKEP2" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKEP2"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="XKEP2"/>
+    </attribute>
+    <attribute id="WVDAT" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WVDAT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="WVDAT"/>
+    </attribute>
+    <attribute id="WVTIM" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WVTIM"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="WVTIM"/>
+    </attribute>
+    <attribute id="WVART" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WVART"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="WVART"/>
+    </attribute>
+    <attribute id="HKONT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="HKONT"/>
+    </attribute>
+    <attribute id="KTONR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTONR"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="KTONR"/>
+    </attribute>
+    <attribute id="KTOIH" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOIH"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="KTOIH"/>
+    </attribute>
+    <attribute id="KTOSB" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOSB"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="KTOSB"/>
+    </attribute>
+    <attribute id="AZNUM" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AZNUM"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="AZNUM"/>
+    </attribute>
+    <attribute id="AZSNR" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AZSNR"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="AZSNR"/>
+    </attribute>
+    <attribute id="AZDAT" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AZDAT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="AZDAT"/>
+    </attribute>
+    <attribute id="BUKRS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="KTOPL" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="WAERS" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="WAERS"/>
+    </attribute>
+    <attribute id="SSTYP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SSTYP"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="SSTYP"/>
+    </attribute>
+    <attribute id="SSVOZ" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SSVOZ"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="SSVOZ"/>
+    </attribute>
+    <attribute id="SSBTR" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SSBTR"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="SSBTR"/>
+    </attribute>
+    <attribute id="SUMSO" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUMSO"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="SUMSO"/>
+    </attribute>
+    <attribute id="SUMHA" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUMHA"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="SUMHA"/>
+    </attribute>
+    <attribute id="ESTYP" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESTYP"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ESTYP"/>
+    </attribute>
+    <attribute id="ESVOZ" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESVOZ"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ESVOZ"/>
+    </attribute>
+    <attribute id="ESBTR" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESBTR"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ESBTR"/>
+    </attribute>
+    <attribute id="ESDMB" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESDMB"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ESDMB"/>
+    </attribute>
+    <attribute id="BLAUF" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLAUF"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="BLAUF"/>
+    </attribute>
+    <attribute id="ELAUF" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ELAUF"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ELAUF"/>
+    </attribute>
+    <attribute id="HZINS" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HZINS"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="HZINS"/>
+    </attribute>
+    <attribute id="TEILN" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEILN"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="TEILN"/>
+    </attribute>
+    <attribute id="BKTOA" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKTOA"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="BKTOA"/>
+    </attribute>
+    <attribute id="ANZES" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZES"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ANZES"/>
+    </attribute>
+    <attribute id="VGTYP" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGTYP"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="VGTYP"/>
+    </attribute>
+    <attribute id="EFART" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EFART"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="EFART"/>
+    </attribute>
+    <attribute id="HBKID" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HBKID"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="HBKID"/>
+    </attribute>
+    <attribute id="HKTID" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKTID"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="HKTID"/>
+    </attribute>
+    <attribute id="EUSER" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EUSER"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="EUSER"/>
+    </attribute>
+    <attribute id="EDATE" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EDATE"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="EDATE"/>
+    </attribute>
+    <attribute id="ETIME" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETIME"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="ETIME"/>
+    </attribute>
+    <attribute id="BKREF" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKREF"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="BKREF"/>
+    </attribute>
+    <attribute id="XFDIS" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDIS"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="XFDIS"/>
+    </attribute>
+    <attribute id="DSART" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DSART"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="DSART"/>
+    </attribute>
+    <attribute id="XVERD" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVERD"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="XVERD"/>
+    </attribute>
+    <attribute id="XBENR" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBENR"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="XBENR"/>
+    </attribute>
+    <attribute id="XBTYP" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBTYP"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="XBTYP"/>
+    </attribute>
+    <attribute id="SEQ_NUMBER" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEQ_NUMBER"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="SEQ_NUMBER"/>
+    </attribute>
+    <attribute id="SEQ_STATUS" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEQ_STATUS"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="SEQ_STATUS"/>
+    </attribute>
+    <attribute id="INPUT_FORMAT" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INPUT_FORMAT"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="INPUT_FORMAT"/>
+    </attribute>
+    <attribute id="SIBAN" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SIBAN"/>
+      <keyMapping columnObjectName="EP1_FEBKO" columnName="SIBAN"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

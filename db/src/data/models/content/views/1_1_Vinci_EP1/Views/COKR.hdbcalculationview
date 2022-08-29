@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::COKR" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table COKR"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_COKR">
+    <resourceUri>EP1_COKR</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_COKR">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LEDNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEDNR"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="LEDNR"/>
+    </attribute>
+    <attribute id="OBJNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="WRTTP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRTTP"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="WRTTP"/>
+    </attribute>
+    <attribute id="VERSN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="VERSN"/>
+    </attribute>
+    <attribute id="STAGR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAGR"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="STAGR"/>
+    </attribute>
+    <attribute id="HRKFT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HRKFT"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="HRKFT"/>
+    </attribute>
+    <attribute id="VRGNG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGNG"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="VRGNG"/>
+    </attribute>
+    <attribute id="WSSME" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WSSME"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="WSSME"/>
+    </attribute>
+    <attribute id="WSSMA" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WSSMA"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="WSSMA"/>
+    </attribute>
+    <attribute id="FMSME" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMSME"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="FMSME"/>
+    </attribute>
+    <attribute id="FMSMA" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMSMA"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="FMSMA"/>
+    </attribute>
+    <attribute id="FCSME" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FCSME"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="FCSME"/>
+    </attribute>
+    <attribute id="FCSMA" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FCSMA"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="FCSMA"/>
+    </attribute>
+    <attribute id="TXFLG" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXFLG"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="TXFLG"/>
+    </attribute>
+    <attribute id="KKART" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKART"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="KKART"/>
+    </attribute>
+    <attribute id="KALNR" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALNR"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="KALNR"/>
+    </attribute>
+    <attribute id="VARIANTE" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VARIANTE"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="VARIANTE"/>
+    </attribute>
+    <attribute id="M_PLAN" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="M_PLAN"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="M_PLAN"/>
+    </attribute>
+    <attribute id="M_IST" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="M_IST"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="M_IST"/>
+    </attribute>
+    <attribute id="KSTAGR" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTAGR"/>
+      <keyMapping columnObjectName="EP1_COKR" columnName="KSTAGR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

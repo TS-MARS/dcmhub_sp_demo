@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::HR_T513S" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_HR_T513S"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_HR_T513S">
+    <resourceUri>EP1_CV_HR_T513S</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_HR_T513S">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T513S" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRSL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRSL"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T513S" columnName="SPRSL"/>
+    </attribute>
+    <attribute id="STELL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STELL"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T513S" columnName="STELL"/>
+    </attribute>
+    <attribute id="ENDDA" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENDDA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T513S" columnName="ENDDA"/>
+    </attribute>
+    <attribute id="BEGDA" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGDA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T513S" columnName="BEGDA"/>
+    </attribute>
+    <attribute id="STLTX" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLTX"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T513S" columnName="STLTX"/>
+    </attribute>
+    <attribute id="MAINT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAINT"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T513S" columnName="MAINT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

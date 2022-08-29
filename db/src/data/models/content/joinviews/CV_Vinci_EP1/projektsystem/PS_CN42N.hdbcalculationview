@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PS_CN42N" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PS_CN42N"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PS_CN42N">
+    <resourceUri>EP1_CV_PS_CN42N</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PS_CN42N">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="MANDT"/>
+    </attribute>
+    <attribute id="PSPNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PSPNR"/>
+    </attribute>
+    <attribute id="PSPID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPID"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PSPID"/>
+    </attribute>
+    <attribute id="POST1" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POST1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="POST1"/>
+    </attribute>
+    <attribute id="OBJNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="ERNAM" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="ERDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="AENAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="KIMSK" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KIMSK"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="KIMSK"/>
+    </attribute>
+    <attribute id="AUTOD" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUTOD"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="AUTOD"/>
+    </attribute>
+    <attribute id="STSPD" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STSPD"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="STSPD"/>
+    </attribute>
+    <attribute id="STSPR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STSPR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="STSPR"/>
+    </attribute>
+    <attribute id="VERNR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VERNR"/>
+    </attribute>
+    <attribute id="VERNA" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERNA"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VERNA"/>
+    </attribute>
+    <attribute id="ASTNR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASTNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ASTNR"/>
+    </attribute>
+    <attribute id="ASTNA" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASTNA"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ASTNA"/>
+    </attribute>
+    <attribute id="VBUKR" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBUKR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VBUKR"/>
+    </attribute>
+    <attribute id="VGSBR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGSBR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VGSBR"/>
+    </attribute>
+    <attribute id="VKOKR" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKOKR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VKOKR"/>
+    </attribute>
+    <attribute id="PRCTR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="PWHIE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PWHIE"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PWHIE"/>
+    </attribute>
+    <attribute id="ZUORD" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUORD"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ZUORD"/>
+    </attribute>
+    <attribute id="TRMEQ" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRMEQ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="TRMEQ"/>
+    </attribute>
+    <attribute id="PLFAZ" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLFAZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PLFAZ"/>
+    </attribute>
+    <attribute id="PLSEZ" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLSEZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PLSEZ"/>
+    </attribute>
+    <attribute id="WERKS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="WERKS"/>
+    </attribute>
+    <attribute id="KALID" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALID"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="KALID"/>
+    </attribute>
+    <attribute id="VGPLF" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGPLF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VGPLF"/>
+    </attribute>
+    <attribute id="EWPLF" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EWPLF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="EWPLF"/>
+    </attribute>
+    <attribute id="ZTEHT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZTEHT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ZTEHT"/>
+    </attribute>
+    <attribute id="NZANZ" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NZANZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="NZANZ"/>
+    </attribute>
+    <attribute id="PLNAW" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNAW"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PLNAW"/>
+    </attribute>
+    <attribute id="VPROF" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPROF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VPROF"/>
+    </attribute>
+    <attribute id="PROFL" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROFL"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PROFL"/>
+    </attribute>
+    <attribute id="BPROF" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPROF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="BPROF"/>
+    </attribute>
+    <attribute id="TXTSP" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXTSP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="TXTSP"/>
+    </attribute>
+    <attribute id="KOSTL" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="KTRG" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTRG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="KTRG"/>
+    </attribute>
+    <attribute id="AEDTE" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDTE"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="AEDTE"/>
+    </attribute>
+    <attribute id="AEDTP" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDTP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="AEDTP"/>
+    </attribute>
+    <attribute id="BERST" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERST"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="BERST"/>
+    </attribute>
+    <attribute id="BERTR" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERTR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="BERTR"/>
+    </attribute>
+    <attribute id="BERKO" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERKO"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="BERKO"/>
+    </attribute>
+    <attribute id="BERBU" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERBU"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="BERBU"/>
+    </attribute>
+    <attribute id="SPSNR" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPSNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="SPSNR"/>
+    </attribute>
+    <attribute id="BESTA" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BESTA"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="BESTA"/>
+    </attribute>
+    <attribute id="SCOPE" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCOPE"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="SCOPE"/>
+    </attribute>
+    <attribute id="XSTAT" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTAT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="XSTAT"/>
+    </attribute>
+    <attribute id="TXJCD" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="ZSCHM" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZSCHM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ZSCHM"/>
+    </attribute>
+    <attribute id="SCPRF" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCPRF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="SCPRF"/>
+    </attribute>
+    <attribute id="IMPRF" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMPRF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="IMPRF"/>
+    </attribute>
+    <attribute id="FMPRF" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMPRF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="FMPRF"/>
+    </attribute>
+    <attribute id="ABGSL" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGSL"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ABGSL"/>
+    </attribute>
+    <attribute id="POSTU" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSTU"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="POSTU"/>
+    </attribute>
+    <attribute id="PPROF" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPROF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PPROF"/>
+    </attribute>
+    <attribute id="PLINT" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLINT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PLINT"/>
+    </attribute>
+    <attribute id="LOEVM" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEVM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="LOEVM"/>
+    </attribute>
+    <attribute id="INACT" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INACT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="INACT"/>
+    </attribute>
+    <attribute id="KZBWS" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBWS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="KZBWS"/>
+    </attribute>
+    <attribute id="SMPRF" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMPRF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="SMPRF"/>
+    </attribute>
+    <attribute id="FLGVRG" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLGVRG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="FLGVRG"/>
+    </attribute>
+    <attribute id="GRTOP" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRTOP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="GRTOP"/>
+    </attribute>
+    <attribute id="PGPRF" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGPRF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PGPRF"/>
+    </attribute>
+    <attribute id="STORT" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STORT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="STORT"/>
+    </attribute>
+    <attribute id="LOGSYSTEM" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGSYSTEM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="LOGSYSTEM"/>
+    </attribute>
+    <attribute id="KZERB" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZERB"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="KZERB"/>
+    </attribute>
+    <attribute id="PARGR" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARGR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PARGR"/>
+    </attribute>
+    <attribute id="FUNC_AREA" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FUNC_AREA"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="FUNC_AREA"/>
+    </attribute>
+    <attribute id="VKORG" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKORG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VKORG"/>
+    </attribute>
+    <attribute id="VTWEG" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VTWEG"/>
+    </attribute>
+    <attribute id="SPART" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="SPART"/>
+    </attribute>
+    <attribute id="DPPPROF" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DPPPROF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="DPPPROF"/>
+    </attribute>
+    <attribute id="VPKSTU" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPKSTU"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VPKSTU"/>
+    </attribute>
+    <attribute id="PSPID_EDIT" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPID_EDIT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="PSPID_EDIT"/>
+    </attribute>
+    <attribute id="VNAME" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VNAME"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="VNAME"/>
+    </attribute>
+    <attribute id="RECID" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RECID"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="RECID"/>
+    </attribute>
+    <attribute id="ETYPE" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETYPE"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="ETYPE"/>
+    </attribute>
+    <attribute id="OTYPE" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="OTYPE"/>
+    </attribute>
+    <attribute id="JIBCL" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="JIBCL"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="JIBCL"/>
+    </attribute>
+    <attribute id="JIBSA" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="JIBSA"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="JIBSA"/>
+    </attribute>
+    <attribute id="SCHTYP" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCHTYP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="SCHTYP"/>
+    </attribute>
+    <attribute id="SPROG" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPROG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="SPROG"/>
+    </attribute>
+    <attribute id="EPROG" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EPROG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="EPROG"/>
+    </attribute>
+    <attribute id="FERC_IND" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FERC_IND"/>
+      <keyMapping columnObjectName="EP1_CV_PS_CN42N" columnName="FERC_IND"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

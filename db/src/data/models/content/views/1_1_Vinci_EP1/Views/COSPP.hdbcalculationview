@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::COSPP" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table COSPP"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_COSPP">
+    <resourceUri>EP1_COSPP</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_COSPP">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LEDNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEDNR"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="LEDNR"/>
+    </attribute>
+    <attribute id="OBJNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="WRTTP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRTTP"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WRTTP"/>
+    </attribute>
+    <attribute id="TRGKZ" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRGKZ"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="TRGKZ"/>
+    </attribute>
+    <attribute id="VERSN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="VERSN"/>
+    </attribute>
+    <attribute id="KSTAR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTAR"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="KSTAR"/>
+    </attribute>
+    <attribute id="HRKFT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HRKFT"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="HRKFT"/>
+    </attribute>
+    <attribute id="VRGNG" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGNG"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="VRGNG"/>
+    </attribute>
+    <attribute id="VBUND" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBUND"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="VBUND"/>
+    </attribute>
+    <attribute id="PARGB" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARGB"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PARGB"/>
+    </attribute>
+    <attribute id="BEKNZ" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEKNZ"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="BEKNZ"/>
+    </attribute>
+    <attribute id="TWAER" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TWAER"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="TWAER"/>
+    </attribute>
+    <attribute id="PERBL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERBL"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PERBL"/>
+    </attribute>
+    <attribute id="MEINH" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINH"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEINH"/>
+    </attribute>
+    <attribute id="WTG001" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG001"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG001"/>
+    </attribute>
+    <attribute id="WTG002" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG002"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG002"/>
+    </attribute>
+    <attribute id="WTG003" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG003"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG003"/>
+    </attribute>
+    <attribute id="WTG004" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG004"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG004"/>
+    </attribute>
+    <attribute id="WTG005" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG005"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG005"/>
+    </attribute>
+    <attribute id="WTG006" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG006"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG006"/>
+    </attribute>
+    <attribute id="WTG007" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG007"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG007"/>
+    </attribute>
+    <attribute id="WTG008" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG008"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG008"/>
+    </attribute>
+    <attribute id="WTG009" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG009"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG009"/>
+    </attribute>
+    <attribute id="WTG010" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG010"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG010"/>
+    </attribute>
+    <attribute id="WTG011" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG011"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG011"/>
+    </attribute>
+    <attribute id="WTG012" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG012"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG012"/>
+    </attribute>
+    <attribute id="WTG013" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG013"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG013"/>
+    </attribute>
+    <attribute id="WTG014" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG014"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG014"/>
+    </attribute>
+    <attribute id="WTG015" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG015"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG015"/>
+    </attribute>
+    <attribute id="WTG016" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTG016"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WTG016"/>
+    </attribute>
+    <attribute id="WOG001" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG001"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG001"/>
+    </attribute>
+    <attribute id="WOG002" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG002"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG002"/>
+    </attribute>
+    <attribute id="WOG003" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG003"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG003"/>
+    </attribute>
+    <attribute id="WOG004" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG004"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG004"/>
+    </attribute>
+    <attribute id="WOG005" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG005"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG005"/>
+    </attribute>
+    <attribute id="WOG006" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG006"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG006"/>
+    </attribute>
+    <attribute id="WOG007" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG007"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG007"/>
+    </attribute>
+    <attribute id="WOG008" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG008"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG008"/>
+    </attribute>
+    <attribute id="WOG009" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG009"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG009"/>
+    </attribute>
+    <attribute id="WOG010" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG010"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG010"/>
+    </attribute>
+    <attribute id="WOG011" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG011"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG011"/>
+    </attribute>
+    <attribute id="WOG012" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG012"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG012"/>
+    </attribute>
+    <attribute id="WOG013" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG013"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG013"/>
+    </attribute>
+    <attribute id="WOG014" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG014"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG014"/>
+    </attribute>
+    <attribute id="WOG015" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG015"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG015"/>
+    </attribute>
+    <attribute id="WOG016" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WOG016"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WOG016"/>
+    </attribute>
+    <attribute id="WKG001" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG001"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG001"/>
+    </attribute>
+    <attribute id="WKG002" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG002"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG002"/>
+    </attribute>
+    <attribute id="WKG003" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG003"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG003"/>
+    </attribute>
+    <attribute id="WKG004" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG004"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG004"/>
+    </attribute>
+    <attribute id="WKG005" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG005"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG005"/>
+    </attribute>
+    <attribute id="WKG006" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG006"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG006"/>
+    </attribute>
+    <attribute id="WKG007" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG007"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG007"/>
+    </attribute>
+    <attribute id="WKG008" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG008"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG008"/>
+    </attribute>
+    <attribute id="WKG009" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG009"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG009"/>
+    </attribute>
+    <attribute id="WKG010" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG010"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG010"/>
+    </attribute>
+    <attribute id="WKG011" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG011"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG011"/>
+    </attribute>
+    <attribute id="WKG012" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG012"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG012"/>
+    </attribute>
+    <attribute id="WKG013" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG013"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG013"/>
+    </attribute>
+    <attribute id="WKG014" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG014"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG014"/>
+    </attribute>
+    <attribute id="WKG015" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG015"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG015"/>
+    </attribute>
+    <attribute id="WKG016" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKG016"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKG016"/>
+    </attribute>
+    <attribute id="WKF001" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF001"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF001"/>
+    </attribute>
+    <attribute id="WKF002" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF002"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF002"/>
+    </attribute>
+    <attribute id="WKF003" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF003"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF003"/>
+    </attribute>
+    <attribute id="WKF004" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF004"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF004"/>
+    </attribute>
+    <attribute id="WKF005" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF005"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF005"/>
+    </attribute>
+    <attribute id="WKF006" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF006"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF006"/>
+    </attribute>
+    <attribute id="WKF007" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF007"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF007"/>
+    </attribute>
+    <attribute id="WKF008" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF008"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF008"/>
+    </attribute>
+    <attribute id="WKF009" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF009"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF009"/>
+    </attribute>
+    <attribute id="WKF010" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF010"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF010"/>
+    </attribute>
+    <attribute id="WKF011" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF011"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF011"/>
+    </attribute>
+    <attribute id="WKF012" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF012"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF012"/>
+    </attribute>
+    <attribute id="WKF013" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF013"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF013"/>
+    </attribute>
+    <attribute id="WKF014" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF014"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF014"/>
+    </attribute>
+    <attribute id="WKF015" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF015"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF015"/>
+    </attribute>
+    <attribute id="WKF016" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKF016"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="WKF016"/>
+    </attribute>
+    <attribute id="PAG001" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG001"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG001"/>
+    </attribute>
+    <attribute id="PAG002" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG002"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG002"/>
+    </attribute>
+    <attribute id="PAG003" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG003"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG003"/>
+    </attribute>
+    <attribute id="PAG004" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG004"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG004"/>
+    </attribute>
+    <attribute id="PAG005" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG005"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG005"/>
+    </attribute>
+    <attribute id="PAG006" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG006"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG006"/>
+    </attribute>
+    <attribute id="PAG007" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG007"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG007"/>
+    </attribute>
+    <attribute id="PAG008" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG008"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG008"/>
+    </attribute>
+    <attribute id="PAG009" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG009"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG009"/>
+    </attribute>
+    <attribute id="PAG010" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG010"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG010"/>
+    </attribute>
+    <attribute id="PAG011" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG011"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG011"/>
+    </attribute>
+    <attribute id="PAG012" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG012"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG012"/>
+    </attribute>
+    <attribute id="PAG013" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG013"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG013"/>
+    </attribute>
+    <attribute id="PAG014" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG014"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG014"/>
+    </attribute>
+    <attribute id="PAG015" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG015"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG015"/>
+    </attribute>
+    <attribute id="PAG016" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAG016"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="PAG016"/>
+    </attribute>
+    <attribute id="MEG001" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG001"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG001"/>
+    </attribute>
+    <attribute id="MEG002" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG002"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG002"/>
+    </attribute>
+    <attribute id="MEG003" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG003"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG003"/>
+    </attribute>
+    <attribute id="MEG004" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG004"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG004"/>
+    </attribute>
+    <attribute id="MEG005" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG005"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG005"/>
+    </attribute>
+    <attribute id="MEG006" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG006"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG006"/>
+    </attribute>
+    <attribute id="MEG007" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG007"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG007"/>
+    </attribute>
+    <attribute id="MEG008" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG008"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG008"/>
+    </attribute>
+    <attribute id="MEG009" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG009"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG009"/>
+    </attribute>
+    <attribute id="MEG010" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG010"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG010"/>
+    </attribute>
+    <attribute id="MEG011" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG011"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG011"/>
+    </attribute>
+    <attribute id="MEG012" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG012"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG012"/>
+    </attribute>
+    <attribute id="MEG013" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG013"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG013"/>
+    </attribute>
+    <attribute id="MEG014" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG014"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG014"/>
+    </attribute>
+    <attribute id="MEG015" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG015"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG015"/>
+    </attribute>
+    <attribute id="MEG016" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEG016"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEG016"/>
+    </attribute>
+    <attribute id="MEF001" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF001"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF001"/>
+    </attribute>
+    <attribute id="MEF002" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF002"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF002"/>
+    </attribute>
+    <attribute id="MEF003" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF003"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF003"/>
+    </attribute>
+    <attribute id="MEF004" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF004"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF004"/>
+    </attribute>
+    <attribute id="MEF005" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF005"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF005"/>
+    </attribute>
+    <attribute id="MEF006" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF006"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF006"/>
+    </attribute>
+    <attribute id="MEF007" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF007"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF007"/>
+    </attribute>
+    <attribute id="MEF008" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF008"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF008"/>
+    </attribute>
+    <attribute id="MEF009" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF009"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF009"/>
+    </attribute>
+    <attribute id="MEF010" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF010"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF010"/>
+    </attribute>
+    <attribute id="MEF011" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF011"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF011"/>
+    </attribute>
+    <attribute id="MEF012" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF012"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF012"/>
+    </attribute>
+    <attribute id="MEF013" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF013"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF013"/>
+    </attribute>
+    <attribute id="MEF014" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF014"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF014"/>
+    </attribute>
+    <attribute id="MEF015" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF015"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF015"/>
+    </attribute>
+    <attribute id="MEF016" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEF016"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MEF016"/>
+    </attribute>
+    <attribute id="MUV001" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV001"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV001"/>
+    </attribute>
+    <attribute id="MUV002" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV002"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV002"/>
+    </attribute>
+    <attribute id="MUV003" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV003"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV003"/>
+    </attribute>
+    <attribute id="MUV004" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV004"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV004"/>
+    </attribute>
+    <attribute id="MUV005" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV005"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV005"/>
+    </attribute>
+    <attribute id="MUV006" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV006"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV006"/>
+    </attribute>
+    <attribute id="MUV007" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV007"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV007"/>
+    </attribute>
+    <attribute id="MUV008" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV008"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV008"/>
+    </attribute>
+    <attribute id="MUV009" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV009"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV009"/>
+    </attribute>
+    <attribute id="MUV010" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV010"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV010"/>
+    </attribute>
+    <attribute id="MUV011" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV011"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV011"/>
+    </attribute>
+    <attribute id="MUV012" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV012"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV012"/>
+    </attribute>
+    <attribute id="MUV013" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV013"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV013"/>
+    </attribute>
+    <attribute id="MUV014" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV014"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV014"/>
+    </attribute>
+    <attribute id="MUV015" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV015"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV015"/>
+    </attribute>
+    <attribute id="MUV016" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUV016"/>
+      <keyMapping columnObjectName="EP1_COSPP" columnName="MUV016"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

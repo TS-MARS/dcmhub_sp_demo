@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PP_T024D" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PP_T024D"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PP_T024D">
+    <resourceUri>EP1_CV_PP_T024D</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PP_T024D">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="MANDT"/>
+    </attribute>
+    <attribute id="WERKS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="WERKS"/>
+    </attribute>
+    <attribute id="DISPO" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISPO"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="DISPO"/>
+    </attribute>
+    <attribute id="DSNAM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DSNAM"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="DSNAM"/>
+    </attribute>
+    <attribute id="DSTEL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DSTEL"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="DSTEL"/>
+    </attribute>
+    <attribute id="EKGRP" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKGRP"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="EKGRP"/>
+    </attribute>
+    <attribute id="MEMPF" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEMPF"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="MEMPF"/>
+    </attribute>
+    <attribute id="GSBER" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="GSBER"/>
+    </attribute>
+    <attribute id="PRCTR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="USRTYP" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USRTYP"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="USRTYP"/>
+    </attribute>
+    <attribute id="USRKEY" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USRKEY"/>
+      <keyMapping columnObjectName="EP1_CV_PP_T024D" columnName="USRKEY"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

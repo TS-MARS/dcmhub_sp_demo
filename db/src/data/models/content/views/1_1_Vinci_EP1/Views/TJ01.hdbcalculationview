@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TJ01" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TJ01"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TJ01">
+    <resourceUri>EP1_TJ01</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TJ01">
+  <attributes>
+    <attribute id="VRGNG" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGNG"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="VRGNG"/>
+    </attribute>
+    <attribute id="VRGSV" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGSV"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="VRGSV"/>
+    </attribute>
+    <attribute id="ANWST" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANWST"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="ANWST"/>
+    </attribute>
+    <attribute id="PRVRG" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRVRG"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="PRVRG"/>
+    </attribute>
+    <attribute id="VRGJV" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGJV"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="VRGJV"/>
+    </attribute>
+    <attribute id="VRGCO" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGCO"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="VRGCO"/>
+    </attribute>
+    <attribute id="NVVRG" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NVVRG"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="NVVRG"/>
+    </attribute>
+    <attribute id="PERSP" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERSP"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="PERSP"/>
+    </attribute>
+    <attribute id="PSIKZ" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSIKZ"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="PSIKZ"/>
+    </attribute>
+    <attribute id="WTKAT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTKAT"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="WTKAT"/>
+    </attribute>
+    <attribute id="ACTGRP" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ACTGRP"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="ACTGRP"/>
+    </attribute>
+    <attribute id="SUBGRP" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBGRP"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="SUBGRP"/>
+    </attribute>
+    <attribute id="XCOEP" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEP"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEP"/>
+    </attribute>
+    <attribute id="XCOEJ" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEJ"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEJ"/>
+    </attribute>
+    <attribute id="XCOOI" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOOI"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOOI"/>
+    </attribute>
+    <attribute id="XCOSP" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOSP"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOSP"/>
+    </attribute>
+    <attribute id="XCOSS" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOSS"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOSS"/>
+    </attribute>
+    <attribute id="XCOEPL" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEPL"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEPL"/>
+    </attribute>
+    <attribute id="XCOEJL" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEJL"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEJL"/>
+    </attribute>
+    <attribute id="XCOEPR" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEPR"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEPR"/>
+    </attribute>
+    <attribute id="XCOEJR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEJR"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEJR"/>
+    </attribute>
+    <attribute id="XCOEPT" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEPT"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEPT"/>
+    </attribute>
+    <attribute id="XCOEJT" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEJT"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEJT"/>
+    </attribute>
+    <attribute id="XCOEPB" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOEPB"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOEPB"/>
+    </attribute>
+    <attribute id="XCOFP" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOFP"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XCOFP"/>
+    </attribute>
+    <attribute id="XFMGM" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMGM"/>
+      <keyMapping columnObjectName="EP1_TJ01" columnName="XFMGM"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

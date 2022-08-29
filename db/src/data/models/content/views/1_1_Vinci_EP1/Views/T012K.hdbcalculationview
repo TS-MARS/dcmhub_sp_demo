@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T012K" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T012K"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T012K">
+    <resourceUri>EP1_T012K</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T012K">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="HBKID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HBKID"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="HBKID"/>
+    </attribute>
+    <attribute id="HKTID" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKTID"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="HKTID"/>
+    </attribute>
+    <attribute id="BANKN" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKN"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="BANKN"/>
+    </attribute>
+    <attribute id="BKONT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKONT"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="BKONT"/>
+    </attribute>
+    <attribute id="WAERS" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="WAERS"/>
+    </attribute>
+    <attribute id="REFZL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFZL"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="REFZL"/>
+    </attribute>
+    <attribute id="DTAAI" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAAI"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="DTAAI"/>
+    </attribute>
+    <attribute id="BNKN2" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNKN2"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="BNKN2"/>
+    </attribute>
+    <attribute id="FDGRP" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDGRP"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="FDGRP"/>
+    </attribute>
+    <attribute id="ABWAE" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABWAE"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="ABWAE"/>
+    </attribute>
+    <attribute id="HKONT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="HKONT"/>
+    </attribute>
+    <attribute id="WEKON" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEKON"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="WEKON"/>
+    </attribute>
+    <attribute id="MINDT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MINDT"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="MINDT"/>
+    </attribute>
+    <attribute id="HBID1" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HBID1"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="HBID1"/>
+    </attribute>
+    <attribute id="HKID1" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKID1"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="HKID1"/>
+    </attribute>
+    <attribute id="HBID2" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HBID2"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="HBID2"/>
+    </attribute>
+    <attribute id="HKID2" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKID2"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="HKID2"/>
+    </attribute>
+    <attribute id="WKKON" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKKON"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="WKKON"/>
+    </attribute>
+    <attribute id="WIKON" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WIKON"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="WIKON"/>
+    </attribute>
+    <attribute id="BROLL" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BROLL"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="BROLL"/>
+    </attribute>
+    <attribute id="XTPRB" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XTPRB"/>
+      <keyMapping columnObjectName="EP1_T012K" columnName="XTPRB"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

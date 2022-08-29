@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_MI24_3" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_MI24_3"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_MM_MI24_3">
+    <resourceUri>EP1_CV_MM_MI24_3</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_MM_MI24_3">
+  <attributes>
+    <attribute id="SPRAS" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MI24_3" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="XZAEL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XZAEL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MI24_3" columnName="XZAEL"/>
+    </attribute>
+    <attribute id="XDIFF" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XDIFF"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MI24_3" columnName="XDIFF"/>
+    </attribute>
+    <attribute id="XNZAE" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNZAE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MI24_3" columnName="XNZAE"/>
+    </attribute>
+    <attribute id="XLOEK" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLOEK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MI24_3" columnName="XLOEK"/>
+    </attribute>
+    <attribute id="STEXT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STEXT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MI24_3" columnName="STEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

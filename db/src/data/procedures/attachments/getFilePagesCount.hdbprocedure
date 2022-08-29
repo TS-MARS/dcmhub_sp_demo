@@ -1,0 +1,18 @@
+PROCEDURE "att::getFilePagesCount" (
+	IN  im_filename NVARCHAR(1024),
+	OUT om_pages    INT
+)
+LANGUAGE SQLSCRIPT SQL
+SECURITY DEFINER AS
+BEGIN
+
+	DECLARE lv_filename VARCHAR(1024);
+	
+	lv_filename = im_filename;
+	lv_filename = REPLACE(:lv_filename, '*', '%');
+	
+	SELECT COUNT(filename)
+	  INTO om_pages
+	  FROM "att::ZPOINTER"
+	  WHERE filename LIKE :lv_filename;
+END;

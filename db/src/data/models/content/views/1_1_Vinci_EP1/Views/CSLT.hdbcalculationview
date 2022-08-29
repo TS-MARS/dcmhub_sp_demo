@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CSLT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CSLT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CSLT">
+    <resourceUri>EP1_CSLT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CSLT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CSLT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CSLT" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KOKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_CSLT" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="LSTAR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="EP1_CSLT" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="DATBI" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATBI"/>
+      <keyMapping columnObjectName="EP1_CSLT" columnName="DATBI"/>
+    </attribute>
+    <attribute id="KTEXT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTEXT"/>
+      <keyMapping columnObjectName="EP1_CSLT" columnName="KTEXT"/>
+    </attribute>
+    <attribute id="LTEXT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXT"/>
+      <keyMapping columnObjectName="EP1_CSLT" columnName="LTEXT"/>
+    </attribute>
+    <attribute id="MCTXT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MCTXT"/>
+      <keyMapping columnObjectName="EP1_CSLT" columnName="MCTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,29 @@
+FUNCTION "att::getFilenameCustom"(
+	
+	iv_filename     nvarchar(255),
+	iv_mandt		nvarchar(3),
+	iv_sap_object	nvarchar(10),
+	iv_objid		nvarchar(100),
+	iv_archiv_id	nvarchar(2),
+	iv_arc_doc_id	nvarchar(100),
+	iv_date			nvarchar(8),
+	iv_ar_object	nvarchar(10),
+	iv_reserve 		nvarchar(27)
+)
+    RETURNS rv_filename NVARCHAR(255) 
+    LANGUAGE SQLSCRIPT 
+    SQL SECURITY INVOKER AS 
+BEGIN 
+
+	/* Work out the real filename */
+	rv_filename = :iv_filename;
+	rv_filename = REPLACE( :rv_filename, '<MANDT>', 		:iv_mandt);
+	rv_filename = REPLACE( :rv_filename, '<SAP_OBJECT>',	:iv_sap_object);
+	rv_filename = REPLACE( :rv_filename, '<OBJID>', 		:iv_objid);
+	rv_filename = REPLACE( :rv_filename, '<ARCHIV_ID>', 	:iv_archiv_id);
+	rv_filename = REPLACE( :rv_filename, '<ARC_DOC_ID>', 	:iv_arc_doc_id);
+	rv_filename = REPLACE( :rv_filename, '<DATE>', 			:iv_date);
+	rv_filename = REPLACE( :rv_filename, '<AR_OBJECT>', 	:iv_ar_object);
+	rv_filename = REPLACE( :rv_filename, '<RESERVE>',		LOWER("att::convertExtension"(:iv_reserve)));
+
+END;

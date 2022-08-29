@@ -16,6 +16,12 @@
 								<ImageContent src="sap-icon://filter"/>
 							</TileContent>
 						</GenericTile>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Attachment Browser" subheader="Analysis" mode="HeaderMode"
+							press="onPressAttachment">
+							<TileContent>
+								<ImageContent src="sap-icon://filter"/>
+							</TileContent>
+						</GenericTile>						
 					</content>
 				</Page>
 			</pages>

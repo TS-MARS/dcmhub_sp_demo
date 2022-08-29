@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T5UC4" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T5UC4"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T5UC4">
+    <resourceUri>EP1_T5UC4</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T5UC4">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T5UC4" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LANGU" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU"/>
+      <keyMapping columnObjectName="EP1_T5UC4" columnName="LANGU"/>
+    </attribute>
+    <attribute id="BAREA" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAREA"/>
+      <keyMapping columnObjectName="EP1_T5UC4" columnName="BAREA"/>
+    </attribute>
+    <attribute id="ELIGR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ELIGR"/>
+      <keyMapping columnObjectName="EP1_T5UC4" columnName="ELIGR"/>
+    </attribute>
+    <attribute id="LTEXT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXT"/>
+      <keyMapping columnObjectName="EP1_T5UC4" columnName="LTEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

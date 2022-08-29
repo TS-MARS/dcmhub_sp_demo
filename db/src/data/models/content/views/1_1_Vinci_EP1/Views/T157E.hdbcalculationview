@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T157E" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T157E"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T157E">
+    <resourceUri>EP1_T157E</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T157E">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T157E" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_T157E" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="BWART" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWART"/>
+      <keyMapping columnObjectName="EP1_T157E" columnName="BWART"/>
+    </attribute>
+    <attribute id="GRUND" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRUND"/>
+      <keyMapping columnObjectName="EP1_T157E" columnName="GRUND"/>
+    </attribute>
+    <attribute id="GRTXT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRTXT"/>
+      <keyMapping columnObjectName="EP1_T157E" columnName="GRTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

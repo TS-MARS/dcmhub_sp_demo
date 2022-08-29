@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::KAKO" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table KAKO"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_KAKO">
+    <resourceUri>EP1_KAKO</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_KAKO">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KAPID" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPID"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="KAPID"/>
+    </attribute>
+    <attribute id="AZMAX" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AZMAX"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="AZMAX"/>
+    </attribute>
+    <attribute id="AZNOR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AZNOR"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="AZNOR"/>
+    </attribute>
+    <attribute id="BASNE" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BASNE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BASNE"/>
+    </attribute>
+    <attribute id="BASZL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BASZL"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BASZL"/>
+    </attribute>
+    <attribute id="BEGZT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGZT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BEGZT"/>
+    </attribute>
+    <attribute id="BRGRU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRGRU"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BRGRU"/>
+    </attribute>
+    <attribute id="ENDZT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENDZT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="ENDZT"/>
+    </attribute>
+    <attribute id="KALID" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALID"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="KALID"/>
+    </attribute>
+    <attribute id="KAPAR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPAR"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="KAPAR"/>
+    </attribute>
+    <attribute id="MEINS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MEINS"/>
+    </attribute>
+    <attribute id="MOSID" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MOSID"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MOSID"/>
+    </attribute>
+    <attribute id="NAME" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="NAME"/>
+    </attribute>
+    <attribute id="NGRAD" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NGRAD"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="NGRAD"/>
+    </attribute>
+    <attribute id="PAUSE" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAUSE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="PAUSE"/>
+    </attribute>
+    <attribute id="PLANR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLANR"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="PLANR"/>
+    </attribute>
+    <attribute id="POOLK" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POOLK"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="POOLK"/>
+    </attribute>
+    <attribute id="REFAN" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFAN"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="REFAN"/>
+    </attribute>
+    <attribute id="REFAZ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFAZ"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="REFAZ"/>
+    </attribute>
+    <attribute id="REFID" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFID"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="REFID"/>
+    </attribute>
+    <attribute id="SUPPK" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUPPK"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="SUPPK"/>
+    </attribute>
+    <attribute id="VERSA" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSA"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="VERSA"/>
+    </attribute>
+    <attribute id="WERKS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="WERKS"/>
+    </attribute>
+    <attribute id="KAPIE" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPIE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="KAPIE"/>
+    </attribute>
+    <attribute id="KAPTER" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPTER"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="KAPTER"/>
+    </attribute>
+    <attribute id="KAPAVO" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPAVO"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="KAPAVO"/>
+    </attribute>
+    <attribute id="UEBERLAST" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBERLAST"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="UEBERLAST"/>
+    </attribute>
+    <attribute id="KAPLPL" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPLPL"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="KAPLPL"/>
+    </attribute>
+    <attribute id="KAPEH" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPEH"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="KAPEH"/>
+    </attribute>
+    <attribute id="MEHR" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEHR"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MEHR"/>
+    </attribute>
+    <attribute id="ANG_UNIT" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANG_UNIT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="ANG_UNIT"/>
+    </attribute>
+    <attribute id="ANG_MIN" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANG_MIN"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="ANG_MIN"/>
+    </attribute>
+    <attribute id="ANG_MAX" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANG_MAX"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="ANG_MAX"/>
+    </attribute>
+    <attribute id="TYPE" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TYPE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="TYPE"/>
+    </attribute>
+    <attribute id="RESTYPE" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESTYPE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="RESTYPE"/>
+    </attribute>
+    <attribute id="CAPACITY_A" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAPACITY_A"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="CAPACITY_A"/>
+    </attribute>
+    <attribute id="CAPACITY_A_UNIT" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAPACITY_A_UNIT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="CAPACITY_A_UNIT"/>
+    </attribute>
+    <attribute id="NUM_OF_PERIODS" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUM_OF_PERIODS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="NUM_OF_PERIODS"/>
+    </attribute>
+    <attribute id="PERIOD" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIOD"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="PERIOD"/>
+    </attribute>
+    <attribute id="BUFFERTIME" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUFFERTIME"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BUFFERTIME"/>
+    </attribute>
+    <attribute id="BUFFERTIME_UNIT" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUFFERTIME_UNIT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BUFFERTIME_UNIT"/>
+    </attribute>
+    <attribute id="IS_BOTTLENECK" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IS_BOTTLENECK"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="IS_BOTTLENECK"/>
+    </attribute>
+    <attribute id="UNDERLOAD" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNDERLOAD"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="UNDERLOAD"/>
+    </attribute>
+    <attribute id="OVERLAP_BUCKETS" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OVERLAP_BUCKETS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="OVERLAP_BUCKETS"/>
+    </attribute>
+    <attribute id="START_ON_GRID" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="START_ON_GRID"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="START_ON_GRID"/>
+    </attribute>
+    <attribute id="MIN_OVERLAP" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MIN_OVERLAP"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MIN_OVERLAP"/>
+    </attribute>
+    <attribute id="MIN_OVERLAP_UNIT" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MIN_OVERLAP_UNIT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MIN_OVERLAP_UNIT"/>
+    </attribute>
+    <attribute id="LOSS_FACTOR" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSS_FACTOR"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="LOSS_FACTOR"/>
+    </attribute>
+    <attribute id="SORT" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="SORT"/>
+    </attribute>
+    <attribute id="SYNC_START" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SYNC_START"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="SYNC_START"/>
+    </attribute>
+    <attribute id="DEFINE_BUCKETS" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEFINE_BUCKETS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="DEFINE_BUCKETS"/>
+    </attribute>
+    <attribute id="LC_DAYS_MINUS" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LC_DAYS_MINUS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="LC_DAYS_MINUS"/>
+    </attribute>
+    <attribute id="LC_DAYS_PLUS" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LC_DAYS_PLUS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="LC_DAYS_PLUS"/>
+    </attribute>
+    <attribute id="STORAGE_CAPABLE" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STORAGE_CAPABLE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="STORAGE_CAPABLE"/>
+    </attribute>
+    <attribute id="MIN_STORAGE" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MIN_STORAGE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MIN_STORAGE"/>
+    </attribute>
+    <attribute id="MAX_STORAGE" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAX_STORAGE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MAX_STORAGE"/>
+    </attribute>
+    <attribute id="STORAGE_UNIT" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STORAGE_UNIT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="STORAGE_UNIT"/>
+    </attribute>
+    <attribute id="DIM_STORAGE" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DIM_STORAGE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="DIM_STORAGE"/>
+    </attribute>
+    <attribute id="STORAGE_TO_ZERO" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STORAGE_TO_ZERO"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="STORAGE_TO_ZERO"/>
+    </attribute>
+    <attribute id="SNPLC" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SNPLC"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="SNPLC"/>
+    </attribute>
+    <attribute id="UTIL_BUCKET" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UTIL_BUCKET"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="UTIL_BUCKET"/>
+    </attribute>
+    <attribute id="CAMPAIGN_PPDS" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAMPAIGN_PPDS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="CAMPAIGN_PPDS"/>
+    </attribute>
+    <attribute id="CAMPAIGN_SNP" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAMPAIGN_SNP"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="CAMPAIGN_SNP"/>
+    </attribute>
+    <attribute id="TSTREAM_EXTERNAL" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSTREAM_EXTERNAL"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="TSTREAM_EXTERNAL"/>
+    </attribute>
+    <attribute id="FINITY_LEVEL" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FINITY_LEVEL"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="FINITY_LEVEL"/>
+    </attribute>
+    <attribute id="BR_QUANT" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BR_QUANT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BR_QUANT"/>
+    </attribute>
+    <attribute id="BR_QUNIT" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BR_QUNIT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BR_QUNIT"/>
+    </attribute>
+    <attribute id="BR_TIME" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BR_TIME"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BR_TIME"/>
+    </attribute>
+    <attribute id="BR_TUNIT" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BR_TUNIT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="BR_TUNIT"/>
+    </attribute>
+    <attribute id="RITT_FLG" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RITT_FLG"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="RITT_FLG"/>
+    </attribute>
+    <attribute id="MDRMODEL" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MDRMODEL"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MDRMODEL"/>
+    </attribute>
+    <attribute id="PP_DEF_BUCKETS" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PP_DEF_BUCKETS"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="PP_DEF_BUCKETS"/>
+    </attribute>
+    <attribute id="PP_BUCKET_SCHEMA" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PP_BUCKET_SCHEMA"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="PP_BUCKET_SCHEMA"/>
+    </attribute>
+    <attribute id="PP_BUCKET_FACT" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PP_BUCKET_FACT"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="PP_BUCKET_FACT"/>
+    </attribute>
+    <attribute id="MIX_PLAN_TYPE" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MIX_PLAN_TYPE"/>
+      <keyMapping columnObjectName="EP1_KAKO" columnName="MIX_PLAN_TYPE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

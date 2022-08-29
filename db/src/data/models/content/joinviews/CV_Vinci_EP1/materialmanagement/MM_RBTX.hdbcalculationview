@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_RBTX" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_RBTX"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_MM_RBTX">
+    <resourceUri>EP1_CV_MM_RBTX</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_MM_RBTX">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BELNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="MWSKZ" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="BUZEI" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="WMWST" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WMWST"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="WMWST"/>
+    </attribute>
+    <attribute id="ARKUEN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARKUEN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="ARKUEN"/>
+    </attribute>
+    <attribute id="ARKUEMW" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARKUEMW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="ARKUEMW"/>
+    </attribute>
+    <attribute id="FWBAS" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FWBAS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="FWBAS"/>
+    </attribute>
+    <attribute id="HWSTE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWSTE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="HWSTE"/>
+    </attribute>
+    <attribute id="HWBAS" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWBAS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="HWBAS"/>
+    </attribute>
+    <attribute id="TXMOD" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXMOD"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="TXMOD"/>
+    </attribute>
+    <attribute id="TXJCD" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="TXJDP" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJDP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="TXJDP"/>
+    </attribute>
+    <attribute id="KSCHL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="TAXPS" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAXPS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBTX" columnName="TAXPS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

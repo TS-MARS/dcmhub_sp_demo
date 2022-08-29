@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::HR0004" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_HR0004"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_HR0004">
+    <resourceUri>EP1_CV_HR0004</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_HR0004">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MOLGA" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MOLGA"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="MOLGA"/>
+    </attribute>
+    <attribute id="APPLI" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APPLI"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="APPLI"/>
+    </attribute>
+    <attribute id="VALTY" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="VALTY"/>
+    </attribute>
+    <attribute id="DATTY" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="DATTY"/>
+    </attribute>
+    <attribute id="VASET" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VASET"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="VASET"/>
+    </attribute>
+    <attribute id="VUNIT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VUNIT"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="VUNIT"/>
+    </attribute>
+    <attribute id="MANDT_1" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRSL" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRSL"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="SPRSL"/>
+    </attribute>
+    <attribute id="MOLGA_1" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MOLGA_1"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="MOLGA_1"/>
+    </attribute>
+    <attribute id="APPLI_1" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APPLI_1"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="APPLI_1"/>
+    </attribute>
+    <attribute id="VALTY_1" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALTY_1"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="VALTY_1"/>
+    </attribute>
+    <attribute id="LTEXT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="LTEXT"/>
+    </attribute>
+    <attribute id="STEXT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STEXT"/>
+      <keyMapping columnObjectName="EP1_CV_HR0004" columnName="STEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

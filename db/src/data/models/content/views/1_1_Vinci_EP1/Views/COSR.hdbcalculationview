@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::COSR" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table COSR"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_COSR">
+    <resourceUri>EP1_COSR</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_COSR">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LEDNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEDNR"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="LEDNR"/>
+    </attribute>
+    <attribute id="OBJNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="WRTTP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRTTP"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="WRTTP"/>
+    </attribute>
+    <attribute id="VERSN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="VERSN"/>
+    </attribute>
+    <attribute id="STAGR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAGR"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="STAGR"/>
+    </attribute>
+    <attribute id="HRKFT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HRKFT"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="HRKFT"/>
+    </attribute>
+    <attribute id="VRGNG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGNG"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="VRGNG"/>
+    </attribute>
+    <attribute id="PERBL" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERBL"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="PERBL"/>
+    </attribute>
+    <attribute id="MEINH" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINH"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="MEINH"/>
+    </attribute>
+    <attribute id="SME001" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME001"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME001"/>
+    </attribute>
+    <attribute id="SME002" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME002"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME002"/>
+    </attribute>
+    <attribute id="SME003" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME003"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME003"/>
+    </attribute>
+    <attribute id="SME004" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME004"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME004"/>
+    </attribute>
+    <attribute id="SME005" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME005"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME005"/>
+    </attribute>
+    <attribute id="SME006" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME006"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME006"/>
+    </attribute>
+    <attribute id="SME007" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME007"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME007"/>
+    </attribute>
+    <attribute id="SME008" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME008"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME008"/>
+    </attribute>
+    <attribute id="SME009" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME009"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME009"/>
+    </attribute>
+    <attribute id="SME010" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME010"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME010"/>
+    </attribute>
+    <attribute id="SME011" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME011"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME011"/>
+    </attribute>
+    <attribute id="SME012" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME012"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME012"/>
+    </attribute>
+    <attribute id="SME013" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME013"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME013"/>
+    </attribute>
+    <attribute id="SME014" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME014"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME014"/>
+    </attribute>
+    <attribute id="SME015" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME015"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME015"/>
+    </attribute>
+    <attribute id="SME016" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SME016"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SME016"/>
+    </attribute>
+    <attribute id="SMA001" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA001"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA001"/>
+    </attribute>
+    <attribute id="SMA002" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA002"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA002"/>
+    </attribute>
+    <attribute id="SMA003" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA003"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA003"/>
+    </attribute>
+    <attribute id="SMA004" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA004"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA004"/>
+    </attribute>
+    <attribute id="SMA005" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA005"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA005"/>
+    </attribute>
+    <attribute id="SMA006" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA006"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA006"/>
+    </attribute>
+    <attribute id="SMA007" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA007"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA007"/>
+    </attribute>
+    <attribute id="SMA008" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA008"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA008"/>
+    </attribute>
+    <attribute id="SMA009" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA009"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA009"/>
+    </attribute>
+    <attribute id="SMA010" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA010"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA010"/>
+    </attribute>
+    <attribute id="SMA011" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA011"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA011"/>
+    </attribute>
+    <attribute id="SMA012" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA012"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA012"/>
+    </attribute>
+    <attribute id="SMA013" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA013"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA013"/>
+    </attribute>
+    <attribute id="SMA014" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA014"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA014"/>
+    </attribute>
+    <attribute id="SMA015" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA015"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA015"/>
+    </attribute>
+    <attribute id="SMA016" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMA016"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SMA016"/>
+    </attribute>
+    <attribute id="FKBER" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="FKBER"/>
+    </attribute>
+    <attribute id="SEGMENT" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEGMENT"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="SEGMENT"/>
+    </attribute>
+    <attribute id="GEBER" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="GEBER"/>
+    </attribute>
+    <attribute id="GRANT_NBR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="GRANT_NBR"/>
+    </attribute>
+    <attribute id="BUDGET_PD" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDGET_PD"/>
+      <keyMapping columnObjectName="EP1_COSR" columnName="BUDGET_PD"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

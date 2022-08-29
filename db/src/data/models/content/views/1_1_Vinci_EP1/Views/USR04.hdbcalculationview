@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::USR04" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table USR04"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_USR04">
+    <resourceUri>EP1_USR04</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_USR04">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_USR04" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BNAME" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNAME"/>
+      <keyMapping columnObjectName="EP1_USR04" columnName="BNAME"/>
+    </attribute>
+    <attribute id="MODDA" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MODDA"/>
+      <keyMapping columnObjectName="EP1_USR04" columnName="MODDA"/>
+    </attribute>
+    <attribute id="MODTI" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MODTI"/>
+      <keyMapping columnObjectName="EP1_USR04" columnName="MODTI"/>
+    </attribute>
+    <attribute id="MODBE" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MODBE"/>
+      <keyMapping columnObjectName="EP1_USR04" columnName="MODBE"/>
+    </attribute>
+    <attribute id="NRPRO" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NRPRO"/>
+      <keyMapping columnObjectName="EP1_USR04" columnName="NRPRO"/>
+    </attribute>
+    <attribute id="PROFS" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROFS"/>
+      <keyMapping columnObjectName="EP1_USR04" columnName="PROFS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PM_ILOA_2" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PM_ILOA_2"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PM_ILOA_2">
+    <resourceUri>EP1_CV_PM_ILOA_2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PM_ILOA_2">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="MANDT"/>
+    </attribute>
+    <attribute id="ILOAN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ILOAN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ILOAN"/>
+    </attribute>
+    <attribute id="TPLNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="TPLNR"/>
+    </attribute>
+    <attribute id="ABCKZ" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABCKZ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ABCKZ"/>
+    </attribute>
+    <attribute id="ABCKZI" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABCKZI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ABCKZI"/>
+    </attribute>
+    <attribute id="EQFNR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQFNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="EQFNR"/>
+    </attribute>
+    <attribute id="EQFNRI" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQFNRI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="EQFNRI"/>
+    </attribute>
+    <attribute id="SWERK" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SWERK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="SWERK"/>
+    </attribute>
+    <attribute id="SWERKI" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SWERKI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="SWERKI"/>
+    </attribute>
+    <attribute id="STORT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STORT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="STORT"/>
+    </attribute>
+    <attribute id="STORTI" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STORTI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="STORTI"/>
+    </attribute>
+    <attribute id="MSGRP" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSGRP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="MSGRP"/>
+    </attribute>
+    <attribute id="MSGRPI" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSGRPI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="MSGRPI"/>
+    </attribute>
+    <attribute id="BEBER" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEBER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="BEBER"/>
+    </attribute>
+    <attribute id="BEBERI" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEBERI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="BEBERI"/>
+    </attribute>
+    <attribute id="CR_OBJTY" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CR_OBJTY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="CR_OBJTY"/>
+    </attribute>
+    <attribute id="PPSID" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPSID"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="PPSID"/>
+    </attribute>
+    <attribute id="PPSIDI" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPSIDI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="PPSIDI"/>
+    </attribute>
+    <attribute id="GSBER" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="GSBER"/>
+    </attribute>
+    <attribute id="GSBERI" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBERI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="GSBERI"/>
+    </attribute>
+    <attribute id="KOKRS" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="KOKRSI" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRSI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="KOKRSI"/>
+    </attribute>
+    <attribute id="KOSTL" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="KOSTLI" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTLI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="KOSTLI"/>
+    </attribute>
+    <attribute id="PROID" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROID"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="PROID"/>
+    </attribute>
+    <attribute id="PROIDI" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROIDI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="PROIDI"/>
+    </attribute>
+    <attribute id="BUKRS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BUKRSI" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRSI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="BUKRSI"/>
+    </attribute>
+    <attribute id="ANLNR" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ANLNR"/>
+    </attribute>
+    <attribute id="ANLNRI" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLNRI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ANLNRI"/>
+    </attribute>
+    <attribute id="ANLUN" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLUN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ANLUN"/>
+    </attribute>
+    <attribute id="ANLUNI" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLUNI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ANLUNI"/>
+    </attribute>
+    <attribute id="DAUFN" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DAUFN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="DAUFN"/>
+    </attribute>
+    <attribute id="DAUFNI" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DAUFNI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="DAUFNI"/>
+    </attribute>
+    <attribute id="AUFNR" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="AUFNRI" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNRI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="AUFNRI"/>
+    </attribute>
+    <attribute id="TPLNRI" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLNRI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="TPLNRI"/>
+    </attribute>
+    <attribute id="VKORG" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKORG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="VKORG"/>
+    </attribute>
+    <attribute id="VKORGI" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKORGI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="VKORGI"/>
+    </attribute>
+    <attribute id="VTWEG" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="VTWEG"/>
+    </attribute>
+    <attribute id="VTWEGI" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEGI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="VTWEGI"/>
+    </attribute>
+    <attribute id="SPART" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="SPART"/>
+    </attribute>
+    <attribute id="SPARTI" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPARTI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="SPARTI"/>
+    </attribute>
+    <attribute id="ADRNR" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="ADRNRI" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNRI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="ADRNRI"/>
+    </attribute>
+    <attribute id="OWNER" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OWNER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="OWNER"/>
+    </attribute>
+    <attribute id="VKBUR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKBUR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="VKBUR"/>
+    </attribute>
+    <attribute id="VKGRP" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKGRP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ILOA_2" columnName="VKGRP"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

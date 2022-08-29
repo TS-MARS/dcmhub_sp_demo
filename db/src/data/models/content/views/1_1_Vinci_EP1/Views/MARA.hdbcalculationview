@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MARA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table MARA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_MARA">
+    <resourceUri>EP1_MARA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_MARA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MATNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MATNR"/>
+    </attribute>
+    <attribute id="ERSDA" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSDA"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ERSDA"/>
+    </attribute>
+    <attribute id="ERNAM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="LAEDA" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAEDA"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="LAEDA"/>
+    </attribute>
+    <attribute id="AENAM" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="AENAM"/>
+    </attribute>
+    <attribute id="VPSTA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPSTA"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VPSTA"/>
+    </attribute>
+    <attribute id="PSTAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTAT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PSTAT"/>
+    </attribute>
+    <attribute id="LVORM" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVORM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="LVORM"/>
+    </attribute>
+    <attribute id="MTART" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MTART"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MTART"/>
+    </attribute>
+    <attribute id="MBRSH" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBRSH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MBRSH"/>
+    </attribute>
+    <attribute id="MATKL" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATKL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MATKL"/>
+    </attribute>
+    <attribute id="BISMT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BISMT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BISMT"/>
+    </attribute>
+    <attribute id="MEINS" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MEINS"/>
+    </attribute>
+    <attribute id="BSTME" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTME"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BSTME"/>
+    </attribute>
+    <attribute id="ZEINR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEINR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ZEINR"/>
+    </attribute>
+    <attribute id="ZEIAR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEIAR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ZEIAR"/>
+    </attribute>
+    <attribute id="ZEIVR" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEIVR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ZEIVR"/>
+    </attribute>
+    <attribute id="ZEIFO" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEIFO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ZEIFO"/>
+    </attribute>
+    <attribute id="AESZN" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AESZN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="AESZN"/>
+    </attribute>
+    <attribute id="BLATT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLATT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BLATT"/>
+    </attribute>
+    <attribute id="BLANZ" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLANZ"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BLANZ"/>
+    </attribute>
+    <attribute id="FERTH" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FERTH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FERTH"/>
+    </attribute>
+    <attribute id="FORMT" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FORMT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FORMT"/>
+    </attribute>
+    <attribute id="GROES" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GROES"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="GROES"/>
+    </attribute>
+    <attribute id="WRKST" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRKST"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="WRKST"/>
+    </attribute>
+    <attribute id="NORMT" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NORMT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="NORMT"/>
+    </attribute>
+    <attribute id="LABOR" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LABOR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="LABOR"/>
+    </attribute>
+    <attribute id="EKWSL" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKWSL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="EKWSL"/>
+    </attribute>
+    <attribute id="BRGEW" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRGEW"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BRGEW"/>
+    </attribute>
+    <attribute id="NTGEW" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NTGEW"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="NTGEW"/>
+    </attribute>
+    <attribute id="GEWEI" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEWEI"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="GEWEI"/>
+    </attribute>
+    <attribute id="VOLUM" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VOLUM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VOLUM"/>
+    </attribute>
+    <attribute id="VOLEH" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VOLEH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VOLEH"/>
+    </attribute>
+    <attribute id="BEHVO" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEHVO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BEHVO"/>
+    </attribute>
+    <attribute id="RAUBE" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RAUBE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="RAUBE"/>
+    </attribute>
+    <attribute id="TEMPB" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEMPB"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="TEMPB"/>
+    </attribute>
+    <attribute id="DISST" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISST"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="DISST"/>
+    </attribute>
+    <attribute id="TRAGR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRAGR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="TRAGR"/>
+    </attribute>
+    <attribute id="STOFF" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STOFF"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="STOFF"/>
+    </attribute>
+    <attribute id="SPART" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SPART"/>
+    </attribute>
+    <attribute id="KUNNR" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="EANNR" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EANNR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="EANNR"/>
+    </attribute>
+    <attribute id="WESCH" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WESCH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="WESCH"/>
+    </attribute>
+    <attribute id="BWVOR" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWVOR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BWVOR"/>
+    </attribute>
+    <attribute id="BWSCL" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWSCL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BWSCL"/>
+    </attribute>
+    <attribute id="SAISO" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAISO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SAISO"/>
+    </attribute>
+    <attribute id="ETIAR" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETIAR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ETIAR"/>
+    </attribute>
+    <attribute id="ETIFO" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETIFO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ETIFO"/>
+    </attribute>
+    <attribute id="ENTAR" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENTAR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ENTAR"/>
+    </attribute>
+    <attribute id="EAN11" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EAN11"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="EAN11"/>
+    </attribute>
+    <attribute id="NUMTP" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMTP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="NUMTP"/>
+    </attribute>
+    <attribute id="LAENG" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAENG"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="LAENG"/>
+    </attribute>
+    <attribute id="BREIT" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BREIT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BREIT"/>
+    </attribute>
+    <attribute id="HOEHE" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HOEHE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="HOEHE"/>
+    </attribute>
+    <attribute id="MEABM" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEABM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MEABM"/>
+    </attribute>
+    <attribute id="PRDHA" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRDHA"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PRDHA"/>
+    </attribute>
+    <attribute id="AEKLK" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEKLK"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="AEKLK"/>
+    </attribute>
+    <attribute id="CADKZ" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CADKZ"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="CADKZ"/>
+    </attribute>
+    <attribute id="QMPUR" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMPUR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="QMPUR"/>
+    </attribute>
+    <attribute id="ERGEW" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERGEW"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ERGEW"/>
+    </attribute>
+    <attribute id="ERGEI" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERGEI"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ERGEI"/>
+    </attribute>
+    <attribute id="ERVOL" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERVOL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ERVOL"/>
+    </attribute>
+    <attribute id="ERVOE" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERVOE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ERVOE"/>
+    </attribute>
+    <attribute id="GEWTO" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEWTO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="GEWTO"/>
+    </attribute>
+    <attribute id="VOLTO" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VOLTO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VOLTO"/>
+    </attribute>
+    <attribute id="VABME" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VABME"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VABME"/>
+    </attribute>
+    <attribute id="KZREV" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZREV"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KZREV"/>
+    </attribute>
+    <attribute id="KZKFG" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKFG"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KZKFG"/>
+    </attribute>
+    <attribute id="XCHPF" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCHPF"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="XCHPF"/>
+    </attribute>
+    <attribute id="VHART" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VHART"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VHART"/>
+    </attribute>
+    <attribute id="FUELG" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FUELG"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FUELG"/>
+    </attribute>
+    <attribute id="STFAK" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STFAK"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="STFAK"/>
+    </attribute>
+    <attribute id="MAGRV" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAGRV"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MAGRV"/>
+    </attribute>
+    <attribute id="BEGRU" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGRU"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BEGRU"/>
+    </attribute>
+    <attribute id="DATAB" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATAB"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="DATAB"/>
+    </attribute>
+    <attribute id="LIQDT" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIQDT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="LIQDT"/>
+    </attribute>
+    <attribute id="SAISJ" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAISJ"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SAISJ"/>
+    </attribute>
+    <attribute id="PLGTP" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLGTP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PLGTP"/>
+    </attribute>
+    <attribute id="MLGUT" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLGUT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MLGUT"/>
+    </attribute>
+    <attribute id="EXTWG" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXTWG"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="EXTWG"/>
+    </attribute>
+    <attribute id="SATNR" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SATNR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SATNR"/>
+    </attribute>
+    <attribute id="ATTYP" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATTYP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ATTYP"/>
+    </attribute>
+    <attribute id="KZKUP" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKUP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KZKUP"/>
+    </attribute>
+    <attribute id="KZNFM" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZNFM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KZNFM"/>
+    </attribute>
+    <attribute id="PMATA" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMATA"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PMATA"/>
+    </attribute>
+    <attribute id="MSTAE" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSTAE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MSTAE"/>
+    </attribute>
+    <attribute id="MSTAV" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSTAV"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MSTAV"/>
+    </attribute>
+    <attribute id="MSTDE" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSTDE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MSTDE"/>
+    </attribute>
+    <attribute id="MSTDV" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSTDV"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MSTDV"/>
+    </attribute>
+    <attribute id="TAKLV" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAKLV"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="TAKLV"/>
+    </attribute>
+    <attribute id="RBNRM" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBNRM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="RBNRM"/>
+    </attribute>
+    <attribute id="MHDRZ" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MHDRZ"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MHDRZ"/>
+    </attribute>
+    <attribute id="MHDHB" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MHDHB"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MHDHB"/>
+    </attribute>
+    <attribute id="MHDLP" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MHDLP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MHDLP"/>
+    </attribute>
+    <attribute id="INHME" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INHME"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="INHME"/>
+    </attribute>
+    <attribute id="INHAL" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INHAL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="INHAL"/>
+    </attribute>
+    <attribute id="VPREH" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPREH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VPREH"/>
+    </attribute>
+    <attribute id="ETIAG" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETIAG"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ETIAG"/>
+    </attribute>
+    <attribute id="INHBR" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INHBR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="INHBR"/>
+    </attribute>
+    <attribute id="CMETH" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CMETH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="CMETH"/>
+    </attribute>
+    <attribute id="CUOBF" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBF"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="CUOBF"/>
+    </attribute>
+    <attribute id="KZUMW" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZUMW"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KZUMW"/>
+    </attribute>
+    <attribute id="KOSCH" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSCH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KOSCH"/>
+    </attribute>
+    <attribute id="SPROF" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPROF"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SPROF"/>
+    </attribute>
+    <attribute id="NRFHG" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NRFHG"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="NRFHG"/>
+    </attribute>
+    <attribute id="MFRPN" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFRPN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MFRPN"/>
+    </attribute>
+    <attribute id="MFRNR" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFRNR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MFRNR"/>
+    </attribute>
+    <attribute id="BMATN" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BMATN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BMATN"/>
+    </attribute>
+    <attribute id="MPROF" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MPROF"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MPROF"/>
+    </attribute>
+    <attribute id="KZWSM" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWSM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KZWSM"/>
+    </attribute>
+    <attribute id="SAITY" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAITY"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SAITY"/>
+    </attribute>
+    <attribute id="PROFL" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROFL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PROFL"/>
+    </attribute>
+    <attribute id="IHIVI" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IHIVI"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="IHIVI"/>
+    </attribute>
+    <attribute id="ILOOS" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ILOOS"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ILOOS"/>
+    </attribute>
+    <attribute id="SERLV" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERLV"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SERLV"/>
+    </attribute>
+    <attribute id="KZGVH" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZGVH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KZGVH"/>
+    </attribute>
+    <attribute id="XGCHP" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XGCHP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="XGCHP"/>
+    </attribute>
+    <attribute id="KZEFF" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZEFF"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="KZEFF"/>
+    </attribute>
+    <attribute id="COMPL" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COMPL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="COMPL"/>
+    </attribute>
+    <attribute id="IPRKZ" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IPRKZ"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="IPRKZ"/>
+    </attribute>
+    <attribute id="RDMHD" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RDMHD"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="RDMHD"/>
+    </attribute>
+    <attribute id="PRZUS" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRZUS"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PRZUS"/>
+    </attribute>
+    <attribute id="MTPOS_MARA" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MTPOS_MARA"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MTPOS_MARA"/>
+    </attribute>
+    <attribute id="BFLME" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BFLME"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BFLME"/>
+    </attribute>
+    <attribute id="MATFI" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATFI"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MATFI"/>
+    </attribute>
+    <attribute id="CMREL" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CMREL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="CMREL"/>
+    </attribute>
+    <attribute id="BBTYP" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BBTYP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BBTYP"/>
+    </attribute>
+    <attribute id="SLED_BBD" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SLED_BBD"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SLED_BBD"/>
+    </attribute>
+    <attribute id="GTIN_VARIANT" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GTIN_VARIANT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="GTIN_VARIANT"/>
+    </attribute>
+    <attribute id="GENNR" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GENNR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="GENNR"/>
+    </attribute>
+    <attribute id="RMATP" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RMATP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="RMATP"/>
+    </attribute>
+    <attribute id="GDS_RELEVANT" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GDS_RELEVANT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="GDS_RELEVANT"/>
+    </attribute>
+    <attribute id="WEORA" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEORA"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="WEORA"/>
+    </attribute>
+    <attribute id="HUTYP_DFLT" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HUTYP_DFLT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="HUTYP_DFLT"/>
+    </attribute>
+    <attribute id="PILFERABLE" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PILFERABLE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PILFERABLE"/>
+    </attribute>
+    <attribute id="WHSTC" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WHSTC"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="WHSTC"/>
+    </attribute>
+    <attribute id="WHMATGR" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WHMATGR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="WHMATGR"/>
+    </attribute>
+    <attribute id="HNDLCODE" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HNDLCODE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="HNDLCODE"/>
+    </attribute>
+    <attribute id="HAZMAT" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HAZMAT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="HAZMAT"/>
+    </attribute>
+    <attribute id="HUTYP" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HUTYP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="HUTYP"/>
+    </attribute>
+    <attribute id="TARE_VAR" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TARE_VAR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="TARE_VAR"/>
+    </attribute>
+    <attribute id="MAXC" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXC"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MAXC"/>
+    </attribute>
+    <attribute id="MAXC_TOL" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXC_TOL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MAXC_TOL"/>
+    </attribute>
+    <attribute id="MAXL" order="145" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MAXL"/>
+    </attribute>
+    <attribute id="MAXB" order="146" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXB"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MAXB"/>
+    </attribute>
+    <attribute id="MAXH" order="147" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MAXH"/>
+    </attribute>
+    <attribute id="MAXDIM_UOM" order="148" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXDIM_UOM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MAXDIM_UOM"/>
+    </attribute>
+    <attribute id="HERKL" order="149" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERKL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="HERKL"/>
+    </attribute>
+    <attribute id="MFRGR" order="150" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFRGR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MFRGR"/>
+    </attribute>
+    <attribute id="QQTIME" order="151" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QQTIME"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="QQTIME"/>
+    </attribute>
+    <attribute id="QQTIMEUOM" order="152" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QQTIMEUOM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="QQTIMEUOM"/>
+    </attribute>
+    <attribute id="QGRP" order="153" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QGRP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="QGRP"/>
+    </attribute>
+    <attribute id="SERIAL" order="154" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERIAL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SERIAL"/>
+    </attribute>
+    <attribute id="PS_SMARTFORM" order="155" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PS_SMARTFORM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PS_SMARTFORM"/>
+    </attribute>
+    <attribute id="LOGUNIT" order="156" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGUNIT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="LOGUNIT"/>
+    </attribute>
+    <attribute id="CWQREL" order="157" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CWQREL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="CWQREL"/>
+    </attribute>
+    <attribute id="CWQPROC" order="158" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CWQPROC"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="CWQPROC"/>
+    </attribute>
+    <attribute id="CWQTOLGR" order="159" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CWQTOLGR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="CWQTOLGR"/>
+    </attribute>
+    <attribute id="ADPROF" order="160" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADPROF"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ADPROF"/>
+    </attribute>
+    <attribute id="IPMIPPRODUCT" order="161" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IPMIPPRODUCT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="IPMIPPRODUCT"/>
+    </attribute>
+    <attribute id="ALLOW_PMAT_IGNO" order="162" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALLOW_PMAT_IGNO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ALLOW_PMAT_IGNO"/>
+    </attribute>
+    <attribute id="MEDIUM" order="163" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEDIUM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MEDIUM"/>
+    </attribute>
+    <attribute id="/BEV1/LULEINH" order="164" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/BEV1/LULEINH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/BEV1/LULEINH"/>
+    </attribute>
+    <attribute id="/BEV1/LULDEGRP" order="165" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/BEV1/LULDEGRP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/BEV1/LULDEGRP"/>
+    </attribute>
+    <attribute id="/BEV1/NESTRUCCAT" order="166" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/BEV1/NESTRUCCAT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/BEV1/NESTRUCCAT"/>
+    </attribute>
+    <attribute id="/DSD/SL_TOLTYP" order="167" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/DSD/SL_TOLTYP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/DSD/SL_TOLTYP"/>
+    </attribute>
+    <attribute id="/DSD/SV_CNT_GRP" order="168" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/DSD/SV_CNT_GRP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/DSD/SV_CNT_GRP"/>
+    </attribute>
+    <attribute id="/DSD/VC_GROUP" order="169" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/DSD/VC_GROUP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/DSD/VC_GROUP"/>
+    </attribute>
+    <attribute id="/SAPMP/KADU" order="170" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/KADU"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/KADU"/>
+    </attribute>
+    <attribute id="/SAPMP/ABMEIN" order="171" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/ABMEIN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/ABMEIN"/>
+    </attribute>
+    <attribute id="/SAPMP/KADP" order="172" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/KADP"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/KADP"/>
+    </attribute>
+    <attribute id="/SAPMP/BRAD" order="173" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/BRAD"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/BRAD"/>
+    </attribute>
+    <attribute id="/SAPMP/SPBI" order="174" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/SPBI"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/SPBI"/>
+    </attribute>
+    <attribute id="/SAPMP/TRAD" order="175" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/TRAD"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/TRAD"/>
+    </attribute>
+    <attribute id="/SAPMP/KEDU" order="176" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/KEDU"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/KEDU"/>
+    </attribute>
+    <attribute id="/SAPMP/SPTR" order="177" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/SPTR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/SPTR"/>
+    </attribute>
+    <attribute id="/SAPMP/FBDK" order="178" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/FBDK"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/FBDK"/>
+    </attribute>
+    <attribute id="/SAPMP/FBHK" order="179" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/FBHK"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/FBHK"/>
+    </attribute>
+    <attribute id="/SAPMP/RILI" order="180" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/RILI"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/RILI"/>
+    </attribute>
+    <attribute id="/SAPMP/FBAK" order="181" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/FBAK"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/FBAK"/>
+    </attribute>
+    <attribute id="/SAPMP/AHO" order="182" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/AHO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/AHO"/>
+    </attribute>
+    <attribute id="/SAPMP/MIFRR" order="183" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/MIFRR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/SAPMP/MIFRR"/>
+    </attribute>
+    <attribute id="/VSO/R_TILT_IND" order="184" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_TILT_IND"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_TILT_IND"/>
+    </attribute>
+    <attribute id="/VSO/R_STACK_IND" order="185" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_STACK_IND"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_STACK_IND"/>
+    </attribute>
+    <attribute id="/VSO/R_BOT_IND" order="186" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_BOT_IND"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_BOT_IND"/>
+    </attribute>
+    <attribute id="/VSO/R_TOP_IND" order="187" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_TOP_IND"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_TOP_IND"/>
+    </attribute>
+    <attribute id="/VSO/R_STACK_NO" order="188" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_STACK_NO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_STACK_NO"/>
+    </attribute>
+    <attribute id="/VSO/R_PAL_IND" order="189" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_PAL_IND"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_PAL_IND"/>
+    </attribute>
+    <attribute id="/VSO/R_PAL_OVR_D" order="190" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_PAL_OVR_D"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_PAL_OVR_D"/>
+    </attribute>
+    <attribute id="/VSO/R_PAL_OVR_W" order="191" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_PAL_OVR_W"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_PAL_OVR_W"/>
+    </attribute>
+    <attribute id="/VSO/R_PAL_B_HT" order="192" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_PAL_B_HT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_PAL_B_HT"/>
+    </attribute>
+    <attribute id="/VSO/R_PAL_MIN_H" order="193" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_PAL_MIN_H"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_PAL_MIN_H"/>
+    </attribute>
+    <attribute id="/VSO/R_TOL_B_HT" order="194" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_TOL_B_HT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_TOL_B_HT"/>
+    </attribute>
+    <attribute id="/VSO/R_NO_P_GVH" order="195" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_NO_P_GVH"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_NO_P_GVH"/>
+    </attribute>
+    <attribute id="/VSO/R_QUAN_UNIT" order="196" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_QUAN_UNIT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_QUAN_UNIT"/>
+    </attribute>
+    <attribute id="/VSO/R_KZGVH_IND" order="197" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_KZGVH_IND"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="/VSO/R_KZGVH_IND"/>
+    </attribute>
+    <attribute id="PACKCODE" order="198" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PACKCODE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PACKCODE"/>
+    </attribute>
+    <attribute id="DG_PACK_STATUS" order="199" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DG_PACK_STATUS"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="DG_PACK_STATUS"/>
+    </attribute>
+    <attribute id="MCOND" order="200" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MCOND"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MCOND"/>
+    </attribute>
+    <attribute id="RETDELC" order="201" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RETDELC"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="RETDELC"/>
+    </attribute>
+    <attribute id="LOGLEV_RETO" order="202" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGLEV_RETO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="LOGLEV_RETO"/>
+    </attribute>
+    <attribute id="NSNID" order="203" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NSNID"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="NSNID"/>
+    </attribute>
+    <attribute id="OVLPN" order="204" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OVLPN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="OVLPN"/>
+    </attribute>
+    <attribute id="ADSPC_SPC" order="205" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADSPC_SPC"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="ADSPC_SPC"/>
+    </attribute>
+    <attribute id="VARID" order="206" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VARID"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VARID"/>
+    </attribute>
+    <attribute id="MSBOOKPARTNO" order="207" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSBOOKPARTNO"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="MSBOOKPARTNO"/>
+    </attribute>
+    <attribute id="VTYPE" order="208" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTYPE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VTYPE"/>
+    </attribute>
+    <attribute id="VCHNR" order="209" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VCHNR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="VCHNR"/>
+    </attribute>
+    <attribute id="EVVAL" order="210" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EVVAL"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="EVVAL"/>
+    </attribute>
+    <attribute id="DVERS" order="211" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DVERS"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="DVERS"/>
+    </attribute>
+    <attribute id="DPCBT" order="212" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DPCBT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="DPCBT"/>
+    </attribute>
+    <attribute id="XGRDT" order="213" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XGRDT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="XGRDT"/>
+    </attribute>
+    <attribute id="IMATN" order="214" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMATN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="IMATN"/>
+    </attribute>
+    <attribute id="PICNUM" order="215" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PICNUM"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="PICNUM"/>
+    </attribute>
+    <attribute id="BSTAT" order="216" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTAT"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BSTAT"/>
+    </attribute>
+    <attribute id="COLOR_ATINN" order="217" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COLOR_ATINN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="COLOR_ATINN"/>
+    </attribute>
+    <attribute id="SIZE1_ATINN" order="218" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SIZE1_ATINN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SIZE1_ATINN"/>
+    </attribute>
+    <attribute id="SIZE2_ATINN" order="219" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SIZE2_ATINN"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SIZE2_ATINN"/>
+    </attribute>
+    <attribute id="COLOR" order="220" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COLOR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="COLOR"/>
+    </attribute>
+    <attribute id="SIZE1" order="221" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SIZE1"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SIZE1"/>
+    </attribute>
+    <attribute id="SIZE2" order="222" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SIZE2"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="SIZE2"/>
+    </attribute>
+    <attribute id="FREE_CHAR" order="223" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FREE_CHAR"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FREE_CHAR"/>
+    </attribute>
+    <attribute id="CARE_CODE" order="224" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CARE_CODE"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="CARE_CODE"/>
+    </attribute>
+    <attribute id="BRAND_ID" order="225" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRAND_ID"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="BRAND_ID"/>
+    </attribute>
+    <attribute id="FIBER_CODE1" order="226" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_CODE1"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_CODE1"/>
+    </attribute>
+    <attribute id="FIBER_PART1" order="227" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_PART1"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_PART1"/>
+    </attribute>
+    <attribute id="FIBER_CODE2" order="228" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_CODE2"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_CODE2"/>
+    </attribute>
+    <attribute id="FIBER_PART2" order="229" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_PART2"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_PART2"/>
+    </attribute>
+    <attribute id="FIBER_CODE3" order="230" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_CODE3"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_CODE3"/>
+    </attribute>
+    <attribute id="FIBER_PART3" order="231" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_PART3"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_PART3"/>
+    </attribute>
+    <attribute id="FIBER_CODE4" order="232" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_CODE4"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_CODE4"/>
+    </attribute>
+    <attribute id="FIBER_PART4" order="233" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_PART4"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_PART4"/>
+    </attribute>
+    <attribute id="FIBER_CODE5" order="234" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_CODE5"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_CODE5"/>
+    </attribute>
+    <attribute id="FIBER_PART5" order="235" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIBER_PART5"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FIBER_PART5"/>
+    </attribute>
+    <attribute id="FASHGRD" order="236" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FASHGRD"/>
+      <keyMapping columnObjectName="EP1_MARA" columnName="FASHGRD"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

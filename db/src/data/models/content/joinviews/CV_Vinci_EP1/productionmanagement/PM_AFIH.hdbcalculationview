@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PM_AFIH" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PM_AFIH"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PM_AFIH">
+    <resourceUri>EP1_CV_PM_AFIH</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PM_AFIH">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="MANDT"/>
+    </attribute>
+    <attribute id="AUFNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="ARTPR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARTPR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ARTPR"/>
+    </attribute>
+    <attribute id="PRIOK" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRIOK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="PRIOK"/>
+    </attribute>
+    <attribute id="EQUNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQUNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="EQUNR"/>
+    </attribute>
+    <attribute id="BAUTL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAUTL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="BAUTL"/>
+    </attribute>
+    <attribute id="ILOAN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ILOAN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ILOAN"/>
+    </attribute>
+    <attribute id="ILOAI" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ILOAI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ILOAI"/>
+    </attribute>
+    <attribute id="ANLZU" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLZU"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ANLZU"/>
+    </attribute>
+    <attribute id="IWERK" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IWERK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="IWERK"/>
+    </attribute>
+    <attribute id="INGPR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INGPR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="INGPR"/>
+    </attribute>
+    <attribute id="APGRP" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APGRP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="APGRP"/>
+    </attribute>
+    <attribute id="PM_OBJTY" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PM_OBJTY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="PM_OBJTY"/>
+    </attribute>
+    <attribute id="GEWRK" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEWRK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="GEWRK"/>
+    </attribute>
+    <attribute id="KUNUM" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNUM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="KUNUM"/>
+    </attribute>
+    <attribute id="ANING" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANING"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ANING"/>
+    </attribute>
+    <attribute id="GAUZT" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GAUZT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="GAUZT"/>
+    </attribute>
+    <attribute id="GAUEH" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GAUEH"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="GAUEH"/>
+    </attribute>
+    <attribute id="ANLBD" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLBD"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ANLBD"/>
+    </attribute>
+    <attribute id="ANLVD" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLVD"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ANLVD"/>
+    </attribute>
+    <attribute id="ANLBZ" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLBZ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ANLBZ"/>
+    </attribute>
+    <attribute id="ANLVZ" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLVZ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ANLVZ"/>
+    </attribute>
+    <attribute id="INSPK" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSPK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="INSPK"/>
+    </attribute>
+    <attribute id="DATAN" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATAN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="DATAN"/>
+    </attribute>
+    <attribute id="WARPL" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WARPL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="WARPL"/>
+    </attribute>
+    <attribute id="ABNUM" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABNUM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ABNUM"/>
+    </attribute>
+    <attribute id="WAPOS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAPOS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="WAPOS"/>
+    </attribute>
+    <attribute id="LAUFN" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAUFN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="LAUFN"/>
+    </attribute>
+    <attribute id="OBKNR" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBKNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="OBKNR"/>
+    </attribute>
+    <attribute id="REVNR" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REVNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="REVNR"/>
+    </attribute>
+    <attribute id="ADDAT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ADDAT"/>
+    </attribute>
+    <attribute id="ADUHR" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADUHR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ADUHR"/>
+    </attribute>
+    <attribute id="IPHAS" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IPHAS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="IPHAS"/>
+    </attribute>
+    <attribute id="ILART" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ILART"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ILART"/>
+    </attribute>
+    <attribute id="QMNUM" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMNUM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="QMNUM"/>
+    </attribute>
+    <attribute id="HISDA" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HISDA"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="HISDA"/>
+    </attribute>
+    <attribute id="AKKNZ" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKKNZ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="AKKNZ"/>
+    </attribute>
+    <attribute id="PLKNZ" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLKNZ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="PLKNZ"/>
+    </attribute>
+    <attribute id="SERIALNR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERIALNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="SERIALNR"/>
+    </attribute>
+    <attribute id="SERMAT" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERMAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="SERMAT"/>
+    </attribute>
+    <attribute id="DEVICEID" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEVICEID"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="DEVICEID"/>
+    </attribute>
+    <attribute id="SCREENTY" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCREENTY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="SCREENTY"/>
+    </attribute>
+    <attribute id="ADPSP" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADPSP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ADPSP"/>
+    </attribute>
+    <attribute id="RSUPG" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSUPG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="RSUPG"/>
+    </attribute>
+    <attribute id="/ISDFPS/OBJNR" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/ISDFPS/OBJNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="/ISDFPS/OBJNR"/>
+    </attribute>
+    <attribute id="/ISDFPS/MEQUI" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/ISDFPS/MEQUI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="/ISDFPS/MEQUI"/>
+    </attribute>
+    <attribute id="UII" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UII"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="UII"/>
+    </attribute>
+    <attribute id="ORCOD" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORCOD"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="ORCOD"/>
+    </attribute>
+    <attribute id="PRMAN" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRMAN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="PRMAN"/>
+    </attribute>
+    <attribute id="PRVAL" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRVAL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="PRVAL"/>
+    </attribute>
+    <attribute id="TWTDE" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TWTDE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="TWTDE"/>
+    </attribute>
+    <attribute id="MSTCK" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSTCK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_AFIH" columnName="MSTCK"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

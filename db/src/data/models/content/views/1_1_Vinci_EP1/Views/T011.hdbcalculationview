@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T011" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T011"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T011">
+    <resourceUri>EP1_T011</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T011">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="MANDT"/>
+    </attribute>
+    <attribute id="VERSN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="VERSN"/>
+    </attribute>
+    <attribute id="DSPRA" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DSPRA"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="DSPRA"/>
+    </attribute>
+    <attribute id="ASPRA" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASPRA"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="ASPRA"/>
+    </attribute>
+    <attribute id="XERGS" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XERGS"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="XERGS"/>
+    </attribute>
+    <attribute id="KTOPL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="AKTVA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKTVA"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="AKTVA"/>
+    </attribute>
+    <attribute id="PSSVA" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSSVA"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="PSSVA"/>
+    </attribute>
+    <attribute id="ERGAK" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERGAK"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="ERGAK"/>
+    </attribute>
+    <attribute id="ERGPA" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERGPA"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="ERGPA"/>
+    </attribute>
+    <attribute id="ERGGV" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERGGV"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="ERGGV"/>
+    </attribute>
+    <attribute id="ZUORD" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUORD"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="ZUORD"/>
+    </attribute>
+    <attribute id="XAUTO" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAUTO"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="XAUTO"/>
+    </attribute>
+    <attribute id="XFBER" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFBER"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="XFBER"/>
+    </attribute>
+    <attribute id="ANHNG" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANHNG"/>
+      <keyMapping columnObjectName="EP1_T011" columnName="ANHNG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

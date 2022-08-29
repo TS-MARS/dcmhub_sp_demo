@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T5CA2" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T5CA2"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T5CA2">
+    <resourceUri>EP1_T5CA2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T5CA2">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T5CA2" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MOLGA" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MOLGA"/>
+      <keyMapping columnObjectName="EP1_T5CA2" columnName="MOLGA"/>
+    </attribute>
+    <attribute id="APPLI" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APPLI"/>
+      <keyMapping columnObjectName="EP1_T5CA2" columnName="APPLI"/>
+    </attribute>
+    <attribute id="VALTY" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALTY"/>
+      <keyMapping columnObjectName="EP1_T5CA2" columnName="VALTY"/>
+    </attribute>
+    <attribute id="DATTY" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATTY"/>
+      <keyMapping columnObjectName="EP1_T5CA2" columnName="DATTY"/>
+    </attribute>
+    <attribute id="VASET" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VASET"/>
+      <keyMapping columnObjectName="EP1_T5CA2" columnName="VASET"/>
+    </attribute>
+    <attribute id="VUNIT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VUNIT"/>
+      <keyMapping columnObjectName="EP1_T5CA2" columnName="VUNIT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

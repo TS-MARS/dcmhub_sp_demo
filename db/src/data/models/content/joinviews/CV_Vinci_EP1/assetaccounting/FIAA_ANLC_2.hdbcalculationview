@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAA_ANLC_2" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAA_ANLC_2"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FIAA_ANLC_2">
+    <resourceUri>EP1_CV_FIAA_ANLC_2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FIAA_ANLC_2">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="ANLN1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="GJAHR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="AFABE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AFABE"/>
+    </attribute>
+    <attribute id="ZUJHR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUJHR"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZUJHR"/>
+    </attribute>
+    <attribute id="ZUCOD" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUCOD"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZUCOD"/>
+    </attribute>
+    <attribute id="AFBLPE" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFBLPE"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AFBLPE"/>
+    </attribute>
+    <attribute id="AFBANZ" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFBANZ"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AFBANZ"/>
+    </attribute>
+    <attribute id="XAFAR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAFAR"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="XAFAR"/>
+    </attribute>
+    <attribute id="NDABJ" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NDABJ"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="NDABJ"/>
+    </attribute>
+    <attribute id="NDABP" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NDABP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="NDABP"/>
+    </attribute>
+    <attribute id="ANDSJ" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANDSJ"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ANDSJ"/>
+    </attribute>
+    <attribute id="ANDSP" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANDSP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ANDSP"/>
+    </attribute>
+    <attribute id="RSTCK" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSTCK"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="RSTCK"/>
+    </attribute>
+    <attribute id="KANSW" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KANSW"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KANSW"/>
+    </attribute>
+    <attribute id="KAUFW" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAUFW"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KAUFW"/>
+    </attribute>
+    <attribute id="KINVZ" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KINVZ"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KINVZ"/>
+    </attribute>
+    <attribute id="KNAFA" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNAFA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KNAFA"/>
+    </attribute>
+    <attribute id="KSAFA" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSAFA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KSAFA"/>
+    </attribute>
+    <attribute id="KAAFA" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAAFA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KAAFA"/>
+    </attribute>
+    <attribute id="KMAFA" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMAFA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KMAFA"/>
+    </attribute>
+    <attribute id="KZINW" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZINW"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KZINW"/>
+    </attribute>
+    <attribute id="KAUFN" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAUFN"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KAUFN"/>
+    </attribute>
+    <attribute id="KANZA" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KANZA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KANZA"/>
+    </attribute>
+    <attribute id="KVOST" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVOST"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KVOST"/>
+    </attribute>
+    <attribute id="AUFWP" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFWP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFWP"/>
+    </attribute>
+    <attribute id="NAFAP" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="NAFAP"/>
+    </attribute>
+    <attribute id="SAFAP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="SAFAP"/>
+    </attribute>
+    <attribute id="AAFAP" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AAFAP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AAFAP"/>
+    </attribute>
+    <attribute id="MAFAP" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFAP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="MAFAP"/>
+    </attribute>
+    <attribute id="ZINSP" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINSP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZINSP"/>
+    </attribute>
+    <attribute id="AUFNP" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNP"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFNP"/>
+    </attribute>
+    <attribute id="AUFWB" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFWB"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFWB"/>
+    </attribute>
+    <attribute id="NAFAG" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="NAFAG"/>
+    </attribute>
+    <attribute id="SAFAG" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="SAFAG"/>
+    </attribute>
+    <attribute id="AAFAG" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AAFAG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AAFAG"/>
+    </attribute>
+    <attribute id="MAFAG" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFAG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="MAFAG"/>
+    </attribute>
+    <attribute id="ZINSG" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINSG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZINSG"/>
+    </attribute>
+    <attribute id="AUFNG" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFNG"/>
+    </attribute>
+    <attribute id="ANSWL" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANSWL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ANSWL"/>
+    </attribute>
+    <attribute id="ABGAN" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGAN"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ABGAN"/>
+    </attribute>
+    <attribute id="ANSAZ" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANSAZ"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ANSAZ"/>
+    </attribute>
+    <attribute id="AUFWM" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFWM"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFWM"/>
+    </attribute>
+    <attribute id="INVZM" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVZM"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="INVZM"/>
+    </attribute>
+    <attribute id="NAFAM" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAM"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="NAFAM"/>
+    </attribute>
+    <attribute id="SAFAM" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAM"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="SAFAM"/>
+    </attribute>
+    <attribute id="AAFAM" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AAFAM"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AAFAM"/>
+    </attribute>
+    <attribute id="MAFAM" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFAM"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="MAFAM"/>
+    </attribute>
+    <attribute id="ZINSM" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINSM"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZINSM"/>
+    </attribute>
+    <attribute id="AUFNM" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNM"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFNM"/>
+    </attribute>
+    <attribute id="ZUSNA" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUSNA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZUSNA"/>
+    </attribute>
+    <attribute id="ZUSSA" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUSSA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZUSSA"/>
+    </attribute>
+    <attribute id="ZUSAA" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUSAA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZUSAA"/>
+    </attribute>
+    <attribute id="ZUSMA" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUSMA"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ZUSMA"/>
+    </attribute>
+    <attribute id="AUFWV" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFWV"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFWV"/>
+    </attribute>
+    <attribute id="INVZV" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVZV"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="INVZV"/>
+    </attribute>
+    <attribute id="NAFAV" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAV"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="NAFAV"/>
+    </attribute>
+    <attribute id="SAFAV" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAV"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="SAFAV"/>
+    </attribute>
+    <attribute id="AAFAV" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AAFAV"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AAFAV"/>
+    </attribute>
+    <attribute id="MAFAV" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFAV"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="MAFAV"/>
+    </attribute>
+    <attribute id="AUFNV" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNV"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFNV"/>
+    </attribute>
+    <attribute id="AUFWL" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFWL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFWL"/>
+    </attribute>
+    <attribute id="INVZL" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVZL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="INVZL"/>
+    </attribute>
+    <attribute id="NAFAL" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="NAFAL"/>
+    </attribute>
+    <attribute id="SAFAL" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="SAFAL"/>
+    </attribute>
+    <attribute id="AAFAL" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AAFAL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AAFAL"/>
+    </attribute>
+    <attribute id="MAFAL" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFAL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="MAFAL"/>
+    </attribute>
+    <attribute id="AUFNL" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="AUFNL"/>
+    </attribute>
+    <attribute id="ANUPD" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANUPD"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="ANUPD"/>
+    </attribute>
+    <attribute id="KSANS" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSANS"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="KSANS"/>
+    </attribute>
+    <attribute id="SANSL" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SANSL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="SANSL"/>
+    </attribute>
+    <attribute id="PSTBEG" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTBEG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="PSTBEG"/>
+    </attribute>
+    <attribute id="PSTEND" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTEND"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="PSTEND"/>
+    </attribute>
+    <attribute id="PSTCALC" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTCALC"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="PSTCALC"/>
+    </attribute>
+    <attribute id="PSTPER" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTPER"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_ANLC_2" columnName="PSTPER"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

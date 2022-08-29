@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T574B" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T574B"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T574B">
+    <resourceUri>EP1_T574B</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T574B">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T574B" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LANGU" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU"/>
+      <keyMapping columnObjectName="EP1_T574B" columnName="LANGU"/>
+    </attribute>
+    <attribute id="QUALI" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUALI"/>
+      <keyMapping columnObjectName="EP1_T574B" columnName="QUALI"/>
+    </attribute>
+    <attribute id="QTEXT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QTEXT"/>
+      <keyMapping columnObjectName="EP1_T574B" columnName="QTEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

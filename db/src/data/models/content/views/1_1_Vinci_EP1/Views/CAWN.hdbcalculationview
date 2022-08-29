@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CAWN" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CAWN"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CAWN">
+    <resourceUri>EP1_CAWN</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CAWN">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="MANDT"/>
+    </attribute>
+    <attribute id="ATINN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATINN"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATINN"/>
+    </attribute>
+    <attribute id="ATZHL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATZHL"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATZHL"/>
+    </attribute>
+    <attribute id="ADZHL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADZHL"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ADZHL"/>
+    </attribute>
+    <attribute id="ATWRT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATWRT"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATWRT"/>
+    </attribute>
+    <attribute id="ATFLV" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATFLV"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATFLV"/>
+    </attribute>
+    <attribute id="ATFLB" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATFLB"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATFLB"/>
+    </attribute>
+    <attribute id="ATCOD" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATCOD"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATCOD"/>
+    </attribute>
+    <attribute id="ATSTD" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATSTD"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATSTD"/>
+    </attribute>
+    <attribute id="ATAWE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATAWE"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATAWE"/>
+    </attribute>
+    <attribute id="ATAW1" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATAW1"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATAW1"/>
+    </attribute>
+    <attribute id="ATIDN" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATIDN"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATIDN"/>
+    </attribute>
+    <attribute id="SPRAS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="TXTNR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXTNR"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="TXTNR"/>
+    </attribute>
+    <attribute id="DATUV" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="DATUV"/>
+    </attribute>
+    <attribute id="TECHV" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHV"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="TECHV"/>
+    </attribute>
+    <attribute id="AENNR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="AENNR"/>
+    </attribute>
+    <attribute id="LKENZ" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="LKENZ"/>
+    </attribute>
+    <attribute id="DOKAR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKAR"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="DOKAR"/>
+    </attribute>
+    <attribute id="DOKNR" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKNR"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="DOKNR"/>
+    </attribute>
+    <attribute id="DOKVR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKVR"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="DOKVR"/>
+    </attribute>
+    <attribute id="DOKTL" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKTL"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="DOKTL"/>
+    </attribute>
+    <attribute id="ATZHH" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATZHH"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATZHH"/>
+    </attribute>
+    <attribute id="KNOBJ" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNOBJ"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="KNOBJ"/>
+    </attribute>
+    <attribute id="ATWHI" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATWHI"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATWHI"/>
+    </attribute>
+    <attribute id="ATTLV" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATTLV"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATTLV"/>
+    </attribute>
+    <attribute id="ATTLB" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATTLB"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATTLB"/>
+    </attribute>
+    <attribute id="ATPRZ" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATPRZ"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATPRZ"/>
+    </attribute>
+    <attribute id="ATINC" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATINC"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATINC"/>
+    </attribute>
+    <attribute id="ATVPL" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATVPL"/>
+      <keyMapping columnObjectName="EP1_CAWN" columnName="ATVPL"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

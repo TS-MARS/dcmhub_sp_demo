@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T416" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T416"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T416">
+    <resourceUri>EP1_T416</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T416">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="MANDT"/>
+    </attribute>
+    <attribute id="STLAN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLAN"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="STLAN"/>
+    </attribute>
+    <attribute id="PMPFE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPFE"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="PMPFE"/>
+    </attribute>
+    <attribute id="PMPKO" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPKO"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="PMPKO"/>
+    </attribute>
+    <attribute id="PMPKA" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPKA"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="PMPKA"/>
+    </attribute>
+    <attribute id="PMPRV" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPRV"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="PMPRV"/>
+    </attribute>
+    <attribute id="PMPVS" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPVS"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="PMPVS"/>
+    </attribute>
+    <attribute id="PMPIN" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPIN"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="PMPIN"/>
+    </attribute>
+    <attribute id="PMPER" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPER"/>
+      <keyMapping columnObjectName="EP1_T416" columnName="PMPER"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

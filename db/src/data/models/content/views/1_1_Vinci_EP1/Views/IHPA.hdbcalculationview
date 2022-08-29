@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::IHPA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table IHPA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_IHPA">
+    <resourceUri>EP1_IHPA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_IHPA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="OBJNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="PARVW" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARVW"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="PARVW"/>
+    </attribute>
+    <attribute id="COUNTER" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COUNTER"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="COUNTER"/>
+    </attribute>
+    <attribute id="OBTYP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBTYP"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="OBTYP"/>
+    </attribute>
+    <attribute id="PARNR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARNR"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="PARNR"/>
+    </attribute>
+    <attribute id="INHER" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INHER"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="INHER"/>
+    </attribute>
+    <attribute id="ERDAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="ERZEIT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERZEIT"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="ERZEIT"/>
+    </attribute>
+    <attribute id="ERNAM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="AEZEIT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEZEIT"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="AEZEIT"/>
+    </attribute>
+    <attribute id="AENAM" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="AENAM"/>
+    </attribute>
+    <attribute id="KZLOESCH" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZLOESCH"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="KZLOESCH"/>
+    </attribute>
+    <attribute id="ADRNR" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="TZONSP" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TZONSP"/>
+      <keyMapping columnObjectName="EP1_IHPA" columnName="TZONSP"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

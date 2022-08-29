@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_0015" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_0015"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_MM_0015">
+    <resourceUri>EP1_CV_MM_0015</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_MM_0015">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BWART" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWART"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="BWART"/>
+    </attribute>
+    <attribute id="SHKZG" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="KZWES" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWES"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZWES"/>
+    </attribute>
+    <attribute id="KZVBU" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVBU"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZVBU"/>
+    </attribute>
+    <attribute id="KZDRU" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZDRU"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZDRU"/>
+    </attribute>
+    <attribute id="KZKON" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKON"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZKON"/>
+    </attribute>
+    <attribute id="CHNEU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHNEU"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="CHNEU"/>
+    </attribute>
+    <attribute id="KZZDE" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZZDE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZZDE"/>
+    </attribute>
+    <attribute id="RSTYP" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSTYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="RSTYP"/>
+    </attribute>
+    <attribute id="SELPA" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SELPA"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="SELPA"/>
+    </attribute>
+    <attribute id="XLAUT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLAUT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XLAUT"/>
+    </attribute>
+    <attribute id="KZSTR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZSTR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZSTR"/>
+    </attribute>
+    <attribute id="KZGRU" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZGRU"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZGRU"/>
+    </attribute>
+    <attribute id="XINVB" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XINVB"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XINVB"/>
+    </attribute>
+    <attribute id="QSSBW" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSSBW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="QSSBW"/>
+    </attribute>
+    <attribute id="KZBWA" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBWA"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZBWA"/>
+    </attribute>
+    <attribute id="XSTBW" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTBW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XSTBW"/>
+    </attribute>
+    <attribute id="XPBED" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPBED"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XPBED"/>
+    </attribute>
+    <attribute id="XWSBR" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XWSBR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XWSBR"/>
+    </attribute>
+    <attribute id="KZMHD" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZMHD"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZMHD"/>
+    </attribute>
+    <attribute id="KZCLA" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZCLA"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZCLA"/>
+    </attribute>
+    <attribute id="XKOKO" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKOKO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XKOKO"/>
+    </attribute>
+    <attribute id="XKCFC" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKCFC"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XKCFC"/>
+    </attribute>
+    <attribute id="XNEBE" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNEBE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XNEBE"/>
+    </attribute>
+    <attribute id="J_1BNFREL" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BNFREL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1BNFREL"/>
+    </attribute>
+    <attribute id="J_1BNFTYPE" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BNFTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1BNFTYPE"/>
+    </attribute>
+    <attribute id="J_1BITMTYP" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BITMTYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1BITMTYP"/>
+    </attribute>
+    <attribute id="J_1BSPCSTO" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BSPCSTO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1BSPCSTO"/>
+    </attribute>
+    <attribute id="J_1BPARTYP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BPARTYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1BPARTYP"/>
+    </attribute>
+    <attribute id="J_1BPARVW" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BPARVW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1BPARVW"/>
+    </attribute>
+    <attribute id="RULES" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RULES"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="RULES"/>
+    </attribute>
+    <attribute id="J_1AREVIDX" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1AREVIDX"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1AREVIDX"/>
+    </attribute>
+    <attribute id="J_1ADOCCL" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1ADOCCL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1ADOCCL"/>
+    </attribute>
+    <attribute id="J_1AEXPKZ" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1AEXPKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="J_1AEXPKZ"/>
+    </attribute>
+    <attribute id="XOARC" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XOARC"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XOARC"/>
+    </attribute>
+    <attribute id="BUSTR" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUSTR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="BUSTR"/>
+    </attribute>
+    <attribute id="KZDIR" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZDIR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZDIR"/>
+    </attribute>
+    <attribute id="OIJ1BNFFI" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIJ1BNFFI"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="OIJ1BNFFI"/>
+    </attribute>
+    <attribute id="MILL_CPCONF" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MILL_CPCONF"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="MILL_CPCONF"/>
+    </attribute>
+    <attribute id="CO_WIPB_CPCONF" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CO_WIPB_CPCONF"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="CO_WIPB_CPCONF"/>
+    </attribute>
+    <attribute id="XWIPB" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XWIPB"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="XWIPB"/>
+    </attribute>
+    <attribute id="MANDT_1" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="BWART_1" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWART_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="BWART_1"/>
+    </attribute>
+    <attribute id="SOBKZ" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="SOBKZ"/>
+    </attribute>
+    <attribute id="KZBEW" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBEW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZBEW"/>
+    </attribute>
+    <attribute id="KZZUG" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZZUG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZZUG"/>
+    </attribute>
+    <attribute id="KZVBR" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVBR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="KZVBR"/>
+    </attribute>
+    <attribute id="BTEXT" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_0015" columnName="BTEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CO_KK03" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CO_KK03"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CO_KK03">
+    <resourceUri>EP1_CV_CO_KK03</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CO_KK03">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KOKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="STAGR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="STAGR"/>
+    </attribute>
+    <attribute id="MSEHI" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSEHI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="MSEHI"/>
+    </attribute>
+    <attribute id="GRTYP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRTYP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="GRTYP"/>
+    </attribute>
+    <attribute id="HKTYP" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKTYP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="HKTYP"/>
+    </attribute>
+    <attribute id="STRUCT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRUCT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="STRUCT"/>
+    </attribute>
+    <attribute id="KENNZ" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KENNZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="KENNZ"/>
+    </attribute>
+    <attribute id="W_FLAG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="W_FLAG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="W_FLAG"/>
+    </attribute>
+    <attribute id="M_PLAN" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="M_PLAN"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="M_PLAN"/>
+    </attribute>
+    <attribute id="M_IST" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="M_IST"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="M_IST"/>
+    </attribute>
+    <attribute id="MANDT_1" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KOKRS_1" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS_1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="KOKRS_1"/>
+    </attribute>
+    <attribute id="STAGR_1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAGR_1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="STAGR_1"/>
+    </attribute>
+    <attribute id="BEZEI" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEZEI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KK03" columnName="BEZEI"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

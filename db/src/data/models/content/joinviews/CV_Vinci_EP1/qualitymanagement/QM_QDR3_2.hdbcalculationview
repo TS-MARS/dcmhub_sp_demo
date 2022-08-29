@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::QM_QDR3_2" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_QM_QDR3_2"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_QM_QDR3_2">
+    <resourceUri>EP1_CV_QM_QDR3_2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_QM_QDR3_2">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="MANDT"/>
+    </attribute>
+    <attribute id="DYNREGEL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DYNREGEL"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="DYNREGEL"/>
+    </attribute>
+    <attribute id="PRSTUFE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSTUFE"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="PRSTUFE"/>
+    </attribute>
+    <attribute id="PRSCHAERFE" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSCHAERFE"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="PRSCHAERFE"/>
+    </attribute>
+    <attribute id="KZSKIP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZSKIP"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="KZSKIP"/>
+    </attribute>
+    <attribute id="ANZPRRED" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZPRRED"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="ANZPRRED"/>
+    </attribute>
+    <attribute id="ANZPRVER" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZPRVER"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="ANZPRVER"/>
+    </attribute>
+    <attribute id="ANZRWRED" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZRWRED"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="ANZRWRED"/>
+    </attribute>
+    <attribute id="ANZRWVER" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZRWVER"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="ANZRWVER"/>
+    </attribute>
+    <attribute id="REDSTUFE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REDSTUFE"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="REDSTUFE"/>
+    </attribute>
+    <attribute id="VERSTUFE" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSTUFE"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="VERSTUFE"/>
+    </attribute>
+    <attribute id="STEUVER" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STEUVER"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="STEUVER"/>
+    </attribute>
+    <attribute id="KZREDGEN" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZREDGEN"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="KZREDGEN"/>
+    </attribute>
+    <attribute id="MAXSKIPDR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXSKIPDR"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="MAXSKIPDR"/>
+    </attribute>
+    <attribute id="MANDT_1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRACHE" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRACHE"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="SPRACHE"/>
+    </attribute>
+    <attribute id="DYNREGEL_1" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DYNREGEL_1"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="DYNREGEL_1"/>
+    </attribute>
+    <attribute id="PRSTUFE_1" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSTUFE_1"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="PRSTUFE_1"/>
+    </attribute>
+    <attribute id="KURZTEXT" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURZTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_QM_QDR3_2" columnName="KURZTEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

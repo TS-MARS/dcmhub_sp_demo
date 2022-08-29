@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::BSIM" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table BSIM"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_BSIM">
+    <resourceUri>EP1_BSIM</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_BSIM">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MATNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="MATNR"/>
+    </attribute>
+    <attribute id="BWKEY" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWKEY"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="BWKEY"/>
+    </attribute>
+    <attribute id="BWTAR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="BELNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BUZEI" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BUZID" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZID"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="BUZID"/>
+    </attribute>
+    <attribute id="SHKZG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="DMBTR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="DMBTR"/>
+    </attribute>
+    <attribute id="MENGE" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MEINS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="MEINS"/>
+    </attribute>
+    <attribute id="BUDAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="BLDAT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BLART" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="EP1_BSIM" columnName="BLART"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

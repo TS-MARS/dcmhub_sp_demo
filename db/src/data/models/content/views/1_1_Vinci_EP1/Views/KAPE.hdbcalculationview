@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::KAPE" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table KAPE"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_KAPE">
+    <resourceUri>EP1_KAPE</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_KAPE">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_KAPE" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KAPID" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPID"/>
+      <keyMapping columnObjectName="EP1_KAPE" columnName="KAPID"/>
+    </attribute>
+    <attribute id="MEINS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="EP1_KAPE" columnName="MEINS"/>
+    </attribute>
+    <attribute id="MEINB" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINB"/>
+      <keyMapping columnObjectName="EP1_KAPE" columnName="MEINB"/>
+    </attribute>
+    <attribute id="ZAEHL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL"/>
+      <keyMapping columnObjectName="EP1_KAPE" columnName="ZAEHL"/>
+    </attribute>
+    <attribute id="NENNR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NENNR"/>
+      <keyMapping columnObjectName="EP1_KAPE" columnName="NENNR"/>
+    </attribute>
+    <attribute id="DIMID" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DIMID"/>
+      <keyMapping columnObjectName="EP1_KAPE" columnName="DIMID"/>
+    </attribute>
+    <attribute id="DEFLT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEFLT"/>
+      <keyMapping columnObjectName="EP1_KAPE" columnName="DEFLT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

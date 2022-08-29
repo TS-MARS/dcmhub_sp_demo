@@ -26,6 +26,7 @@ modules:
       - name: dcmhub_vin_ep1-hdi-container
       - name: dcmhub_vin_ep1-db
       - name: dcmhub_vin_ep1-uaa
+      - name: dcmhub_vin_ep1-fs      
   - name: tool_vin_ep1
     type: html5
     path: tool_vin_ep1
@@ -59,13 +60,12 @@ resources:
   - name: dcmhub_vin_ep1-uaa
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: portal-uaa-dcmhubflp_whirlpool
-      service-plan: space
+      service-name: portal-uaa-dcmhubflp
   - name: flp-tool_vin_ep1-client
     type: com.sap.portal.site-content
     parameters:
       config:
-        siteId: dcmhubflp_whirlpool
+        siteId: dcmhubflp
   - name: dcmhub_vin_ep1-fs
     type: com.sap.xs.fs
     parameters:

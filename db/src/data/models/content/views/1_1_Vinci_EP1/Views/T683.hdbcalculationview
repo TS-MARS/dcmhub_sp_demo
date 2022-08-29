@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T683" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T683"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T683">
+    <resourceUri>EP1_T683</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T683">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T683" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KVEWE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE"/>
+      <keyMapping columnObjectName="EP1_T683" columnName="KVEWE"/>
+    </attribute>
+    <attribute id="KAPPL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="EP1_T683" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="KALSM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM"/>
+      <keyMapping columnObjectName="EP1_T683" columnName="KALSM"/>
+    </attribute>
+    <attribute id="AUSVF" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSVF"/>
+      <keyMapping columnObjectName="EP1_T683" columnName="AUSVF"/>
+    </attribute>
+    <attribute id="BONSM" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BONSM"/>
+      <keyMapping columnObjectName="EP1_T683" columnName="BONSM"/>
+    </attribute>
+    <attribute id="KNPRS_V" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNPRS_V"/>
+      <keyMapping columnObjectName="EP1_T683" columnName="KNPRS_V"/>
+    </attribute>
+    <attribute id="PRODUCTIVE" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRODUCTIVE"/>
+      <keyMapping columnObjectName="EP1_T683" columnName="PRODUCTIVE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CO_CSSL" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CO_CSSL"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CO_CSSL">
+    <resourceUri>EP1_CV_CO_CSSL</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CO_CSSL">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KOKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="KOSTL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="LSTAR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="GJAHR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="CCKEY" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCKEY"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="CCKEY"/>
+    </attribute>
+    <attribute id="LATYP" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LATYP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="LATYP"/>
+    </attribute>
+    <attribute id="LEINH" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEINH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="LEINH"/>
+    </attribute>
+    <attribute id="AUSFK" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSFK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="AUSFK"/>
+    </attribute>
+    <attribute id="AUSEH" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSEH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="AUSEH"/>
+    </attribute>
+    <attribute id="OBJNR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="LATYPI" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LATYPI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CSSL" columnName="LATYPI"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

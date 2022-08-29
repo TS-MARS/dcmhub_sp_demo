@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::SWOR" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table SWOR"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_SWOR">
+    <resourceUri>EP1_SWOR</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_SWOR">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_SWOR" columnName="MANDT"/>
+    </attribute>
+    <attribute id="CLINT" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLINT"/>
+      <keyMapping columnObjectName="EP1_SWOR" columnName="CLINT"/>
+    </attribute>
+    <attribute id="SPRAS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_SWOR" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KLPOS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLPOS"/>
+      <keyMapping columnObjectName="EP1_SWOR" columnName="KLPOS"/>
+    </attribute>
+    <attribute id="KSCHL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_SWOR" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="KSCHG" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHG"/>
+      <keyMapping columnObjectName="EP1_SWOR" columnName="KSCHG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T882G" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T882G"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T882G">
+    <resourceUri>EP1_T882G</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T882G">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="MANDT"/>
+    </attribute>
+    <attribute id="RBUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBUKRS"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="RBUKRS"/>
+    </attribute>
+    <attribute id="RLDNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="RLDNR"/>
+    </attribute>
+    <attribute id="CURT1" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT1"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="CURT1"/>
+    </attribute>
+    <attribute id="CURT2" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT2"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="CURT2"/>
+    </attribute>
+    <attribute id="CURT3" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT3"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="CURT3"/>
+    </attribute>
+    <attribute id="CURR1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURR1"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="CURR1"/>
+    </attribute>
+    <attribute id="CURR2" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURR2"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="CURR2"/>
+    </attribute>
+    <attribute id="CURR3" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURR3"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="CURR3"/>
+    </attribute>
+    <attribute id="PERIV" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIV"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="PERIV"/>
+    </attribute>
+    <attribute id="KTOPL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="OPVAR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OPVAR"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="OPVAR"/>
+    </attribute>
+    <attribute id="TOYEAR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOYEAR"/>
+      <keyMapping columnObjectName="EP1_T882G" columnName="TOYEAR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

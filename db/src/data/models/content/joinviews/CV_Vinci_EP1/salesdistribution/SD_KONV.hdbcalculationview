@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::SD_KONV" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_SD_KONV"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_SD_KONV">
+    <resourceUri>EP1_CV_SD_KONV</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_SD_KONV">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KNUMV" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMV"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KNUMV"/>
+    </attribute>
+    <attribute id="KPOSN" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KPOSN"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KPOSN"/>
+    </attribute>
+    <attribute id="STUNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNR"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="STUNR"/>
+    </attribute>
+    <attribute id="ZAEHK" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHK"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="ZAEHK"/>
+    </attribute>
+    <attribute id="KAPPL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="KSCHL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="KDATU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDATU"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KDATU"/>
+    </attribute>
+    <attribute id="KRECH" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRECH"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KRECH"/>
+    </attribute>
+    <attribute id="KAWRT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAWRT"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KAWRT"/>
+    </attribute>
+    <attribute id="KBETR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBETR"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KBETR"/>
+    </attribute>
+    <attribute id="WAERS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="WAERS"/>
+    </attribute>
+    <attribute id="KKURS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKURS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KKURS"/>
+    </attribute>
+    <attribute id="KPEIN" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KPEIN"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KPEIN"/>
+    </attribute>
+    <attribute id="KMEIN" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMEIN"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KMEIN"/>
+    </attribute>
+    <attribute id="KUMZA" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUMZA"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KUMZA"/>
+    </attribute>
+    <attribute id="KUMNE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUMNE"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KUMNE"/>
+    </attribute>
+    <attribute id="KNTYP" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTYP"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KNTYP"/>
+    </attribute>
+    <attribute id="KSTAT" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTAT"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KSTAT"/>
+    </attribute>
+    <attribute id="KNPRS" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNPRS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KNPRS"/>
+    </attribute>
+    <attribute id="KRUEK" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRUEK"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KRUEK"/>
+    </attribute>
+    <attribute id="KRELI" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRELI"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KRELI"/>
+    </attribute>
+    <attribute id="KHERK" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KHERK"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KHERK"/>
+    </attribute>
+    <attribute id="KGRPE" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KGRPE"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KGRPE"/>
+    </attribute>
+    <attribute id="KOUPD" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOUPD"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KOUPD"/>
+    </attribute>
+    <attribute id="KOLNR" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOLNR"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KOLNR"/>
+    </attribute>
+    <attribute id="KNUMH" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMH"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KNUMH"/>
+    </attribute>
+    <attribute id="KOPOS" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOPOS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KOPOS"/>
+    </attribute>
+    <attribute id="KVSL1" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVSL1"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KVSL1"/>
+    </attribute>
+    <attribute id="SAKN1" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKN1"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="SAKN1"/>
+    </attribute>
+    <attribute id="MWSK1" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSK1"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="MWSK1"/>
+    </attribute>
+    <attribute id="KVSL2" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVSL2"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KVSL2"/>
+    </attribute>
+    <attribute id="SAKN2" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKN2"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="SAKN2"/>
+    </attribute>
+    <attribute id="MWSK2" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSK2"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="MWSK2"/>
+    </attribute>
+    <attribute id="LIFNR" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="KUNNR" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="KDIFF" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDIFF"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KDIFF"/>
+    </attribute>
+    <attribute id="KWERT" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KWERT"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KWERT"/>
+    </attribute>
+    <attribute id="KSTEU" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTEU"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KSTEU"/>
+    </attribute>
+    <attribute id="KINAK" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KINAK"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KINAK"/>
+    </attribute>
+    <attribute id="KOAID" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOAID"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KOAID"/>
+    </attribute>
+    <attribute id="ZAEKO" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEKO"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="ZAEKO"/>
+    </attribute>
+    <attribute id="KMXAW" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMXAW"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KMXAW"/>
+    </attribute>
+    <attribute id="KMXWR" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMXWR"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KMXWR"/>
+    </attribute>
+    <attribute id="KFAKTOR" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFAKTOR"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KFAKTOR"/>
+    </attribute>
+    <attribute id="KDUPL" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDUPL"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KDUPL"/>
+    </attribute>
+    <attribute id="KFAKTOR1" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFAKTOR1"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KFAKTOR1"/>
+    </attribute>
+    <attribute id="KZBZG" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBZG"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KZBZG"/>
+    </attribute>
+    <attribute id="KSTBS" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTBS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KSTBS"/>
+    </attribute>
+    <attribute id="KONMS" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONMS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KONMS"/>
+    </attribute>
+    <attribute id="KONWS" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONWS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KONWS"/>
+    </attribute>
+    <attribute id="KAWRT_K" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAWRT_K"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KAWRT_K"/>
+    </attribute>
+    <attribute id="KWAEH" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KWAEH"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KWAEH"/>
+    </attribute>
+    <attribute id="KWERT_K" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KWERT_K"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KWERT_K"/>
+    </attribute>
+    <attribute id="KFKIV" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFKIV"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KFKIV"/>
+    </attribute>
+    <attribute id="KVARC" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVARC"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KVARC"/>
+    </attribute>
+    <attribute id="KMPRS" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMPRS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KMPRS"/>
+    </attribute>
+    <attribute id="PRSQU" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSQU"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="PRSQU"/>
+    </attribute>
+    <attribute id="VARCOND" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VARCOND"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="VARCOND"/>
+    </attribute>
+    <attribute id="STUFE" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUFE"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="STUFE"/>
+    </attribute>
+    <attribute id="WEGXX" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEGXX"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="WEGXX"/>
+    </attribute>
+    <attribute id="KTREL" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTREL"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KTREL"/>
+    </attribute>
+    <attribute id="MDFLG" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MDFLG"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="MDFLG"/>
+    </attribute>
+    <attribute id="TXJLV" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJLV"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="TXJLV"/>
+    </attribute>
+    <attribute id="KBFLAG" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBFLAG"/>
+      <keyMapping columnObjectName="EP1_CV_SD_KONV" columnName="KBFLAG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

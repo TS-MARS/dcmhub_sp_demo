@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TKZU1" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TKZU1"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TKZU1">
+    <resourceUri>EP1_TKZU1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TKZU1">
+  <attributes>
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLIENT"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="CLIENT"/>
+    </attribute>
+    <attribute id="KOKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="KAPPL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="BKOND" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKOND"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="BKOND"/>
+    </attribute>
+    <attribute id="KKOMP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKOMP"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="KKOMP"/>
+    </attribute>
+    <attribute id="ABKOART" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABKOART"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="ABKOART"/>
+    </attribute>
+    <attribute id="BISKOART" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BISKOART"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="BISKOART"/>
+    </attribute>
+    <attribute id="KAGRU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAGRU"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="KAGRU"/>
+    </attribute>
+    <attribute id="KOANT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOANT"/>
+      <keyMapping columnObjectName="EP1_TKZU1" columnName="KOANT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

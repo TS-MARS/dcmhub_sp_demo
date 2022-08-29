@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::EIPA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table EIPA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_EIPA">
+    <resourceUri>EP1_EIPA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_EIPA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="INFNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INFNR"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="INFNR"/>
+    </attribute>
+    <attribute id="EBELN" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="EBELP"/>
+    </attribute>
+    <attribute id="ESOKZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESOKZ"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="ESOKZ"/>
+    </attribute>
+    <attribute id="WERKS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="WERKS"/>
+    </attribute>
+    <attribute id="EKORG" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKORG"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="EKORG"/>
+    </attribute>
+    <attribute id="BEDAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEDAT"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="BEDAT"/>
+    </attribute>
+    <attribute id="PREIS" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREIS"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="PREIS"/>
+    </attribute>
+    <attribute id="PEINH" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PEINH"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="PEINH"/>
+    </attribute>
+    <attribute id="BPRME" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPRME"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="BPRME"/>
+    </attribute>
+    <attribute id="BWAER" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWAER"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="BWAER"/>
+    </attribute>
+    <attribute id="LPREI" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LPREI"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="LPREI"/>
+    </attribute>
+    <attribute id="LPEIN" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LPEIN"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="LPEIN"/>
+    </attribute>
+    <attribute id="LMEIN" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMEIN"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="LMEIN"/>
+    </attribute>
+    <attribute id="LWAER" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LWAER"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="LWAER"/>
+    </attribute>
+    <attribute id="MENGE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="EP1_EIPA" columnName="MENGE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

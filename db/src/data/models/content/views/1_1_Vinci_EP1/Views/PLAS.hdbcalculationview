@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PLAS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table PLAS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_PLAS">
+    <resourceUri>EP1_PLAS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_PLAS">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="MANDT"/>
+    </attribute>
+    <attribute id="PLNTY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNTY"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="PLNTY"/>
+    </attribute>
+    <attribute id="PLNNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNNR"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="PLNNR"/>
+    </attribute>
+    <attribute id="PLNAL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNAL"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="PLNAL"/>
+    </attribute>
+    <attribute id="PLNFL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNFL"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="PLNFL"/>
+    </attribute>
+    <attribute id="PLNKN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNKN"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="PLNKN"/>
+    </attribute>
+    <attribute id="ZAEHL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="ZAEHL"/>
+    </attribute>
+    <attribute id="DATUV" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="DATUV"/>
+    </attribute>
+    <attribute id="TECHV" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHV"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="TECHV"/>
+    </attribute>
+    <attribute id="AENNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="AENNR"/>
+    </attribute>
+    <attribute id="LOEKZ" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEKZ"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="LOEKZ"/>
+    </attribute>
+    <attribute id="PARKZ" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARKZ"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="PARKZ"/>
+    </attribute>
+    <attribute id="ANDAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANDAT"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="ANDAT"/>
+    </attribute>
+    <attribute id="ANNAM" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANNAM"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="ANNAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_PLAS" columnName="AENAM"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

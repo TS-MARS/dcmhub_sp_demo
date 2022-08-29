@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::QPGR" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table QPGR"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_QPGR">
+    <resourceUri>EP1_QPGR</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_QPGR">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KATALOGART" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KATALOGART"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="KATALOGART"/>
+    </attribute>
+    <attribute id="CODEGRUPPE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CODEGRUPPE"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="CODEGRUPPE"/>
+    </attribute>
+    <attribute id="ERSTELLER" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSTELLER"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="ERSTELLER"/>
+    </attribute>
+    <attribute id="E_DATUM" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="E_DATUM"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="E_DATUM"/>
+    </attribute>
+    <attribute id="AENDERER" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENDERER"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="AENDERER"/>
+    </attribute>
+    <attribute id="A_DATUM" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="A_DATUM"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="A_DATUM"/>
+    </attribute>
+    <attribute id="VERWENDUNG" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERWENDUNG"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="VERWENDUNG"/>
+    </attribute>
+    <attribute id="INAKTIV" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INAKTIV"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="INAKTIV"/>
+    </attribute>
+    <attribute id="STATUS" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATUS"/>
+      <keyMapping columnObjectName="EP1_QPGR" columnName="STATUS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

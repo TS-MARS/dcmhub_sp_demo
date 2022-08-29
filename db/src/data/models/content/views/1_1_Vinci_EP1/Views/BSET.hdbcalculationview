@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::BSET" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table BSET"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_BSET">
+    <resourceUri>EP1_BSET</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_BSET">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BELNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BUZEI" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="MWSKZ" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="HKONT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="HKONT"/>
+    </attribute>
+    <attribute id="TXGRP" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXGRP"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="TXGRP"/>
+    </attribute>
+    <attribute id="SHKZG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="HWBAS" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWBAS"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="HWBAS"/>
+    </attribute>
+    <attribute id="FWBAS" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FWBAS"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="FWBAS"/>
+    </attribute>
+    <attribute id="HWSTE" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWSTE"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="HWSTE"/>
+    </attribute>
+    <attribute id="FWSTE" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FWSTE"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="FWSTE"/>
+    </attribute>
+    <attribute id="KTOSL" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOSL"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="KTOSL"/>
+    </attribute>
+    <attribute id="KNUMH" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMH"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="KNUMH"/>
+    </attribute>
+    <attribute id="STCEG" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="STCEG"/>
+    </attribute>
+    <attribute id="EGBLD" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGBLD"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="EGBLD"/>
+    </attribute>
+    <attribute id="EGLLD" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGLLD"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="EGLLD"/>
+    </attribute>
+    <attribute id="TXJCD" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="H2STE" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="H2STE"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="H2STE"/>
+    </attribute>
+    <attribute id="H3STE" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="H3STE"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="H3STE"/>
+    </attribute>
+    <attribute id="H2BAS" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="H2BAS"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="H2BAS"/>
+    </attribute>
+    <attribute id="H3BAS" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="H3BAS"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="H3BAS"/>
+    </attribute>
+    <attribute id="KSCHL" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="STMDT" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STMDT"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="STMDT"/>
+    </attribute>
+    <attribute id="STMTI" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STMTI"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="STMTI"/>
+    </attribute>
+    <attribute id="MLDDT" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLDDT"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="MLDDT"/>
+    </attribute>
+    <attribute id="KBETR" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBETR"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="KBETR"/>
+    </attribute>
+    <attribute id="STBKZ" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STBKZ"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="STBKZ"/>
+    </attribute>
+    <attribute id="LSTML" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTML"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="LSTML"/>
+    </attribute>
+    <attribute id="LWSTE" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LWSTE"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="LWSTE"/>
+    </attribute>
+    <attribute id="LWBAS" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LWBAS"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="LWBAS"/>
+    </attribute>
+    <attribute id="TXDAT" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXDAT"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="TXDAT"/>
+    </attribute>
+    <attribute id="BUPLA" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUPLA"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="BUPLA"/>
+    </attribute>
+    <attribute id="TXJDP" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJDP"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="TXJDP"/>
+    </attribute>
+    <attribute id="TXJLV" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJLV"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="TXJLV"/>
+    </attribute>
+    <attribute id="TAXPS" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAXPS"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="TAXPS"/>
+    </attribute>
+    <attribute id="TXMOD" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXMOD"/>
+      <keyMapping columnObjectName="EP1_BSET" columnName="TXMOD"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

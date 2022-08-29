@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PM_EQUZ" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PM_EQUZ"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PM_EQUZ">
+    <resourceUri>EP1_CV_PM_EQUZ</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PM_EQUZ">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="MANDT"/>
+    </attribute>
+    <attribute id="EQUNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQUNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="EQUNR"/>
+    </attribute>
+    <attribute id="DATBI" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATBI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="DATBI"/>
+    </attribute>
+    <attribute id="EQLFN" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQLFN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="EQLFN"/>
+    </attribute>
+    <attribute id="EQUZN" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQUZN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="EQUZN"/>
+    </attribute>
+    <attribute id="ERDAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="ERNAM" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="AENAM"/>
+    </attribute>
+    <attribute id="TIMBI" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TIMBI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="TIMBI"/>
+    </attribute>
+    <attribute id="ESTAI" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESTAI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="ESTAI"/>
+    </attribute>
+    <attribute id="ESTAE" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESTAE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="ESTAE"/>
+    </attribute>
+    <attribute id="STNAM" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STNAM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="STNAM"/>
+    </attribute>
+    <attribute id="LVORM" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVORM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="LVORM"/>
+    </attribute>
+    <attribute id="DATAB" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATAB"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="DATAB"/>
+    </attribute>
+    <attribute id="IWERK" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IWERK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="IWERK"/>
+    </attribute>
+    <attribute id="IWERKI" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IWERKI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="IWERKI"/>
+    </attribute>
+    <attribute id="SUBMT" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBMT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="SUBMT"/>
+    </attribute>
+    <attribute id="MAPAR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAPAR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="MAPAR"/>
+    </attribute>
+    <attribute id="HEQUI" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HEQUI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="HEQUI"/>
+    </attribute>
+    <attribute id="HEQNR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HEQNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="HEQNR"/>
+    </attribute>
+    <attribute id="INGRP" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INGRP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="INGRP"/>
+    </attribute>
+    <attribute id="INGRPI" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INGRPI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="INGRPI"/>
+    </attribute>
+    <attribute id="PM_OBJTY" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PM_OBJTY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="PM_OBJTY"/>
+    </attribute>
+    <attribute id="GEWRK" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEWRK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="GEWRK"/>
+    </attribute>
+    <attribute id="GEWRKI" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEWRKI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="GEWRKI"/>
+    </attribute>
+    <attribute id="TIDNR" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TIDNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="TIDNR"/>
+    </attribute>
+    <attribute id="TIDNRI" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TIDNRI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="TIDNRI"/>
+    </attribute>
+    <attribute id="ILOAN" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ILOAN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="ILOAN"/>
+    </attribute>
+    <attribute id="KUND1" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUND1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="KUND1"/>
+    </attribute>
+    <attribute id="KUND2" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUND2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="KUND2"/>
+    </attribute>
+    <attribute id="KUND3" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUND3"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="KUND3"/>
+    </attribute>
+    <attribute id="LIZNR" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIZNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="LIZNR"/>
+    </attribute>
+    <attribute id="RBNR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="RBNR"/>
+    </attribute>
+    <attribute id="EZDAT" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EZDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="EZDAT"/>
+    </attribute>
+    <attribute id="EZBER" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EZBER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="EZBER"/>
+    </attribute>
+    <attribute id="EZNUM" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EZNUM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="EZNUM"/>
+    </attribute>
+    <attribute id="RBNR_I" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBNR_I"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="RBNR_I"/>
+    </attribute>
+    <attribute id="IBLNR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IBLNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="IBLNR"/>
+    </attribute>
+    <attribute id="BLDAT" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="PVS_FOCUS" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PVS_FOCUS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="PVS_FOCUS"/>
+    </attribute>
+    <attribute id="PPEGUID" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPEGUID"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="PPEGUID"/>
+    </attribute>
+    <attribute id="TECHS" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="TECHS"/>
+    </attribute>
+    <attribute id="FUNCID" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FUNCID"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="FUNCID"/>
+    </attribute>
+    <attribute id="FRCFIT" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRCFIT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="FRCFIT"/>
+    </attribute>
+    <attribute id="FRCRMV" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRCRMV"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="FRCRMV"/>
+    </attribute>
+    <attribute id="PVS_NODE" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PVS_NODE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="PVS_NODE"/>
+    </attribute>
+    <attribute id="PVS_OTYPE" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PVS_OTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="PVS_OTYPE"/>
+    </attribute>
+    <attribute id="PVS_APPLOBJ_TYPE" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PVS_APPLOBJ_TYPE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="PVS_APPLOBJ_TYPE"/>
+    </attribute>
+    <attribute id="TOP_EQUI" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOP_EQUI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="TOP_EQUI"/>
+    </attribute>
+    <attribute id="TOP_EQUI_FLAG" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOP_EQUI_FLAG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="TOP_EQUI_FLAG"/>
+    </attribute>
+    <attribute id="J_3GEIGNER" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_3GEIGNER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="J_3GEIGNER"/>
+    </attribute>
+    <attribute id="J_3GVERWAL" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_3GVERWAL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="J_3GVERWAL"/>
+    </attribute>
+    <attribute id="J_3GPMAUFE" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_3GPMAUFE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="J_3GPMAUFE"/>
+    </attribute>
+    <attribute id="J_3GPMAUFV" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_3GPMAUFV"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="J_3GPMAUFV"/>
+    </attribute>
+    <attribute id="J_3GPACHT" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_3GPACHT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_EQUZ" columnName="J_3GPACHT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

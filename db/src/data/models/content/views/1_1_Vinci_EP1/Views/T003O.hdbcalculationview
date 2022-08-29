@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T003O" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T003O"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T003O">
+    <resourceUri>EP1_T003O</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T003O">
+  <attributes>
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLIENT"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="CLIENT"/>
+    </attribute>
+    <attribute id="AUART" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUART"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="AUART"/>
+    </attribute>
+    <attribute id="AUTYP" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUTYP"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="AUTYP"/>
+    </attribute>
+    <attribute id="NUMKR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMKR"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="NUMKR"/>
+    </attribute>
+    <attribute id="OBLIGO" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBLIGO"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="OBLIGO"/>
+    </attribute>
+    <attribute id="ERLOESE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERLOESE"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="ERLOESE"/>
+    </attribute>
+    <attribute id="STSMA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STSMA"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="STSMA"/>
+    </attribute>
+    <attribute id="APROF" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APROF"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="APROF"/>
+    </attribute>
+    <attribute id="PPROF" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPROF"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="PPROF"/>
+    </attribute>
+    <attribute id="COPAR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COPAR"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="COPAR"/>
+    </attribute>
+    <attribute id="RESZ1" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESZ1"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="RESZ1"/>
+    </attribute>
+    <attribute id="RESZ2" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESZ2"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="RESZ2"/>
+    </attribute>
+    <attribute id="AUFKL" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFKL"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="AUFKL"/>
+    </attribute>
+    <attribute id="RELKZ" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RELKZ"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="RELKZ"/>
+    </attribute>
+    <attribute id="CHGKZ" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHGKZ"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="CHGKZ"/>
+    </attribute>
+    <attribute id="BPROF" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPROF"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="BPROF"/>
+    </attribute>
+    <attribute id="PLINT" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLINT"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="PLINT"/>
+    </attribute>
+    <attribute id="NABPF" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NABPF"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="NABPF"/>
+    </attribute>
+    <attribute id="VORPL" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VORPL"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="VORPL"/>
+    </attribute>
+    <attribute id="LAYOUT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAYOUT"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="LAYOUT"/>
+    </attribute>
+    <attribute id="TDFORM" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDFORM"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="TDFORM"/>
+    </attribute>
+    <attribute id="SCOPE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCOPE"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="SCOPE"/>
+    </attribute>
+    <attribute id="COLORDPROC" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COLORDPROC"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="COLORDPROC"/>
+    </attribute>
+    <attribute id="VRG_STSMA" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRG_STSMA"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="VRG_STSMA"/>
+    </attribute>
+    <attribute id="FUNC_AREA" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FUNC_AREA"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="FUNC_AREA"/>
+    </attribute>
+    <attribute id="EXEC_PROFILE" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXEC_PROFILE"/>
+      <keyMapping columnObjectName="EP1_T003O" columnName="EXEC_PROFILE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

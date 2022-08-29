@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FICA_S_ALR_87012365" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FICA_S_ALR_87012365"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FICA_S_ALR_87012365">
+    <resourceUri>EP1_CV_FICA_S_ALR_87012365</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FICA_S_ALR_87012365">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="LAND1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="LAND1"/>
+    </attribute>
+    <attribute id="KALSM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="KALSM"/>
+    </attribute>
+    <attribute id="WAERS" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="WAERS"/>
+    </attribute>
+    <attribute id="MWSKZ" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="TEXT1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEXT1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="TEXT1"/>
+    </attribute>
+    <attribute id="EGRKZ" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGRKZ"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="EGRKZ"/>
+    </attribute>
+    <attribute id="KSCHL" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="VTEXT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="VTEXT"/>
+    </attribute>
+    <attribute id="STUNR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="STUNR"/>
+    </attribute>
+    <attribute id="STUNB" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNB"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="STUNB"/>
+    </attribute>
+    <attribute id="KVSL1" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVSL1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="KVSL1"/>
+    </attribute>
+    <attribute id="KVEWE" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="KVEWE"/>
+    </attribute>
+    <attribute id="KAPPL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="ZAEHK" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHK"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="ZAEHK"/>
+    </attribute>
+    <attribute id="CURHA" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURHA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_S_ALR_87012365" columnName="CURHA"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIGL_FSP0" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIGL_FSP0"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FIGL_FSP0">
+    <resourceUri>EP1_CV_FIGL_FSP0</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FIGL_FSP0">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KTOPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="SAKNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKNR"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="SAKNR"/>
+    </attribute>
+    <attribute id="XBILK" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBILK"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="XBILK"/>
+    </attribute>
+    <attribute id="SAKAN" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKAN"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="SAKAN"/>
+    </attribute>
+    <attribute id="BILKT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BILKT"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="BILKT"/>
+    </attribute>
+    <attribute id="ERDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="ERNAM" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="GVTYP" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GVTYP"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="GVTYP"/>
+    </attribute>
+    <attribute id="KTOKS" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOKS"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="KTOKS"/>
+    </attribute>
+    <attribute id="MUSTR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MUSTR"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="MUSTR"/>
+    </attribute>
+    <attribute id="VBUND" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBUND"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="VBUND"/>
+    </attribute>
+    <attribute id="XLOEV" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLOEV"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="XLOEV"/>
+    </attribute>
+    <attribute id="XSPEA" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPEA"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="XSPEA"/>
+    </attribute>
+    <attribute id="XSPEB" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPEB"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="XSPEB"/>
+    </attribute>
+    <attribute id="XSPEP" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPEP"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="XSPEP"/>
+    </attribute>
+    <attribute id="MCOD1" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MCOD1"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="MCOD1"/>
+    </attribute>
+    <attribute id="FUNC_AREA" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FUNC_AREA"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="FUNC_AREA"/>
+    </attribute>
+    <attribute id="MANDT_1" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KTOPL_1" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="KTOPL_1"/>
+    </attribute>
+    <attribute id="SAKNR_1" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKNR_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="SAKNR_1"/>
+    </attribute>
+    <attribute id="TXT20" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT20"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="TXT20"/>
+    </attribute>
+    <attribute id="TXT50" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT50"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="TXT50"/>
+    </attribute>
+    <attribute id="MCOD1_1" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MCOD1_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="MCOD1_1"/>
+    </attribute>
+    <attribute id="MANDT_2" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_2"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="MANDT_2"/>
+    </attribute>
+    <attribute id="SPRAS_1" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="SPRAS_1"/>
+    </attribute>
+    <attribute id="KTOPL_2" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL_2"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="KTOPL_2"/>
+    </attribute>
+    <attribute id="KTPLT" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTPLT"/>
+      <keyMapping columnObjectName="EP1_CV_FIGL_FSP0" columnName="KTPLT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

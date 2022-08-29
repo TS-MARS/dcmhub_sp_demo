@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ADR6" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table ADR6"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_ADR6">
+    <resourceUri>EP1_ADR6</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_ADR6">
+  <attributes>
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLIENT"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="CLIENT"/>
+    </attribute>
+    <attribute id="ADDRNUMBER" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDRNUMBER"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="ADDRNUMBER"/>
+    </attribute>
+    <attribute id="PERSNUMBER" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERSNUMBER"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="PERSNUMBER"/>
+    </attribute>
+    <attribute id="DATE_FROM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATE_FROM"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="DATE_FROM"/>
+    </attribute>
+    <attribute id="CONSNUMBER" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONSNUMBER"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="CONSNUMBER"/>
+    </attribute>
+    <attribute id="FLGDEFAULT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLGDEFAULT"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="FLGDEFAULT"/>
+    </attribute>
+    <attribute id="FLG_NOUSE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLG_NOUSE"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="FLG_NOUSE"/>
+    </attribute>
+    <attribute id="HOME_FLAG" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HOME_FLAG"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="HOME_FLAG"/>
+    </attribute>
+    <attribute id="SMTP_ADDR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMTP_ADDR"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="SMTP_ADDR"/>
+    </attribute>
+    <attribute id="SMTP_SRCH" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMTP_SRCH"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="SMTP_SRCH"/>
+    </attribute>
+    <attribute id="DFT_RECEIV" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DFT_RECEIV"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="DFT_RECEIV"/>
+    </attribute>
+    <attribute id="R3_USER" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="R3_USER"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="R3_USER"/>
+    </attribute>
+    <attribute id="ENCODE" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENCODE"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="ENCODE"/>
+    </attribute>
+    <attribute id="TNEF" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TNEF"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="TNEF"/>
+    </attribute>
+    <attribute id="VALID_FROM" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALID_FROM"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="VALID_FROM"/>
+    </attribute>
+    <attribute id="VALID_TO" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALID_TO"/>
+      <keyMapping columnObjectName="EP1_ADR6" columnName="VALID_TO"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

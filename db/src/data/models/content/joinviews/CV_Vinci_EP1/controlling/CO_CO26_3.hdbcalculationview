@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CO_CO26_3" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CO_CO26_3"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CO_CO26_3">
+    <resourceUri>EP1_CV_CO_CO26_3</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CO_CO26_3">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MATNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MATNR"/>
+    </attribute>
+    <attribute id="WERKS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="WERKS"/>
+    </attribute>
+    <attribute id="PSTAT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTAT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PSTAT"/>
+    </attribute>
+    <attribute id="LVORM" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVORM"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LVORM"/>
+    </attribute>
+    <attribute id="BWTTY" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTTY"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BWTTY"/>
+    </attribute>
+    <attribute id="XCHAR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCHAR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="XCHAR"/>
+    </attribute>
+    <attribute id="MMSTA" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MMSTA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MMSTA"/>
+    </attribute>
+    <attribute id="MMSTD" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MMSTD"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MMSTD"/>
+    </attribute>
+    <attribute id="MAABC" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAABC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MAABC"/>
+    </attribute>
+    <attribute id="KZKRI" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKRI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZKRI"/>
+    </attribute>
+    <attribute id="EKGRP" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKGRP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="EKGRP"/>
+    </attribute>
+    <attribute id="AUSME" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSME"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="AUSME"/>
+    </attribute>
+    <attribute id="DISPR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISPR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DISPR"/>
+    </attribute>
+    <attribute id="DISMM" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISMM"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DISMM"/>
+    </attribute>
+    <attribute id="DISPO" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISPO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DISPO"/>
+    </attribute>
+    <attribute id="KZDIE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZDIE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZDIE"/>
+    </attribute>
+    <attribute id="PLIFZ" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLIFZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PLIFZ"/>
+    </attribute>
+    <attribute id="WEBAZ" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEBAZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="WEBAZ"/>
+    </attribute>
+    <attribute id="PERKZ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PERKZ"/>
+    </attribute>
+    <attribute id="AUSSS" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSSS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="AUSSS"/>
+    </attribute>
+    <attribute id="DISLS" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISLS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DISLS"/>
+    </attribute>
+    <attribute id="BESKZ" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BESKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BESKZ"/>
+    </attribute>
+    <attribute id="SOBSL" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBSL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SOBSL"/>
+    </attribute>
+    <attribute id="MINBE" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MINBE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MINBE"/>
+    </attribute>
+    <attribute id="MINBE_DISP" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MINBE_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MINBE_DISP"/>
+    </attribute>
+    <attribute id="EISBE" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EISBE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="EISBE"/>
+    </attribute>
+    <attribute id="EISBE_DISP" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EISBE_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="EISBE_DISP"/>
+    </attribute>
+    <attribute id="BSTMI" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTMI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BSTMI"/>
+    </attribute>
+    <attribute id="BSTMI_DISP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTMI_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BSTMI_DISP"/>
+    </attribute>
+    <attribute id="BSTMA" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTMA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BSTMA"/>
+    </attribute>
+    <attribute id="BSTMA_DISP" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTMA_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BSTMA_DISP"/>
+    </attribute>
+    <attribute id="BSTFE" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTFE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BSTFE"/>
+    </attribute>
+    <attribute id="BSTFE_DISP" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTFE_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BSTFE_DISP"/>
+    </attribute>
+    <attribute id="BSTRF" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTRF"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BSTRF"/>
+    </attribute>
+    <attribute id="BSTRF_DISP" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTRF_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BSTRF_DISP"/>
+    </attribute>
+    <attribute id="MABST" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MABST"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MABST"/>
+    </attribute>
+    <attribute id="MABST_DISP" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MABST_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MABST_DISP"/>
+    </attribute>
+    <attribute id="LOSFX" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSFX"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LOSFX"/>
+    </attribute>
+    <attribute id="SBDKZ" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SBDKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SBDKZ"/>
+    </attribute>
+    <attribute id="LAGPR" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAGPR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LAGPR"/>
+    </attribute>
+    <attribute id="ALTSL" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALTSL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="ALTSL"/>
+    </attribute>
+    <attribute id="KZAUS" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZAUS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZAUS"/>
+    </attribute>
+    <attribute id="AUSDT" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSDT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="AUSDT"/>
+    </attribute>
+    <attribute id="NFMAT" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NFMAT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="NFMAT"/>
+    </attribute>
+    <attribute id="KZBED" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBED"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZBED"/>
+    </attribute>
+    <attribute id="MISKZ" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MISKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MISKZ"/>
+    </attribute>
+    <attribute id="FHORI" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FHORI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FHORI"/>
+    </attribute>
+    <attribute id="PFREI" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PFREI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PFREI"/>
+    </attribute>
+    <attribute id="FFREI" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FFREI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FFREI"/>
+    </attribute>
+    <attribute id="RGEKZ" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RGEKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="RGEKZ"/>
+    </attribute>
+    <attribute id="FEVOR" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEVOR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FEVOR"/>
+    </attribute>
+    <attribute id="BEARZ" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEARZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BEARZ"/>
+    </attribute>
+    <attribute id="RUEZT" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RUEZT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="RUEZT"/>
+    </attribute>
+    <attribute id="TRANZ" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRANZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="TRANZ"/>
+    </attribute>
+    <attribute id="BASMG" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BASMG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BASMG"/>
+    </attribute>
+    <attribute id="BASMG_DISP" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BASMG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BASMG_DISP"/>
+    </attribute>
+    <attribute id="DZEIT" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DZEIT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DZEIT"/>
+    </attribute>
+    <attribute id="MAXLZ" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXLZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MAXLZ"/>
+    </attribute>
+    <attribute id="LZEIH" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LZEIH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LZEIH"/>
+    </attribute>
+    <attribute id="KZPRO" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZPRO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZPRO"/>
+    </attribute>
+    <attribute id="GPMKZ" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GPMKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="GPMKZ"/>
+    </attribute>
+    <attribute id="UEETO" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEETO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UEETO"/>
+    </attribute>
+    <attribute id="UEETK" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEETK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UEETK"/>
+    </attribute>
+    <attribute id="UNETO" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNETO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UNETO"/>
+    </attribute>
+    <attribute id="WZEIT" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WZEIT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="WZEIT"/>
+    </attribute>
+    <attribute id="ATPKZ" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATPKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="ATPKZ"/>
+    </attribute>
+    <attribute id="VZUSL" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZUSL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VZUSL"/>
+    </attribute>
+    <attribute id="HERBL" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERBL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="HERBL"/>
+    </attribute>
+    <attribute id="INSMK" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSMK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="INSMK"/>
+    </attribute>
+    <attribute id="SPROZ" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPROZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SPROZ"/>
+    </attribute>
+    <attribute id="QUAZT" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUAZT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="QUAZT"/>
+    </attribute>
+    <attribute id="SSQSS" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SSQSS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SSQSS"/>
+    </attribute>
+    <attribute id="MPDAU" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MPDAU"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MPDAU"/>
+    </attribute>
+    <attribute id="KZPPV" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZPPV"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZPPV"/>
+    </attribute>
+    <attribute id="KZDKZ" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZDKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZDKZ"/>
+    </attribute>
+    <attribute id="WSTGH" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WSTGH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="WSTGH"/>
+    </attribute>
+    <attribute id="PRFRQ" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRFRQ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PRFRQ"/>
+    </attribute>
+    <attribute id="NKMPR" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NKMPR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="NKMPR"/>
+    </attribute>
+    <attribute id="UMLMC" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMLMC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UMLMC"/>
+    </attribute>
+    <attribute id="UMLMC_DISP" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMLMC_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UMLMC_DISP"/>
+    </attribute>
+    <attribute id="LADGR" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LADGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LADGR"/>
+    </attribute>
+    <attribute id="XCHPF" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCHPF"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="XCHPF"/>
+    </attribute>
+    <attribute id="USEQU" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USEQU"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="USEQU"/>
+    </attribute>
+    <attribute id="LGRAD" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGRAD"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LGRAD"/>
+    </attribute>
+    <attribute id="AUFTL" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFTL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="AUFTL"/>
+    </attribute>
+    <attribute id="PLVAR" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLVAR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PLVAR"/>
+    </attribute>
+    <attribute id="OTYPE" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="OTYPE"/>
+    </attribute>
+    <attribute id="OBJID" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJID"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="OBJID"/>
+    </attribute>
+    <attribute id="MTVFP" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MTVFP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MTVFP"/>
+    </attribute>
+    <attribute id="PERIV" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIV"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PERIV"/>
+    </attribute>
+    <attribute id="KZKFK" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKFK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZKFK"/>
+    </attribute>
+    <attribute id="VRVEZ" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRVEZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VRVEZ"/>
+    </attribute>
+    <attribute id="VBAMG" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBAMG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VBAMG"/>
+    </attribute>
+    <attribute id="VBAMG_DISP" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBAMG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VBAMG_DISP"/>
+    </attribute>
+    <attribute id="VBEAZ" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEAZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VBEAZ"/>
+    </attribute>
+    <attribute id="LIZYK" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIZYK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LIZYK"/>
+    </attribute>
+    <attribute id="BWSCL" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWSCL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BWSCL"/>
+    </attribute>
+    <attribute id="KAUTB" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAUTB"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KAUTB"/>
+    </attribute>
+    <attribute id="KORDB" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KORDB"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KORDB"/>
+    </attribute>
+    <attribute id="STAWN" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAWN"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="STAWN"/>
+    </attribute>
+    <attribute id="HERKL" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERKL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="HERKL"/>
+    </attribute>
+    <attribute id="HERKR" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERKR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="HERKR"/>
+    </attribute>
+    <attribute id="EXPME" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXPME"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="EXPME"/>
+    </attribute>
+    <attribute id="MTVER" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MTVER"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MTVER"/>
+    </attribute>
+    <attribute id="PRCTR" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="TRAME" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRAME"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="TRAME"/>
+    </attribute>
+    <attribute id="TRAME_DISP" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRAME_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="TRAME_DISP"/>
+    </attribute>
+    <attribute id="MRPPP" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MRPPP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MRPPP"/>
+    </attribute>
+    <attribute id="SAUFT" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAUFT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SAUFT"/>
+    </attribute>
+    <attribute id="FXHOR" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FXHOR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FXHOR"/>
+    </attribute>
+    <attribute id="VRMOD" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRMOD"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VRMOD"/>
+    </attribute>
+    <attribute id="VINT1" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VINT1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VINT1"/>
+    </attribute>
+    <attribute id="VINT2" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VINT2"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VINT2"/>
+    </attribute>
+    <attribute id="VERKZ" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VERKZ"/>
+    </attribute>
+    <attribute id="STLAL" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLAL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="STLAL"/>
+    </attribute>
+    <attribute id="STLAN" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLAN"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="STLAN"/>
+    </attribute>
+    <attribute id="PLNNR" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PLNNR"/>
+    </attribute>
+    <attribute id="APLAL" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLAL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="APLAL"/>
+    </attribute>
+    <attribute id="LOSGR" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LOSGR"/>
+    </attribute>
+    <attribute id="LOSGR_DISP" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSGR_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LOSGR_DISP"/>
+    </attribute>
+    <attribute id="SOBSK" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBSK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SOBSK"/>
+    </attribute>
+    <attribute id="FRTME" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRTME"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FRTME"/>
+    </attribute>
+    <attribute id="LGPRO" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGPRO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LGPRO"/>
+    </attribute>
+    <attribute id="DISGR" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DISGR"/>
+    </attribute>
+    <attribute id="KAUSF" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAUSF"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KAUSF"/>
+    </attribute>
+    <attribute id="QZGTP" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QZGTP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="QZGTP"/>
+    </attribute>
+    <attribute id="QMATV" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMATV"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="QMATV"/>
+    </attribute>
+    <attribute id="TAKZT" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAKZT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="TAKZT"/>
+    </attribute>
+    <attribute id="RWPRO" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RWPRO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="RWPRO"/>
+    </attribute>
+    <attribute id="COPAM" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COPAM"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="COPAM"/>
+    </attribute>
+    <attribute id="ABCIN" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABCIN"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="ABCIN"/>
+    </attribute>
+    <attribute id="AWSLS" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWSLS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="AWSLS"/>
+    </attribute>
+    <attribute id="SERNP" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SERNP"/>
+    </attribute>
+    <attribute id="CUOBJ" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="CUOBJ"/>
+    </attribute>
+    <attribute id="STDPD" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STDPD"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="STDPD"/>
+    </attribute>
+    <attribute id="SFEPR" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SFEPR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SFEPR"/>
+    </attribute>
+    <attribute id="XMCNG" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMCNG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="XMCNG"/>
+    </attribute>
+    <attribute id="QSSYS" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSSYS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="QSSYS"/>
+    </attribute>
+    <attribute id="LFRHY" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFRHY"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LFRHY"/>
+    </attribute>
+    <attribute id="RDPRF" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RDPRF"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="RDPRF"/>
+    </attribute>
+    <attribute id="VRBMT" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRBMT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VRBMT"/>
+    </attribute>
+    <attribute id="VRBWK" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRBWK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VRBWK"/>
+    </attribute>
+    <attribute id="VRBDT" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRBDT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VRBDT"/>
+    </attribute>
+    <attribute id="VRBFK" order="145" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRBFK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VRBFK"/>
+    </attribute>
+    <attribute id="AUTRU" order="146" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUTRU"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="AUTRU"/>
+    </attribute>
+    <attribute id="PREFE" order="147" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREFE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PREFE"/>
+    </attribute>
+    <attribute id="PRENC" order="148" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRENC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PRENC"/>
+    </attribute>
+    <attribute id="PRENO" order="149" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRENO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PRENO"/>
+    </attribute>
+    <attribute id="PREND" order="150" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREND"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PREND"/>
+    </attribute>
+    <attribute id="PRENE" order="151" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRENE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PRENE"/>
+    </attribute>
+    <attribute id="PRENG" order="152" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRENG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PRENG"/>
+    </attribute>
+    <attribute id="ITARK" order="153" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ITARK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="ITARK"/>
+    </attribute>
+    <attribute id="SERVG" order="154" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERVG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SERVG"/>
+    </attribute>
+    <attribute id="KZKUP" order="155" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKUP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZKUP"/>
+    </attribute>
+    <attribute id="STRGR" order="156" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="STRGR"/>
+    </attribute>
+    <attribute id="CUOBV" order="157" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBV"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="CUOBV"/>
+    </attribute>
+    <attribute id="LGFSB" order="158" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGFSB"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LGFSB"/>
+    </attribute>
+    <attribute id="SCHGT" order="159" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCHGT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SCHGT"/>
+    </attribute>
+    <attribute id="CCFIX" order="160" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCFIX"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="CCFIX"/>
+    </attribute>
+    <attribute id="EPRIO" order="161" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EPRIO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="EPRIO"/>
+    </attribute>
+    <attribute id="QMATA" order="162" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMATA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="QMATA"/>
+    </attribute>
+    <attribute id="RESVP" order="163" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESVP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="RESVP"/>
+    </attribute>
+    <attribute id="PLNTY" order="164" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNTY"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PLNTY"/>
+    </attribute>
+    <attribute id="UOMGR" order="165" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UOMGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UOMGR"/>
+    </attribute>
+    <attribute id="UMRSL" order="166" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMRSL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UMRSL"/>
+    </attribute>
+    <attribute id="ABFAC" order="167" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABFAC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="ABFAC"/>
+    </attribute>
+    <attribute id="SFCPF" order="168" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SFCPF"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SFCPF"/>
+    </attribute>
+    <attribute id="SHFLG" order="169" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHFLG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SHFLG"/>
+    </attribute>
+    <attribute id="SHZET" order="170" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHZET"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SHZET"/>
+    </attribute>
+    <attribute id="MDACH" order="171" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MDACH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MDACH"/>
+    </attribute>
+    <attribute id="KZECH" order="172" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZECH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZECH"/>
+    </attribute>
+    <attribute id="MEGRU" order="173" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEGRU"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MEGRU"/>
+    </attribute>
+    <attribute id="MFRGR" order="174" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFRGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MFRGR"/>
+    </attribute>
+    <attribute id="PROFIL" order="175" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROFIL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="PROFIL"/>
+    </attribute>
+    <attribute id="VERS_CSEG" order="176" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERS_CSEG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VERS_CSEG"/>
+    </attribute>
+    <attribute id="VERS_ACTIVE" order="177" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERS_ACTIVE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VERS_ACTIVE"/>
+    </attribute>
+    <attribute id="VKUMC" order="178" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKUMC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VKUMC"/>
+    </attribute>
+    <attribute id="VKTRW" order="179" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKTRW"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VKTRW"/>
+    </attribute>
+    <attribute id="KZAGL" order="180" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZAGL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZAGL"/>
+    </attribute>
+    <attribute id="FVIDK" order="181" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FVIDK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FVIDK"/>
+    </attribute>
+    <attribute id="FXPRU" order="182" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FXPRU"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FXPRU"/>
+    </attribute>
+    <attribute id="LOGGR" order="183" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LOGGR"/>
+    </attribute>
+    <attribute id="FPRFM" order="184" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FPRFM"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FPRFM"/>
+    </attribute>
+    <attribute id="GLGMG" order="185" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLGMG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="GLGMG"/>
+    </attribute>
+    <attribute id="GLGMG_DISP" order="186" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLGMG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="GLGMG_DISP"/>
+    </attribute>
+    <attribute id="VKGLG" order="187" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKGLG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VKGLG"/>
+    </attribute>
+    <attribute id="INDUS" order="188" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INDUS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="INDUS"/>
+    </attribute>
+    <attribute id="MOWNR" order="189" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MOWNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MOWNR"/>
+    </attribute>
+    <attribute id="MOGRU" order="190" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MOGRU"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MOGRU"/>
+    </attribute>
+    <attribute id="CASNR" order="191" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CASNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="CASNR"/>
+    </attribute>
+    <attribute id="GPNUM" order="192" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GPNUM"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="GPNUM"/>
+    </attribute>
+    <attribute id="STEUC" order="193" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STEUC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="STEUC"/>
+    </attribute>
+    <attribute id="FABKZ" order="194" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FABKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FABKZ"/>
+    </attribute>
+    <attribute id="MATGR" order="195" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATGR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MATGR"/>
+    </attribute>
+    <attribute id="VSPVB" order="196" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VSPVB"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="VSPVB"/>
+    </attribute>
+    <attribute id="DPLFS" order="197" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DPLFS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DPLFS"/>
+    </attribute>
+    <attribute id="DPLPU" order="198" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DPLPU"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DPLPU"/>
+    </attribute>
+    <attribute id="DPLHO" order="199" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DPLHO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DPLHO"/>
+    </attribute>
+    <attribute id="MINLS" order="200" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MINLS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MINLS"/>
+    </attribute>
+    <attribute id="MINLS_DISP" order="201" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MINLS_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MINLS_DISP"/>
+    </attribute>
+    <attribute id="MAXLS" order="202" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXLS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MAXLS"/>
+    </attribute>
+    <attribute id="MAXLS_DISP" order="203" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXLS_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MAXLS_DISP"/>
+    </attribute>
+    <attribute id="FIXLS" order="204" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIXLS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FIXLS"/>
+    </attribute>
+    <attribute id="FIXLS_DISP" order="205" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIXLS_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="FIXLS_DISP"/>
+    </attribute>
+    <attribute id="LTINC" order="206" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTINC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LTINC"/>
+    </attribute>
+    <attribute id="LTINC_DISP" order="207" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTINC_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LTINC_DISP"/>
+    </attribute>
+    <attribute id="COMPL" order="208" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COMPL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="COMPL"/>
+    </attribute>
+    <attribute id="CONVT" order="209" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONVT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="CONVT"/>
+    </attribute>
+    <attribute id="SHPRO" order="210" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHPRO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="SHPRO"/>
+    </attribute>
+    <attribute id="AHDIS" order="211" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AHDIS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="AHDIS"/>
+    </attribute>
+    <attribute id="DIBER" order="212" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DIBER"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DIBER"/>
+    </attribute>
+    <attribute id="KZPSP" order="213" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZPSP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="KZPSP"/>
+    </attribute>
+    <attribute id="OCMPF" order="214" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OCMPF"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="OCMPF"/>
+    </attribute>
+    <attribute id="APOKZ" order="215" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APOKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="APOKZ"/>
+    </attribute>
+    <attribute id="MCRUE" order="216" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MCRUE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MCRUE"/>
+    </attribute>
+    <attribute id="LFMON" order="217" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFMON"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LFMON"/>
+    </attribute>
+    <attribute id="LFGJA" order="218" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFGJA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="LFGJA"/>
+    </attribute>
+    <attribute id="EISLO" order="219" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EISLO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="EISLO"/>
+    </attribute>
+    <attribute id="EISLO_DISP" order="220" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EISLO_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="EISLO_DISP"/>
+    </attribute>
+    <attribute id="NCOST" order="221" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NCOST"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="NCOST"/>
+    </attribute>
+    <attribute id="ROTATION_DATE" order="222" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROTATION_DATE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="ROTATION_DATE"/>
+    </attribute>
+    <attribute id="UCHKZ" order="223" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UCHKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UCHKZ"/>
+    </attribute>
+    <attribute id="UCMAT" order="224" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UCMAT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UCMAT"/>
+    </attribute>
+    <attribute id="BWESB" order="225" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWESB"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BWESB"/>
+    </attribute>
+    <attribute id="BWESB_DISP" order="226" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWESB_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="BWESB_DISP"/>
+    </attribute>
+    <attribute id="NF_FLAG" order="227" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NF_FLAG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="NF_FLAG"/>
+    </attribute>
+    <attribute id="/SAPMP/TOLPRPL" order="228" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/TOLPRPL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="/SAPMP/TOLPRPL"/>
+    </attribute>
+    <attribute id="/SAPMP/TOLPRMI" order="229" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/TOLPRMI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="/SAPMP/TOLPRMI"/>
+    </attribute>
+    <attribute id="/VSO/R_PKGRP" order="230" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_PKGRP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="/VSO/R_PKGRP"/>
+    </attribute>
+    <attribute id="/VSO/R_LANE_NUM" order="231" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_LANE_NUM"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="/VSO/R_LANE_NUM"/>
+    </attribute>
+    <attribute id="/VSO/R_PAL_VEND" order="232" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_PAL_VEND"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="/VSO/R_PAL_VEND"/>
+    </attribute>
+    <attribute id="/VSO/R_FORK_DIR" order="233" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/VSO/R_FORK_DIR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="/VSO/R_FORK_DIR"/>
+    </attribute>
+    <attribute id="IUID_RELEVANT" order="234" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IUID_RELEVANT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="IUID_RELEVANT"/>
+    </attribute>
+    <attribute id="IUID_TYPE" order="235" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IUID_TYPE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="IUID_TYPE"/>
+    </attribute>
+    <attribute id="UID_IEA" order="236" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UID_IEA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="UID_IEA"/>
+    </attribute>
+    <attribute id="DPCBT" order="237" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DPCBT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="DPCBT"/>
+    </attribute>
+    <attribute id="CONS_PROCG" order="238" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONS_PROCG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="CONS_PROCG"/>
+    </attribute>
+    <attribute id="GI_PR_TIME" order="239" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GI_PR_TIME"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="GI_PR_TIME"/>
+    </attribute>
+    <attribute id="MULTIPLE_EKGRP" order="240" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MULTIPLE_EKGRP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MULTIPLE_EKGRP"/>
+    </attribute>
+    <attribute id="REF_SCHEMA" order="241" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REF_SCHEMA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="REF_SCHEMA"/>
+    </attribute>
+    <attribute id="MIN_TROC" order="242" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MIN_TROC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MIN_TROC"/>
+    </attribute>
+    <attribute id="MAX_TROC" order="243" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAX_TROC"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="MAX_TROC"/>
+    </attribute>
+    <attribute id="TARGET_STOCK" order="244" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TARGET_STOCK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="TARGET_STOCK"/>
+    </attribute>
+    <attribute id="TARGET_STOCK_DISP" order="245" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TARGET_STOCK_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_CO26_3" columnName="TARGET_STOCK_DISP"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

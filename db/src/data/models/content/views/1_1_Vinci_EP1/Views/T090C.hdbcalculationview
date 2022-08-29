@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T090C" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T090C"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T090C">
+    <resourceUri>EP1_T090C</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T090C">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="MANDT"/>
+    </attribute>
+    <attribute id="AFAPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFAPL"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="AFAPL"/>
+    </attribute>
+    <attribute id="AFASL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFASL"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="AFASL"/>
+    </attribute>
+    <attribute id="NAFASL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFASL"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="NAFASL"/>
+    </attribute>
+    <attribute id="SAFASL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFASL"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="SAFASL"/>
+    </attribute>
+    <attribute id="ZINSSL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINSSL"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="ZINSSL"/>
+    </attribute>
+    <attribute id="ANHWSL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANHWSL"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="ANHWSL"/>
+    </attribute>
+    <attribute id="XNAAUS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNAAUS"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="XNAAUS"/>
+    </attribute>
+    <attribute id="XZIAUS" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XZIAUS"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="XZIAUS"/>
+    </attribute>
+    <attribute id="NAFVER" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFVER"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="NAFVER"/>
+    </attribute>
+    <attribute id="XNAZUG" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNAZUG"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="XNAZUG"/>
+    </attribute>
+    <attribute id="XPERGJ" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPERGJ"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="XPERGJ"/>
+    </attribute>
+    <attribute id="PROZST" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROZST"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="PROZST"/>
+    </attribute>
+    <attribute id="XUMZUG" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XUMZUG"/>
+      <keyMapping columnObjectName="EP1_T090C" columnName="XUMZUG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

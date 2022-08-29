@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::HR_PA2006" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_HR_PA2006"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_HR_PA2006">
+    <resourceUri>EP1_CV_HR_PA2006</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_HR_PA2006">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="MANDT"/>
+    </attribute>
+    <attribute id="PERNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERNR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="PERNR"/>
+    </attribute>
+    <attribute id="SUBTY" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="SUBTY"/>
+    </attribute>
+    <attribute id="OBJPS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJPS"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="OBJPS"/>
+    </attribute>
+    <attribute id="SPRPS" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRPS"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="SPRPS"/>
+    </attribute>
+    <attribute id="ENDDA" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENDDA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="ENDDA"/>
+    </attribute>
+    <attribute id="BEGDA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGDA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="BEGDA"/>
+    </attribute>
+    <attribute id="SEQNR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEQNR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="SEQNR"/>
+    </attribute>
+    <attribute id="AEDTM" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDTM"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="AEDTM"/>
+    </attribute>
+    <attribute id="UNAME" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNAME"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="UNAME"/>
+    </attribute>
+    <attribute id="HISTO" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HISTO"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="HISTO"/>
+    </attribute>
+    <attribute id="ITXEX" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ITXEX"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="ITXEX"/>
+    </attribute>
+    <attribute id="REFEX" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFEX"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="REFEX"/>
+    </attribute>
+    <attribute id="ORDEX" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORDEX"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="ORDEX"/>
+    </attribute>
+    <attribute id="ITBLD" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ITBLD"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="ITBLD"/>
+    </attribute>
+    <attribute id="PREAS" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREAS"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="PREAS"/>
+    </attribute>
+    <attribute id="FLAG1" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAG1"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="FLAG1"/>
+    </attribute>
+    <attribute id="FLAG2" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAG2"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="FLAG2"/>
+    </attribute>
+    <attribute id="FLAG3" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAG3"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="FLAG3"/>
+    </attribute>
+    <attribute id="FLAG4" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAG4"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="FLAG4"/>
+    </attribute>
+    <attribute id="RESE1" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESE1"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="RESE1"/>
+    </attribute>
+    <attribute id="RESE2" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESE2"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="RESE2"/>
+    </attribute>
+    <attribute id="GRPVL" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRPVL"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="GRPVL"/>
+    </attribute>
+    <attribute id="BEGUZ" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGUZ"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="BEGUZ"/>
+    </attribute>
+    <attribute id="ENDUZ" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENDUZ"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="ENDUZ"/>
+    </attribute>
+    <attribute id="VTKEN" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTKEN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="VTKEN"/>
+    </attribute>
+    <attribute id="KTART" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTART"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="KTART"/>
+    </attribute>
+    <attribute id="ANZHL" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZHL"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="ANZHL"/>
+    </attribute>
+    <attribute id="KVERB" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVERB"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="KVERB"/>
+    </attribute>
+    <attribute id="QUONR" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUONR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="QUONR"/>
+    </attribute>
+    <attribute id="DESTA" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DESTA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="DESTA"/>
+    </attribute>
+    <attribute id="DEEND" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEEND"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="DEEND"/>
+    </attribute>
+    <attribute id="QUOSY" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUOSY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="QUOSY"/>
+    </attribute>
+    <attribute id="TDLANGU" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDLANGU"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="TDLANGU"/>
+    </attribute>
+    <attribute id="TDSUBLA" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDSUBLA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="TDSUBLA"/>
+    </attribute>
+    <attribute id="TDTYPE" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PA2006" columnName="TDTYPE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

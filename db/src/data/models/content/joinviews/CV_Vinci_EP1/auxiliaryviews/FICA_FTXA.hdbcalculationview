@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FICA_FTXA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FICA_FTXA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FICA_FTXA">
+    <resourceUri>EP1_CV_FICA_FTXA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FICA_FTXA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KALSM" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="KALSM"/>
+    </attribute>
+    <attribute id="MWSKZ" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="PRUEF" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRUEF"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="PRUEF"/>
+    </attribute>
+    <attribute id="MWART" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWART"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="MWART"/>
+    </attribute>
+    <attribute id="XMSTU" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMSTU"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="XMSTU"/>
+    </attribute>
+    <attribute id="ZMWSK" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZMWSK"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="ZMWSK"/>
+    </attribute>
+    <attribute id="EGRKZ" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGRKZ"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="EGRKZ"/>
+    </attribute>
+    <attribute id="XSLTA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSLTA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="XSLTA"/>
+    </attribute>
+    <attribute id="PROCD" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROCD"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="PROCD"/>
+    </attribute>
+    <attribute id="TXIND" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXIND"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="TXIND"/>
+    </attribute>
+    <attribute id="TXREL" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXREL"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="TXREL"/>
+    </attribute>
+    <attribute id="LSTML" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTML"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="LSTML"/>
+    </attribute>
+    <attribute id="J_1BUSAGE" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BUSAGE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="J_1BUSAGE"/>
+    </attribute>
+    <attribute id="J_1BISS" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BISS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="J_1BISS"/>
+    </attribute>
+    <attribute id="J_1BTAXLW1" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTAXLW1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="J_1BTAXLW1"/>
+    </attribute>
+    <attribute id="J_1BTAXLW2" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTAXLW2"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="J_1BTAXLW2"/>
+    </attribute>
+    <attribute id="J_1BTXICEX" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTXICEX"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="J_1BTXICEX"/>
+    </attribute>
+    <attribute id="J_1BTXIPEX" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTXIPEX"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="J_1BTXIPEX"/>
+    </attribute>
+    <attribute id="TOLERANCE" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOLERANCE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="TOLERANCE"/>
+    </attribute>
+    <attribute id="ZMWSK_ESA" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZMWSK_ESA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="ZMWSK_ESA"/>
+    </attribute>
+    <attribute id="ZMWSK_ESE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZMWSK_ESE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="ZMWSK_ESE"/>
+    </attribute>
+    <attribute id="NEWDEFTAX" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NEWDEFTAX"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="NEWDEFTAX"/>
+    </attribute>
+    <attribute id="J_1BTAXLW4" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTAXLW4"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="J_1BTAXLW4"/>
+    </attribute>
+    <attribute id="J_1BTAXLW5" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTAXLW5"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="J_1BTAXLW5"/>
+    </attribute>
+    <attribute id="MANDT_1" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KALSM_1" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="KALSM_1"/>
+    </attribute>
+    <attribute id="MWSKZ_1" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="MWSKZ_1"/>
+    </attribute>
+    <attribute id="TEXT1" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEXT1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FTXA" columnName="TEXT1"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T5C1O" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T5C1O"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T5C1O">
+    <resourceUri>EP1_T5C1O</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T5C1O">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T5C1O" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KANTO" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KANTO"/>
+      <keyMapping columnObjectName="EP1_T5C1O" columnName="KANTO"/>
+    </attribute>
+    <attribute id="PLZAR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLZAR"/>
+      <keyMapping columnObjectName="EP1_T5C1O" columnName="PLZAR"/>
+    </attribute>
+    <attribute id="PLZTX" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLZTX"/>
+      <keyMapping columnObjectName="EP1_T5C1O" columnName="PLZTX"/>
+    </attribute>
+    <attribute id="RESRX" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESRX"/>
+      <keyMapping columnObjectName="EP1_T5C1O" columnName="RESRX"/>
+    </attribute>
+    <attribute id="GTEXT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GTEXT"/>
+      <keyMapping columnObjectName="EP1_T5C1O" columnName="GTEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

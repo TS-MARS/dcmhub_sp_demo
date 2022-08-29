@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T685A" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T685A"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T685A">
+    <resourceUri>EP1_T685A</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T685A">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KAPPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="KSCHL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="KRECH" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRECH"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KRECH"/>
+    </attribute>
+    <attribute id="KZBZG" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBZG"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KZBZG"/>
+    </attribute>
+    <attribute id="KNTYP" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTYP"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KNTYP"/>
+    </attribute>
+    <attribute id="KONAU" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONAU"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KONAU"/>
+    </attribute>
+    <attribute id="KMANU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMANU"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KMANU"/>
+    </attribute>
+    <attribute id="GRZGF" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRZGF"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="GRZGF"/>
+    </attribute>
+    <attribute id="GRLNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRLNR"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="GRLNR"/>
+    </attribute>
+    <attribute id="GRMEN" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRMEN"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="GRMEN"/>
+    </attribute>
+    <attribute id="GANZZ" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GANZZ"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="GANZZ"/>
+    </attribute>
+    <attribute id="KGRPE" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KGRPE"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KGRPE"/>
+    </attribute>
+    <attribute id="KRELI" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRELI"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KRELI"/>
+    </attribute>
+    <attribute id="KDUPL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDUPL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KDUPL"/>
+    </attribute>
+    <attribute id="KRUEK" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRUEK"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KRUEK"/>
+    </attribute>
+    <attribute id="KOUPD" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOUPD"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KOUPD"/>
+    </attribute>
+    <attribute id="SOSTA" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOSTA"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="SOSTA"/>
+    </attribute>
+    <attribute id="KOFRS" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOFRS"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KOFRS"/>
+    </attribute>
+    <attribute id="KALSM" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KALSM"/>
+    </attribute>
+    <attribute id="KZNEP" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZNEP"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KZNEP"/>
+    </attribute>
+    <attribute id="KOAID" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOAID"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KOAID"/>
+    </attribute>
+    <attribute id="KKOPF" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKOPF"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KKOPF"/>
+    </attribute>
+    <attribute id="KPOSI" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KPOSI"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KPOSI"/>
+    </attribute>
+    <attribute id="KNEGA" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNEGA"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KNEGA"/>
+    </attribute>
+    <attribute id="TXPRF" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXPRF"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="TXPRF"/>
+    </attribute>
+    <attribute id="KSTPR" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTPR"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KSTPR"/>
+    </attribute>
+    <attribute id="KAEND_BTR" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAEND_BTR"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KAEND_BTR"/>
+    </attribute>
+    <attribute id="KAEND_WRT" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAEND_WRT"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KAEND_WRT"/>
+    </attribute>
+    <attribute id="KAEND_UFK" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAEND_UFK"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KAEND_UFK"/>
+    </attribute>
+    <attribute id="KAEND_RCH" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAEND_RCH"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KAEND_RCH"/>
+    </attribute>
+    <attribute id="KAEND_LOE" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAEND_LOE"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KAEND_LOE"/>
+    </attribute>
+    <attribute id="KAEND_MEH" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAEND_MEH"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KAEND_MEH"/>
+    </attribute>
+    <attribute id="IDXUP" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDXUP"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="IDXUP"/>
+    </attribute>
+    <attribute id="RUKOR" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RUKOR"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="RUKOR"/>
+    </attribute>
+    <attribute id="BOVER" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BOVER"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="BOVER"/>
+    </attribute>
+    <attribute id="KPRDT" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KPRDT"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KPRDT"/>
+    </attribute>
+    <attribute id="STFKZ" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STFKZ"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="STFKZ"/>
+    </attribute>
+    <attribute id="PRECH" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRECH"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="PRECH"/>
+    </attribute>
+    <attribute id="BNKWE" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNKWE"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="BNKWE"/>
+    </attribute>
+    <attribute id="AKTKO" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKTKO"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="AKTKO"/>
+    </attribute>
+    <attribute id="VKKAL" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKKAL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="VKKAL"/>
+    </attribute>
+    <attribute id="VKOBL" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKOBL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="VKOBL"/>
+    </attribute>
+    <attribute id="RKAPPL" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RKAPPL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="RKAPPL"/>
+    </attribute>
+    <attribute id="RKSCHL" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RKSCHL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="RKSCHL"/>
+    </attribute>
+    <attribute id="BERGL" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERGL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="BERGL"/>
+    </attribute>
+    <attribute id="VHART" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VHART"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="VHART"/>
+    </attribute>
+    <attribute id="RDIFA" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RDIFA"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="RDIFA"/>
+    </attribute>
+    <attribute id="KFKIV" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFKIV"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KFKIV"/>
+    </attribute>
+    <attribute id="KVARC" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVARC"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KVARC"/>
+    </attribute>
+    <attribute id="KMENG" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMENG"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KMENG"/>
+    </attribute>
+    <attribute id="MDFLG" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MDFLG"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="MDFLG"/>
+    </attribute>
+    <attribute id="KTREL" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTREL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KTREL"/>
+    </attribute>
+    <attribute id="BNKTK" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNKTK"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="BNKTK"/>
+    </attribute>
+    <attribute id="KFRST" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFRST"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KFRST"/>
+    </attribute>
+    <attribute id="TXTGR" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXTGR"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="TXTGR"/>
+    </attribute>
+    <attribute id="TDID" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDID"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="TDID"/>
+    </attribute>
+    <attribute id="KDELE" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDELE"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KDELE"/>
+    </attribute>
+    <attribute id="KBFLAG" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBFLAG"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="KBFLAG"/>
+    </attribute>
+    <attribute id="PURP" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PURP"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="PURP"/>
+    </attribute>
+    <attribute id="DTASRC" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTASRC"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="DTASRC"/>
+    </attribute>
+    <attribute id="OIGRNET" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIGRNET"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIGRNET"/>
+    </attribute>
+    <attribute id="OIINVCYC" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIINVCYC"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIINVCYC"/>
+    </attribute>
+    <attribute id="OIREPORT" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIREPORT"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIREPORT"/>
+    </attribute>
+    <attribute id="OIHEAD" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIHEAD"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIHEAD"/>
+    </attribute>
+    <attribute id="OIITEM" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIITEM"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIITEM"/>
+    </attribute>
+    <attribute id="OIERRHAN" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIERRHAN"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIERRHAN"/>
+    </attribute>
+    <attribute id="OIDATA" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIDATA"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIDATA"/>
+    </attribute>
+    <attribute id="OIA_SPLTIV" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIA_SPLTIV"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIA_SPLTIV"/>
+    </attribute>
+    <attribute id="OIRCONDCL" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIRCONDCL"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIRCONDCL"/>
+    </attribute>
+    <attribute id="OIU_EP" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIU_EP"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="OIU_EP"/>
+    </attribute>
+    <attribute id="WTY_KONDM" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTY_KONDM"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="WTY_KONDM"/>
+    </attribute>
+    <attribute id="WTY_KATEG" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WTY_KATEG"/>
+      <keyMapping columnObjectName="EP1_T685A" columnName="WTY_KATEG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

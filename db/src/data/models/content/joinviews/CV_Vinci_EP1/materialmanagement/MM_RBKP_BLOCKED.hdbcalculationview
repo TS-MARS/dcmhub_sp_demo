@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_RBKP_BLOCKED" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_RBKP_BLOCKED"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_MM_RBKP_BLOCKED">
+    <resourceUri>EP1_CV_MM_RBKP_BLOCKED</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_MM_RBKP_BLOCKED">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MRM_ZLSPR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MRM_ZLSPR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="MRM_ZLSPR"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="LIFNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="BELNR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="BELNR"/>
+    </attribute>
+    <attribute id="USNAM" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USNAM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="USNAM"/>
+    </attribute>
+    <attribute id="BUDAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="EKGRP" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKGRP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="EKGRP"/>
+    </attribute>
+    <attribute id="FAELL" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAELL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_RBKP_BLOCKED" columnName="FAELL"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

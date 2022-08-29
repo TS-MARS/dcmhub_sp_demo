@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CA_CT04" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CA_CT04"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CA_CT04">
+    <resourceUri>EP1_CV_CA_CT04</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CA_CT04">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="MANDT"/>
+    </attribute>
+    <attribute id="OBJEK" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJEK"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="OBJEK"/>
+    </attribute>
+    <attribute id="MAFID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFID"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="MAFID"/>
+    </attribute>
+    <attribute id="KLART" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLART"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="KLART"/>
+    </attribute>
+    <attribute id="CLINT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLINT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="CLINT"/>
+    </attribute>
+    <attribute id="ADZHL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADZHL"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ADZHL"/>
+    </attribute>
+    <attribute id="ZAEHL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ZAEHL"/>
+    </attribute>
+    <attribute id="STATU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATU"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="STATU"/>
+    </attribute>
+    <attribute id="STDCL" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STDCL"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="STDCL"/>
+    </attribute>
+    <attribute id="REKRI" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REKRI"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="REKRI"/>
+    </attribute>
+    <attribute id="AENNR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="AENNR"/>
+    </attribute>
+    <attribute id="DATUV" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="DATUV"/>
+    </attribute>
+    <attribute id="LKENZ" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="LKENZ"/>
+    </attribute>
+    <attribute id="MANDT_1" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="OBJEK_1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJEK_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="OBJEK_1"/>
+    </attribute>
+    <attribute id="ATINN" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATINN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATINN"/>
+    </attribute>
+    <attribute id="ATZHL" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATZHL"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATZHL"/>
+    </attribute>
+    <attribute id="MAFID_1" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFID_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="MAFID_1"/>
+    </attribute>
+    <attribute id="KLART_1" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLART_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="KLART_1"/>
+    </attribute>
+    <attribute id="ADZHL_1" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADZHL_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ADZHL_1"/>
+    </attribute>
+    <attribute id="ATWRT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATWRT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATWRT"/>
+    </attribute>
+    <attribute id="ATFLV" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATFLV"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATFLV"/>
+    </attribute>
+    <attribute id="ATAWE" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATAWE"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATAWE"/>
+    </attribute>
+    <attribute id="ATFLB" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATFLB"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATFLB"/>
+    </attribute>
+    <attribute id="ATAW1" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATAW1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATAW1"/>
+    </attribute>
+    <attribute id="ATCOD" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATCOD"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATCOD"/>
+    </attribute>
+    <attribute id="ATTLV" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATTLV"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATTLV"/>
+    </attribute>
+    <attribute id="ATTLB" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATTLB"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATTLB"/>
+    </attribute>
+    <attribute id="ATPRZ" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATPRZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATPRZ"/>
+    </attribute>
+    <attribute id="ATINC" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATINC"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATINC"/>
+    </attribute>
+    <attribute id="ATAUT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATAUT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATAUT"/>
+    </attribute>
+    <attribute id="AENNR_1" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="AENNR_1"/>
+    </attribute>
+    <attribute id="DATUV_1" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="DATUV_1"/>
+    </attribute>
+    <attribute id="LKENZ_1" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="LKENZ_1"/>
+    </attribute>
+    <attribute id="ATIMB" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATIMB"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATIMB"/>
+    </attribute>
+    <attribute id="ATZIS" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATZIS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATZIS"/>
+    </attribute>
+    <attribute id="ATSRT" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATSRT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATSRT"/>
+    </attribute>
+    <attribute id="ATVGLART" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATVGLART"/>
+      <keyMapping columnObjectName="EP1_CV_CA_CT04" columnName="ATVGLART"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

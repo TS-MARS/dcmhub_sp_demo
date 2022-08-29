@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAA_OAV9" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAA_OAV9"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FIAA_OAV9">
+    <resourceUri>EP1_CV_FIAA_OAV9</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FIAA_OAV9">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_OAV9" columnName="MANDT"/>
+    </attribute>
+    <attribute id="GITTGR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GITTGR"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_OAV9" columnName="GITTGR"/>
+    </attribute>
+    <attribute id="MANDT_1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_OAV9" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_OAV9" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="GITTGR_1" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GITTGR_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_OAV9" columnName="GITTGR_1"/>
+    </attribute>
+    <attribute id="GGRTXT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GGRTXT"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA_OAV9" columnName="GGRTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

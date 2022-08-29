@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::HR_T5UBA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_HR_T5UBA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_HR_T5UBA">
+    <resourceUri>EP1_CV_HR_T5UBA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_HR_T5UBA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BAREA" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAREA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BAREA"/>
+    </attribute>
+    <attribute id="BPLAN" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPLAN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BPLAN"/>
+    </attribute>
+    <attribute id="ENDDA" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENDDA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="ENDDA"/>
+    </attribute>
+    <attribute id="BEGDA" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGDA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BEGDA"/>
+    </attribute>
+    <attribute id="PLTYP" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLTYP"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PLTYP"/>
+    </attribute>
+    <attribute id="CRENR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CRENR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CRENR"/>
+    </attribute>
+    <attribute id="PLNNO" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNNO"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PLNNO"/>
+    </attribute>
+    <attribute id="PLSTA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLSTA"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PLSTA"/>
+    </attribute>
+    <attribute id="RLPVR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLPVR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="RLPVR"/>
+    </attribute>
+    <attribute id="COBOK" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COBOK"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="COBOK"/>
+    </attribute>
+    <attribute id="IMPUT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMPUT"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="IMPUT"/>
+    </attribute>
+    <attribute id="DEFER" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEFER"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="DEFER"/>
+    </attribute>
+    <attribute id="FLXCR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLXCR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="FLXCR"/>
+    </attribute>
+    <attribute id="GTLIF" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GTLIF"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="GTLIF"/>
+    </attribute>
+    <attribute id="CSTCR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CSTCR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CSTCR"/>
+    </attribute>
+    <attribute id="ERNOC" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNOC"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="ERNOC"/>
+    </attribute>
+    <attribute id="L457S" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="L457S"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="L457S"/>
+    </attribute>
+    <attribute id="L403B" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="L403B"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="L403B"/>
+    </attribute>
+    <attribute id="EEOWN" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EEOWN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="EEOWN"/>
+    </attribute>
+    <attribute id="TPASV" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPASV"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="TPASV"/>
+    </attribute>
+    <attribute id="CMTSV" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CMTSV"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CMTSV"/>
+    </attribute>
+    <attribute id="CPMOD" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPMOD"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CPMOD"/>
+    </attribute>
+    <attribute id="CPMOH" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPMOH"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CPMOH"/>
+    </attribute>
+    <attribute id="EQSCH" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQSCH"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="EQSCH"/>
+    </attribute>
+    <attribute id="EQHRS" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQHRS"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="EQHRS"/>
+    </attribute>
+    <attribute id="EQPER" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQPER"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="EQPER"/>
+    </attribute>
+    <attribute id="LNCOD" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNCOD"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="LNCOD"/>
+    </attribute>
+    <attribute id="SPARQ" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPARQ"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="SPARQ"/>
+    </attribute>
+    <attribute id="PRDED" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRDED"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PRDED"/>
+    </attribute>
+    <attribute id="DEPYN" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEPYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="DEPYN"/>
+    </attribute>
+    <attribute id="BENYN" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BENYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BENYN"/>
+    </attribute>
+    <attribute id="EEBYN" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EEBYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="EEBYN"/>
+    </attribute>
+    <attribute id="CTGYN" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CTGYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CTGYN"/>
+    </attribute>
+    <attribute id="INVYN" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="INVYN"/>
+    </attribute>
+    <attribute id="PREYN" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PREYN"/>
+    </attribute>
+    <attribute id="PSTYN" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PSTYN"/>
+    </attribute>
+    <attribute id="CSTYN" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CSTYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CSTYN"/>
+    </attribute>
+    <attribute id="CRDYN" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CRDYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CRDYN"/>
+    </attribute>
+    <attribute id="COVYN" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COVYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="COVYN"/>
+    </attribute>
+    <attribute id="EECYN" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EECYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="EECYN"/>
+    </attribute>
+    <attribute id="ERCYN" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERCYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="ERCYN"/>
+    </attribute>
+    <attribute id="VESYN" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VESYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="VESYN"/>
+    </attribute>
+    <attribute id="BONYN" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BONYN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BONYN"/>
+    </attribute>
+    <attribute id="EEWTY" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EEWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="EEWTY"/>
+    </attribute>
+    <attribute id="PTWTY" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PTWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PTWTY"/>
+    </attribute>
+    <attribute id="ERWTY" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="ERWTY"/>
+    </attribute>
+    <attribute id="TBWTY" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TBWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="TBWTY"/>
+    </attribute>
+    <attribute id="BEWTY" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BEWTY"/>
+    </attribute>
+    <attribute id="BPWTY" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BPWTY"/>
+    </attribute>
+    <attribute id="BRWTY" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BRWTY"/>
+    </attribute>
+    <attribute id="BTWTY" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BTWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BTWTY"/>
+    </attribute>
+    <attribute id="PRWTY" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PRWTY"/>
+    </attribute>
+    <attribute id="BSWTY" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="BSWTY"/>
+    </attribute>
+    <attribute id="INWTY" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="INWTY"/>
+    </attribute>
+    <attribute id="CPWTY" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="CPWTY"/>
+    </attribute>
+    <attribute id="IIWTY" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IIWTY"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="IIWTY"/>
+    </attribute>
+    <attribute id="URLPL" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="URLPL"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="URLPL"/>
+    </attribute>
+    <attribute id="PPLAN" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPLAN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="PPLAN"/>
+    </attribute>
+    <attribute id="ROTHP" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROTHP"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="ROTHP"/>
+    </attribute>
+    <attribute id="HSAPL" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSAPL"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="HSAPL"/>
+    </attribute>
+    <attribute id="COBSR" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COBSR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="COBSR"/>
+    </attribute>
+    <attribute id="COBCM" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COBCM"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T5UBA" columnName="COBCM"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

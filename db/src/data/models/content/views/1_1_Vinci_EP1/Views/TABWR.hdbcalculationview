@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TABWR" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TABWR"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TABWR">
+    <resourceUri>EP1_TABWR</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TABWR">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_TABWR" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_TABWR" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="GITTGR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GITTGR"/>
+      <keyMapping columnObjectName="EP1_TABWR" columnName="GITTGR"/>
+    </attribute>
+    <attribute id="GGRTXT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GGRTXT"/>
+      <keyMapping columnObjectName="EP1_TABWR" columnName="GGRTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

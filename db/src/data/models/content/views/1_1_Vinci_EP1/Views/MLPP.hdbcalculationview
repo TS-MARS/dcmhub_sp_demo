@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MLPP" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table MLPP"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_MLPP">
+    <resourceUri>EP1_MLPP</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_MLPP">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BELNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="BELNR"/>
+    </attribute>
+    <attribute id="KJAHR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KJAHR"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="KJAHR"/>
+    </attribute>
+    <attribute id="POSNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="POSNR"/>
+    </attribute>
+    <attribute id="BDATJ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDATJ"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="BDATJ"/>
+    </attribute>
+    <attribute id="POPER" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POPER"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="POPER"/>
+    </attribute>
+    <attribute id="BUDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="PERART" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERART"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="PERART"/>
+    </attribute>
+    <attribute id="LBKUM" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LBKUM"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="LBKUM"/>
+    </attribute>
+    <attribute id="LBKUM_OLD" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LBKUM_OLD"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="LBKUM_OLD"/>
+    </attribute>
+    <attribute id="UNTPER" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNTPER"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="UNTPER"/>
+    </attribute>
+    <attribute id="BKLAS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKLAS"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="BKLAS"/>
+    </attribute>
+    <attribute id="XKONCHK" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKONCHK"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="XKONCHK"/>
+    </attribute>
+    <attribute id="STATUS" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATUS"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="STATUS"/>
+    </attribute>
+    <attribute id="MODIF" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MODIF"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="MODIF"/>
+    </attribute>
+    <attribute id="XVNB" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVNB"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="XVNB"/>
+    </attribute>
+    <attribute id="XWIP" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XWIP"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="XWIP"/>
+    </attribute>
+    <attribute id="XOBJWIP" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XOBJWIP"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="XOBJWIP"/>
+    </attribute>
+    <attribute id="XNOPL" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNOPL"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="XNOPL"/>
+    </attribute>
+    <attribute id="XCKMM" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCKMM"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="XCKMM"/>
+    </attribute>
+    <attribute id="XCLEAN" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCLEAN"/>
+      <keyMapping columnObjectName="EP1_MLPP" columnName="XCLEAN"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

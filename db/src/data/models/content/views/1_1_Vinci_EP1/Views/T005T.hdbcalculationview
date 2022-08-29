@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T005T" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T005T"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T005T">
+    <resourceUri>EP1_T005T</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T005T">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T005T" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_T005T" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="LAND1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="EP1_T005T" columnName="LAND1"/>
+    </attribute>
+    <attribute id="LANDX" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDX"/>
+      <keyMapping columnObjectName="EP1_T005T" columnName="LANDX"/>
+    </attribute>
+    <attribute id="NATIO" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NATIO"/>
+      <keyMapping columnObjectName="EP1_T005T" columnName="NATIO"/>
+    </attribute>
+    <attribute id="LANDX50" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDX50"/>
+      <keyMapping columnObjectName="EP1_T005T" columnName="LANDX50"/>
+    </attribute>
+    <attribute id="NATIO50" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NATIO50"/>
+      <keyMapping columnObjectName="EP1_T005T" columnName="NATIO50"/>
+    </attribute>
+    <attribute id="PRQ_SPREGT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRQ_SPREGT"/>
+      <keyMapping columnObjectName="EP1_T005T" columnName="PRQ_SPREGT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

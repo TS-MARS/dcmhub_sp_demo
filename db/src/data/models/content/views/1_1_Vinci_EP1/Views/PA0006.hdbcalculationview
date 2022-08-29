@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PA0006" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table PA0006"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_PA0006">
+    <resourceUri>EP1_PA0006</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_PA0006">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="MANDT"/>
+    </attribute>
+    <attribute id="PERNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERNR"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="PERNR"/>
+    </attribute>
+    <attribute id="SUBTY" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBTY"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="SUBTY"/>
+    </attribute>
+    <attribute id="OBJPS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJPS"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="OBJPS"/>
+    </attribute>
+    <attribute id="SPRPS" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRPS"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="SPRPS"/>
+    </attribute>
+    <attribute id="ENDDA" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENDDA"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ENDDA"/>
+    </attribute>
+    <attribute id="BEGDA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGDA"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="BEGDA"/>
+    </attribute>
+    <attribute id="SEQNR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEQNR"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="SEQNR"/>
+    </attribute>
+    <attribute id="AEDTM" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDTM"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="AEDTM"/>
+    </attribute>
+    <attribute id="UNAME" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNAME"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="UNAME"/>
+    </attribute>
+    <attribute id="HISTO" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HISTO"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="HISTO"/>
+    </attribute>
+    <attribute id="ITXEX" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ITXEX"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ITXEX"/>
+    </attribute>
+    <attribute id="REFEX" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFEX"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="REFEX"/>
+    </attribute>
+    <attribute id="ORDEX" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORDEX"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ORDEX"/>
+    </attribute>
+    <attribute id="ITBLD" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ITBLD"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ITBLD"/>
+    </attribute>
+    <attribute id="PREAS" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREAS"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="PREAS"/>
+    </attribute>
+    <attribute id="FLAG1" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAG1"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="FLAG1"/>
+    </attribute>
+    <attribute id="FLAG2" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAG2"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="FLAG2"/>
+    </attribute>
+    <attribute id="FLAG3" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAG3"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="FLAG3"/>
+    </attribute>
+    <attribute id="FLAG4" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAG4"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="FLAG4"/>
+    </attribute>
+    <attribute id="RESE1" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESE1"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="RESE1"/>
+    </attribute>
+    <attribute id="RESE2" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESE2"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="RESE2"/>
+    </attribute>
+    <attribute id="GRPVL" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRPVL"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="GRPVL"/>
+    </attribute>
+    <attribute id="ANSSA" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANSSA"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ANSSA"/>
+    </attribute>
+    <attribute id="NAME2" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME2"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="NAME2"/>
+    </attribute>
+    <attribute id="STRAS" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRAS"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="STRAS"/>
+    </attribute>
+    <attribute id="ORT01" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ORT01"/>
+    </attribute>
+    <attribute id="ORT02" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT02"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ORT02"/>
+    </attribute>
+    <attribute id="PSTLZ" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTLZ"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="PSTLZ"/>
+    </attribute>
+    <attribute id="LAND1" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="LAND1"/>
+    </attribute>
+    <attribute id="TELNR" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TELNR"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="TELNR"/>
+    </attribute>
+    <attribute id="ENTKM" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENTKM"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ENTKM"/>
+    </attribute>
+    <attribute id="WKWNG" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKWNG"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="WKWNG"/>
+    </attribute>
+    <attribute id="BUSRT" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUSRT"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="BUSRT"/>
+    </attribute>
+    <attribute id="LOCAT" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOCAT"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="LOCAT"/>
+    </attribute>
+    <attribute id="ADR03" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADR03"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ADR03"/>
+    </attribute>
+    <attribute id="ADR04" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADR04"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ADR04"/>
+    </attribute>
+    <attribute id="STATE" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATE"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="STATE"/>
+    </attribute>
+    <attribute id="HSNMR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSNMR"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="HSNMR"/>
+    </attribute>
+    <attribute id="POSTA" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSTA"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="POSTA"/>
+    </attribute>
+    <attribute id="BLDNG" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDNG"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="BLDNG"/>
+    </attribute>
+    <attribute id="FLOOR" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLOOR"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="FLOOR"/>
+    </attribute>
+    <attribute id="STRDS" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRDS"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="STRDS"/>
+    </attribute>
+    <attribute id="ENTK2" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENTK2"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="ENTK2"/>
+    </attribute>
+    <attribute id="COM01" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COM01"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="COM01"/>
+    </attribute>
+    <attribute id="NUM01" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUM01"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="NUM01"/>
+    </attribute>
+    <attribute id="COM02" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COM02"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="COM02"/>
+    </attribute>
+    <attribute id="NUM02" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUM02"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="NUM02"/>
+    </attribute>
+    <attribute id="COM03" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COM03"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="COM03"/>
+    </attribute>
+    <attribute id="NUM03" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUM03"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="NUM03"/>
+    </attribute>
+    <attribute id="COM04" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COM04"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="COM04"/>
+    </attribute>
+    <attribute id="NUM04" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUM04"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="NUM04"/>
+    </attribute>
+    <attribute id="COM05" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COM05"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="COM05"/>
+    </attribute>
+    <attribute id="NUM05" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUM05"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="NUM05"/>
+    </attribute>
+    <attribute id="COM06" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COM06"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="COM06"/>
+    </attribute>
+    <attribute id="NUM06" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUM06"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="NUM06"/>
+    </attribute>
+    <attribute id="INDRL" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INDRL"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="INDRL"/>
+    </attribute>
+    <attribute id="COUNC" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COUNC"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="COUNC"/>
+    </attribute>
+    <attribute id="RCTVC" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCTVC"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="RCTVC"/>
+    </attribute>
+    <attribute id="OR2KK" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OR2KK"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="OR2KK"/>
+    </attribute>
+    <attribute id="CONKK" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONKK"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="CONKK"/>
+    </attribute>
+    <attribute id="OR1KK" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OR1KK"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="OR1KK"/>
+    </attribute>
+    <attribute id="RAILW" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RAILW"/>
+      <keyMapping columnObjectName="EP1_PA0006" columnName="RAILW"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

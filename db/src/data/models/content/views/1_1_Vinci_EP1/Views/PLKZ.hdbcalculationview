@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PLKZ" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table PLKZ"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_PLKZ">
+    <resourceUri>EP1_PLKZ</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_PLKZ">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="MANDT"/>
+    </attribute>
+    <attribute id="PLNTY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNTY"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="PLNTY"/>
+    </attribute>
+    <attribute id="PLNNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNNR"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="PLNNR"/>
+    </attribute>
+    <attribute id="PLNAL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNAL"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="PLNAL"/>
+    </attribute>
+    <attribute id="ABDAT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABDAT"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="ABDAT"/>
+    </attribute>
+    <attribute id="ABANZ" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABANZ"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="ABANZ"/>
+    </attribute>
+    <attribute id="AEDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="AEUZEIT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEUZEIT"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="AEUZEIT"/>
+    </attribute>
+    <attribute id="AENAM" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="AENAM"/>
+    </attribute>
+    <attribute id="DELKZ" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELKZ"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="DELKZ"/>
+    </attribute>
+    <attribute id="STAUFG" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAUFG"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="STAUFG"/>
+    </attribute>
+    <attribute id="FLG_ECM" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLG_ECM"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="FLG_ECM"/>
+    </attribute>
+    <attribute id="FLG_ECM_PAR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLG_ECM_PAR"/>
+      <keyMapping columnObjectName="EP1_PLKZ" columnName="FLG_ECM_PAR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

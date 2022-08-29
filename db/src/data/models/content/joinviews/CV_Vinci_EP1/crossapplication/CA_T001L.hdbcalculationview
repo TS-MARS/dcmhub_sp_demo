@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CA_T001L" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CA_T001L"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CA_T001L">
+    <resourceUri>EP1_CV_CA_T001L</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CA_T001L">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="MANDT"/>
+    </attribute>
+    <attribute id="WERKS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="WERKS"/>
+    </attribute>
+    <attribute id="LGORT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGORT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="LGORT"/>
+    </attribute>
+    <attribute id="LGOBE" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGOBE"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="LGOBE"/>
+    </attribute>
+    <attribute id="SPART" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="SPART"/>
+    </attribute>
+    <attribute id="XLONG" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLONG"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="XLONG"/>
+    </attribute>
+    <attribute id="XBUFX" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBUFX"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="XBUFX"/>
+    </attribute>
+    <attribute id="DISKZ" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="DISKZ"/>
+    </attribute>
+    <attribute id="XBLGO" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLGO"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="XBLGO"/>
+    </attribute>
+    <attribute id="XRESS" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRESS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="XRESS"/>
+    </attribute>
+    <attribute id="XHUPF" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XHUPF"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="XHUPF"/>
+    </attribute>
+    <attribute id="PARLG" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARLG"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="PARLG"/>
+    </attribute>
+    <attribute id="VKORG" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKORG"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="VKORG"/>
+    </attribute>
+    <attribute id="VTWEG" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEG"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="VTWEG"/>
+    </attribute>
+    <attribute id="VSTEL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VSTEL"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="VSTEL"/>
+    </attribute>
+    <attribute id="LIFNR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="KUNNR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="MESBS" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MESBS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="MESBS"/>
+    </attribute>
+    <attribute id="MESST" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MESST"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="MESST"/>
+    </attribute>
+    <attribute id="OIH_LICNO" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIH_LICNO"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="OIH_LICNO"/>
+    </attribute>
+    <attribute id="OIG_ITRFL" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIG_ITRFL"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="OIG_ITRFL"/>
+    </attribute>
+    <attribute id="OIB_TNKASSIGN" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OIB_TNKASSIGN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T001L" columnName="OIB_TNKASSIGN"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

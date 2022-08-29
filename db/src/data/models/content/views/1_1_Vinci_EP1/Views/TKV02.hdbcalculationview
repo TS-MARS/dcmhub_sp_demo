@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TKV02" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TKV02"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TKV02">
+    <resourceUri>EP1_TKV02</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TKV02">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_TKV02" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_TKV02" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="AWOBA" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWOBA"/>
+      <keyMapping columnObjectName="EP1_TKV02" columnName="AWOBA"/>
+    </attribute>
+    <attribute id="AWSLS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWSLS"/>
+      <keyMapping columnObjectName="EP1_TKV02" columnName="AWSLS"/>
+    </attribute>
+    <attribute id="AWSTX" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWSTX"/>
+      <keyMapping columnObjectName="EP1_TKV02" columnName="AWSTX"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

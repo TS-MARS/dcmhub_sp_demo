@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FICA_FBN1" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FICA_FBN1"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FICA_FBN1">
+    <resourceUri>EP1_CV_FICA_FBN1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FICA_FBN1">
+  <attributes>
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLIENT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="CLIENT"/>
+    </attribute>
+    <attribute id="OBJECT" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJECT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="OBJECT"/>
+    </attribute>
+    <attribute id="SUBOBJECT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBOBJECT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="SUBOBJECT"/>
+    </attribute>
+    <attribute id="NRRANGENR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NRRANGENR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="NRRANGENR"/>
+    </attribute>
+    <attribute id="TOYEAR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOYEAR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="TOYEAR"/>
+    </attribute>
+    <attribute id="FROMNUMBER" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FROMNUMBER"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="FROMNUMBER"/>
+    </attribute>
+    <attribute id="TONUMBER" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TONUMBER"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="TONUMBER"/>
+    </attribute>
+    <attribute id="NRLEVEL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NRLEVEL"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="NRLEVEL"/>
+    </attribute>
+    <attribute id="EXTERNIND" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXTERNIND"/>
+      <keyMapping columnObjectName="EP1_CV_FICA_FBN1" columnName="EXTERNIND"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

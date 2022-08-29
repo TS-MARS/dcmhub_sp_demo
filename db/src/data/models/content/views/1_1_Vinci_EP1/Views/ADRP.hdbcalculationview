@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ADRP" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table ADRP"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_ADRP">
+    <resourceUri>EP1_ADRP</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_ADRP">
+  <attributes>
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLIENT"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="CLIENT"/>
+    </attribute>
+    <attribute id="PERSNUMBER" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERSNUMBER"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="PERSNUMBER"/>
+    </attribute>
+    <attribute id="DATE_FROM" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATE_FROM"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="DATE_FROM"/>
+    </attribute>
+    <attribute id="NATION" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NATION"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NATION"/>
+    </attribute>
+    <attribute id="DATE_TO" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATE_TO"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="DATE_TO"/>
+    </attribute>
+    <attribute id="TITLE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TITLE"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="TITLE"/>
+    </attribute>
+    <attribute id="NAME_FIRST" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME_FIRST"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NAME_FIRST"/>
+    </attribute>
+    <attribute id="NAME_LAST" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME_LAST"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NAME_LAST"/>
+    </attribute>
+    <attribute id="NAME2" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME2"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NAME2"/>
+    </attribute>
+    <attribute id="NAMEMIDDLE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAMEMIDDLE"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NAMEMIDDLE"/>
+    </attribute>
+    <attribute id="NAME_LAST2" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME_LAST2"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NAME_LAST2"/>
+    </attribute>
+    <attribute id="NAME_TEXT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME_TEXT"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NAME_TEXT"/>
+    </attribute>
+    <attribute id="CONVERTED" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONVERTED"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="CONVERTED"/>
+    </attribute>
+    <attribute id="TITLE_ACA1" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TITLE_ACA1"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="TITLE_ACA1"/>
+    </attribute>
+    <attribute id="TITLE_ACA2" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TITLE_ACA2"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="TITLE_ACA2"/>
+    </attribute>
+    <attribute id="PREFIX1" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREFIX1"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="PREFIX1"/>
+    </attribute>
+    <attribute id="PREFIX2" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREFIX2"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="PREFIX2"/>
+    </attribute>
+    <attribute id="TITLE_SPPL" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TITLE_SPPL"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="TITLE_SPPL"/>
+    </attribute>
+    <attribute id="NICKNAME" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NICKNAME"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NICKNAME"/>
+    </attribute>
+    <attribute id="INITIALS" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INITIALS"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="INITIALS"/>
+    </attribute>
+    <attribute id="NAMEFORMAT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAMEFORMAT"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NAMEFORMAT"/>
+    </attribute>
+    <attribute id="NAMCOUNTRY" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAMCOUNTRY"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="NAMCOUNTRY"/>
+    </attribute>
+    <attribute id="PROFESSION" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROFESSION"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="PROFESSION"/>
+    </attribute>
+    <attribute id="SEX" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEX"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="SEX"/>
+    </attribute>
+    <attribute id="LANGU" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="LANGU"/>
+    </attribute>
+    <attribute id="PERS_GROUP" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERS_GROUP"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="PERS_GROUP"/>
+    </attribute>
+    <attribute id="FLAGGROUPS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGGROUPS"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="FLAGGROUPS"/>
+    </attribute>
+    <attribute id="SORT1" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT1"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="SORT1"/>
+    </attribute>
+    <attribute id="SORT2" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT2"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="SORT2"/>
+    </attribute>
+    <attribute id="SORT_PHN" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT_PHN"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="SORT_PHN"/>
+    </attribute>
+    <attribute id="ADDR_COMP" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDR_COMP"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="ADDR_COMP"/>
+    </attribute>
+    <attribute id="ADDR_PERS" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDR_PERS"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="ADDR_PERS"/>
+    </attribute>
+    <attribute id="FLPERSTEL" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLPERSTEL"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="FLPERSTEL"/>
+    </attribute>
+    <attribute id="FLPERSCOMM" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLPERSCOMM"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="FLPERSCOMM"/>
+    </attribute>
+    <attribute id="PERSORIGIN" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERSORIGIN"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="PERSORIGIN"/>
+    </attribute>
+    <attribute id="MC_NAMEFIR" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MC_NAMEFIR"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="MC_NAMEFIR"/>
+    </attribute>
+    <attribute id="MC_NAMELAS" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MC_NAMELAS"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="MC_NAMELAS"/>
+    </attribute>
+    <attribute id="MC_NAME2" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MC_NAME2"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="MC_NAME2"/>
+    </attribute>
+    <attribute id="LANGU_CREA" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU_CREA"/>
+      <keyMapping columnObjectName="EP1_ADRP" columnName="LANGU_CREA"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TCURN" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TCURN"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TCURN">
+    <resourceUri>EP1_TCURN</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TCURN">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_TCURN" columnName="MANDT"/>
+    </attribute>
+    <attribute id="FCURR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FCURR"/>
+      <keyMapping columnObjectName="EP1_TCURN" columnName="FCURR"/>
+    </attribute>
+    <attribute id="TCURR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TCURR"/>
+      <keyMapping columnObjectName="EP1_TCURN" columnName="TCURR"/>
+    </attribute>
+    <attribute id="GDATU" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GDATU"/>
+      <keyMapping columnObjectName="EP1_TCURN" columnName="GDATU"/>
+    </attribute>
+    <attribute id="NOTATION" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOTATION"/>
+      <keyMapping columnObjectName="EP1_TCURN" columnName="NOTATION"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

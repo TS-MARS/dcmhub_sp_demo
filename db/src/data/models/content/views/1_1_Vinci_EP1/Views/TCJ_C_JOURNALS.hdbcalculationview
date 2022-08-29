@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TCJ_C_JOURNALS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TCJ_C_JOURNALS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TCJ_C_JOURNALS">
+    <resourceUri>EP1_TCJ_C_JOURNALS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TCJ_C_JOURNALS">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="MANDT"/>
+    </attribute>
+    <attribute id="COMP_CODE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COMP_CODE"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="COMP_CODE"/>
+    </attribute>
+    <attribute id="CAJO_NUMBER" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAJO_NUMBER"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="CAJO_NUMBER"/>
+    </attribute>
+    <attribute id="GL_ACCOUNT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GL_ACCOUNT"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="GL_ACCOUNT"/>
+    </attribute>
+    <attribute id="CURRENCY" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURRENCY"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="CURRENCY"/>
+    </attribute>
+    <attribute id="DOC_TYPE_SK" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOC_TYPE_SK"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="DOC_TYPE_SK"/>
+    </attribute>
+    <attribute id="DOC_TYPE_SO" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOC_TYPE_SO"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="DOC_TYPE_SO"/>
+    </attribute>
+    <attribute id="DOC_TYPE_KZ" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOC_TYPE_KZ"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="DOC_TYPE_KZ"/>
+    </attribute>
+    <attribute id="DOC_TYPE_KG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOC_TYPE_KG"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="DOC_TYPE_KG"/>
+    </attribute>
+    <attribute id="DOC_TYPE_DZ" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOC_TYPE_DZ"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="DOC_TYPE_DZ"/>
+    </attribute>
+    <attribute id="DOC_TYPE_DG" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOC_TYPE_DG"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="DOC_TYPE_DG"/>
+    </attribute>
+    <attribute id="BEGRU" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGRU"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="BEGRU"/>
+    </attribute>
+    <attribute id="PERSON1" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERSON1"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="PERSON1"/>
+    </attribute>
+    <attribute id="PERSON2" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERSON2"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="PERSON2"/>
+    </attribute>
+    <attribute id="TEXT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEXT"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="TEXT"/>
+    </attribute>
+    <attribute id="CJCLOSED" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CJCLOSED"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="CJCLOSED"/>
+    </attribute>
+    <attribute id="CHECKSUMSPLIT" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHECKSUMSPLIT"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="CHECKSUMSPLIT"/>
+    </attribute>
+    <attribute id="NUMBERING_OUT" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMBERING_OUT"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="NUMBERING_OUT"/>
+    </attribute>
+    <attribute id="NUMBERING_IN" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMBERING_IN"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="NUMBERING_IN"/>
+    </attribute>
+    <attribute id="NUMBERING_IN_CHE" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMBERING_IN_CHE"/>
+      <keyMapping columnObjectName="EP1_TCJ_C_JOURNALS" columnName="NUMBERING_IN_CHE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

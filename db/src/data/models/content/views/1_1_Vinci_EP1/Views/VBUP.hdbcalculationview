@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::VBUP" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table VBUP"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_VBUP">
+    <resourceUri>EP1_VBUP</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_VBUP">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="MANDT"/>
+    </attribute>
+    <attribute id="VBELN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="VBELN"/>
+    </attribute>
+    <attribute id="POSNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="POSNR"/>
+    </attribute>
+    <attribute id="RFSTA" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="RFSTA"/>
+    </attribute>
+    <attribute id="RFGSA" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFGSA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="RFGSA"/>
+    </attribute>
+    <attribute id="BESTA" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BESTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="BESTA"/>
+    </attribute>
+    <attribute id="LFSTA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="LFSTA"/>
+    </attribute>
+    <attribute id="LFGSA" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFGSA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="LFGSA"/>
+    </attribute>
+    <attribute id="WBSTA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WBSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="WBSTA"/>
+    </attribute>
+    <attribute id="FKSTA" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="FKSTA"/>
+    </attribute>
+    <attribute id="FKSAA" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKSAA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="FKSAA"/>
+    </attribute>
+    <attribute id="ABSTA" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="ABSTA"/>
+    </attribute>
+    <attribute id="GBSTA" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GBSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="GBSTA"/>
+    </attribute>
+    <attribute id="KOSTA" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="KOSTA"/>
+    </attribute>
+    <attribute id="LVSTA" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="LVSTA"/>
+    </attribute>
+    <attribute id="UVALL" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVALL"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVALL"/>
+    </attribute>
+    <attribute id="UVVLK" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVVLK"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVVLK"/>
+    </attribute>
+    <attribute id="UVFAK" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVFAK"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVFAK"/>
+    </attribute>
+    <attribute id="UVPRS" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVPRS"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVPRS"/>
+    </attribute>
+    <attribute id="FKIVP" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKIVP"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="FKIVP"/>
+    </attribute>
+    <attribute id="UVP01" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVP01"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVP01"/>
+    </attribute>
+    <attribute id="UVP02" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVP02"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVP02"/>
+    </attribute>
+    <attribute id="UVP03" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVP03"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVP03"/>
+    </attribute>
+    <attribute id="UVP04" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVP04"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVP04"/>
+    </attribute>
+    <attribute id="UVP05" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVP05"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVP05"/>
+    </attribute>
+    <attribute id="PKSTA" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PKSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="PKSTA"/>
+    </attribute>
+    <attribute id="KOQUA" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOQUA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="KOQUA"/>
+    </attribute>
+    <attribute id="COSTA" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="COSTA"/>
+    </attribute>
+    <attribute id="CMPPI" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CMPPI"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="CMPPI"/>
+    </attribute>
+    <attribute id="CMPPJ" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CMPPJ"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="CMPPJ"/>
+    </attribute>
+    <attribute id="UVPIK" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVPIK"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVPIK"/>
+    </attribute>
+    <attribute id="UVPAK" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVPAK"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVPAK"/>
+    </attribute>
+    <attribute id="UVWAK" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVWAK"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="UVWAK"/>
+    </attribute>
+    <attribute id="DCSTA" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DCSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="DCSTA"/>
+    </attribute>
+    <attribute id="RRSTA" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RRSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="RRSTA"/>
+    </attribute>
+    <attribute id="VLSTP" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VLSTP"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="VLSTP"/>
+    </attribute>
+    <attribute id="FSSTA" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FSSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="FSSTA"/>
+    </attribute>
+    <attribute id="LSSTA" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="LSSTA"/>
+    </attribute>
+    <attribute id="PDSTA" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PDSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="PDSTA"/>
+    </attribute>
+    <attribute id="MANEK" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANEK"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="MANEK"/>
+    </attribute>
+    <attribute id="HDALL" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HDALL"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="HDALL"/>
+    </attribute>
+    <attribute id="BUMP" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUMP"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="BUMP"/>
+    </attribute>
+    <attribute id="LTSPS" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTSPS"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="LTSPS"/>
+    </attribute>
+    <attribute id="/SAPMP/LBASP" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPMP/LBASP"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="/SAPMP/LBASP"/>
+    </attribute>
+    <attribute id="MILL_VS_VSSTA" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MILL_VS_VSSTA"/>
+      <keyMapping columnObjectName="EP1_VBUP" columnName="MILL_VS_VSSTA"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CA_T005" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CA_T005"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CA_T005">
+    <resourceUri>EP1_CV_CA_T005</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CA_T005">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LAND1" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LAND1"/>
+    </attribute>
+    <attribute id="LANDK" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDK"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LANDK"/>
+    </attribute>
+    <attribute id="LNPLZ" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNPLZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNPLZ"/>
+    </attribute>
+    <attribute id="PRPLZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRPLZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRPLZ"/>
+    </attribute>
+    <attribute id="ADDRS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDRS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="ADDRS"/>
+    </attribute>
+    <attribute id="XPLZS" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPLZS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XPLZS"/>
+    </attribute>
+    <attribute id="XPLPF" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPLPF"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XPLPF"/>
+    </attribute>
+    <attribute id="SPRAS" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="XLAND" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLAND"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XLAND"/>
+    </attribute>
+    <attribute id="XADDR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XADDR"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XADDR"/>
+    </attribute>
+    <attribute id="NMFMT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NMFMT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="NMFMT"/>
+    </attribute>
+    <attribute id="XREGS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREGS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XREGS"/>
+    </attribute>
+    <attribute id="XPLST" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPLST"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XPLST"/>
+    </attribute>
+    <attribute id="INTCA" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTCA"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="INTCA"/>
+    </attribute>
+    <attribute id="INTCA3" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTCA3"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="INTCA3"/>
+    </attribute>
+    <attribute id="INTCN3" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTCN3"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="INTCN3"/>
+    </attribute>
+    <attribute id="XEGLD" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEGLD"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XEGLD"/>
+    </attribute>
+    <attribute id="XSKFN" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSKFN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XSKFN"/>
+    </attribute>
+    <attribute id="XMWSN" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMWSN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XMWSN"/>
+    </attribute>
+    <attribute id="LNBKN" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNBKN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNBKN"/>
+    </attribute>
+    <attribute id="PRBKN" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRBKN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRBKN"/>
+    </attribute>
+    <attribute id="LNBLZ" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNBLZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNBLZ"/>
+    </attribute>
+    <attribute id="PRBLZ" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRBLZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRBLZ"/>
+    </attribute>
+    <attribute id="LNPSK" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNPSK"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNPSK"/>
+    </attribute>
+    <attribute id="PRPSK" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRPSK"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRPSK"/>
+    </attribute>
+    <attribute id="XPRBK" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPRBK"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XPRBK"/>
+    </attribute>
+    <attribute id="BNKEY" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNKEY"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="BNKEY"/>
+    </attribute>
+    <attribute id="LNBKS" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNBKS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNBKS"/>
+    </attribute>
+    <attribute id="PRBKS" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRBKS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRBKS"/>
+    </attribute>
+    <attribute id="XPRSO" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPRSO"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XPRSO"/>
+    </attribute>
+    <attribute id="PRUIN" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRUIN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRUIN"/>
+    </attribute>
+    <attribute id="UINLN" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UINLN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="UINLN"/>
+    </attribute>
+    <attribute id="LNST1" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNST1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNST1"/>
+    </attribute>
+    <attribute id="PRST1" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRST1"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRST1"/>
+    </attribute>
+    <attribute id="LNST2" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNST2"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNST2"/>
+    </attribute>
+    <attribute id="PRST2" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRST2"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRST2"/>
+    </attribute>
+    <attribute id="LANDD" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDD"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LANDD"/>
+    </attribute>
+    <attribute id="KALSM" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="KALSM"/>
+    </attribute>
+    <attribute id="LANDA" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDA"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LANDA"/>
+    </attribute>
+    <attribute id="WECHF" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WECHF"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="WECHF"/>
+    </attribute>
+    <attribute id="LKVRZ" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKVRZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LKVRZ"/>
+    </attribute>
+    <attribute id="INTCN" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTCN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="INTCN"/>
+    </attribute>
+    <attribute id="XDEZP" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XDEZP"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XDEZP"/>
+    </attribute>
+    <attribute id="DATFM" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATFM"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="DATFM"/>
+    </attribute>
+    <attribute id="CURIN" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURIN"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="CURIN"/>
+    </attribute>
+    <attribute id="CURHA" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURHA"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="CURHA"/>
+    </attribute>
+    <attribute id="WAERS" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="WAERS"/>
+    </attribute>
+    <attribute id="KURST" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURST"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="KURST"/>
+    </attribute>
+    <attribute id="AFAPL" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFAPL"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="AFAPL"/>
+    </attribute>
+    <attribute id="GWGWRT" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GWGWRT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="GWGWRT"/>
+    </attribute>
+    <attribute id="UMRWRT" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMRWRT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="UMRWRT"/>
+    </attribute>
+    <attribute id="KZRBWB" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZRBWB"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="KZRBWB"/>
+    </attribute>
+    <attribute id="XANZUM" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XANZUM"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XANZUM"/>
+    </attribute>
+    <attribute id="CTNCONCEPT" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CTNCONCEPT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="CTNCONCEPT"/>
+    </attribute>
+    <attribute id="KZSRV" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZSRV"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="KZSRV"/>
+    </attribute>
+    <attribute id="XXINVE" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XXINVE"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="XXINVE"/>
+    </attribute>
+    <attribute id="SUREG" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUREG"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="SUREG"/>
+    </attribute>
+    <attribute id="LANDGRP_VP" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDGRP_VP"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LANDGRP_VP"/>
+    </attribute>
+    <attribute id="LNST3" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNST3"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNST3"/>
+    </attribute>
+    <attribute id="PRST3" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRST3"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRST3"/>
+    </attribute>
+    <attribute id="LNST4" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNST4"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNST4"/>
+    </attribute>
+    <attribute id="PRST4" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRST4"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRST4"/>
+    </attribute>
+    <attribute id="LNST5" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNST5"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="LNST5"/>
+    </attribute>
+    <attribute id="PRST5" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRST5"/>
+      <keyMapping columnObjectName="EP1_CV_CA_T005" columnName="PRST5"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

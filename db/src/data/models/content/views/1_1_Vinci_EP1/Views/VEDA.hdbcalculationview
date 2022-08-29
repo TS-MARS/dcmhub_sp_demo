@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::VEDA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table VEDA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_VEDA">
+    <resourceUri>EP1_VEDA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_VEDA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="VBELN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VBELN"/>
+    </attribute>
+    <attribute id="VPOSN" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPOSN"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VPOSN"/>
+    </attribute>
+    <attribute id="VLAUFZ" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VLAUFZ"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VLAUFZ"/>
+    </attribute>
+    <attribute id="VLAUEZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VLAUEZ"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VLAUEZ"/>
+    </attribute>
+    <attribute id="VLAUFK" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VLAUFK"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VLAUFK"/>
+    </attribute>
+    <attribute id="VINSDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VINSDAT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VINSDAT"/>
+    </attribute>
+    <attribute id="VABNDAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VABNDAT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VABNDAT"/>
+    </attribute>
+    <attribute id="VBEGDAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEGDAT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VBEGDAT"/>
+    </attribute>
+    <attribute id="VUNTDAT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VUNTDAT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VUNTDAT"/>
+    </attribute>
+    <attribute id="VKUESCH" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKUESCH"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VKUESCH"/>
+    </attribute>
+    <attribute id="VAKTSCH" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VAKTSCH"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VAKTSCH"/>
+    </attribute>
+    <attribute id="VEINDAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VEINDAT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VEINDAT"/>
+    </attribute>
+    <attribute id="VWUNDAT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VWUNDAT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VWUNDAT"/>
+    </attribute>
+    <attribute id="VKUEPAR" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKUEPAR"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VKUEPAR"/>
+    </attribute>
+    <attribute id="VKUEGRU" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKUEGRU"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VKUEGRU"/>
+    </attribute>
+    <attribute id="VENDDAT" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VENDDAT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VENDDAT"/>
+    </attribute>
+    <attribute id="VBELKUE" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELKUE"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VBELKUE"/>
+    </attribute>
+    <attribute id="VBEDKUE" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEDKUE"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VBEDKUE"/>
+    </attribute>
+    <attribute id="VBEGREG" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEGREG"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VBEGREG"/>
+    </attribute>
+    <attribute id="VVORZEIT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VVORZEIT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VVORZEIT"/>
+    </attribute>
+    <attribute id="VVOREIN" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VVOREIN"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VVOREIN"/>
+    </attribute>
+    <attribute id="VDEMDAT" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VDEMDAT"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VDEMDAT"/>
+    </attribute>
+    <attribute id="VASDA" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VASDA"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VASDA"/>
+    </attribute>
+    <attribute id="WIMID" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WIMID"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="WIMID"/>
+    </attribute>
+    <attribute id="VASDR" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VASDR"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VASDR"/>
+    </attribute>
+    <attribute id="VENDREG" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VENDREG"/>
+      <keyMapping columnObjectName="EP1_VEDA" columnName="VENDREG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

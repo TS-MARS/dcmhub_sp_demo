@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PS_S_ALR_87005104" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PS_S_ALR_87005104"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PS_S_ALR_87005104">
+    <resourceUri>EP1_CV_PS_S_ALR_87005104</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PS_S_ALR_87005104">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KVEWE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KVEWE"/>
+    </attribute>
+    <attribute id="KAPPL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="KALSM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KALSM"/>
+    </attribute>
+    <attribute id="STUNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="STUNR"/>
+    </attribute>
+    <attribute id="ZAEHK" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHK"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="ZAEHK"/>
+    </attribute>
+    <attribute id="KSCHL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="STUNB" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNB"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="STUNB"/>
+    </attribute>
+    <attribute id="STUN2" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUN2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="STUN2"/>
+    </attribute>
+    <attribute id="KAUTO" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAUTO"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KAUTO"/>
+    </attribute>
+    <attribute id="KOBED" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOBED"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KOBED"/>
+    </attribute>
+    <attribute id="KZWIW" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWIW"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KZWIW"/>
+    </attribute>
+    <attribute id="KSTAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTAT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KSTAT"/>
+    </attribute>
+    <attribute id="KOFRM" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOFRM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KOFRM"/>
+    </attribute>
+    <attribute id="KOFRA" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOFRA"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KOFRA"/>
+    </attribute>
+    <attribute id="KVSL1" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVSL1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KVSL1"/>
+    </attribute>
+    <attribute id="KVSL2" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVSL2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KVSL2"/>
+    </attribute>
+    <attribute id="DRUKZ" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DRUKZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="DRUKZ"/>
+    </attribute>
+    <attribute id="KOBLI" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOBLI"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KOBLI"/>
+    </attribute>
+    <attribute id="/SAPCEM/CONV_ME" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPCEM/CONV_ME"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="/SAPCEM/CONV_ME"/>
+    </attribute>
+    <attribute id="MANDT_1" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KVEWE_1" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KVEWE_1"/>
+    </attribute>
+    <attribute id="KAPPL_1" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KAPPL_1"/>
+    </attribute>
+    <attribute id="KALSM_1" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KALSM_1"/>
+    </attribute>
+    <attribute id="STUNR_1" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNR_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="STUNR_1"/>
+    </attribute>
+    <attribute id="ZAEHK_1" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHK_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="ZAEHK_1"/>
+    </attribute>
+    <attribute id="VTEXT" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="VTEXT"/>
+    </attribute>
+    <attribute id="MANDT_2" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="MANDT_2"/>
+    </attribute>
+    <attribute id="KVEWE_2" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE_2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KVEWE_2"/>
+    </attribute>
+    <attribute id="KAPPL_2" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL_2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KAPPL_2"/>
+    </attribute>
+    <attribute id="KALSM_2" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM_2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KALSM_2"/>
+    </attribute>
+    <attribute id="AUSVF" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSVF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="AUSVF"/>
+    </attribute>
+    <attribute id="BONSM" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BONSM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="BONSM"/>
+    </attribute>
+    <attribute id="KNPRS_V" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNPRS_V"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KNPRS_V"/>
+    </attribute>
+    <attribute id="PRODUCTIVE" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRODUCTIVE"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="PRODUCTIVE"/>
+    </attribute>
+    <attribute id="MANDT_3" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_3"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="MANDT_3"/>
+    </attribute>
+    <attribute id="SPRAS_1" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="SPRAS_1"/>
+    </attribute>
+    <attribute id="KVEWE_3" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE_3"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KVEWE_3"/>
+    </attribute>
+    <attribute id="KAPPL_3" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL_3"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KAPPL_3"/>
+    </attribute>
+    <attribute id="KALSM_3" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM_3"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KALSM_3"/>
+    </attribute>
+    <attribute id="VTEXT_1" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTEXT_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="VTEXT_1"/>
+    </attribute>
+    <attribute id="MANDT_4" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_4"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="MANDT_4"/>
+    </attribute>
+    <attribute id="KVEWE_4" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE_4"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KVEWE_4"/>
+    </attribute>
+    <attribute id="KAPPL_4" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL_4"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KAPPL_4"/>
+    </attribute>
+    <attribute id="KSCHL_1" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KSCHL_1"/>
+    </attribute>
+    <attribute id="KOZGF" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOZGF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KOZGF"/>
+    </attribute>
+    <attribute id="DATVO" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATVO"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="DATVO"/>
+    </attribute>
+    <attribute id="DTVOB" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTVOB"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="DTVOB"/>
+    </attribute>
+    <attribute id="J_3GPRAEND" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_3GPRAEND"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="J_3GPRAEND"/>
+    </attribute>
+    <attribute id="J_3GBUARTL" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_3GBUARTL"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="J_3GBUARTL"/>
+    </attribute>
+    <attribute id="J_3GBUARTB" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_3GBUARTB"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="J_3GBUARTB"/>
+    </attribute>
+    <attribute id="MANDT_5" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_5"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="MANDT_5"/>
+    </attribute>
+    <attribute id="SPRAS_2" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS_2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="SPRAS_2"/>
+    </attribute>
+    <attribute id="KVEWE_5" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE_5"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KVEWE_5"/>
+    </attribute>
+    <attribute id="KAPPL_5" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL_5"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KAPPL_5"/>
+    </attribute>
+    <attribute id="KSCHL_2" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL_2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="KSCHL_2"/>
+    </attribute>
+    <attribute id="VTEXT_2" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTEXT_2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="VTEXT_2"/>
+    </attribute>
+    <attribute id="Basis" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Basis"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="Basis"/>
+    </attribute>
+    <attribute id="Zuschlag" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Zuschlag"/>
+      <keyMapping columnObjectName="EP1_CV_PS_S_ALR_87005104" columnName="Zuschlag"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MLCRP" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table MLCRP"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_MLCRP">
+    <resourceUri>EP1_MLCRP</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_MLCRP">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BELNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="BELNR"/>
+    </attribute>
+    <attribute id="KJAHR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KJAHR"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="KJAHR"/>
+    </attribute>
+    <attribute id="POSNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="POSNR"/>
+    </attribute>
+    <attribute id="BDATJ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDATJ"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="BDATJ"/>
+    </attribute>
+    <attribute id="POPER" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POPER"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="POPER"/>
+    </attribute>
+    <attribute id="CURTP" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURTP"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="CURTP"/>
+    </attribute>
+    <attribute id="PVPRS_NEW" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PVPRS_NEW"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="PVPRS_NEW"/>
+    </attribute>
+    <attribute id="STPRS_NEW" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STPRS_NEW"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="STPRS_NEW"/>
+    </attribute>
+    <attribute id="VPRSV_NEW" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPRSV_NEW"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="VPRSV_NEW"/>
+    </attribute>
+    <attribute id="PEINH_NEW" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PEINH_NEW"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="PEINH_NEW"/>
+    </attribute>
+    <attribute id="MANPAE_V" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANPAE_V"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="MANPAE_V"/>
+    </attribute>
+    <attribute id="SALK3UM" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SALK3UM"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="SALK3UM"/>
+    </attribute>
+    <attribute id="MANPAE_S" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANPAE_S"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="MANPAE_S"/>
+    </attribute>
+    <attribute id="SALK3UMS" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SALK3UMS"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="SALK3UMS"/>
+    </attribute>
+    <attribute id="ERZKALK" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERZKALK"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="ERZKALK"/>
+    </attribute>
+    <attribute id="ZUKBEW" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUKBEW"/>
+      <keyMapping columnObjectName="EP1_MLCRP" columnName="ZUKBEW"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

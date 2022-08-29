@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::QDPS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table QDPS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_QDPS">
+    <resourceUri>EP1_QDPS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_QDPS">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="MANDT"/>
+    </attribute>
+    <attribute id="DYNREGEL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DYNREGEL"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="DYNREGEL"/>
+    </attribute>
+    <attribute id="PRSTUFE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSTUFE"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="PRSTUFE"/>
+    </attribute>
+    <attribute id="PRSCHAERFE" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSCHAERFE"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="PRSCHAERFE"/>
+    </attribute>
+    <attribute id="KZSKIP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZSKIP"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="KZSKIP"/>
+    </attribute>
+    <attribute id="ANZPRRED" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZPRRED"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="ANZPRRED"/>
+    </attribute>
+    <attribute id="ANZPRVER" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZPRVER"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="ANZPRVER"/>
+    </attribute>
+    <attribute id="ANZRWRED" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZRWRED"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="ANZRWRED"/>
+    </attribute>
+    <attribute id="ANZRWVER" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZRWVER"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="ANZRWVER"/>
+    </attribute>
+    <attribute id="REDSTUFE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REDSTUFE"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="REDSTUFE"/>
+    </attribute>
+    <attribute id="VERSTUFE" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSTUFE"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="VERSTUFE"/>
+    </attribute>
+    <attribute id="STEUVER" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STEUVER"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="STEUVER"/>
+    </attribute>
+    <attribute id="KZREDGEN" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZREDGEN"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="KZREDGEN"/>
+    </attribute>
+    <attribute id="MAXSKIPDR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAXSKIPDR"/>
+      <keyMapping columnObjectName="EP1_QDPS" columnName="MAXSKIPDR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

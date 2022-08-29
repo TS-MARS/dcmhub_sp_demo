@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TAPRF" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TAPRF"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TAPRF">
+    <resourceUri>EP1_TAPRF</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TAPRF">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="MANDT"/>
+    </attribute>
+    <attribute id="IVPRO" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IVPRO"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="IVPRO"/>
+    </attribute>
+    <attribute id="INVMA" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVMA"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="INVMA"/>
+    </attribute>
+    <attribute id="ANLKL_I" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLKL_I"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="ANLKL_I"/>
+    </attribute>
+    <attribute id="XIANLKL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XIANLKL"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="XIANLKL"/>
+    </attribute>
+    <attribute id="XURSCH" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XURSCH"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="XURSCH"/>
+    </attribute>
+    <attribute id="ANLKL_S" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLKL_S"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="ANLKL_S"/>
+    </attribute>
+    <attribute id="XSANLKL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSANLKL"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="XSANLKL"/>
+    </attribute>
+    <attribute id="XINID" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XINID"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="XINID"/>
+    </attribute>
+    <attribute id="ABART" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABART"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="ABART"/>
+    </attribute>
+    <attribute id="AUFART" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFART"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="AUFART"/>
+    </attribute>
+    <attribute id="XBUDG" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBUDG"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="XBUDG"/>
+    </attribute>
+    <attribute id="VERSI_S" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSI_S"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="VERSI_S"/>
+    </attribute>
+    <attribute id="XAKTIV" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAKTIV"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="XAKTIV"/>
+    </attribute>
+    <attribute id="XXUNVL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XXUNVL"/>
+      <keyMapping columnObjectName="EP1_TAPRF" columnName="XXUNVL"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PP_CRCA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PP_CRCA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PP_CRCA">
+    <resourceUri>EP1_CV_PP_CRCA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PP_CRCA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="OBJTY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJTY"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="OBJTY"/>
+    </attribute>
+    <attribute id="OBJID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJID"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="OBJID"/>
+    </attribute>
+    <attribute id="CANUM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CANUM"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="CANUM"/>
+    </attribute>
+    <attribute id="BEGDA" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGDA"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="BEGDA"/>
+    </attribute>
+    <attribute id="ENDDA" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENDDA"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="ENDDA"/>
+    </attribute>
+    <attribute id="AEDAT_KAPA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT_KAPA"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="AEDAT_KAPA"/>
+    </attribute>
+    <attribute id="AENAM_KAPA" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM_KAPA"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="AENAM_KAPA"/>
+    </attribute>
+    <attribute id="KAPID" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPID"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="KAPID"/>
+    </attribute>
+    <attribute id="FORK1" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FORK1"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="FORK1"/>
+    </attribute>
+    <attribute id="FORK2" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FORK2"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="FORK2"/>
+    </attribute>
+    <attribute id="FORK3" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FORK3"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="FORK3"/>
+    </attribute>
+    <attribute id="FORKN" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FORKN"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="FORKN"/>
+    </attribute>
+    <attribute id="PROZT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROZT"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="PROZT"/>
+    </attribute>
+    <attribute id="VERT1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERT1"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="VERT1"/>
+    </attribute>
+    <attribute id="VERT2" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERT2"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="VERT2"/>
+    </attribute>
+    <attribute id="VERT3" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERT3"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="VERT3"/>
+    </attribute>
+    <attribute id="VERTN" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERTN"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="VERTN"/>
+    </attribute>
+    <attribute id="CAROL" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAROL"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="CAROL"/>
+    </attribute>
+    <attribute id="ISTBED_KZ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ISTBED_KZ"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="ISTBED_KZ"/>
+    </attribute>
+    <attribute id="VGWT1" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGWT1"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="VGWT1"/>
+    </attribute>
+    <attribute id="VGWT2" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGWT2"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="VGWT2"/>
+    </attribute>
+    <attribute id="VGWT3" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGWT3"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="VGWT3"/>
+    </attribute>
+    <attribute id="VGWTN" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGWTN"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="VGWTN"/>
+    </attribute>
+    <attribute id="CAP_BACKFLUSH_SU" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAP_BACKFLUSH_SU"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="CAP_BACKFLUSH_SU"/>
+    </attribute>
+    <attribute id="CAP_BACKFLUSH_PR" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAP_BACKFLUSH_PR"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="CAP_BACKFLUSH_PR"/>
+    </attribute>
+    <attribute id="CAP_BACKFLUSH_TD" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAP_BACKFLUSH_TD"/>
+      <keyMapping columnObjectName="EP1_CV_PP_CRCA" columnName="CAP_BACKFLUSH_TD"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

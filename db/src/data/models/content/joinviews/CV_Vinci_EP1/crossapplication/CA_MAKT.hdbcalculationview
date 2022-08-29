@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CA_MAKT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CA_MAKT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CA_MAKT">
+    <resourceUri>EP1_CV_CA_MAKT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CA_MAKT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_MAKT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MATNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_CV_CA_MAKT" columnName="MATNR"/>
+    </attribute>
+    <attribute id="SPRAS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_MAKT" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="MAKTX" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAKTX"/>
+      <keyMapping columnObjectName="EP1_CV_CA_MAKT" columnName="MAKTX"/>
+    </attribute>
+    <attribute id="MAKTG" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAKTG"/>
+      <keyMapping columnObjectName="EP1_CV_CA_MAKT" columnName="MAKTG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

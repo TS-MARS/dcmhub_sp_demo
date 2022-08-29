@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PS0001" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PS0001"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PS0001">
+    <resourceUri>EP1_CV_PS0001</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PS0001">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="MANDT"/>
+    </attribute>
+    <attribute id="OBJNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="STAT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="STAT"/>
+    </attribute>
+    <attribute id="INACT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INACT"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="INACT"/>
+    </attribute>
+    <attribute id="CHGNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHGNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="CHGNR"/>
+    </attribute>
+    <attribute id="ISTAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ISTAT"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="ISTAT"/>
+    </attribute>
+    <attribute id="NODIS" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NODIS"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="NODIS"/>
+    </attribute>
+    <attribute id="SETONLY" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETONLY"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="SETONLY"/>
+    </attribute>
+    <attribute id="ISTAT_1" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ISTAT_1"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="ISTAT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="TXT04" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT04"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="TXT04"/>
+    </attribute>
+    <attribute id="TXT30" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT30"/>
+      <keyMapping columnObjectName="EP1_CV_PS0001" columnName="TXT30"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PM_ADRC" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PM_ADRC"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PM_ADRC">
+    <resourceUri>EP1_CV_PM_ADRC</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PM_ADRC">
+  <attributes>
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLIENT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="CLIENT"/>
+    </attribute>
+    <attribute id="ADDRNUMBER" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDRNUMBER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="ADDRNUMBER"/>
+    </attribute>
+    <attribute id="DATE_FROM" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATE_FROM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DATE_FROM"/>
+    </attribute>
+    <attribute id="NATION" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NATION"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="NATION"/>
+    </attribute>
+    <attribute id="DATE_TO" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATE_TO"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DATE_TO"/>
+    </attribute>
+    <attribute id="TITLE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TITLE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="TITLE"/>
+    </attribute>
+    <attribute id="NAME1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="NAME1"/>
+    </attribute>
+    <attribute id="NAME2" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="NAME2"/>
+    </attribute>
+    <attribute id="NAME3" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME3"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="NAME3"/>
+    </attribute>
+    <attribute id="NAME4" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME4"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="NAME4"/>
+    </attribute>
+    <attribute id="NAME_TEXT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME_TEXT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="NAME_TEXT"/>
+    </attribute>
+    <attribute id="NAME_CO" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME_CO"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="NAME_CO"/>
+    </attribute>
+    <attribute id="CITY1" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CITY1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="CITY1"/>
+    </attribute>
+    <attribute id="CITY2" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CITY2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="CITY2"/>
+    </attribute>
+    <attribute id="CITY_CODE" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CITY_CODE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="CITY_CODE"/>
+    </attribute>
+    <attribute id="CITYP_CODE" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CITYP_CODE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="CITYP_CODE"/>
+    </attribute>
+    <attribute id="HOME_CITY" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HOME_CITY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="HOME_CITY"/>
+    </attribute>
+    <attribute id="CITYH_CODE" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CITYH_CODE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="CITYH_CODE"/>
+    </attribute>
+    <attribute id="CHCKSTATUS" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHCKSTATUS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="CHCKSTATUS"/>
+    </attribute>
+    <attribute id="REGIOGROUP" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REGIOGROUP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="REGIOGROUP"/>
+    </attribute>
+    <attribute id="POST_CODE1" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POST_CODE1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="POST_CODE1"/>
+    </attribute>
+    <attribute id="POST_CODE2" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POST_CODE2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="POST_CODE2"/>
+    </attribute>
+    <attribute id="POST_CODE3" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POST_CODE3"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="POST_CODE3"/>
+    </attribute>
+    <attribute id="PCODE1_EXT" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PCODE1_EXT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PCODE1_EXT"/>
+    </attribute>
+    <attribute id="PCODE2_EXT" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PCODE2_EXT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PCODE2_EXT"/>
+    </attribute>
+    <attribute id="PCODE3_EXT" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PCODE3_EXT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PCODE3_EXT"/>
+    </attribute>
+    <attribute id="PO_BOX" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PO_BOX"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PO_BOX"/>
+    </attribute>
+    <attribute id="DONT_USE_P" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DONT_USE_P"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DONT_USE_P"/>
+    </attribute>
+    <attribute id="PO_BOX_NUM" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PO_BOX_NUM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PO_BOX_NUM"/>
+    </attribute>
+    <attribute id="PO_BOX_LOC" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PO_BOX_LOC"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PO_BOX_LOC"/>
+    </attribute>
+    <attribute id="CITY_CODE2" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CITY_CODE2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="CITY_CODE2"/>
+    </attribute>
+    <attribute id="PO_BOX_REG" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PO_BOX_REG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PO_BOX_REG"/>
+    </attribute>
+    <attribute id="PO_BOX_CTY" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PO_BOX_CTY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PO_BOX_CTY"/>
+    </attribute>
+    <attribute id="POSTALAREA" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSTALAREA"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="POSTALAREA"/>
+    </attribute>
+    <attribute id="TRANSPZONE" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRANSPZONE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="TRANSPZONE"/>
+    </attribute>
+    <attribute id="STREET" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STREET"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="STREET"/>
+    </attribute>
+    <attribute id="DONT_USE_S" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DONT_USE_S"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DONT_USE_S"/>
+    </attribute>
+    <attribute id="STREETCODE" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STREETCODE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="STREETCODE"/>
+    </attribute>
+    <attribute id="STREETABBR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STREETABBR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="STREETABBR"/>
+    </attribute>
+    <attribute id="HOUSE_NUM1" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HOUSE_NUM1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="HOUSE_NUM1"/>
+    </attribute>
+    <attribute id="HOUSE_NUM2" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HOUSE_NUM2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="HOUSE_NUM2"/>
+    </attribute>
+    <attribute id="HOUSE_NUM3" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HOUSE_NUM3"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="HOUSE_NUM3"/>
+    </attribute>
+    <attribute id="STR_SUPPL1" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STR_SUPPL1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="STR_SUPPL1"/>
+    </attribute>
+    <attribute id="STR_SUPPL2" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STR_SUPPL2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="STR_SUPPL2"/>
+    </attribute>
+    <attribute id="STR_SUPPL3" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STR_SUPPL3"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="STR_SUPPL3"/>
+    </attribute>
+    <attribute id="LOCATION" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOCATION"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="LOCATION"/>
+    </attribute>
+    <attribute id="BUILDING" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUILDING"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="BUILDING"/>
+    </attribute>
+    <attribute id="FLOOR" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLOOR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLOOR"/>
+    </attribute>
+    <attribute id="ROOMNUMBER" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROOMNUMBER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="ROOMNUMBER"/>
+    </attribute>
+    <attribute id="COUNTRY" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COUNTRY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="COUNTRY"/>
+    </attribute>
+    <attribute id="LANGU" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="LANGU"/>
+    </attribute>
+    <attribute id="REGION" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REGION"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="REGION"/>
+    </attribute>
+    <attribute id="ADDR_GROUP" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDR_GROUP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="ADDR_GROUP"/>
+    </attribute>
+    <attribute id="FLAGGROUPS" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGGROUPS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGGROUPS"/>
+    </attribute>
+    <attribute id="PERS_ADDR" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERS_ADDR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PERS_ADDR"/>
+    </attribute>
+    <attribute id="SORT1" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="SORT1"/>
+    </attribute>
+    <attribute id="SORT2" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="SORT2"/>
+    </attribute>
+    <attribute id="SORT_PHN" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT_PHN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="SORT_PHN"/>
+    </attribute>
+    <attribute id="DEFLT_COMM" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEFLT_COMM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DEFLT_COMM"/>
+    </attribute>
+    <attribute id="TEL_NUMBER" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEL_NUMBER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="TEL_NUMBER"/>
+    </attribute>
+    <attribute id="TEL_EXTENS" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEL_EXTENS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="TEL_EXTENS"/>
+    </attribute>
+    <attribute id="FAX_NUMBER" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAX_NUMBER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FAX_NUMBER"/>
+    </attribute>
+    <attribute id="FAX_EXTENS" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAX_EXTENS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FAX_EXTENS"/>
+    </attribute>
+    <attribute id="FLAGCOMM2" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM2"/>
+    </attribute>
+    <attribute id="FLAGCOMM3" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM3"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM3"/>
+    </attribute>
+    <attribute id="FLAGCOMM4" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM4"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM4"/>
+    </attribute>
+    <attribute id="FLAGCOMM5" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM5"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM5"/>
+    </attribute>
+    <attribute id="FLAGCOMM6" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM6"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM6"/>
+    </attribute>
+    <attribute id="FLAGCOMM7" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM7"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM7"/>
+    </attribute>
+    <attribute id="FLAGCOMM8" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM8"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM8"/>
+    </attribute>
+    <attribute id="FLAGCOMM9" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM9"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM9"/>
+    </attribute>
+    <attribute id="FLAGCOMM10" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM10"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM10"/>
+    </attribute>
+    <attribute id="FLAGCOMM11" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM11"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM11"/>
+    </attribute>
+    <attribute id="FLAGCOMM12" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM12"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM12"/>
+    </attribute>
+    <attribute id="FLAGCOMM13" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLAGCOMM13"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="FLAGCOMM13"/>
+    </attribute>
+    <attribute id="ADDRORIGIN" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDRORIGIN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="ADDRORIGIN"/>
+    </attribute>
+    <attribute id="MC_NAME1" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MC_NAME1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="MC_NAME1"/>
+    </attribute>
+    <attribute id="MC_CITY1" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MC_CITY1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="MC_CITY1"/>
+    </attribute>
+    <attribute id="MC_STREET" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MC_STREET"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="MC_STREET"/>
+    </attribute>
+    <attribute id="EXTENSION1" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXTENSION1"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="EXTENSION1"/>
+    </attribute>
+    <attribute id="EXTENSION2" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXTENSION2"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="EXTENSION2"/>
+    </attribute>
+    <attribute id="TIME_ZONE" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TIME_ZONE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="TIME_ZONE"/>
+    </attribute>
+    <attribute id="TAXJURCODE" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAXJURCODE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="TAXJURCODE"/>
+    </attribute>
+    <attribute id="ADDRESS_ID" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDRESS_ID"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="ADDRESS_ID"/>
+    </attribute>
+    <attribute id="LANGU_CREA" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU_CREA"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="LANGU_CREA"/>
+    </attribute>
+    <attribute id="PO_BOX_LOBBY" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PO_BOX_LOBBY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="PO_BOX_LOBBY"/>
+    </attribute>
+    <attribute id="DELI_SERV_TYPE" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELI_SERV_TYPE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DELI_SERV_TYPE"/>
+    </attribute>
+    <attribute id="DELI_SERV_NUMBER" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELI_SERV_NUMBER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DELI_SERV_NUMBER"/>
+    </attribute>
+    <attribute id="DUNS" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DUNS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DUNS"/>
+    </attribute>
+    <attribute id="DUNSP4" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DUNSP4"/>
+      <keyMapping columnObjectName="EP1_CV_PM_ADRC" columnName="DUNSP4"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CABNT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CABNT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CABNT">
+    <resourceUri>EP1_CABNT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CABNT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="ATINN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATINN"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="ATINN"/>
+    </attribute>
+    <attribute id="SPRAS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="ADZHL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADZHL"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="ADZHL"/>
+    </attribute>
+    <attribute id="ATBEZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATBEZ"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="ATBEZ"/>
+    </attribute>
+    <attribute id="ATUE1" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATUE1"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="ATUE1"/>
+    </attribute>
+    <attribute id="ATUE2" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATUE2"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="ATUE2"/>
+    </attribute>
+    <attribute id="DATUV" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="DATUV"/>
+    </attribute>
+    <attribute id="TECHV" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHV"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="TECHV"/>
+    </attribute>
+    <attribute id="AENNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="AENNR"/>
+    </attribute>
+    <attribute id="LKENZ" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ"/>
+      <keyMapping columnObjectName="EP1_CABNT" columnName="LKENZ"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

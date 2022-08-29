@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ANEP" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table ANEP"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_ANEP">
+    <resourceUri>EP1_ANEP</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_ANEP">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="ANLN1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="GJAHR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="LNRAN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNRAN"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="LNRAN"/>
+    </attribute>
+    <attribute id="AFABE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="AFABE"/>
+    </attribute>
+    <attribute id="ZUJHR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUJHR"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="ZUJHR"/>
+    </attribute>
+    <attribute id="ZUCOD" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUCOD"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="ZUCOD"/>
+    </attribute>
+    <attribute id="PERAF" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERAF"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="PERAF"/>
+    </attribute>
+    <attribute id="BELNR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="BELNR"/>
+    </attribute>
+    <attribute id="BUZEI" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BZDAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZDAT"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="BZDAT"/>
+    </attribute>
+    <attribute id="BWASL" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWASL"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="BWASL"/>
+    </attribute>
+    <attribute id="XAFAR" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAFAR"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="XAFAR"/>
+    </attribute>
+    <attribute id="ANBTR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANBTR"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="ANBTR"/>
+    </attribute>
+    <attribute id="NAFAB" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAB"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="NAFAB"/>
+    </attribute>
+    <attribute id="SAFAB" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAB"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="SAFAB"/>
+    </attribute>
+    <attribute id="ZINSB" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINSB"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="ZINSB"/>
+    </attribute>
+    <attribute id="XANTW" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XANTW"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="XANTW"/>
+    </attribute>
+    <attribute id="XAWBT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAWBT"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="XAWBT"/>
+    </attribute>
+    <attribute id="LNSAN" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNSAN"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="LNSAN"/>
+    </attribute>
+    <attribute id="ANUPD" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANUPD"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="ANUPD"/>
+    </attribute>
+    <attribute id="AUGLN" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGLN"/>
+      <keyMapping columnObjectName="EP1_ANEP" columnName="AUGLN"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

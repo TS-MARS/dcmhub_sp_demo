@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FI_FBCJC2" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FI_FBCJC2"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FI_FBCJC2">
+    <resourceUri>EP1_CV_FI_FBCJC2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FI_FBCJC2">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="MANDT"/>
+    </attribute>
+    <attribute id="COMP_CODE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COMP_CODE"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="COMP_CODE"/>
+    </attribute>
+    <attribute id="TRANSACT_NUMBER" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRANSACT_NUMBER"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="TRANSACT_NUMBER"/>
+    </attribute>
+    <attribute id="LANGU" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="LANGU"/>
+    </attribute>
+    <attribute id="TRANSACT_NAME" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRANSACT_NAME"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="TRANSACT_NAME"/>
+    </attribute>
+    <attribute id="LONG_TEXT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LONG_TEXT"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="LONG_TEXT"/>
+    </attribute>
+    <attribute id="MANDT_1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="COMP_CODE_1" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COMP_CODE_1"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="COMP_CODE_1"/>
+    </attribute>
+    <attribute id="TRANSACT_NUMBER_1" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRANSACT_NUMBER_1"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="TRANSACT_NUMBER_1"/>
+    </attribute>
+    <attribute id="TRANSACT_TYPE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRANSACT_TYPE"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="TRANSACT_TYPE"/>
+    </attribute>
+    <attribute id="GL_ACCOUNT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GL_ACCOUNT"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="GL_ACCOUNT"/>
+    </attribute>
+    <attribute id="TAX_CODE" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAX_CODE"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="TAX_CODE"/>
+    </attribute>
+    <attribute id="CJTRANSCLOSED" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CJTRANSCLOSED"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="CJTRANSCLOSED"/>
+    </attribute>
+    <attribute id="UMSKZ" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSKZ"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="UMSKZ"/>
+    </attribute>
+    <attribute id="CJACCCHANGE" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CJACCCHANGE"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="CJACCCHANGE"/>
+    </attribute>
+    <attribute id="CJTAXCHANGE" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CJTAXCHANGE"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="CJTAXCHANGE"/>
+    </attribute>
+    <attribute id="TRANSACT_CLAS" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRANSACT_CLAS"/>
+      <keyMapping columnObjectName="EP1_CV_FI_FBCJC2" columnName="TRANSACT_CLAS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

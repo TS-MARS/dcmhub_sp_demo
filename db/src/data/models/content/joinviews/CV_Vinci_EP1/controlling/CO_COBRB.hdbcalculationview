@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CO_COBRB" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CO_COBRB"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CO_COBRB">
+    <resourceUri>EP1_CV_CO_COBRB</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CO_COBRB">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="MANDT"/>
+    </attribute>
+    <attribute id="OBJNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="BUREG" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUREG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BUREG"/>
+    </attribute>
+    <attribute id="LFDNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFDNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="LFDNR"/>
+    </attribute>
+    <attribute id="PERBZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERBZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="PERBZ"/>
+    </attribute>
+    <attribute id="URZUO" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="URZUO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="URZUO"/>
+    </attribute>
+    <attribute id="GABJA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GABJA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="GABJA"/>
+    </attribute>
+    <attribute id="GABPE" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GABPE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="GABPE"/>
+    </attribute>
+    <attribute id="GBISJ" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GBISJ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="GBISJ"/>
+    </attribute>
+    <attribute id="GBISP" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GBISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="GBISP"/>
+    </attribute>
+    <attribute id="PROZS" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROZS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="PROZS"/>
+    </attribute>
+    <attribute id="AQZIF" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AQZIF"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="AQZIF"/>
+    </attribute>
+    <attribute id="BMENG" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BMENG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BMENG"/>
+    </attribute>
+    <attribute id="BMENG_DISP" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BMENG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BMENG_DISP"/>
+    </attribute>
+    <attribute id="BEINH" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEINH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BEINH"/>
+    </attribute>
+    <attribute id="BETRR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BETRR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BETRR"/>
+    </attribute>
+    <attribute id="BWAER" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWAER"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BWAER"/>
+    </attribute>
+    <attribute id="BRTYP" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRTYP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BRTYP"/>
+    </attribute>
+    <attribute id="BREST" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BREST"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BREST"/>
+    </attribute>
+    <attribute id="ERSJA" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSJA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="ERSJA"/>
+    </attribute>
+    <attribute id="ERSPE" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSPE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="ERSPE"/>
+    </attribute>
+    <attribute id="LETJA" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LETJA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="LETJA"/>
+    </attribute>
+    <attribute id="LETPE" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LETPE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="LETPE"/>
+    </attribute>
+    <attribute id="ZINCL" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINCL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="ZINCL"/>
+    </attribute>
+    <attribute id="DFREG" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DFREG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="DFREG"/>
+    </attribute>
+    <attribute id="AVORG" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AVORG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="AVORG"/>
+    </attribute>
+    <attribute id="VERSN" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="VERSN"/>
+    </attribute>
+    <attribute id="KONTY" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONTY"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="KONTY"/>
+    </attribute>
+    <attribute id="KOKRS" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="WERKS" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="WERKS"/>
+    </attribute>
+    <attribute id="GSBER" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="GSBER"/>
+    </attribute>
+    <attribute id="BUKRS" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="HKONT" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="HKONT"/>
+    </attribute>
+    <attribute id="PRCTR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="KOSTL" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="AUFNR" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="PS_PSP_PNR" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PS_PSP_PNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="PS_PSP_PNR"/>
+    </attribute>
+    <attribute id="ANLN1" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="MATNR" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="MATNR"/>
+    </attribute>
+    <attribute id="BWTAR" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="NPLNR" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NPLNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="NPLNR"/>
+    </attribute>
+    <attribute id="AUFPL" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="AUFPL"/>
+    </attribute>
+    <attribute id="APLZL" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="APLZL"/>
+    </attribute>
+    <attribute id="PAOBJNR" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAOBJNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="PAOBJNR"/>
+    </attribute>
+    <attribute id="PASUBNR" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PASUBNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="PASUBNR"/>
+    </attribute>
+    <attribute id="KDAUF" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDAUF"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="KDAUF"/>
+    </attribute>
+    <attribute id="KDPOS" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDPOS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="KDPOS"/>
+    </attribute>
+    <attribute id="RECID" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RECID"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="RECID"/>
+    </attribute>
+    <attribute id="RIFIND" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RIFIND"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="RIFIND"/>
+    </attribute>
+    <attribute id="POSNR" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="POSNR"/>
+    </attribute>
+    <attribute id="KSTRG" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTRG"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="KSTRG"/>
+    </attribute>
+    <attribute id="PRZNR" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRZNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="PRZNR"/>
+    </attribute>
+    <attribute id="REC_OBJNR1" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REC_OBJNR1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="REC_OBJNR1"/>
+    </attribute>
+    <attribute id="REC_OBJNR2" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REC_OBJNR2"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="REC_OBJNR2"/>
+    </attribute>
+    <attribute id="MRULE" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MRULE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="MRULE"/>
+    </attribute>
+    <attribute id="EXTNR" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXTNR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="EXTNR"/>
+    </attribute>
+    <attribute id="STRAT" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRAT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="STRAT"/>
+    </attribute>
+    <attribute id="ANBWA" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANBWA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="ANBWA"/>
+    </attribute>
+    <attribute id="SRSTRAT" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SRSTRAT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_COBRB" columnName="SRSTRAT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

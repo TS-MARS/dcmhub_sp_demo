@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::HR_PCL1" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_HR_PCL1"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_HR_PCL1">
+    <resourceUri>EP1_CV_HR_PCL1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_HR_PCL1">
+  <attributes>
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLIENT"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="CLIENT"/>
+    </attribute>
+    <attribute id="RELID" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RELID"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="RELID"/>
+    </attribute>
+    <attribute id="SRTFD" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SRTFD"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="SRTFD"/>
+    </attribute>
+    <attribute id="SRTF2" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SRTF2"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="SRTF2"/>
+    </attribute>
+    <attribute id="HISTO" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HISTO"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="HISTO"/>
+    </attribute>
+    <attribute id="AEDTM" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDTM"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="AEDTM"/>
+    </attribute>
+    <attribute id="UNAME" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNAME"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="UNAME"/>
+    </attribute>
+    <attribute id="PGMID" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGMID"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="PGMID"/>
+    </attribute>
+    <attribute id="VERSN" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="VERSN"/>
+    </attribute>
+    <attribute id="CLUSTR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLUSTR"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="CLUSTR"/>
+    </attribute>
+    <attribute id="CLUSTD" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLUSTD"/>
+      <keyMapping columnObjectName="EP1_CV_HR_PCL1" columnName="CLUSTD"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

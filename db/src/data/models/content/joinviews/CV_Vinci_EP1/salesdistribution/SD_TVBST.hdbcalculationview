@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::SD_TVBST" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_SD_TVBST"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_SD_TVBST">
+    <resourceUri>EP1_CV_SD_TVBST</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_SD_TVBST">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_SD_TVBST" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_SD_TVBST" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="TBNAM" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TBNAM"/>
+      <keyMapping columnObjectName="EP1_CV_SD_TVBST" columnName="TBNAM"/>
+    </attribute>
+    <attribute id="FDNAM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDNAM"/>
+      <keyMapping columnObjectName="EP1_CV_SD_TVBST" columnName="FDNAM"/>
+    </attribute>
+    <attribute id="STATU" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATU"/>
+      <keyMapping columnObjectName="EP1_CV_SD_TVBST" columnName="STATU"/>
+    </attribute>
+    <attribute id="BEZEI" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEZEI"/>
+      <keyMapping columnObjectName="EP1_CV_SD_TVBST" columnName="BEZEI"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

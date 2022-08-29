@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::KLAT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table KLAT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_KLAT">
+    <resourceUri>EP1_KLAT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_KLAT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_KLAT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="CLINT" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLINT"/>
+      <keyMapping columnObjectName="EP1_KLAT" columnName="CLINT"/>
+    </attribute>
+    <attribute id="SPRAS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_KLAT" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="TXTID" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXTID"/>
+      <keyMapping columnObjectName="EP1_KLAT" columnName="TXTID"/>
+    </attribute>
+    <attribute id="TXTBZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXTBZ"/>
+      <keyMapping columnObjectName="EP1_KLAT" columnName="TXTBZ"/>
+    </attribute>
+    <attribute id="FKTAR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKTAR"/>
+      <keyMapping columnObjectName="EP1_KLAT" columnName="FKTAR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

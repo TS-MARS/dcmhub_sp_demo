@@ -1,0 +1,59 @@
+PROCEDURE "att::getDynamical_bySapObject"
+	( 
+	IN TABNAME NVARCHAR(127),
+	IN iv_sap_object NVARCHAR(10),
+	IN iv_object_id NVARCHAR(100),
+	OUT OUTTAB TABLE 
+		(
+			MANDT		NVARCHAR(3),
+			SAP_OBJECT  NVARCHAR(10),
+			OBJID 		NVARCHAR(100),
+			"DATE"		NVARCHAR(8),
+			ARCHIV_ID 	NVARCHAR(2),
+			ARC_DOC_ID	NVARCHAR(100),
+			AR_OBJECT 	NVARCHAR(50),
+			RESERVE		NVARCHAR(27),
+			FILENAME	NVARCHAR(255)
+		)
+	)
+
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   AS
+BEGIN
+	DECLARE LT_QUERY		VARCHAR(400);
+	DECLARE MANDT_IN		NVARCHAR(30);
+	DECLARE SAP_OBJECT_IN   NVARCHAR(30);
+	DECLARE OBJID_IN		NVARCHAR(30);
+	DECLARE DATE_IN			NVARCHAR(30);
+	DECLARE ARCHIV_ID_IN	NVARCHAR(30);
+	DECLARE ARC_DOC_ID_IN	NVARCHAR(30);
+	DECLARE AR_OBJECT_IN	NVARCHAR(30);
+	DECLARE RESERVE_IN 		NVARCHAR(30);
+	DECLARE FILENAME_IN		NVARCHAR(30);
+	DECLARE BLOB_DATA_IN	NVARCHAR(30);
+	CREATE LOCAL TEMPORARY TABLE #TEMPTABLE ("MANDT"	   NVARCHAR(3),
+											  "SAP_OBJECT"	NVARCHAR(10),
+											  "OBJID"		NVARCHAR(100),
+											  "DATE"		NVARCHAR(8),
+											  ARCHIV_ID 	NVARCHAR(2),
+											  ARC_DOC_ID	NVARCHAR(100),
+											  AR_OBJECT 	NVARCHAR(50),
+											  RESERVE		NVARCHAR(27),
+											  FILENAME		VARCHAR(255)
+	);
+
+	--Read the mapped pointer
+   lt_pointer = SELECT * FROM "att::MappingPointers" WHERE tabname = :tabname;
+
+   SELECT TOP 1 MANDT,SAP_OBJECT, OBJID, "DATE", ARCHIV_ID, ARC_DOC_ID, AR_OBJECT, RESERVE, BLOB_DATA
+		INTO mandt_in,sap_object_in, objid_in, date_in, archiv_id_in, arc_doc_id_in, ar_object_in, reserve_in, blob_data_in
+		FROM :lt_pointer;
+
+	--Query the SQL table dynamically
+    LT_QUERY = 'INSERT INTO #TEMPTABLE ( SELECT "'||:mandt_in||'" AS MANDT, "'||:sap_object_in||'" AS SAP_OBJECT, "'||:objid_in||'" AS OBJID,  "'||:date_in||'" AS DATE, "'||:archiv_id_in||'" AS ARCHIV_ID, "'||:arc_doc_id_in||'" AS ARC_DOC_ID,  "'||:ar_object_in||'" AS AR_OBJECT, "'||:reserve_in||'" AS RESERVE, FILENAME FROM "'||:tabname||'" WHERE OBJECT_ID LIKE '''||:iv_object_id||''' AND SAP_OBJECT = '''||:iv_sap_object||''')'; 
+
+    EXECUTE IMMEDIATE :LT_QUERY;
+    OUTTAB = SELECT * FROM #TEMPTABLE;   
+    DROP TABLE #TEMPTABLE;
+END;

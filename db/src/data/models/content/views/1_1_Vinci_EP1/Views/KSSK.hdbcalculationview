@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::KSSK" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table KSSK"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_KSSK">
+    <resourceUri>EP1_KSSK</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_KSSK">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="MANDT"/>
+    </attribute>
+    <attribute id="OBJEK" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJEK"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="OBJEK"/>
+    </attribute>
+    <attribute id="MAFID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFID"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="MAFID"/>
+    </attribute>
+    <attribute id="KLART" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLART"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="KLART"/>
+    </attribute>
+    <attribute id="CLINT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLINT"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="CLINT"/>
+    </attribute>
+    <attribute id="ADZHL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADZHL"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="ADZHL"/>
+    </attribute>
+    <attribute id="ZAEHL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="ZAEHL"/>
+    </attribute>
+    <attribute id="STATU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATU"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="STATU"/>
+    </attribute>
+    <attribute id="STDCL" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STDCL"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="STDCL"/>
+    </attribute>
+    <attribute id="REKRI" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REKRI"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="REKRI"/>
+    </attribute>
+    <attribute id="AENNR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="AENNR"/>
+    </attribute>
+    <attribute id="DATUV" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="DATUV"/>
+    </attribute>
+    <attribute id="LKENZ" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ"/>
+      <keyMapping columnObjectName="EP1_KSSK" columnName="LKENZ"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

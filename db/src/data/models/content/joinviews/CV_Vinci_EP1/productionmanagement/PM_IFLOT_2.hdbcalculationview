@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PM_IFLOT_2" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PM_IFLOT_2"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PM_IFLOT_2">
+    <resourceUri>EP1_CV_PM_IFLOT_2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PM_IFLOT_2">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="MANDT"/>
+    </attribute>
+    <attribute id="TPLNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="TPLNR"/>
+    </attribute>
+    <attribute id="MLANG" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLANG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="MLANG"/>
+    </attribute>
+    <attribute id="TPLKZ" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLKZ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="TPLKZ"/>
+    </attribute>
+    <attribute id="FLTYP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLTYP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="FLTYP"/>
+    </attribute>
+    <attribute id="TPLMA" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLMA"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="TPLMA"/>
+    </attribute>
+    <attribute id="ERDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="ERNAM" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="AENAM"/>
+    </attribute>
+    <attribute id="DATAB" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATAB"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="DATAB"/>
+    </attribute>
+    <attribute id="BEGRU" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGRU"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="BEGRU"/>
+    </attribute>
+    <attribute id="TRPNR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRPNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="TRPNR"/>
+    </attribute>
+    <attribute id="PSTAE" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTAE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="PSTAE"/>
+    </attribute>
+    <attribute id="STNAM" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STNAM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="STNAM"/>
+    </attribute>
+    <attribute id="LVORM" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVORM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="LVORM"/>
+    </attribute>
+    <attribute id="SUBMT" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBMT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="SUBMT"/>
+    </attribute>
+    <attribute id="SUBMTI" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBMTI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="SUBMTI"/>
+    </attribute>
+    <attribute id="MAPAR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAPAR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="MAPAR"/>
+    </attribute>
+    <attribute id="MAPARI" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAPARI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="MAPARI"/>
+    </attribute>
+    <attribute id="IEQUI" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IEQUI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="IEQUI"/>
+    </attribute>
+    <attribute id="IEQUII" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IEQUII"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="IEQUII"/>
+    </attribute>
+    <attribute id="EINZL" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EINZL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="EINZL"/>
+    </attribute>
+    <attribute id="EINZLI" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EINZLI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="EINZLI"/>
+    </attribute>
+    <attribute id="IWERK" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IWERK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="IWERK"/>
+    </attribute>
+    <attribute id="IWERKI" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IWERKI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="IWERKI"/>
+    </attribute>
+    <attribute id="INGRP" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INGRP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="INGRP"/>
+    </attribute>
+    <attribute id="INGRPI" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INGRPI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="INGRPI"/>
+    </attribute>
+    <attribute id="PM_OBJTY" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PM_OBJTY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="PM_OBJTY"/>
+    </attribute>
+    <attribute id="LGWID" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGWID"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="LGWID"/>
+    </attribute>
+    <attribute id="LGWIDI" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGWIDI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="LGWIDI"/>
+    </attribute>
+    <attribute id="RBNR" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="RBNR"/>
+    </attribute>
+    <attribute id="RBNR_I" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBNR_I"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="RBNR_I"/>
+    </attribute>
+    <attribute id="ILOAN" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ILOAN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="ILOAN"/>
+    </attribute>
+    <attribute id="OBJNR" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="POSNR" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="POSNR"/>
+    </attribute>
+    <attribute id="ISTYP" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ISTYP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="ISTYP"/>
+    </attribute>
+    <attribute id="PREMS" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREMS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="PREMS"/>
+    </attribute>
+    <attribute id="EQART" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQART"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="EQART"/>
+    </attribute>
+    <attribute id="INVNR" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="INVNR"/>
+    </attribute>
+    <attribute id="GROES" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GROES"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="GROES"/>
+    </attribute>
+    <attribute id="BRGEW" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRGEW"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="BRGEW"/>
+    </attribute>
+    <attribute id="BRGEW_DISP" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRGEW_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="BRGEW_DISP"/>
+    </attribute>
+    <attribute id="GEWEI" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEWEI"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="GEWEI"/>
+    </attribute>
+    <attribute id="ANSWT" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANSWT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="ANSWT"/>
+    </attribute>
+    <attribute id="WAERS" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="WAERS"/>
+    </attribute>
+    <attribute id="ANSDT" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANSDT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="ANSDT"/>
+    </attribute>
+    <attribute id="HERST" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERST"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="HERST"/>
+    </attribute>
+    <attribute id="HERLD" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERLD"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="HERLD"/>
+    </attribute>
+    <attribute id="BAUJJ" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAUJJ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="BAUJJ"/>
+    </attribute>
+    <attribute id="BAUMM" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAUMM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="BAUMM"/>
+    </attribute>
+    <attribute id="TYPBZ" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TYPBZ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="TYPBZ"/>
+    </attribute>
+    <attribute id="EMATN" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMATN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="EMATN"/>
+    </attribute>
+    <attribute id="SERGE" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERGE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="SERGE"/>
+    </attribute>
+    <attribute id="HANDLE" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HANDLE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="HANDLE"/>
+    </attribute>
+    <attribute id="TSEGTP" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSEGTP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="TSEGTP"/>
+    </attribute>
+    <attribute id="FLLB_DUTY" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLLB_DUTY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="FLLB_DUTY"/>
+    </attribute>
+    <attribute id="FLLB_HIDE" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLLB_HIDE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="FLLB_HIDE"/>
+    </attribute>
+    <attribute id="IFLOT_SRTYPE" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IFLOT_SRTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="IFLOT_SRTYPE"/>
+    </attribute>
+    <attribute id="IFLOT_SNTYPE" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IFLOT_SNTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_IFLOT_2" columnName="IFLOT_SNTYPE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

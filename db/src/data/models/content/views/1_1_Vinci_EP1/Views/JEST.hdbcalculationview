@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::JEST" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table JEST"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_JEST">
+    <resourceUri>EP1_JEST</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_JEST">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_JEST" columnName="MANDT"/>
+    </attribute>
+    <attribute id="OBJNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_JEST" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="STAT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT"/>
+      <keyMapping columnObjectName="EP1_JEST" columnName="STAT"/>
+    </attribute>
+    <attribute id="INACT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INACT"/>
+      <keyMapping columnObjectName="EP1_JEST" columnName="INACT"/>
+    </attribute>
+    <attribute id="CHGNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHGNR"/>
+      <keyMapping columnObjectName="EP1_JEST" columnName="CHGNR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

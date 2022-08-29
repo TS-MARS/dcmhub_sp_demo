@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FAGL_011QT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table FAGL_011QT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_FAGL_011QT">
+    <resourceUri>EP1_FAGL_011QT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_FAGL_011QT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_FAGL_011QT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="VERSN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="EP1_FAGL_011QT" columnName="VERSN"/>
+    </attribute>
+    <attribute id="SPRAS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_FAGL_011QT" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="ERGSL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERGSL"/>
+      <keyMapping columnObjectName="EP1_FAGL_011QT" columnName="ERGSL"/>
+    </attribute>
+    <attribute id="TXTYP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXTYP"/>
+      <keyMapping columnObjectName="EP1_FAGL_011QT" columnName="TXTYP"/>
+    </attribute>
+    <attribute id="ZEILE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEILE"/>
+      <keyMapping columnObjectName="EP1_FAGL_011QT" columnName="ZEILE"/>
+    </attribute>
+    <attribute id="TXT45" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT45"/>
+      <keyMapping columnObjectName="EP1_FAGL_011QT" columnName="TXT45"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

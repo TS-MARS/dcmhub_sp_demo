@@ -1,0 +1,22 @@
+PROCEDURE "att::getFileContent" (
+	IN  im_filename NVARCHAR(1024),
+	IN  im_page     INT DEFAULT 1,
+	OUT om_content BLOB
+)
+LANGUAGE SQLSCRIPT SQL
+SECURITY DEFINER AS
+BEGIN
+	DECLARE lv_page INT DEFAULT 0;
+	DECLARE lv_filename VARCHAR(1024);
+		
+	lv_page = :im_page - 1;
+	
+	lv_filename = im_filename;
+	lv_filename = REPLACE(:lv_filename, '*', '%');
+
+	SELECT blob_data 
+	  INTO om_content
+	  FROM "att::ZPOINTER"
+	  WHERE filename LIKE :lv_filename
+	  LIMIT 1 OFFSET :lv_page;
+END;

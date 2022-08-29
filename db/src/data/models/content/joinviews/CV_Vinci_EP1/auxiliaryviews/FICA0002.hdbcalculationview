@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FICA0002" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FICA0002"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FICA0002">
+    <resourceUri>EP1_CV_FICA0002</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FICA0002">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="MANDT"/>
+    </attribute>
+    <attribute id="RLDNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="RLDNR"/>
+    </attribute>
+    <attribute id="GCURR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GCURR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="GCURR"/>
+    </attribute>
+    <attribute id="CLASS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLASS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CLASS"/>
+    </attribute>
+    <attribute id="TYP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TYP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="TYP"/>
+    </attribute>
+    <attribute id="TRCUR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRCUR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="TRCUR"/>
+    </attribute>
+    <attribute id="LCCUR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LCCUR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="LCCUR"/>
+    </attribute>
+    <attribute id="RCCUR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCCUR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="RCCUR"/>
+    </attribute>
+    <attribute id="OCCUR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OCCUR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="OCCUR"/>
+    </attribute>
+    <attribute id="QUANT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUANT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="QUANT"/>
+    </attribute>
+    <attribute id="ATQNT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATQNT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="ATQNT"/>
+    </attribute>
+    <attribute id="TAB" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAB"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="TAB"/>
+    </attribute>
+    <attribute id="RCOPY" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCOPY"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="RCOPY"/>
+    </attribute>
+    <attribute id="SHKZ" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZ"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="SHKZ"/>
+    </attribute>
+    <attribute id="GLSIP" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLSIP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="GLSIP"/>
+    </attribute>
+    <attribute id="VORTRAG" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VORTRAG"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="VORTRAG"/>
+    </attribute>
+    <attribute id="DLDNR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DLDNR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DLDNR"/>
+    </attribute>
+    <attribute id="XDLDNR" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XDLDNR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XDLDNR"/>
+    </attribute>
+    <attribute id="CURT1" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURT1"/>
+    </attribute>
+    <attribute id="CURT2" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT2"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURT2"/>
+    </attribute>
+    <attribute id="CURT3" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT3"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURT3"/>
+    </attribute>
+    <attribute id="V2POST" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="V2POST"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="V2POST"/>
+    </attribute>
+    <attribute id="LCTYP" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LCTYP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="LCTYP"/>
+    </attribute>
+    <attribute id="FIX" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIX"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="FIX"/>
+    </attribute>
+    <attribute id="POST" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POST"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="POST"/>
+    </attribute>
+    <attribute id="ROLLUP" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROLLUP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="ROLLUP"/>
+    </attribute>
+    <attribute id="DEPLD" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEPLD"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DEPLD"/>
+    </attribute>
+    <attribute id="APPL" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APPL"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="APPL"/>
+    </attribute>
+    <attribute id="SUBAPPL" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBAPPL"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="SUBAPPL"/>
+    </attribute>
+    <attribute id="KOMP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOMP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="KOMP"/>
+    </attribute>
+    <attribute id="GZLEDGER" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GZLEDGER"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="GZLEDGER"/>
+    </attribute>
+    <attribute id="EXIT" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXIT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="EXIT"/>
+    </attribute>
+    <attribute id="KLDNR" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLDNR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="KLDNR"/>
+    </attribute>
+    <attribute id="LOGSYS" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGSYS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="LOGSYS"/>
+    </attribute>
+    <attribute id="VALUTYP" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALUTYP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="VALUTYP"/>
+    </attribute>
+    <attribute id="GCOMPRESS" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GCOMPRESS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="GCOMPRESS"/>
+    </attribute>
+    <attribute id="SPLITMETHD" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPLITMETHD"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="SPLITMETHD"/>
+    </attribute>
+    <attribute id="DATE_DET_POPER" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATE_DET_POPER"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DATE_DET_POPER"/>
+    </attribute>
+    <attribute id="GLFLEX" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLFLEX"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="GLFLEX"/>
+    </attribute>
+    <attribute id="XLEADING" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLEADING"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XLEADING"/>
+    </attribute>
+    <attribute id="ORIENT_LEDGER" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORIENT_LEDGER"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="ORIENT_LEDGER"/>
+    </attribute>
+    <attribute id="MANDT_1" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="LANGU" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="LANGU"/>
+    </attribute>
+    <attribute id="RLDNR_1" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="RLDNR_1"/>
+    </attribute>
+    <attribute id="NAME" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="NAME"/>
+    </attribute>
+    <attribute id="MANDT_2" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_2"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="MANDT_2"/>
+    </attribute>
+    <attribute id="RBUKRS" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBUKRS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="RBUKRS"/>
+    </attribute>
+    <attribute id="RLDNR_2" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR_2"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="RLDNR_2"/>
+    </attribute>
+    <attribute id="CURT1_1" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT1_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURT1_1"/>
+    </attribute>
+    <attribute id="CURT2_1" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT2_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURT2_1"/>
+    </attribute>
+    <attribute id="CURT3_1" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT3_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURT3_1"/>
+    </attribute>
+    <attribute id="CURR1" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURR1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURR1"/>
+    </attribute>
+    <attribute id="CURR2" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURR2"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURR2"/>
+    </attribute>
+    <attribute id="CURR3" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURR3"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="CURR3"/>
+    </attribute>
+    <attribute id="PERIV" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIV"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="PERIV"/>
+    </attribute>
+    <attribute id="KTOPL" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="OPVAR" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OPVAR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="OPVAR"/>
+    </attribute>
+    <attribute id="TOYEAR" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOYEAR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="TOYEAR"/>
+    </attribute>
+    <attribute id="MANDT_3" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_3"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="MANDT_3"/>
+    </attribute>
+    <attribute id="BUKRS" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BUTXT" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUTXT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="BUTXT"/>
+    </attribute>
+    <attribute id="ORT01" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="ORT01"/>
+    </attribute>
+    <attribute id="LAND1" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="LAND1"/>
+    </attribute>
+    <attribute id="WAERS" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="WAERS"/>
+    </attribute>
+    <attribute id="SPRAS" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KTOPL_1" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="KTOPL_1"/>
+    </attribute>
+    <attribute id="WAABW" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAABW"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="WAABW"/>
+    </attribute>
+    <attribute id="PERIV_1" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIV_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="PERIV_1"/>
+    </attribute>
+    <attribute id="KOKFI" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKFI"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="KOKFI"/>
+    </attribute>
+    <attribute id="RCOMP" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCOMP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="RCOMP"/>
+    </attribute>
+    <attribute id="ADRNR" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="STCEG" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="STCEG"/>
+    </attribute>
+    <attribute id="FIKRS" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIKRS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="FIKRS"/>
+    </attribute>
+    <attribute id="XFMCO" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCO"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XFMCO"/>
+    </attribute>
+    <attribute id="XFMCB" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCB"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XFMCB"/>
+    </attribute>
+    <attribute id="XFMCA" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XFMCA"/>
+    </attribute>
+    <attribute id="TXJCD" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="FMHRDATE" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMHRDATE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="FMHRDATE"/>
+    </attribute>
+    <attribute id="BUVAR" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUVAR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="BUVAR"/>
+    </attribute>
+    <attribute id="FDBUK" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDBUK"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="FDBUK"/>
+    </attribute>
+    <attribute id="XFDIS" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDIS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XFDIS"/>
+    </attribute>
+    <attribute id="XVALV" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVALV"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XVALV"/>
+    </attribute>
+    <attribute id="XSKFN" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSKFN"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XSKFN"/>
+    </attribute>
+    <attribute id="KKBER" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKBER"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="KKBER"/>
+    </attribute>
+    <attribute id="XMWSN" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMWSN"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XMWSN"/>
+    </attribute>
+    <attribute id="MREGL" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MREGL"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="MREGL"/>
+    </attribute>
+    <attribute id="XGSBE" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XGSBE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XGSBE"/>
+    </attribute>
+    <attribute id="XGJRV" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XGJRV"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XGJRV"/>
+    </attribute>
+    <attribute id="XKDFT" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKDFT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XKDFT"/>
+    </attribute>
+    <attribute id="XPROD" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPROD"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XPROD"/>
+    </attribute>
+    <attribute id="XEINK" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEINK"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XEINK"/>
+    </attribute>
+    <attribute id="XJVAA" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XJVAA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XJVAA"/>
+    </attribute>
+    <attribute id="XVVWA" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVVWA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XVVWA"/>
+    </attribute>
+    <attribute id="XSLTA" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSLTA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XSLTA"/>
+    </attribute>
+    <attribute id="XFDMM" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDMM"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XFDMM"/>
+    </attribute>
+    <attribute id="XFDSD" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDSD"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XFDSD"/>
+    </attribute>
+    <attribute id="XEXTB" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEXTB"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XEXTB"/>
+    </attribute>
+    <attribute id="EBUKR" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBUKR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="EBUKR"/>
+    </attribute>
+    <attribute id="KTOP2" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOP2"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="KTOP2"/>
+    </attribute>
+    <attribute id="UMKRS" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMKRS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="UMKRS"/>
+    </attribute>
+    <attribute id="BUKRS_GLOB" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS_GLOB"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="BUKRS_GLOB"/>
+    </attribute>
+    <attribute id="FSTVA" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FSTVA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="FSTVA"/>
+    </attribute>
+    <attribute id="OPVAR_1" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OPVAR_1"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="OPVAR_1"/>
+    </attribute>
+    <attribute id="XCOVR" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOVR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XCOVR"/>
+    </attribute>
+    <attribute id="TXKRS" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXKRS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="TXKRS"/>
+    </attribute>
+    <attribute id="WFVAR" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WFVAR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="WFVAR"/>
+    </attribute>
+    <attribute id="XBBBF" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBF"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XBBBF"/>
+    </attribute>
+    <attribute id="XBBBE" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XBBBE"/>
+    </attribute>
+    <attribute id="XBBBA" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XBBBA"/>
+    </attribute>
+    <attribute id="XBBKO" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBKO"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XBBKO"/>
+    </attribute>
+    <attribute id="XSTDT" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTDT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XSTDT"/>
+    </attribute>
+    <attribute id="MWSKV" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKV"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="MWSKV"/>
+    </attribute>
+    <attribute id="MWSKA" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="MWSKA"/>
+    </attribute>
+    <attribute id="IMPDA" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMPDA"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="IMPDA"/>
+    </attribute>
+    <attribute id="XNEGP" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNEGP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XNEGP"/>
+    </attribute>
+    <attribute id="XKKBI" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKKBI"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XKKBI"/>
+    </attribute>
+    <attribute id="WT_NEWWT" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_NEWWT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="WT_NEWWT"/>
+    </attribute>
+    <attribute id="PP_PDATE" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PP_PDATE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="PP_PDATE"/>
+    </attribute>
+    <attribute id="INFMT" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INFMT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="INFMT"/>
+    </attribute>
+    <attribute id="FSTVARE" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FSTVARE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="FSTVARE"/>
+    </attribute>
+    <attribute id="KOPIM" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOPIM"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="KOPIM"/>
+    </attribute>
+    <attribute id="DKWEG" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DKWEG"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DKWEG"/>
+    </attribute>
+    <attribute id="OFFSACCT" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OFFSACCT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="OFFSACCT"/>
+    </attribute>
+    <attribute id="BAPOVAR" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAPOVAR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="BAPOVAR"/>
+    </attribute>
+    <attribute id="XCOS" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOS"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XCOS"/>
+    </attribute>
+    <attribute id="XCESSION" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCESSION"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XCESSION"/>
+    </attribute>
+    <attribute id="XSPLT" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPLT"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XSPLT"/>
+    </attribute>
+    <attribute id="SURCCM" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SURCCM"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="SURCCM"/>
+    </attribute>
+    <attribute id="DTPROV" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTPROV"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DTPROV"/>
+    </attribute>
+    <attribute id="DTAMTC" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAMTC"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DTAMTC"/>
+    </attribute>
+    <attribute id="DTTAXC" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTTAXC"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DTTAXC"/>
+    </attribute>
+    <attribute id="DTTDSP" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTTDSP"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DTTDSP"/>
+    </attribute>
+    <attribute id="DTAXR" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAXR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="DTAXR"/>
+    </attribute>
+    <attribute id="XVATDATE" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVATDATE"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="XVATDATE"/>
+    </attribute>
+    <attribute id="PST_PER_VAR" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PST_PER_VAR"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="PST_PER_VAR"/>
+    </attribute>
+    <attribute id="FM_DERIVE_ACC" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FM_DERIVE_ACC"/>
+      <keyMapping columnObjectName="EP1_CV_FICA0002" columnName="FM_DERIVE_ACC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

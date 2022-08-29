@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::COST" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table COST"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_COST">
+    <resourceUri>EP1_COST</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_COST">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LEDNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEDNR"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="LEDNR"/>
+    </attribute>
+    <attribute id="OBJNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="WRTTP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRTTP"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="WRTTP"/>
+    </attribute>
+    <attribute id="VERSN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="VERSN"/>
+    </attribute>
+    <attribute id="TARKZ" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TARKZ"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TARKZ"/>
+    </attribute>
+    <attribute id="PERBL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERBL"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="PERBL"/>
+    </attribute>
+    <attribute id="VRGNG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGNG"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="VRGNG"/>
+    </attribute>
+    <attribute id="TKG001" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG001"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG001"/>
+    </attribute>
+    <attribute id="TKG002" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG002"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG002"/>
+    </attribute>
+    <attribute id="TKG003" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG003"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG003"/>
+    </attribute>
+    <attribute id="TKG004" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG004"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG004"/>
+    </attribute>
+    <attribute id="TKG005" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG005"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG005"/>
+    </attribute>
+    <attribute id="TKG006" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG006"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG006"/>
+    </attribute>
+    <attribute id="TKG007" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG007"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG007"/>
+    </attribute>
+    <attribute id="TKG008" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG008"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG008"/>
+    </attribute>
+    <attribute id="TKG009" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG009"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG009"/>
+    </attribute>
+    <attribute id="TKG010" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG010"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG010"/>
+    </attribute>
+    <attribute id="TKG011" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG011"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG011"/>
+    </attribute>
+    <attribute id="TKG012" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG012"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG012"/>
+    </attribute>
+    <attribute id="TKG013" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG013"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG013"/>
+    </attribute>
+    <attribute id="TKG014" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG014"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG014"/>
+    </attribute>
+    <attribute id="TKG015" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG015"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG015"/>
+    </attribute>
+    <attribute id="TKG016" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKG016"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKG016"/>
+    </attribute>
+    <attribute id="TKF001" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF001"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF001"/>
+    </attribute>
+    <attribute id="TKF002" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF002"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF002"/>
+    </attribute>
+    <attribute id="TKF003" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF003"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF003"/>
+    </attribute>
+    <attribute id="TKF004" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF004"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF004"/>
+    </attribute>
+    <attribute id="TKF005" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF005"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF005"/>
+    </attribute>
+    <attribute id="TKF006" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF006"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF006"/>
+    </attribute>
+    <attribute id="TKF007" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF007"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF007"/>
+    </attribute>
+    <attribute id="TKF008" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF008"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF008"/>
+    </attribute>
+    <attribute id="TKF009" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF009"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF009"/>
+    </attribute>
+    <attribute id="TKF010" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF010"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF010"/>
+    </attribute>
+    <attribute id="TKF011" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF011"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF011"/>
+    </attribute>
+    <attribute id="TKF012" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF012"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF012"/>
+    </attribute>
+    <attribute id="TKF013" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF013"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF013"/>
+    </attribute>
+    <attribute id="TKF014" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF014"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF014"/>
+    </attribute>
+    <attribute id="TKF015" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF015"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF015"/>
+    </attribute>
+    <attribute id="TKF016" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKF016"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKF016"/>
+    </attribute>
+    <attribute id="TKE001" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE001"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE001"/>
+    </attribute>
+    <attribute id="TKE002" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE002"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE002"/>
+    </attribute>
+    <attribute id="TKE003" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE003"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE003"/>
+    </attribute>
+    <attribute id="TKE004" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE004"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE004"/>
+    </attribute>
+    <attribute id="TKE005" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE005"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE005"/>
+    </attribute>
+    <attribute id="TKE006" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE006"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE006"/>
+    </attribute>
+    <attribute id="TKE007" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE007"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE007"/>
+    </attribute>
+    <attribute id="TKE008" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE008"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE008"/>
+    </attribute>
+    <attribute id="TKE009" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE009"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE009"/>
+    </attribute>
+    <attribute id="TKE010" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE010"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE010"/>
+    </attribute>
+    <attribute id="TKE011" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE011"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE011"/>
+    </attribute>
+    <attribute id="TKE012" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE012"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE012"/>
+    </attribute>
+    <attribute id="TKE013" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE013"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE013"/>
+    </attribute>
+    <attribute id="TKE014" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE014"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE014"/>
+    </attribute>
+    <attribute id="TKE015" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE015"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE015"/>
+    </attribute>
+    <attribute id="TKE016" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TKE016"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TKE016"/>
+    </attribute>
+    <attribute id="TOG001" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG001"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG001"/>
+    </attribute>
+    <attribute id="TOG002" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG002"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG002"/>
+    </attribute>
+    <attribute id="TOG003" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG003"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG003"/>
+    </attribute>
+    <attribute id="TOG004" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG004"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG004"/>
+    </attribute>
+    <attribute id="TOG005" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG005"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG005"/>
+    </attribute>
+    <attribute id="TOG006" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG006"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG006"/>
+    </attribute>
+    <attribute id="TOG007" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG007"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG007"/>
+    </attribute>
+    <attribute id="TOG008" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG008"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG008"/>
+    </attribute>
+    <attribute id="TOG009" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG009"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG009"/>
+    </attribute>
+    <attribute id="TOG010" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG010"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG010"/>
+    </attribute>
+    <attribute id="TOG011" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG011"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG011"/>
+    </attribute>
+    <attribute id="TOG012" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG012"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG012"/>
+    </attribute>
+    <attribute id="TOG013" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG013"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG013"/>
+    </attribute>
+    <attribute id="TOG014" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG014"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG014"/>
+    </attribute>
+    <attribute id="TOG015" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG015"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG015"/>
+    </attribute>
+    <attribute id="TOG016" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOG016"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOG016"/>
+    </attribute>
+    <attribute id="TOF001" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF001"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF001"/>
+    </attribute>
+    <attribute id="TOF002" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF002"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF002"/>
+    </attribute>
+    <attribute id="TOF003" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF003"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF003"/>
+    </attribute>
+    <attribute id="TOF004" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF004"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF004"/>
+    </attribute>
+    <attribute id="TOF005" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF005"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF005"/>
+    </attribute>
+    <attribute id="TOF006" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF006"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF006"/>
+    </attribute>
+    <attribute id="TOF007" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF007"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF007"/>
+    </attribute>
+    <attribute id="TOF008" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF008"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF008"/>
+    </attribute>
+    <attribute id="TOF009" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF009"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF009"/>
+    </attribute>
+    <attribute id="TOF010" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF010"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF010"/>
+    </attribute>
+    <attribute id="TOF011" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF011"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF011"/>
+    </attribute>
+    <attribute id="TOF012" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF012"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF012"/>
+    </attribute>
+    <attribute id="TOF013" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF013"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF013"/>
+    </attribute>
+    <attribute id="TOF014" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF014"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF014"/>
+    </attribute>
+    <attribute id="TOF015" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF015"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF015"/>
+    </attribute>
+    <attribute id="TOF016" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOF016"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOF016"/>
+    </attribute>
+    <attribute id="TOE001" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE001"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE001"/>
+    </attribute>
+    <attribute id="TOE002" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE002"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE002"/>
+    </attribute>
+    <attribute id="TOE003" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE003"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE003"/>
+    </attribute>
+    <attribute id="TOE004" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE004"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE004"/>
+    </attribute>
+    <attribute id="TOE005" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE005"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE005"/>
+    </attribute>
+    <attribute id="TOE006" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE006"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE006"/>
+    </attribute>
+    <attribute id="TOE007" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE007"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE007"/>
+    </attribute>
+    <attribute id="TOE008" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE008"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE008"/>
+    </attribute>
+    <attribute id="TOE009" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE009"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE009"/>
+    </attribute>
+    <attribute id="TOE010" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE010"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE010"/>
+    </attribute>
+    <attribute id="TOE011" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE011"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE011"/>
+    </attribute>
+    <attribute id="TOE012" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE012"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE012"/>
+    </attribute>
+    <attribute id="TOE013" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE013"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE013"/>
+    </attribute>
+    <attribute id="TOE014" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE014"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE014"/>
+    </attribute>
+    <attribute id="TOE015" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE015"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE015"/>
+    </attribute>
+    <attribute id="TOE016" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOE016"/>
+      <keyMapping columnObjectName="EP1_COST" columnName="TOE016"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

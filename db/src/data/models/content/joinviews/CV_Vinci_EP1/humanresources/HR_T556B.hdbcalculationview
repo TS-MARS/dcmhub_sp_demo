@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::HR_T556B" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_HR_T556B"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_HR_T556B">
+    <resourceUri>EP1_CV_HR_T556B</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_HR_T556B">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T556B" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRSL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRSL"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T556B" columnName="SPRSL"/>
+    </attribute>
+    <attribute id="MOPGK" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MOPGK"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T556B" columnName="MOPGK"/>
+    </attribute>
+    <attribute id="MOZKO" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MOZKO"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T556B" columnName="MOZKO"/>
+    </attribute>
+    <attribute id="KTART" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTART"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T556B" columnName="KTART"/>
+    </attribute>
+    <attribute id="KTEXT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_HR_T556B" columnName="KTEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T527X" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T527X"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T527X">
+    <resourceUri>EP1_T527X</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T527X">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T527X" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRSL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRSL"/>
+      <keyMapping columnObjectName="EP1_T527X" columnName="SPRSL"/>
+    </attribute>
+    <attribute id="ORGEH" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORGEH"/>
+      <keyMapping columnObjectName="EP1_T527X" columnName="ORGEH"/>
+    </attribute>
+    <attribute id="ENDDA" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENDDA"/>
+      <keyMapping columnObjectName="EP1_T527X" columnName="ENDDA"/>
+    </attribute>
+    <attribute id="BEGDA" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGDA"/>
+      <keyMapping columnObjectName="EP1_T527X" columnName="BEGDA"/>
+    </attribute>
+    <attribute id="ORGTX" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORGTX"/>
+      <keyMapping columnObjectName="EP1_T527X" columnName="ORGTX"/>
+    </attribute>
+    <attribute id="MAINT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAINT"/>
+      <keyMapping columnObjectName="EP1_T527X" columnName="MAINT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAA0005" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAA0005"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_FIAA0005">
+    <resourceUri>EP1_CV_FIAA0005</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_FIAA0005">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="MANDT"/>
+    </attribute>
+    <attribute id="AFAPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFAPL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="AFAPL"/>
+    </attribute>
+    <attribute id="AFASL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFASL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="AFASL"/>
+    </attribute>
+    <attribute id="NAFASL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFASL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="NAFASL"/>
+    </attribute>
+    <attribute id="SAFASL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFASL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="SAFASL"/>
+    </attribute>
+    <attribute id="ZINSSL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINSSL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="ZINSSL"/>
+    </attribute>
+    <attribute id="ANHWSL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANHWSL"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="ANHWSL"/>
+    </attribute>
+    <attribute id="XNAAUS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNAAUS"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="XNAAUS"/>
+    </attribute>
+    <attribute id="XZIAUS" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XZIAUS"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="XZIAUS"/>
+    </attribute>
+    <attribute id="NAFVER" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFVER"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="NAFVER"/>
+    </attribute>
+    <attribute id="XNAZUG" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNAZUG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="XNAZUG"/>
+    </attribute>
+    <attribute id="XPERGJ" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPERGJ"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="XPERGJ"/>
+    </attribute>
+    <attribute id="PROZST" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROZST"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="PROZST"/>
+    </attribute>
+    <attribute id="XUMZUG" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XUMZUG"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="XUMZUG"/>
+    </attribute>
+    <attribute id="MANDT_1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="AFAPL_1" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFAPL_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="AFAPL_1"/>
+    </attribute>
+    <attribute id="AFASL_1" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFASL_1"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="AFASL_1"/>
+    </attribute>
+    <attribute id="AFATXT" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFATXT"/>
+      <keyMapping columnObjectName="EP1_CV_FIAA0005" columnName="AFATXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

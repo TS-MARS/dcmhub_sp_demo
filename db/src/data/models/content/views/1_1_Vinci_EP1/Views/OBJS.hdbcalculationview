@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::OBJS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table OBJS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_OBJS">
+    <resourceUri>EP1_OBJS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_OBJS">
+  <attributes>
+    <attribute id="OBJECTNAME" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJECTNAME"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="OBJECTNAME"/>
+    </attribute>
+    <attribute id="OBJECTTYPE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJECTTYPE"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="OBJECTTYPE"/>
+    </attribute>
+    <attribute id="TABNAME" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TABNAME"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="TABNAME"/>
+    </attribute>
+    <attribute id="COVER" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COVER"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="COVER"/>
+    </attribute>
+    <attribute id="CANDIDATE" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CANDIDATE"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="CANDIDATE"/>
+    </attribute>
+    <attribute id="DDIC" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DDIC"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="DDIC"/>
+    </attribute>
+    <attribute id="PRIM_TABLE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRIM_TABLE"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="PRIM_TABLE"/>
+    </attribute>
+    <attribute id="VIEWGRANT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VIEWGRANT"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="VIEWGRANT"/>
+    </attribute>
+    <attribute id="TAB_FILLED" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAB_FILLED"/>
+      <keyMapping columnObjectName="EP1_OBJS" columnName="TAB_FILLED"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

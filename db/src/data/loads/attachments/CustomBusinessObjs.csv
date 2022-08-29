@@ -1,0 +1,6 @@
+D,OF_BKPF,OF_Buchhaltungsbeleg
+E,OF_BKPF,OF_Accounting document
+D,OF_BSEG,OF_Belegzeile Buchhaltungsbeleg
+E,OF_BSEG,OF_Accounting Document Line Item
+D,OF_FIPP,OF_Vorerfasster Beleg
+E,OF_FIPP,OF_Parked Document

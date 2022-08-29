@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::QPCT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table QPCT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_QPCT">
+    <resourceUri>EP1_QPCT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_QPCT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KATALOGART" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KATALOGART"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="KATALOGART"/>
+    </attribute>
+    <attribute id="CODEGRUPPE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CODEGRUPPE"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="CODEGRUPPE"/>
+    </attribute>
+    <attribute id="CODE" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CODE"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="CODE"/>
+    </attribute>
+    <attribute id="SPRACHE" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRACHE"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="SPRACHE"/>
+    </attribute>
+    <attribute id="VERSION" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSION"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="VERSION"/>
+    </attribute>
+    <attribute id="GUELTIGAB" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GUELTIGAB"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="GUELTIGAB"/>
+    </attribute>
+    <attribute id="KURZTEXT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURZTEXT"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="KURZTEXT"/>
+    </attribute>
+    <attribute id="LTEXTV" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXTV"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="LTEXTV"/>
+    </attribute>
+    <attribute id="INAKTIV" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INAKTIV"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="INAKTIV"/>
+    </attribute>
+    <attribute id="GELOESCHT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GELOESCHT"/>
+      <keyMapping columnObjectName="EP1_QPCT" columnName="GELOESCHT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

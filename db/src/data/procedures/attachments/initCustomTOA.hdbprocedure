@@ -1,0 +1,51 @@
+PROCEDURE "att::initCustomTOA"( )
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   AS
+BEGIN
+   DECLARE CURSOR lc_mapped_tables
+	FOR SELECT	tabname,
+				filename
+		FROM "att::MappingPointers";
+
+
+   --reset in-memory TOA table
+   DELETE FROM "att::CustomTOAContent";
+
+   --read mapped pointers and update the in-memory TOA table
+	FOR ls_mapped_tables AS lc_mapped_tables DO
+
+		--read pointer content
+		CALL "att::getDynamical"(
+	   		TABNAME => ls_mapped_tables.tabname,
+	   		OUTTAB  => lt_custom_pointers);	
+
+	   --update in-memory TOA table
+	   UPSERT "att::CustomTOAContent"
+		SELECT MANDT,
+			   SAP_OBJECT,
+			   OBJID,
+			   ARCHIV_ID,
+			   ARC_DOC_ID,
+			   DATE,
+			   SUBSTRING(AR_OBJECT,1,10) AS AR_OBJECT,
+			   RESERVE,
+/*			   "att::getFilenameCustom"(	
+
+			   		ls_mapped_tables.filename, --filename template
+			   		MANDT,
+			   		SAP_OBJECT,
+			   		OBJID,
+			   		ARCHIV_ID,
+			   		ARC_DOC_ID,
+			   		DATE,
+			   		SUBSTRING(AR_OBJECT,1,10),
+			   		RESERVE
+			   ) AS FILENAME, --final filename with replaced variables*/
+			  FILENAME,
+			  '' AS BLOB_DATA
+		  FROM :lt_custom_pointers
+		  ORDER BY MANDT, SAP_OBJECT, OBJID, ARCHIV_ID, ARC_DOC_ID;
+	END FOR;
+
+END

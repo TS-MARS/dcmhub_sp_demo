@@ -23,12 +23,12 @@
 				"id": "tool_vin_ep1_GroupId",
 				"i18n": "i18n/i18n.properties",
 				"namespace": "",
-				"title": "EP1"
+				"title": "VINCI-EP1"
 			},
 			"payload": {
 				"tiles": [{
 					"id": "tool_vin_ep1_tile",
-					"title": "EP1",
+					"title": "VINCI-EP1",
 					"subTitle": "Launchpad",
 					"icon": "sap-icon://share-2",
 					"appId": "tool_vin_ep1",

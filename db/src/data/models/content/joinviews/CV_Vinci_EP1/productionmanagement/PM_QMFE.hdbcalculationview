@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PM_QMFE" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PM_QMFE"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PM_QMFE">
+    <resourceUri>EP1_CV_PM_QMFE</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PM_QMFE">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="MANDT"/>
+    </attribute>
+    <attribute id="QMNUM" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMNUM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="QMNUM"/>
+    </attribute>
+    <attribute id="FENUM" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FENUM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FENUM"/>
+    </attribute>
+    <attribute id="ERNAM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="ERDAT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="AENAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="FETXT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FETXT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FETXT"/>
+    </attribute>
+    <attribute id="FEKAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEKAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FEKAT"/>
+    </attribute>
+    <attribute id="FEGRP" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEGRP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FEGRP"/>
+    </attribute>
+    <attribute id="FECOD" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FECOD"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FECOD"/>
+    </attribute>
+    <attribute id="FEVER" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEVER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FEVER"/>
+    </attribute>
+    <attribute id="OTKAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTKAT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="OTKAT"/>
+    </attribute>
+    <attribute id="OTGRP" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTGRP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="OTGRP"/>
+    </attribute>
+    <attribute id="OTEIL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTEIL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="OTEIL"/>
+    </attribute>
+    <attribute id="OTVER" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTVER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="OTVER"/>
+    </attribute>
+    <attribute id="BAUTL" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAUTL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="BAUTL"/>
+    </attribute>
+    <attribute id="EBORT" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBORT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="EBORT"/>
+    </attribute>
+    <attribute id="INDTX" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INDTX"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="INDTX"/>
+    </attribute>
+    <attribute id="KZMLA" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZMLA"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="KZMLA"/>
+    </attribute>
+    <attribute id="ERZEIT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERZEIT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="ERZEIT"/>
+    </attribute>
+    <attribute id="AEZEIT" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEZEIT"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="AEZEIT"/>
+    </attribute>
+    <attribute id="KZORG" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZORG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="KZORG"/>
+    </attribute>
+    <attribute id="WDFEH" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WDFEH"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="WDFEH"/>
+    </attribute>
+    <attribute id="FEQKLAS" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEQKLAS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FEQKLAS"/>
+    </attribute>
+    <attribute id="FCOAUFNR" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FCOAUFNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FCOAUFNR"/>
+    </attribute>
+    <attribute id="FMGFRD" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMGFRD"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FMGFRD"/>
+    </attribute>
+    <attribute id="FMGFRD_DISP" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMGFRD_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FMGFRD_DISP"/>
+    </attribute>
+    <attribute id="FMGEIG" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMGEIG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FMGEIG"/>
+    </attribute>
+    <attribute id="FMGEIG_DISP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMGEIG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FMGEIG_DISP"/>
+    </attribute>
+    <attribute id="FMGEIN" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMGEIN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FMGEIN"/>
+    </attribute>
+    <attribute id="ANZFEHLER" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZFEHLER"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="ANZFEHLER"/>
+    </attribute>
+    <attribute id="FEHLBEW" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEHLBEW"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FEHLBEW"/>
+    </attribute>
+    <attribute id="UNITFLBEW" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNITFLBEW"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="UNITFLBEW"/>
+    </attribute>
+    <attribute id="FEART" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEART"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FEART"/>
+    </attribute>
+    <attribute id="PNLKN" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PNLKN"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="PNLKN"/>
+    </attribute>
+    <attribute id="MERKNR" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MERKNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="MERKNR"/>
+    </attribute>
+    <attribute id="PROBENR" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROBENR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="PROBENR"/>
+    </attribute>
+    <attribute id="PHYNR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PHYNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="PHYNR"/>
+    </attribute>
+    <attribute id="PRUEFLINR" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRUEFLINR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="PRUEFLINR"/>
+    </attribute>
+    <attribute id="CROBJTY" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CROBJTY"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="CROBJTY"/>
+    </attribute>
+    <attribute id="ARBPL" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARBPL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="ARBPL"/>
+    </attribute>
+    <attribute id="ARBPLWERK" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARBPLWERK"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="ARBPLWERK"/>
+    </attribute>
+    <attribute id="FENUMORG" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FENUMORG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="FENUMORG"/>
+    </attribute>
+    <attribute id="KZSYSFE" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZSYSFE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="KZSYSFE"/>
+    </attribute>
+    <attribute id="KZLOESCH" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZLOESCH"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="KZLOESCH"/>
+    </attribute>
+    <attribute id="POSNR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="POSNR"/>
+    </attribute>
+    <attribute id="HERPOS" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERPOS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="HERPOS"/>
+    </attribute>
+    <attribute id="AUTKZ" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUTKZ"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="AUTKZ"/>
+    </attribute>
+    <attribute id="MATNR" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="MATNR"/>
+    </attribute>
+    <attribute id="WERKS" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="WERKS"/>
+    </attribute>
+    <attribute id="EKORG" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKORG"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="EKORG"/>
+    </attribute>
+    <attribute id="INFNR" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INFNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="INFNR"/>
+    </attribute>
+    <attribute id="KOSTL" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="LSTAR" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="PRZNR" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRZNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="PRZNR"/>
+    </attribute>
+    <attribute id="MENGE" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MENGE_DISP" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="MENGE_DISP"/>
+    </attribute>
+    <attribute id="EQUNR" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQUNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="EQUNR"/>
+    </attribute>
+    <attribute id="TPLNR" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLNR"/>
+      <keyMapping columnObjectName="EP1_CV_PM_QMFE" columnName="TPLNR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

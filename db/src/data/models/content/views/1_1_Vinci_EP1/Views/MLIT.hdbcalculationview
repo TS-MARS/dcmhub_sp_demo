@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MLIT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table MLIT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_MLIT">
+    <resourceUri>EP1_MLIT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_MLIT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BELNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BELNR"/>
+    </attribute>
+    <attribute id="KJAHR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KJAHR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KJAHR"/>
+    </attribute>
+    <attribute id="POSNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="POSNR"/>
+    </attribute>
+    <attribute id="URZEILE" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="URZEILE"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="URZEILE"/>
+    </attribute>
+    <attribute id="MATNR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="MATNR"/>
+    </attribute>
+    <attribute id="BWTAR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="BWKEY" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWKEY"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BWKEY"/>
+    </attribute>
+    <attribute id="KALNR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALNR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KALNR"/>
+    </attribute>
+    <attribute id="MEINS" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="MEINS"/>
+    </attribute>
+    <attribute id="SPART" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="SPART"/>
+    </attribute>
+    <attribute id="GSBER" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="GSBER"/>
+    </attribute>
+    <attribute id="BWMOD" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWMOD"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BWMOD"/>
+    </attribute>
+    <attribute id="BUKRS" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="KTOPL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="MLAST" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLAST"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="MLAST"/>
+    </attribute>
+    <attribute id="PSART" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSART"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="PSART"/>
+    </attribute>
+    <attribute id="BELNR_EA" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR_EA"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BELNR_EA"/>
+    </attribute>
+    <attribute id="KJAHR_EA" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KJAHR_EA"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KJAHR_EA"/>
+    </attribute>
+    <attribute id="BELNR_MA" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR_MA"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BELNR_MA"/>
+    </attribute>
+    <attribute id="KJAHR_MA" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KJAHR_MA"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KJAHR_MA"/>
+    </attribute>
+    <attribute id="ASCHEMA" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASCHEMA"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="ASCHEMA"/>
+    </attribute>
+    <attribute id="PTYP" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PTYP"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="PTYP"/>
+    </attribute>
+    <attribute id="PTYP_KAT" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PTYP_KAT"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="PTYP_KAT"/>
+    </attribute>
+    <attribute id="PTYP_BVALT" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PTYP_BVALT"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="PTYP_BVALT"/>
+    </attribute>
+    <attribute id="PTYP_PROC" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PTYP_PROC"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="PTYP_PROC"/>
+    </attribute>
+    <attribute id="BEWARTGRP" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEWARTGRP"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BEWARTGRP"/>
+    </attribute>
+    <attribute id="KATEGORIE" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KATEGORIE"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KATEGORIE"/>
+    </attribute>
+    <attribute id="BVALT" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BVALT"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BVALT"/>
+    </attribute>
+    <attribute id="PROCESS" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROCESS"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="PROCESS"/>
+    </attribute>
+    <attribute id="CSPLIT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CSPLIT"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="CSPLIT"/>
+    </attribute>
+    <attribute id="VBELN" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="VBELN"/>
+    </attribute>
+    <attribute id="VBELP" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELP"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="VBELP"/>
+    </attribute>
+    <attribute id="PSPNR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPNR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="PSPNR"/>
+    </attribute>
+    <attribute id="LIFNR" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="KZBWS" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBWS"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KZBWS"/>
+    </attribute>
+    <attribute id="XOBEW" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XOBEW"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="XOBEW"/>
+    </attribute>
+    <attribute id="SOBKZ" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBKZ"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="SOBKZ"/>
+    </attribute>
+    <attribute id="XABRERR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XABRERR"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="XABRERR"/>
+    </attribute>
+    <attribute id="BELNR_CONS" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR_CONS"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BELNR_CONS"/>
+    </attribute>
+    <attribute id="KJAHR_CONS" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KJAHR_CONS"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KJAHR_CONS"/>
+    </attribute>
+    <attribute id="BELNR_WIP" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR_WIP"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="BELNR_WIP"/>
+    </attribute>
+    <attribute id="KJAHR_WIP" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KJAHR_WIP"/>
+      <keyMapping columnObjectName="EP1_MLIT" columnName="KJAHR_WIP"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

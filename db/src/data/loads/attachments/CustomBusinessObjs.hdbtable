@@ -1,0 +1,7 @@
+COLUMN TABLE "att::CustomBusinessObjs" (
+	"LANGUAGE"	varchar(1),
+	"NAME"		varchar(10),
+	"STEXT" 	varchar(90),
+	PRIMARY KEY ("LANGUAGE","NAME")
+)
+COMMENT 'Custom Business Objects'

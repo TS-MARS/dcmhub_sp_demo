@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::EKBZ" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table EKBZ"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_EKBZ">
+    <resourceUri>EP1_EKBZ</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_EKBZ">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="MANDT"/>
+    </attribute>
+    <attribute id="EBELN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="EBELP"/>
+    </attribute>
+    <attribute id="STUNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="STUNR"/>
+    </attribute>
+    <attribute id="ZAEHK" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHK"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="ZAEHK"/>
+    </attribute>
+    <attribute id="VGABE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGABE"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="VGABE"/>
+    </attribute>
+    <attribute id="GJAHR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BELNR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="BELNR"/>
+    </attribute>
+    <attribute id="BUZEI" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BEWTP" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEWTP"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="BEWTP"/>
+    </attribute>
+    <attribute id="BUDAT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="MENGE" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="MENGE"/>
+    </attribute>
+    <attribute id="DMBTR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="DMBTR"/>
+    </attribute>
+    <attribute id="WRBTR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="WAERS" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="WAERS"/>
+    </attribute>
+    <attribute id="AREWR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AREWR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="AREWR"/>
+    </attribute>
+    <attribute id="SHKZG" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="XBLNR" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="XBLNR"/>
+    </attribute>
+    <attribute id="FRBNR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRBNR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="FRBNR"/>
+    </attribute>
+    <attribute id="LIFNR" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="CPUDT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUDT"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="CPUDT"/>
+    </attribute>
+    <attribute id="CPUTM" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUTM"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="CPUTM"/>
+    </attribute>
+    <attribute id="REEWR" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REEWR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="REEWR"/>
+    </attribute>
+    <attribute id="REFWR" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFWR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="REFWR"/>
+    </attribute>
+    <attribute id="BWTAR" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="KSCHL" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="BPMNG" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="BPMNG"/>
+    </attribute>
+    <attribute id="AREWW" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AREWW"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="AREWW"/>
+    </attribute>
+    <attribute id="HSWAE" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSWAE"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="HSWAE"/>
+    </attribute>
+    <attribute id="VNETW" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VNETW"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="VNETW"/>
+    </attribute>
+    <attribute id="ERNAM" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="SHKKO" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKKO"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="SHKKO"/>
+    </attribute>
+    <attribute id="AREWB" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AREWB"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="AREWB"/>
+    </attribute>
+    <attribute id="REWRB" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REWRB"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="REWRB"/>
+    </attribute>
+    <attribute id="SAPRL" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAPRL"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="SAPRL"/>
+    </attribute>
+    <attribute id="MENGE_POP" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_POP"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="MENGE_POP"/>
+    </attribute>
+    <attribute id="DMBTR_POP" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR_POP"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="DMBTR_POP"/>
+    </attribute>
+    <attribute id="WRBTR_POP" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR_POP"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="WRBTR_POP"/>
+    </attribute>
+    <attribute id="BPMNG_POP" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG_POP"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="BPMNG_POP"/>
+    </attribute>
+    <attribute id="AREWR_POP" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AREWR_POP"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="AREWR_POP"/>
+    </attribute>
+    <attribute id="KUDIF" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUDIF"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="KUDIF"/>
+    </attribute>
+    <attribute id="XMACC" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMACC"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="XMACC"/>
+    </attribute>
+    <attribute id="WKURS" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKURS"/>
+      <keyMapping columnObjectName="EP1_EKBZ" columnName="WKURS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

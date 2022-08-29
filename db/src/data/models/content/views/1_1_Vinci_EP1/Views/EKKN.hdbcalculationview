@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::EKKN" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table EKKN"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_EKKN">
+    <resourceUri>EP1_EKKN</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_EKKN">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="MANDT"/>
+    </attribute>
+    <attribute id="EBELN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="EBELP"/>
+    </attribute>
+    <attribute id="ZEKKN" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEKKN"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="ZEKKN"/>
+    </attribute>
+    <attribute id="LOEKZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEKZ"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="LOEKZ"/>
+    </attribute>
+    <attribute id="AEDAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="KFLAG" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFLAG"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="KFLAG"/>
+    </attribute>
+    <attribute id="MENGE" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="MENGE"/>
+    </attribute>
+    <attribute id="VPROZ" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPROZ"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="VPROZ"/>
+    </attribute>
+    <attribute id="NETWR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NETWR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="NETWR"/>
+    </attribute>
+    <attribute id="SAKTO" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKTO"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="SAKTO"/>
+    </attribute>
+    <attribute id="GSBER" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="GSBER"/>
+    </attribute>
+    <attribute id="KOSTL" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="PROJN" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROJN"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="PROJN"/>
+    </attribute>
+    <attribute id="VBELN" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="VBELN"/>
+    </attribute>
+    <attribute id="VBELP" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELP"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="VBELP"/>
+    </attribute>
+    <attribute id="VETEN" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VETEN"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="VETEN"/>
+    </attribute>
+    <attribute id="KZBRB" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBRB"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="KZBRB"/>
+    </attribute>
+    <attribute id="ANLN1" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="AUFNR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="WEMPF" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEMPF"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="WEMPF"/>
+    </attribute>
+    <attribute id="ABLAD" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABLAD"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="ABLAD"/>
+    </attribute>
+    <attribute id="KOKRS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="XBKST" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBKST"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="XBKST"/>
+    </attribute>
+    <attribute id="XBAUF" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBAUF"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="XBAUF"/>
+    </attribute>
+    <attribute id="XBPRO" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBPRO"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="XBPRO"/>
+    </attribute>
+    <attribute id="EREKZ" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EREKZ"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="EREKZ"/>
+    </attribute>
+    <attribute id="KSTRG" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTRG"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="KSTRG"/>
+    </attribute>
+    <attribute id="PAOBJNR" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAOBJNR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="PAOBJNR"/>
+    </attribute>
+    <attribute id="PRCTR" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="PS_PSP_PNR" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PS_PSP_PNR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="PS_PSP_PNR"/>
+    </attribute>
+    <attribute id="NPLNR" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NPLNR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="NPLNR"/>
+    </attribute>
+    <attribute id="AUFPL" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="AUFPL"/>
+    </attribute>
+    <attribute id="IMKEY" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMKEY"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="IMKEY"/>
+    </attribute>
+    <attribute id="APLZL" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="APLZL"/>
+    </attribute>
+    <attribute id="VPTNR" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPTNR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="VPTNR"/>
+    </attribute>
+    <attribute id="FIPOS" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIPOS"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="FIPOS"/>
+    </attribute>
+    <attribute id="RECID" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RECID"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="RECID"/>
+    </attribute>
+    <attribute id="FISTL" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="FISTL"/>
+    </attribute>
+    <attribute id="GEBER" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="GEBER"/>
+    </attribute>
+    <attribute id="FKBER" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="FKBER"/>
+    </attribute>
+    <attribute id="DABRZ" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DABRZ"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="DABRZ"/>
+    </attribute>
+    <attribute id="AUFPL_ORD" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL_ORD"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="AUFPL_ORD"/>
+    </attribute>
+    <attribute id="APLZL_ORD" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL_ORD"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="APLZL_ORD"/>
+    </attribute>
+    <attribute id="MWSKZ" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="TXJCD" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="NAVNW" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAVNW"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="NAVNW"/>
+    </attribute>
+    <attribute id="KBLNR" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBLNR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="KBLNR"/>
+    </attribute>
+    <attribute id="KBLPOS" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBLPOS"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="KBLPOS"/>
+    </attribute>
+    <attribute id="LSTAR" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="PRZNR" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRZNR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="PRZNR"/>
+    </attribute>
+    <attribute id="GRANT_NBR" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="GRANT_NBR"/>
+    </attribute>
+    <attribute id="BUDGET_PD" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDGET_PD"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="BUDGET_PD"/>
+    </attribute>
+    <attribute id="FM_SPLIT_BATCH" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FM_SPLIT_BATCH"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="FM_SPLIT_BATCH"/>
+    </attribute>
+    <attribute id="FM_SPLIT_BEGRU" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FM_SPLIT_BEGRU"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="FM_SPLIT_BEGRU"/>
+    </attribute>
+    <attribute id="AA_FINAL_IND" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AA_FINAL_IND"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="AA_FINAL_IND"/>
+    </attribute>
+    <attribute id="AA_FINAL_REASON" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AA_FINAL_REASON"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="AA_FINAL_REASON"/>
+    </attribute>
+    <attribute id="AA_FINAL_QTY" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AA_FINAL_QTY"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="AA_FINAL_QTY"/>
+    </attribute>
+    <attribute id="AA_FINAL_QTY_F" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AA_FINAL_QTY_F"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="AA_FINAL_QTY_F"/>
+    </attribute>
+    <attribute id="MENGE_F" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_F"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="MENGE_F"/>
+    </attribute>
+    <attribute id="EGRUP" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGRUP"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="EGRUP"/>
+    </attribute>
+    <attribute id="VNAME" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VNAME"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="VNAME"/>
+    </attribute>
+    <attribute id="TCOBJNR" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TCOBJNR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="TCOBJNR"/>
+    </attribute>
+    <attribute id="DATEOFSERVICE" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATEOFSERVICE"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="DATEOFSERVICE"/>
+    </attribute>
+    <attribute id="NOTAXCORR" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOTAXCORR"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="NOTAXCORR"/>
+    </attribute>
+    <attribute id="DIFFOPTRATE" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DIFFOPTRATE"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="DIFFOPTRATE"/>
+    </attribute>
+    <attribute id="HASDIFFOPTRATE" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HASDIFFOPTRATE"/>
+      <keyMapping columnObjectName="EP1_EKKN" columnName="HASDIFFOPTRATE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::DD07L" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table DD07L"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_DD07L">
+    <resourceUri>EP1_DD07L</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_DD07L">
+  <attributes>
+    <attribute id="DOMNAME" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOMNAME"/>
+      <keyMapping columnObjectName="EP1_DD07L" columnName="DOMNAME"/>
+    </attribute>
+    <attribute id="AS4LOCAL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AS4LOCAL"/>
+      <keyMapping columnObjectName="EP1_DD07L" columnName="AS4LOCAL"/>
+    </attribute>
+    <attribute id="VALPOS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALPOS"/>
+      <keyMapping columnObjectName="EP1_DD07L" columnName="VALPOS"/>
+    </attribute>
+    <attribute id="AS4VERS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AS4VERS"/>
+      <keyMapping columnObjectName="EP1_DD07L" columnName="AS4VERS"/>
+    </attribute>
+    <attribute id="DOMVALUE_L" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOMVALUE_L"/>
+      <keyMapping columnObjectName="EP1_DD07L" columnName="DOMVALUE_L"/>
+    </attribute>
+    <attribute id="DOMVALUE_H" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOMVALUE_H"/>
+      <keyMapping columnObjectName="EP1_DD07L" columnName="DOMVALUE_H"/>
+    </attribute>
+    <attribute id="APPVAL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APPVAL"/>
+      <keyMapping columnObjectName="EP1_DD07L" columnName="APPVAL"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

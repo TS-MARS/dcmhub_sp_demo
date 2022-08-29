@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::IFLOTX" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table IFLOTX"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_IFLOTX">
+    <resourceUri>EP1_IFLOTX</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_IFLOTX">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_IFLOTX" columnName="MANDT"/>
+    </attribute>
+    <attribute id="TPLNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLNR"/>
+      <keyMapping columnObjectName="EP1_IFLOTX" columnName="TPLNR"/>
+    </attribute>
+    <attribute id="SPRAS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_IFLOTX" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="PLTXT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLTXT"/>
+      <keyMapping columnObjectName="EP1_IFLOTX" columnName="PLTXT"/>
+    </attribute>
+    <attribute id="KZLTX" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZLTX"/>
+      <keyMapping columnObjectName="EP1_IFLOTX" columnName="KZLTX"/>
+    </attribute>
+    <attribute id="KZMLA" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZMLA"/>
+      <keyMapping columnObjectName="EP1_IFLOTX" columnName="KZMLA"/>
+    </attribute>
+    <attribute id="PLTXU" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLTXU"/>
+      <keyMapping columnObjectName="EP1_IFLOTX" columnName="PLTXU"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

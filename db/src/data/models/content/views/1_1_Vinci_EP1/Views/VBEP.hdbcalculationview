@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::VBEP" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table VBEP"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_VBEP">
+    <resourceUri>EP1_VBEP</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_VBEP">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="MANDT"/>
+    </attribute>
+    <attribute id="VBELN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="VBELN"/>
+    </attribute>
+    <attribute id="POSNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="POSNR"/>
+    </attribute>
+    <attribute id="ETENR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETENR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ETENR"/>
+    </attribute>
+    <attribute id="ETTYP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETTYP"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ETTYP"/>
+    </attribute>
+    <attribute id="LFREL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFREL"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="LFREL"/>
+    </attribute>
+    <attribute id="EDATU" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EDATU"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="EDATU"/>
+    </attribute>
+    <attribute id="EZEIT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EZEIT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="EZEIT"/>
+    </attribute>
+    <attribute id="WMENG" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WMENG"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="WMENG"/>
+    </attribute>
+    <attribute id="BMENG" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BMENG"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="BMENG"/>
+    </attribute>
+    <attribute id="VRKME" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRKME"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="VRKME"/>
+    </attribute>
+    <attribute id="LMENG" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENG"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="LMENG"/>
+    </attribute>
+    <attribute id="MEINS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="MEINS"/>
+    </attribute>
+    <attribute id="BDDAT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDDAT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="BDDAT"/>
+    </attribute>
+    <attribute id="BDART" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDART"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="BDART"/>
+    </attribute>
+    <attribute id="PLART" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLART"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="PLART"/>
+    </attribute>
+    <attribute id="VBELE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELE"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="VBELE"/>
+    </attribute>
+    <attribute id="POSNE" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNE"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="POSNE"/>
+    </attribute>
+    <attribute id="ETENE" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETENE"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ETENE"/>
+    </attribute>
+    <attribute id="RSDAT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSDAT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="RSDAT"/>
+    </attribute>
+    <attribute id="IDNNR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDNNR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="IDNNR"/>
+    </attribute>
+    <attribute id="BANFN" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANFN"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="BANFN"/>
+    </attribute>
+    <attribute id="BSART" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSART"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="BSART"/>
+    </attribute>
+    <attribute id="BSTYP" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTYP"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="BSTYP"/>
+    </attribute>
+    <attribute id="WEPOS" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEPOS"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="WEPOS"/>
+    </attribute>
+    <attribute id="REPOS" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REPOS"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="REPOS"/>
+    </attribute>
+    <attribute id="LRGDT" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LRGDT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="LRGDT"/>
+    </attribute>
+    <attribute id="PRGRS" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRGRS"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="PRGRS"/>
+    </attribute>
+    <attribute id="TDDAT" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDDAT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="TDDAT"/>
+    </attribute>
+    <attribute id="MBDAT" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBDAT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="MBDAT"/>
+    </attribute>
+    <attribute id="LDDAT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LDDAT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="LDDAT"/>
+    </attribute>
+    <attribute id="WADAT" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WADAT"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="WADAT"/>
+    </attribute>
+    <attribute id="CMENG" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CMENG"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="CMENG"/>
+    </attribute>
+    <attribute id="LIFSP" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFSP"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="LIFSP"/>
+    </attribute>
+    <attribute id="GRSTR" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRSTR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="GRSTR"/>
+    </attribute>
+    <attribute id="ABART" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABART"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ABART"/>
+    </attribute>
+    <attribute id="ABRUF" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABRUF"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ABRUF"/>
+    </attribute>
+    <attribute id="ROMS1" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMS1"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ROMS1"/>
+    </attribute>
+    <attribute id="ROMS2" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMS2"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ROMS2"/>
+    </attribute>
+    <attribute id="ROMS3" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMS3"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ROMS3"/>
+    </attribute>
+    <attribute id="ROMEI" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMEI"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ROMEI"/>
+    </attribute>
+    <attribute id="RFORM" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFORM"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="RFORM"/>
+    </attribute>
+    <attribute id="UMVKZ" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMVKZ"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="UMVKZ"/>
+    </attribute>
+    <attribute id="UMVKN" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMVKN"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="UMVKN"/>
+    </attribute>
+    <attribute id="VERFP" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERFP"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="VERFP"/>
+    </attribute>
+    <attribute id="BWART" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWART"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="BWART"/>
+    </attribute>
+    <attribute id="BNFPO" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNFPO"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="BNFPO"/>
+    </attribute>
+    <attribute id="ETART" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETART"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ETART"/>
+    </attribute>
+    <attribute id="AUFNR" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="PLNUM" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNUM"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="PLNUM"/>
+    </attribute>
+    <attribute id="SERNR" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="SERNR"/>
+    </attribute>
+    <attribute id="AESKD" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AESKD"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="AESKD"/>
+    </attribute>
+    <attribute id="ABGES" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGES"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ABGES"/>
+    </attribute>
+    <attribute id="MBUHR" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBUHR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="MBUHR"/>
+    </attribute>
+    <attribute id="TDUHR" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDUHR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="TDUHR"/>
+    </attribute>
+    <attribute id="LDUHR" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LDUHR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="LDUHR"/>
+    </attribute>
+    <attribute id="WAUHR" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAUHR"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="WAUHR"/>
+    </attribute>
+    <attribute id="AULWE" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AULWE"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="AULWE"/>
+    </attribute>
+    <attribute id="SEL" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEL"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="SEL"/>
+    </attribute>
+    <attribute id="CCI" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCI"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="CCI"/>
+    </attribute>
+    <attribute id="SEN" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEN"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="SEN"/>
+    </attribute>
+    <attribute id="PSEL" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSEL"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="PSEL"/>
+    </attribute>
+    <attribute id="PCCI" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PCCI"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="PCCI"/>
+    </attribute>
+    <attribute id="PSEN" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSEN"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="PSEN"/>
+    </attribute>
+    <attribute id="DNO" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DNO"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="DNO"/>
+    </attribute>
+    <attribute id="SHM" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHM"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="SHM"/>
+    </attribute>
+    <attribute id="SMB" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMB"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="SMB"/>
+    </attribute>
+    <attribute id="ECC" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ECC"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="ECC"/>
+    </attribute>
+    <attribute id="PLC" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLC"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="PLC"/>
+    </attribute>
+    <attribute id="MBDAT_DRS" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBDAT_DRS"/>
+      <keyMapping columnObjectName="EP1_VBEP" columnName="MBDAT_DRS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

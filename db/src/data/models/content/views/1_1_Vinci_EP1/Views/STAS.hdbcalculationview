@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::STAS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table STAS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_STAS">
+    <resourceUri>EP1_STAS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_STAS">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="MANDT"/>
+    </attribute>
+    <attribute id="STLTY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLTY"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="STLTY"/>
+    </attribute>
+    <attribute id="STLNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLNR"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="STLNR"/>
+    </attribute>
+    <attribute id="STLAL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLAL"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="STLAL"/>
+    </attribute>
+    <attribute id="STLKN" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLKN"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="STLKN"/>
+    </attribute>
+    <attribute id="STASZ" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STASZ"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="STASZ"/>
+    </attribute>
+    <attribute id="DATUV" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="DATUV"/>
+    </attribute>
+    <attribute id="TECHV" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHV"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="TECHV"/>
+    </attribute>
+    <attribute id="AENNR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="AENNR"/>
+    </attribute>
+    <attribute id="LKENZ" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="LKENZ"/>
+    </attribute>
+    <attribute id="ANDAT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANDAT"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="ANDAT"/>
+    </attribute>
+    <attribute id="ANNAM" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANNAM"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="ANNAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="AENAM"/>
+    </attribute>
+    <attribute id="DVDAT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DVDAT"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="DVDAT"/>
+    </attribute>
+    <attribute id="DVNAM" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DVNAM"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="DVNAM"/>
+    </attribute>
+    <attribute id="AEHLP" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEHLP"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="AEHLP"/>
+    </attribute>
+    <attribute id="STVKN" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STVKN"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="STVKN"/>
+    </attribute>
+    <attribute id="IDPOS" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDPOS"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="IDPOS"/>
+    </attribute>
+    <attribute id="IDVAR" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDVAR"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="IDVAR"/>
+    </attribute>
+    <attribute id="LPSRT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LPSRT"/>
+      <keyMapping columnObjectName="EP1_STAS" columnName="LPSRT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

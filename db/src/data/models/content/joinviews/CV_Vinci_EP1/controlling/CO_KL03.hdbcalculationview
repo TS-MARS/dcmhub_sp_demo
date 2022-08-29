@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CO_KL03" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CO_KL03"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CO_KL03">
+    <resourceUri>EP1_CV_CO_KL03</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CO_KL03">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KOKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="LSTAR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="DATBI" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATBI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="DATBI"/>
+    </attribute>
+    <attribute id="DATAB" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATAB"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="DATAB"/>
+    </attribute>
+    <attribute id="LEINH" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEINH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="LEINH"/>
+    </attribute>
+    <attribute id="LATYP" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LATYP"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="LATYP"/>
+    </attribute>
+    <attribute id="LATYPI" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LATYPI"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="LATYPI"/>
+    </attribute>
+    <attribute id="ERSDA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSDA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="ERSDA"/>
+    </attribute>
+    <attribute id="USNAM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USNAM"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="USNAM"/>
+    </attribute>
+    <attribute id="KSTTY" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTTY"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="KSTTY"/>
+    </attribute>
+    <attribute id="AUSEH" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSEH"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="AUSEH"/>
+    </attribute>
+    <attribute id="AUSFK" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSFK"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="AUSFK"/>
+    </attribute>
+    <attribute id="VKSTA" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKSTA"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="VKSTA"/>
+    </attribute>
+    <attribute id="LARK1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LARK1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="LARK1"/>
+    </attribute>
+    <attribute id="LARK2" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LARK2"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="LARK2"/>
+    </attribute>
+    <attribute id="SPRKZ" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="SPRKZ"/>
+    </attribute>
+    <attribute id="HRKFT" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HRKFT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="HRKFT"/>
+    </attribute>
+    <attribute id="FIXVO" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIXVO"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="FIXVO"/>
+    </attribute>
+    <attribute id="TARKZ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TARKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="TARKZ"/>
+    </attribute>
+    <attribute id="YRATE" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YRATE"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="YRATE"/>
+    </attribute>
+    <attribute id="TARKZ_I" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TARKZ_I"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="TARKZ_I"/>
+    </attribute>
+    <attribute id="MANIST" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANIST"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="MANIST"/>
+    </attribute>
+    <attribute id="MANPLAN" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANPLAN"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="MANPLAN"/>
+    </attribute>
+    <attribute id="MANDT_1" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KOKRS_1" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS_1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="KOKRS_1"/>
+    </attribute>
+    <attribute id="LSTAR_1" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR_1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="LSTAR_1"/>
+    </attribute>
+    <attribute id="DATBI_1" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATBI_1"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="DATBI_1"/>
+    </attribute>
+    <attribute id="KTEXT" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="KTEXT"/>
+    </attribute>
+    <attribute id="LTEXT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="LTEXT"/>
+    </attribute>
+    <attribute id="MCTXT" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MCTXT"/>
+      <keyMapping columnObjectName="EP1_CV_CO_KL03" columnName="MCTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

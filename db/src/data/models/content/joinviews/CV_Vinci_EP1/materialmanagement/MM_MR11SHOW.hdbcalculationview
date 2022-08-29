@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_MR11SHOW" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_MR11SHOW"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_MM_MR11SHOW">
+    <resourceUri>EP1_CV_MM_MR11SHOW</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_MM_MR11SHOW">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BELNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BLART" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BLART"/>
+    </attribute>
+    <attribute id="BLDAT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BUDAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="USNAM" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USNAM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="USNAM"/>
+    </attribute>
+    <attribute id="TCODE" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TCODE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="TCODE"/>
+    </attribute>
+    <attribute id="CPUDT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUDT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="CPUDT"/>
+    </attribute>
+    <attribute id="CPUTM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUTM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="CPUTM"/>
+    </attribute>
+    <attribute id="VGART" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGART"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="VGART"/>
+    </attribute>
+    <attribute id="XBLNR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XBLNR"/>
+    </attribute>
+    <attribute id="BUKRS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="LIFNR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="WAERS" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="WAERS"/>
+    </attribute>
+    <attribute id="KURSF" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURSF"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="KURSF"/>
+    </attribute>
+    <attribute id="RMWWR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RMWWR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RMWWR"/>
+    </attribute>
+    <attribute id="BEZNK" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEZNK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BEZNK"/>
+    </attribute>
+    <attribute id="WMWST1" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WMWST1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="WMWST1"/>
+    </attribute>
+    <attribute id="MWSKZ1" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MWSKZ1"/>
+    </attribute>
+    <attribute id="WMWST2" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WMWST2"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="WMWST2"/>
+    </attribute>
+    <attribute id="MWSKZ2" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ2"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MWSKZ2"/>
+    </attribute>
+    <attribute id="ZTERM" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZTERM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZTERM"/>
+    </attribute>
+    <attribute id="ZBD1T" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD1T"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZBD1T"/>
+    </attribute>
+    <attribute id="ZBD1P" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD1P"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZBD1P"/>
+    </attribute>
+    <attribute id="ZBD2T" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD2T"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZBD2T"/>
+    </attribute>
+    <attribute id="ZBD2P" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD2P"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZBD2P"/>
+    </attribute>
+    <attribute id="ZBD3T" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD3T"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZBD3T"/>
+    </attribute>
+    <attribute id="WSKTO" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WSKTO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="WSKTO"/>
+    </attribute>
+    <attribute id="XRECH" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRECH"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XRECH"/>
+    </attribute>
+    <attribute id="BKTXT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKTXT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BKTXT"/>
+    </attribute>
+    <attribute id="SAPRL" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAPRL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SAPRL"/>
+    </attribute>
+    <attribute id="LOGSYS" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGSYS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LOGSYS"/>
+    </attribute>
+    <attribute id="XMWST" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMWST"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XMWST"/>
+    </attribute>
+    <attribute id="STBLG" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STBLG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STBLG"/>
+    </attribute>
+    <attribute id="STJAH" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STJAH"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STJAH"/>
+    </attribute>
+    <attribute id="MWSKZ_BNK" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ_BNK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MWSKZ_BNK"/>
+    </attribute>
+    <attribute id="TXJCD_BNK" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD_BNK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="TXJCD_BNK"/>
+    </attribute>
+    <attribute id="IVTYP" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IVTYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="IVTYP"/>
+    </attribute>
+    <attribute id="XRBTX" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRBTX"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XRBTX"/>
+    </attribute>
+    <attribute id="REPART" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REPART"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="REPART"/>
+    </attribute>
+    <attribute id="RBSTAT" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBSTAT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RBSTAT"/>
+    </attribute>
+    <attribute id="KNUMVE" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMVE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="KNUMVE"/>
+    </attribute>
+    <attribute id="KNUMVL" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMVL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="KNUMVL"/>
+    </attribute>
+    <attribute id="ARKUEN" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARKUEN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ARKUEN"/>
+    </attribute>
+    <attribute id="ARKUEMW" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARKUEMW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ARKUEMW"/>
+    </attribute>
+    <attribute id="MAKZN" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAKZN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MAKZN"/>
+    </attribute>
+    <attribute id="MAKZMW" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAKZMW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MAKZMW"/>
+    </attribute>
+    <attribute id="LIEFFN" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIEFFN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LIEFFN"/>
+    </attribute>
+    <attribute id="LIEFFMW" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIEFFMW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LIEFFMW"/>
+    </attribute>
+    <attribute id="XAUTAKZ" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAUTAKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XAUTAKZ"/>
+    </attribute>
+    <attribute id="ESRNR" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESRNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ESRNR"/>
+    </attribute>
+    <attribute id="ESRPZ" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESRPZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ESRPZ"/>
+    </attribute>
+    <attribute id="ESRRE" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESRRE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ESRRE"/>
+    </attribute>
+    <attribute id="QSSHB" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSSHB"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="QSSHB"/>
+    </attribute>
+    <attribute id="QSFBT" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSFBT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="QSFBT"/>
+    </attribute>
+    <attribute id="QSSKZ" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSSKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="QSSKZ"/>
+    </attribute>
+    <attribute id="DIEKZ" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DIEKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="DIEKZ"/>
+    </attribute>
+    <attribute id="LANDL" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LANDL"/>
+    </attribute>
+    <attribute id="LZBKZ" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LZBKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LZBKZ"/>
+    </attribute>
+    <attribute id="TXKRS" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXKRS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="TXKRS"/>
+    </attribute>
+    <attribute id="EMPFB" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMPFB"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="EMPFB"/>
+    </attribute>
+    <attribute id="BVTYP" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BVTYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BVTYP"/>
+    </attribute>
+    <attribute id="HBKID" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HBKID"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="HBKID"/>
+    </attribute>
+    <attribute id="ZUONR" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="ZLSPR" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZLSPR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZLSPR"/>
+    </attribute>
+    <attribute id="ZLSCH" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZLSCH"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZLSCH"/>
+    </attribute>
+    <attribute id="ZFBDT" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZFBDT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZFBDT"/>
+    </attribute>
+    <attribute id="KIDNO" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KIDNO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="KIDNO"/>
+    </attribute>
+    <attribute id="REBZG" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REBZG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="REBZG"/>
+    </attribute>
+    <attribute id="REBZJ" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REBZJ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="REBZJ"/>
+    </attribute>
+    <attribute id="XINVE" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XINVE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XINVE"/>
+    </attribute>
+    <attribute id="EGMLD" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGMLD"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="EGMLD"/>
+    </attribute>
+    <attribute id="XEGDR" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEGDR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XEGDR"/>
+    </attribute>
+    <attribute id="VATDATE" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VATDATE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="VATDATE"/>
+    </attribute>
+    <attribute id="J_1BNFTYPE" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BNFTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="J_1BNFTYPE"/>
+    </attribute>
+    <attribute id="BRNCH" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRNCH"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BRNCH"/>
+    </attribute>
+    <attribute id="ERFPR" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERFPR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ERFPR"/>
+    </attribute>
+    <attribute id="SECCO" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SECCO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SECCO"/>
+    </attribute>
+    <attribute id="NAME1" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="NAME1"/>
+    </attribute>
+    <attribute id="NAME2" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME2"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="NAME2"/>
+    </attribute>
+    <attribute id="NAME3" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME3"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="NAME3"/>
+    </attribute>
+    <attribute id="NAME4" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME4"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="NAME4"/>
+    </attribute>
+    <attribute id="PSTLZ" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTLZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="PSTLZ"/>
+    </attribute>
+    <attribute id="ORT01" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ORT01"/>
+    </attribute>
+    <attribute id="LAND1" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LAND1"/>
+    </attribute>
+    <attribute id="STRAS" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRAS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STRAS"/>
+    </attribute>
+    <attribute id="PFACH" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PFACH"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="PFACH"/>
+    </attribute>
+    <attribute id="PSTL2" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTL2"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="PSTL2"/>
+    </attribute>
+    <attribute id="PSKTO" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSKTO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="PSKTO"/>
+    </attribute>
+    <attribute id="BANKN" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BANKN"/>
+    </attribute>
+    <attribute id="BANKL" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BANKL"/>
+    </attribute>
+    <attribute id="BANKS" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BANKS"/>
+    </attribute>
+    <attribute id="STCD1" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCD1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STCD1"/>
+    </attribute>
+    <attribute id="STCD2" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCD2"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STCD2"/>
+    </attribute>
+    <attribute id="STKZU" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STKZU"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STKZU"/>
+    </attribute>
+    <attribute id="STKZA" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STKZA"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STKZA"/>
+    </attribute>
+    <attribute id="REGIO" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REGIO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="REGIO"/>
+    </attribute>
+    <attribute id="BKONT" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKONT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BKONT"/>
+    </attribute>
+    <attribute id="DTAWS" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAWS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="DTAWS"/>
+    </attribute>
+    <attribute id="DTAMS" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAMS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="DTAMS"/>
+    </attribute>
+    <attribute id="SPRAS" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="XCPDK" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCPDK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XCPDK"/>
+    </attribute>
+    <attribute id="EMPFG" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMPFG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="EMPFG"/>
+    </attribute>
+    <attribute id="FITYP" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FITYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="FITYP"/>
+    </attribute>
+    <attribute id="STCDT" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCDT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STCDT"/>
+    </attribute>
+    <attribute id="STKZN" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STKZN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STKZN"/>
+    </attribute>
+    <attribute id="STCD3" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCD3"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STCD3"/>
+    </attribute>
+    <attribute id="STCD4" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCD4"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STCD4"/>
+    </attribute>
+    <attribute id="BKREF" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKREF"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BKREF"/>
+    </attribute>
+    <attribute id="J_1KFREPRE" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1KFREPRE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="J_1KFREPRE"/>
+    </attribute>
+    <attribute id="J_1KFTBUS" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1KFTBUS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="J_1KFTBUS"/>
+    </attribute>
+    <attribute id="J_1KFTIND" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1KFTIND"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="J_1KFTIND"/>
+    </attribute>
+    <attribute id="ANRED" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANRED"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ANRED"/>
+    </attribute>
+    <attribute id="STCEG" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STCEG"/>
+    </attribute>
+    <attribute id="ERNAME" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAME"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ERNAME"/>
+    </attribute>
+    <attribute id="REINDAT" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REINDAT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="REINDAT"/>
+    </attribute>
+    <attribute id="UZAWE" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UZAWE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="UZAWE"/>
+    </attribute>
+    <attribute id="FDLEV" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDLEV"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="FDLEV"/>
+    </attribute>
+    <attribute id="FDTAG" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDTAG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="FDTAG"/>
+    </attribute>
+    <attribute id="ZBFIX" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBFIX"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZBFIX"/>
+    </attribute>
+    <attribute id="FRGKZ" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRGKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="FRGKZ"/>
+    </attribute>
+    <attribute id="ERFNAM" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERFNAM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ERFNAM"/>
+    </attribute>
+    <attribute id="BUPLA" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUPLA"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BUPLA"/>
+    </attribute>
+    <attribute id="FILKD" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FILKD"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="FILKD"/>
+    </attribute>
+    <attribute id="GSBER" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="GSBER"/>
+    </attribute>
+    <attribute id="LOTKZ" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOTKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LOTKZ"/>
+    </attribute>
+    <attribute id="SGTXT" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="PREPAY_STATUS" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREPAY_STATUS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="PREPAY_STATUS"/>
+    </attribute>
+    <attribute id="PREPAY_AWKEY" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREPAY_AWKEY"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="PREPAY_AWKEY"/>
+    </attribute>
+    <attribute id="ASSIGN_STATUS" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASSIGN_STATUS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ASSIGN_STATUS"/>
+    </attribute>
+    <attribute id="ASSIGN_NEXT_DATE" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASSIGN_NEXT_DATE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ASSIGN_NEXT_DATE"/>
+    </attribute>
+    <attribute id="ASSIGN_END_DATE" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASSIGN_END_DATE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ASSIGN_END_DATE"/>
+    </attribute>
+    <attribute id="COPY_BY_BELNR" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COPY_BY_BELNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="COPY_BY_BELNR"/>
+    </attribute>
+    <attribute id="COPY_BY_YEAR" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COPY_BY_YEAR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="COPY_BY_YEAR"/>
+    </attribute>
+    <attribute id="COPY_TO_BELNR" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COPY_TO_BELNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="COPY_TO_BELNR"/>
+    </attribute>
+    <attribute id="COPY_TO_YEAR" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COPY_TO_YEAR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="COPY_TO_YEAR"/>
+    </attribute>
+    <attribute id="COPY_USER" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COPY_USER"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="COPY_USER"/>
+    </attribute>
+    <attribute id="MANDT_1" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="BELNR_1" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BELNR_1"/>
+    </attribute>
+    <attribute id="GJAHR_1" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="GJAHR_1"/>
+    </attribute>
+    <attribute id="BUZEI" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="EBELN" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="EBELP"/>
+    </attribute>
+    <attribute id="ZEKKN" order="145" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEKKN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZEKKN"/>
+    </attribute>
+    <attribute id="MATNR" order="146" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MATNR"/>
+    </attribute>
+    <attribute id="BWKEY" order="147" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWKEY"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BWKEY"/>
+    </attribute>
+    <attribute id="BWTAR" order="148" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="BUKRS_1" order="149" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BUKRS_1"/>
+    </attribute>
+    <attribute id="WERKS" order="150" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="WERKS"/>
+    </attribute>
+    <attribute id="WRBTR" order="151" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="SHKZG" order="152" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="MWSKZ" order="153" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="TXJCD" order="154" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="MENGE" order="155" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MENGE_DISP" order="156" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MENGE_DISP"/>
+    </attribute>
+    <attribute id="BSTME" order="157" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTME"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BSTME"/>
+    </attribute>
+    <attribute id="BPMNG" order="158" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BPMNG"/>
+    </attribute>
+    <attribute id="BPMNG_DISP" order="159" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BPMNG_DISP"/>
+    </attribute>
+    <attribute id="BPRME" order="160" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPRME"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BPRME"/>
+    </attribute>
+    <attribute id="LBKUM" order="161" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LBKUM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LBKUM"/>
+    </attribute>
+    <attribute id="LBKUM_DISP" order="162" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LBKUM_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LBKUM_DISP"/>
+    </attribute>
+    <attribute id="VRKUM" order="163" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRKUM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="VRKUM"/>
+    </attribute>
+    <attribute id="VRKUM_DISP" order="164" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRKUM_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="VRKUM_DISP"/>
+    </attribute>
+    <attribute id="MEINS" order="165" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MEINS"/>
+    </attribute>
+    <attribute id="PSTYP" order="166" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="PSTYP"/>
+    </attribute>
+    <attribute id="KNTTP" order="167" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTTP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="KNTTP"/>
+    </attribute>
+    <attribute id="BKLAS" order="168" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKLAS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BKLAS"/>
+    </attribute>
+    <attribute id="EREKZ" order="169" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EREKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="EREKZ"/>
+    </attribute>
+    <attribute id="EXKBE" order="170" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXKBE"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="EXKBE"/>
+    </attribute>
+    <attribute id="XEKBZ" order="171" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEKBZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XEKBZ"/>
+    </attribute>
+    <attribute id="TBTKZ" order="172" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TBTKZ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="TBTKZ"/>
+    </attribute>
+    <attribute id="SPGRP" order="173" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGRP"/>
+    </attribute>
+    <attribute id="SPGRM" order="174" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGRM"/>
+    </attribute>
+    <attribute id="SPGRT" order="175" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGRT"/>
+    </attribute>
+    <attribute id="SPGRG" order="176" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGRG"/>
+    </attribute>
+    <attribute id="SPGRV" order="177" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRV"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGRV"/>
+    </attribute>
+    <attribute id="SPGRQ" order="178" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRQ"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGRQ"/>
+    </attribute>
+    <attribute id="SPGRS" order="179" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGRS"/>
+    </attribute>
+    <attribute id="SPGRC" order="180" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRC"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGRC"/>
+    </attribute>
+    <attribute id="SPGREXT" order="181" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGREXT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SPGREXT"/>
+    </attribute>
+    <attribute id="BUSTW" order="182" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUSTW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BUSTW"/>
+    </attribute>
+    <attribute id="XBLNR_1" order="183" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XBLNR_1"/>
+    </attribute>
+    <attribute id="XRUEB" order="184" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRUEB"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XRUEB"/>
+    </attribute>
+    <attribute id="BNKAN" order="185" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNKAN"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BNKAN"/>
+    </attribute>
+    <attribute id="KSCHL" order="186" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="SALK3" order="187" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SALK3"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SALK3"/>
+    </attribute>
+    <attribute id="VMSAL" order="188" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMSAL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="VMSAL"/>
+    </attribute>
+    <attribute id="XLIFO" order="189" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLIFO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XLIFO"/>
+    </attribute>
+    <attribute id="LFBNR" order="190" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFBNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LFBNR"/>
+    </attribute>
+    <attribute id="LFGJA" order="191" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFGJA"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LFGJA"/>
+    </attribute>
+    <attribute id="LFPOS" order="192" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFPOS"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LFPOS"/>
+    </attribute>
+    <attribute id="MATBF" order="193" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATBF"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MATBF"/>
+    </attribute>
+    <attribute id="RBMNG" order="194" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBMNG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RBMNG"/>
+    </attribute>
+    <attribute id="RBMNG_DISP" order="195" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RBMNG_DISP"/>
+    </attribute>
+    <attribute id="BPRBM" order="196" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPRBM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BPRBM"/>
+    </attribute>
+    <attribute id="BPRBM_DISP" order="197" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPRBM_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="BPRBM_DISP"/>
+    </attribute>
+    <attribute id="RBWWR" order="198" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBWWR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RBWWR"/>
+    </attribute>
+    <attribute id="LFEHL" order="199" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFEHL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LFEHL"/>
+    </attribute>
+    <attribute id="GRICD" order="200" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRICD"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="GRICD"/>
+    </attribute>
+    <attribute id="GRIRG" order="201" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRIRG"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="GRIRG"/>
+    </attribute>
+    <attribute id="GITYP" order="202" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GITYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="GITYP"/>
+    </attribute>
+    <attribute id="PACKNO" order="203" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PACKNO"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="PACKNO"/>
+    </attribute>
+    <attribute id="INTROW" order="204" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTROW"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="INTROW"/>
+    </attribute>
+    <attribute id="SGTXT_1" order="205" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SGTXT_1"/>
+    </attribute>
+    <attribute id="XSKRL" order="206" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSKRL"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XSKRL"/>
+    </attribute>
+    <attribute id="KZMEK" order="207" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZMEK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="KZMEK"/>
+    </attribute>
+    <attribute id="MRMOK" order="208" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MRMOK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="MRMOK"/>
+    </attribute>
+    <attribute id="STUNR" order="209" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STUNR"/>
+    </attribute>
+    <attribute id="ZAEHK" order="210" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ZAEHK"/>
+    </attribute>
+    <attribute id="STOCK_POSTING" order="211" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STOCK_POSTING"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STOCK_POSTING"/>
+    </attribute>
+    <attribute id="STOCK_POSTING_PP" order="212" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STOCK_POSTING_PP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STOCK_POSTING_PP"/>
+    </attribute>
+    <attribute id="STOCK_POSTING_PY" order="213" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STOCK_POSTING_PY"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="STOCK_POSTING_PY"/>
+    </attribute>
+    <attribute id="WEREC" order="214" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEREC"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="WEREC"/>
+    </attribute>
+    <attribute id="LIFNR_1" order="215" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR_1"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="LIFNR_1"/>
+    </attribute>
+    <attribute id="FRBNR" order="216" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRBNR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="FRBNR"/>
+    </attribute>
+    <attribute id="XHISTMA" order="217" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XHISTMA"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XHISTMA"/>
+    </attribute>
+    <attribute id="COMPLAINT_REASON" order="218" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COMPLAINT_REASON"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="COMPLAINT_REASON"/>
+    </attribute>
+    <attribute id="RETAMT_FC" order="219" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RETAMT_FC"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RETAMT_FC"/>
+    </attribute>
+    <attribute id="RETPC" order="220" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RETPC"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RETPC"/>
+    </attribute>
+    <attribute id="RETDUEDT" order="221" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RETDUEDT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RETDUEDT"/>
+    </attribute>
+    <attribute id="XRETTAXNET" order="222" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRETTAXNET"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="XRETTAXNET"/>
+    </attribute>
+    <attribute id="RE_ACCOUNT" order="223" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RE_ACCOUNT"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="RE_ACCOUNT"/>
+    </attribute>
+    <attribute id="ERP_CONTRACT_ID" order="224" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERP_CONTRACT_ID"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ERP_CONTRACT_ID"/>
+    </attribute>
+    <attribute id="ERP_CONTRACT_ITM" order="225" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERP_CONTRACT_ITM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="ERP_CONTRACT_ITM"/>
+    </attribute>
+    <attribute id="SRM_CONTRACT_ID" order="226" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SRM_CONTRACT_ID"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SRM_CONTRACT_ID"/>
+    </attribute>
+    <attribute id="SRM_CONTRACT_ITM" order="227" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SRM_CONTRACT_ITM"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SRM_CONTRACT_ITM"/>
+    </attribute>
+    <attribute id="CONT_PSTYP" order="228" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONT_PSTYP"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="CONT_PSTYP"/>
+    </attribute>
+    <attribute id="SRVMAPKEY" order="229" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SRVMAPKEY"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="SRVMAPKEY"/>
+    </attribute>
+    <attribute id="/NFM/SPGRK" order="230" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/NFM/SPGRK"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="/NFM/SPGRK"/>
+    </attribute>
+    <attribute id="EFKOR" order="231" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EFKOR"/>
+      <keyMapping columnObjectName="EP1_CV_MM_MR11SHOW" columnName="EFKOR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

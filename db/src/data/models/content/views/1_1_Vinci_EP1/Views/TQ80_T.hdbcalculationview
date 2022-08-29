@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TQ80_T" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TQ80_T"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TQ80_T">
+    <resourceUri>EP1_TQ80_T</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TQ80_T">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_TQ80_T" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_TQ80_T" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="QMART" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMART"/>
+      <keyMapping columnObjectName="EP1_TQ80_T" columnName="QMART"/>
+    </attribute>
+    <attribute id="QMARTX" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMARTX"/>
+      <keyMapping columnObjectName="EP1_TQ80_T" columnName="QMARTX"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ANEA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table ANEA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_ANEA">
+    <resourceUri>EP1_ANEA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_ANEA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="ANLN1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="GJAHR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="LNRAN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNRAN"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="LNRAN"/>
+    </attribute>
+    <attribute id="AFABE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="AFABE"/>
+    </attribute>
+    <attribute id="ZUJHR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUJHR"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="ZUJHR"/>
+    </attribute>
+    <attribute id="ZUCOD" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUCOD"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="ZUCOD"/>
+    </attribute>
+    <attribute id="AUFWV" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFWV"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="AUFWV"/>
+    </attribute>
+    <attribute id="INVZV" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVZV"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="INVZV"/>
+    </attribute>
+    <attribute id="NAFAV" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAV"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="NAFAV"/>
+    </attribute>
+    <attribute id="SAFAV" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAV"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="SAFAV"/>
+    </attribute>
+    <attribute id="AAFAV" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AAFAV"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="AAFAV"/>
+    </attribute>
+    <attribute id="MAFAV" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFAV"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="MAFAV"/>
+    </attribute>
+    <attribute id="AUFNV" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNV"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="AUFNV"/>
+    </attribute>
+    <attribute id="AUFWL" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFWL"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="AUFWL"/>
+    </attribute>
+    <attribute id="INVZL" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVZL"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="INVZL"/>
+    </attribute>
+    <attribute id="NAFAL" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAL"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="NAFAL"/>
+    </attribute>
+    <attribute id="SAFAL" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAL"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="SAFAL"/>
+    </attribute>
+    <attribute id="AAFAL" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AAFAL"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="AAFAL"/>
+    </attribute>
+    <attribute id="MAFAL" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAFAL"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="MAFAL"/>
+    </attribute>
+    <attribute id="AUFNL" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNL"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="AUFNL"/>
+    </attribute>
+    <attribute id="ERLBT" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERLBT"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="ERLBT"/>
+    </attribute>
+    <attribute id="ANUPD" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANUPD"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="ANUPD"/>
+    </attribute>
+    <attribute id="VERKO" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERKO"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="VERKO"/>
+    </attribute>
+    <attribute id="SANWV" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SANWV"/>
+      <keyMapping columnObjectName="EP1_ANEA" columnName="SANWV"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

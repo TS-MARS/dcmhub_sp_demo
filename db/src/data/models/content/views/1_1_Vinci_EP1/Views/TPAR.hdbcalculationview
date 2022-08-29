@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TPAR" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TPAR"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TPAR">
+    <resourceUri>EP1_TPAR</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TPAR">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_TPAR" columnName="MANDT"/>
+    </attribute>
+    <attribute id="PARVW" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARVW"/>
+      <keyMapping columnObjectName="EP1_TPAR" columnName="PARVW"/>
+    </attribute>
+    <attribute id="STEIN" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STEIN"/>
+      <keyMapping columnObjectName="EP1_TPAR" columnName="STEIN"/>
+    </attribute>
+    <attribute id="UPARV" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPARV"/>
+      <keyMapping columnObjectName="EP1_TPAR" columnName="UPARV"/>
+    </attribute>
+    <attribute id="FEHGR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEHGR"/>
+      <keyMapping columnObjectName="EP1_TPAR" columnName="FEHGR"/>
+    </attribute>
+    <attribute id="ERNAM" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="EP1_TPAR" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="NRART" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NRART"/>
+      <keyMapping columnObjectName="EP1_TPAR" columnName="NRART"/>
+    </attribute>
+    <attribute id="HITYP" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HITYP"/>
+      <keyMapping columnObjectName="EP1_TPAR" columnName="HITYP"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

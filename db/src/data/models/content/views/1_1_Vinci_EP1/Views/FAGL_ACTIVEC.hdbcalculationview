@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FAGL_ACTIVEC" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table FAGL_ACTIVEC"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_FAGL_ACTIVEC">
+    <resourceUri>EP1_FAGL_ACTIVEC</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_FAGL_ACTIVEC">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="MANDT"/>
+    </attribute>
+    <attribute id="ACTIVE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ACTIVE"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="ACTIVE"/>
+    </attribute>
+    <attribute id="WRITE_GLT0" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRITE_GLT0"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="WRITE_GLT0"/>
+    </attribute>
+    <attribute id="READ_GLT0" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="READ_GLT0"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="READ_GLT0"/>
+    </attribute>
+    <attribute id="SPLITMETHD" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPLITMETHD"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="SPLITMETHD"/>
+    </attribute>
+    <attribute id="SPLITDATE_CHECK" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPLITDATE_CHECK"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="SPLITDATE_CHECK"/>
+    </attribute>
+    <attribute id="SPLITDATE_ACTIVE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPLITDATE_ACTIVE"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="SPLITDATE_ACTIVE"/>
+    </attribute>
+    <attribute id="FAREA_FROM_COBL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAREA_FROM_COBL"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="FAREA_FROM_COBL"/>
+    </attribute>
+    <attribute id="FAREA_DRV_ALWAYS" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAREA_DRV_ALWAYS"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="FAREA_DRV_ALWAYS"/>
+    </attribute>
+    <attribute id="FAREA_IN_CO_SUM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAREA_IN_CO_SUM"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="FAREA_IN_CO_SUM"/>
+    </attribute>
+    <attribute id="SGMNT_IN_CO_SUM" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGMNT_IN_CO_SUM"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="SGMNT_IN_CO_SUM"/>
+    </attribute>
+    <attribute id="CO_SUM_DATE_FROM" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CO_SUM_DATE_FROM"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="CO_SUM_DATE_FROM"/>
+    </attribute>
+    <attribute id="FAREA_OBLIGATORY" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAREA_OBLIGATORY"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="FAREA_OBLIGATORY"/>
+    </attribute>
+    <attribute id="SEGMENT_PRCTR_MD" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEGMENT_PRCTR_MD"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="SEGMENT_PRCTR_MD"/>
+    </attribute>
+    <attribute id="SPLIT_INHERIDITY" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPLIT_INHERIDITY"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="SPLIT_INHERIDITY"/>
+    </attribute>
+    <attribute id="SPLIT_DEFAULT" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPLIT_DEFAULT"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="SPLIT_DEFAULT"/>
+    </attribute>
+    <attribute id="SPLIT_DEF_CONST" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPLIT_DEF_CONST"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="SPLIT_DEF_CONST"/>
+    </attribute>
+    <attribute id="FLG_CUM_PLN_ACT" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLG_CUM_PLN_ACT"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="FLG_CUM_PLN_ACT"/>
+    </attribute>
+    <attribute id="FAGL_HCM_COMP_EN" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAGL_HCM_COMP_EN"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="FAGL_HCM_COMP_EN"/>
+    </attribute>
+    <attribute id="FAGL_NO_COMP_SD" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAGL_NO_COMP_SD"/>
+      <keyMapping columnObjectName="EP1_FAGL_ACTIVEC" columnName="FAGL_NO_COMP_SD"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TKA05" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TKA05"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TKA05">
+    <resourceUri>EP1_TKA05</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TKA05">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KOSAR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSAR"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="KOSAR"/>
+    </attribute>
+    <attribute id="BKZKP" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKZKP"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="BKZKP"/>
+    </attribute>
+    <attribute id="BKZKS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKZKS"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="BKZKS"/>
+    </attribute>
+    <attribute id="BKZER" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKZER"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="BKZER"/>
+    </attribute>
+    <attribute id="BKZOB" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKZOB"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="BKZOB"/>
+    </attribute>
+    <attribute id="PKZKP" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PKZKP"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="PKZKP"/>
+    </attribute>
+    <attribute id="PKZKS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PKZKS"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="PKZKS"/>
+    </attribute>
+    <attribute id="PKZER" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PKZER"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="PKZER"/>
+    </attribute>
+    <attribute id="VMETH" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMETH"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="VMETH"/>
+    </attribute>
+    <attribute id="MGEFL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MGEFL"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="MGEFL"/>
+    </attribute>
+    <attribute id="FUNC_AREA" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FUNC_AREA"/>
+      <keyMapping columnObjectName="EP1_TKA05" columnName="FUNC_AREA"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

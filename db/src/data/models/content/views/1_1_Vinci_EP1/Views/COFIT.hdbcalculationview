@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::COFIT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table COFIT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_COFIT">
+    <resourceUri>EP1_COFIT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_COFIT">
+  <attributes>
+    <attribute id="RCLNT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCLNT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RCLNT"/>
+    </attribute>
+    <attribute id="RLDNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RLDNR"/>
+    </attribute>
+    <attribute id="RRCTY" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RRCTY"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RRCTY"/>
+    </attribute>
+    <attribute id="RVERS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RVERS"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RVERS"/>
+    </attribute>
+    <attribute id="RYEAR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RYEAR"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RYEAR"/>
+    </attribute>
+    <attribute id="ROBJNR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROBJNR"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="ROBJNR"/>
+    </attribute>
+    <attribute id="COBJNR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COBJNR"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="COBJNR"/>
+    </attribute>
+    <attribute id="SOBJNR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBJNR"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SOBJNR"/>
+    </attribute>
+    <attribute id="RTCUR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTCUR"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RTCUR"/>
+    </attribute>
+    <attribute id="RUNIT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RUNIT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RUNIT"/>
+    </attribute>
+    <attribute id="DRCRK" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DRCRK"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="DRCRK"/>
+    </attribute>
+    <attribute id="RPMAX" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RPMAX"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RPMAX"/>
+    </attribute>
+    <attribute id="RBUKRS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBUKRS"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RBUKRS"/>
+    </attribute>
+    <attribute id="RACCT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RACCT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RACCT"/>
+    </attribute>
+    <attribute id="RHRKFT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RHRKFT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RHRKFT"/>
+    </attribute>
+    <attribute id="ROBART" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROBART"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="ROBART"/>
+    </attribute>
+    <attribute id="RSCOPE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSCOPE"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RSCOPE"/>
+    </attribute>
+    <attribute id="RBUSA" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBUSA"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RBUSA"/>
+    </attribute>
+    <attribute id="RFAREA" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFAREA"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RFAREA"/>
+    </attribute>
+    <attribute id="RFUND" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFUND"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RFUND"/>
+    </attribute>
+    <attribute id="RGRANT_NBR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RGRANT_NBR"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RGRANT_NBR"/>
+    </attribute>
+    <attribute id="RLOGSYS" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLOGSYS"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="RLOGSYS"/>
+    </attribute>
+    <attribute id="SBUKRS" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SBUKRS"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SBUKRS"/>
+    </attribute>
+    <attribute id="SACCT" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SACCT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SACCT"/>
+    </attribute>
+    <attribute id="SHRKFT" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHRKFT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SHRKFT"/>
+    </attribute>
+    <attribute id="SOBART" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBART"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SOBART"/>
+    </attribute>
+    <attribute id="SSCOPE" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SSCOPE"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SSCOPE"/>
+    </attribute>
+    <attribute id="SBUSA" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SBUSA"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SBUSA"/>
+    </attribute>
+    <attribute id="SFAREA" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SFAREA"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SFAREA"/>
+    </attribute>
+    <attribute id="SFUND" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SFUND"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SFUND"/>
+    </attribute>
+    <attribute id="SGRANT_NBR" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGRANT_NBR"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SGRANT_NBR"/>
+    </attribute>
+    <attribute id="SLOGSYS" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SLOGSYS"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="SLOGSYS"/>
+    </attribute>
+    <attribute id="VRGNG" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRGNG"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="VRGNG"/>
+    </attribute>
+    <attribute id="KOKRS" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="OCLNT" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OCLNT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="OCLNT"/>
+    </attribute>
+    <attribute id="WRTTP" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRTTP"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="WRTTP"/>
+    </attribute>
+    <attribute id="ACTIV" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ACTIV"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="ACTIV"/>
+    </attribute>
+    <attribute id="TSLVT" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSLVT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSLVT"/>
+    </attribute>
+    <attribute id="TSL01" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL01"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL01"/>
+    </attribute>
+    <attribute id="TSL02" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL02"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL02"/>
+    </attribute>
+    <attribute id="TSL03" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL03"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL03"/>
+    </attribute>
+    <attribute id="TSL04" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL04"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL04"/>
+    </attribute>
+    <attribute id="TSL05" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL05"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL05"/>
+    </attribute>
+    <attribute id="TSL06" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL06"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL06"/>
+    </attribute>
+    <attribute id="TSL07" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL07"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL07"/>
+    </attribute>
+    <attribute id="TSL08" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL08"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL08"/>
+    </attribute>
+    <attribute id="TSL09" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL09"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL09"/>
+    </attribute>
+    <attribute id="TSL10" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL10"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL10"/>
+    </attribute>
+    <attribute id="TSL11" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL11"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL11"/>
+    </attribute>
+    <attribute id="TSL12" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL12"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL12"/>
+    </attribute>
+    <attribute id="TSL13" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL13"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL13"/>
+    </attribute>
+    <attribute id="TSL14" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL14"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL14"/>
+    </attribute>
+    <attribute id="TSL15" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL15"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL15"/>
+    </attribute>
+    <attribute id="TSL16" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL16"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="TSL16"/>
+    </attribute>
+    <attribute id="HSLVT" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSLVT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSLVT"/>
+    </attribute>
+    <attribute id="HSL01" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL01"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL01"/>
+    </attribute>
+    <attribute id="HSL02" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL02"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL02"/>
+    </attribute>
+    <attribute id="HSL03" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL03"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL03"/>
+    </attribute>
+    <attribute id="HSL04" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL04"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL04"/>
+    </attribute>
+    <attribute id="HSL05" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL05"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL05"/>
+    </attribute>
+    <attribute id="HSL06" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL06"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL06"/>
+    </attribute>
+    <attribute id="HSL07" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL07"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL07"/>
+    </attribute>
+    <attribute id="HSL08" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL08"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL08"/>
+    </attribute>
+    <attribute id="HSL09" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL09"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL09"/>
+    </attribute>
+    <attribute id="HSL10" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL10"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL10"/>
+    </attribute>
+    <attribute id="HSL11" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL11"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL11"/>
+    </attribute>
+    <attribute id="HSL12" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL12"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL12"/>
+    </attribute>
+    <attribute id="HSL13" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL13"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL13"/>
+    </attribute>
+    <attribute id="HSL14" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL14"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL14"/>
+    </attribute>
+    <attribute id="HSL15" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL15"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL15"/>
+    </attribute>
+    <attribute id="HSL16" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL16"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="HSL16"/>
+    </attribute>
+    <attribute id="KSLVT" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSLVT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSLVT"/>
+    </attribute>
+    <attribute id="KSL01" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL01"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL01"/>
+    </attribute>
+    <attribute id="KSL02" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL02"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL02"/>
+    </attribute>
+    <attribute id="KSL03" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL03"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL03"/>
+    </attribute>
+    <attribute id="KSL04" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL04"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL04"/>
+    </attribute>
+    <attribute id="KSL05" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL05"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL05"/>
+    </attribute>
+    <attribute id="KSL06" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL06"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL06"/>
+    </attribute>
+    <attribute id="KSL07" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL07"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL07"/>
+    </attribute>
+    <attribute id="KSL08" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL08"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL08"/>
+    </attribute>
+    <attribute id="KSL09" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL09"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL09"/>
+    </attribute>
+    <attribute id="KSL10" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL10"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL10"/>
+    </attribute>
+    <attribute id="KSL11" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL11"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL11"/>
+    </attribute>
+    <attribute id="KSL12" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL12"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL12"/>
+    </attribute>
+    <attribute id="KSL13" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL13"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL13"/>
+    </attribute>
+    <attribute id="KSL14" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL14"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL14"/>
+    </attribute>
+    <attribute id="KSL15" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL15"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL15"/>
+    </attribute>
+    <attribute id="KSL16" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSL16"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="KSL16"/>
+    </attribute>
+    <attribute id="MSLVT" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSLVT"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSLVT"/>
+    </attribute>
+    <attribute id="MSL01" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL01"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL01"/>
+    </attribute>
+    <attribute id="MSL02" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL02"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL02"/>
+    </attribute>
+    <attribute id="MSL03" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL03"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL03"/>
+    </attribute>
+    <attribute id="MSL04" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL04"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL04"/>
+    </attribute>
+    <attribute id="MSL05" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL05"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL05"/>
+    </attribute>
+    <attribute id="MSL06" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL06"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL06"/>
+    </attribute>
+    <attribute id="MSL07" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL07"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL07"/>
+    </attribute>
+    <attribute id="MSL08" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL08"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL08"/>
+    </attribute>
+    <attribute id="MSL09" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL09"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL09"/>
+    </attribute>
+    <attribute id="MSL10" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL10"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL10"/>
+    </attribute>
+    <attribute id="MSL11" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL11"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL11"/>
+    </attribute>
+    <attribute id="MSL12" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL12"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL12"/>
+    </attribute>
+    <attribute id="MSL13" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL13"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL13"/>
+    </attribute>
+    <attribute id="MSL14" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL14"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL14"/>
+    </attribute>
+    <attribute id="MSL15" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL15"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL15"/>
+    </attribute>
+    <attribute id="MSL16" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSL16"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="MSL16"/>
+    </attribute>
+    <attribute id="CSPRED" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CSPRED"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="CSPRED"/>
+    </attribute>
+    <attribute id="QSPRED" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSPRED"/>
+      <keyMapping columnObjectName="EP1_COFIT" columnName="QSPRED"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

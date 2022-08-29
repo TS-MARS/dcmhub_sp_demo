@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PS_AFPO_3" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PS_AFPO_3"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_PS_AFPO_3">
+    <resourceUri>EP1_CV_PS_AFPO_3</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_PS_AFPO_3">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="MANDT"/>
+    </attribute>
+    <attribute id="AUFNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="POSNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="POSNR"/>
+    </attribute>
+    <attribute id="PSOBS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOBS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PSOBS"/>
+    </attribute>
+    <attribute id="QUNUM" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUNUM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="QUNUM"/>
+    </attribute>
+    <attribute id="QUPOS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUPOS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="QUPOS"/>
+    </attribute>
+    <attribute id="PROJN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROJN"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PROJN"/>
+    </attribute>
+    <attribute id="PLNUM" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNUM"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PLNUM"/>
+    </attribute>
+    <attribute id="STRMP" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRMP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="STRMP"/>
+    </attribute>
+    <attribute id="ETRMP" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETRMP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="ETRMP"/>
+    </attribute>
+    <attribute id="KDAUF" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDAUF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KDAUF"/>
+    </attribute>
+    <attribute id="KDPOS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDPOS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KDPOS"/>
+    </attribute>
+    <attribute id="KDEIN" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDEIN"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KDEIN"/>
+    </attribute>
+    <attribute id="BESKZ" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BESKZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="BESKZ"/>
+    </attribute>
+    <attribute id="PSAMG" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSAMG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PSAMG"/>
+    </attribute>
+    <attribute id="PSAMG_DISP" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSAMG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PSAMG_DISP"/>
+    </attribute>
+    <attribute id="PSMNG" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSMNG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PSMNG"/>
+    </attribute>
+    <attribute id="PSMNG_DISP" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PSMNG_DISP"/>
+    </attribute>
+    <attribute id="WEMNG" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEMNG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="WEMNG"/>
+    </attribute>
+    <attribute id="WEMNG_DISP" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="WEMNG_DISP"/>
+    </attribute>
+    <attribute id="IAMNG" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IAMNG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="IAMNG"/>
+    </attribute>
+    <attribute id="IAMNG_DISP" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IAMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="IAMNG_DISP"/>
+    </attribute>
+    <attribute id="AMEIN" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AMEIN"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="AMEIN"/>
+    </attribute>
+    <attribute id="MEINS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="MEINS"/>
+    </attribute>
+    <attribute id="MATNR" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="MATNR"/>
+    </attribute>
+    <attribute id="PAMNG" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAMNG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PAMNG"/>
+    </attribute>
+    <attribute id="PAMNG_DISP" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PAMNG_DISP"/>
+    </attribute>
+    <attribute id="PGMNG" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGMNG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PGMNG"/>
+    </attribute>
+    <attribute id="PGMNG_DISP" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PGMNG_DISP"/>
+    </attribute>
+    <attribute id="KNTTP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTTP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KNTTP"/>
+    </attribute>
+    <attribute id="TPAUF" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPAUF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="TPAUF"/>
+    </attribute>
+    <attribute id="LTRMI" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTRMI"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="LTRMI"/>
+    </attribute>
+    <attribute id="LTRMP" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTRMP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="LTRMP"/>
+    </attribute>
+    <attribute id="KALNR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KALNR"/>
+    </attribute>
+    <attribute id="UEBTO" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBTO"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="UEBTO"/>
+    </attribute>
+    <attribute id="UEBTK" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBTK"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="UEBTK"/>
+    </attribute>
+    <attribute id="UNTTO" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNTTO"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="UNTTO"/>
+    </attribute>
+    <attribute id="INSMK" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSMK"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="INSMK"/>
+    </attribute>
+    <attribute id="WEPOS" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEPOS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="WEPOS"/>
+    </attribute>
+    <attribute id="BWTAR" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="BWTTY" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTTY"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="BWTTY"/>
+    </attribute>
+    <attribute id="PWERK" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PWERK"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="PWERK"/>
+    </attribute>
+    <attribute id="LGORT" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGORT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="LGORT"/>
+    </attribute>
+    <attribute id="UMREZ" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMREZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="UMREZ"/>
+    </attribute>
+    <attribute id="UMREN" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMREN"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="UMREN"/>
+    </attribute>
+    <attribute id="WEBAZ" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEBAZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="WEBAZ"/>
+    </attribute>
+    <attribute id="ELIKZ" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ELIKZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="ELIKZ"/>
+    </attribute>
+    <attribute id="SAFNR" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="SAFNR"/>
+    </attribute>
+    <attribute id="VERID" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERID"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="VERID"/>
+    </attribute>
+    <attribute id="SERNR" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="SERNR"/>
+    </attribute>
+    <attribute id="TECHS" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="TECHS"/>
+    </attribute>
+    <attribute id="DWERK" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DWERK"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="DWERK"/>
+    </attribute>
+    <attribute id="DAUTY" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DAUTY"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="DAUTY"/>
+    </attribute>
+    <attribute id="DAUAT" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DAUAT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="DAUAT"/>
+    </attribute>
+    <attribute id="DGLTP" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DGLTP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="DGLTP"/>
+    </attribute>
+    <attribute id="DGLTS" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DGLTS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="DGLTS"/>
+    </attribute>
+    <attribute id="DFREI" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DFREI"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="DFREI"/>
+    </attribute>
+    <attribute id="DNREL" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DNREL"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="DNREL"/>
+    </attribute>
+    <attribute id="VERTO" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERTO"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="VERTO"/>
+    </attribute>
+    <attribute id="SOBKZ" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBKZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="SOBKZ"/>
+    </attribute>
+    <attribute id="KZVBR" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVBR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KZVBR"/>
+    </attribute>
+    <attribute id="WEWRT" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEWRT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="WEWRT"/>
+    </attribute>
+    <attribute id="WEUNB" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEUNB"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="WEUNB"/>
+    </attribute>
+    <attribute id="ABLAD" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABLAD"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="ABLAD"/>
+    </attribute>
+    <attribute id="WEMPF" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEMPF"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="WEMPF"/>
+    </attribute>
+    <attribute id="CHARG" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHARG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="CHARG"/>
+    </attribute>
+    <attribute id="GSBER" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="GSBER"/>
+    </attribute>
+    <attribute id="WEAED" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEAED"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="WEAED"/>
+    </attribute>
+    <attribute id="CUOBJ" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="CUOBJ"/>
+    </attribute>
+    <attribute id="KBNKZ" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBNKZ"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KBNKZ"/>
+    </attribute>
+    <attribute id="ARSNR" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARSNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="ARSNR"/>
+    </attribute>
+    <attribute id="ARSPS" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARSPS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="ARSPS"/>
+    </attribute>
+    <attribute id="KRSNR" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRSNR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KRSNR"/>
+    </attribute>
+    <attribute id="KRSPS" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRSPS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KRSPS"/>
+    </attribute>
+    <attribute id="KCKEY" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCKEY"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KCKEY"/>
+    </attribute>
+    <attribute id="RTP01" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTP01"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="RTP01"/>
+    </attribute>
+    <attribute id="RTP02" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTP02"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="RTP02"/>
+    </attribute>
+    <attribute id="RTP03" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTP03"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="RTP03"/>
+    </attribute>
+    <attribute id="RTP04" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTP04"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="RTP04"/>
+    </attribute>
+    <attribute id="KSVON" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSVON"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KSVON"/>
+    </attribute>
+    <attribute id="KSBIS" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSBIS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KSBIS"/>
+    </attribute>
+    <attribute id="OBJNP" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="OBJNP"/>
+    </attribute>
+    <attribute id="NDISR" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NDISR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="NDISR"/>
+    </attribute>
+    <attribute id="VFMNG" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VFMNG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="VFMNG"/>
+    </attribute>
+    <attribute id="VFMNG_DISP" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VFMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="VFMNG_DISP"/>
+    </attribute>
+    <attribute id="GSBTR" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBTR"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="GSBTR"/>
+    </attribute>
+    <attribute id="KZAVC" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZAVC"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KZAVC"/>
+    </attribute>
+    <attribute id="KZBWS" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBWS"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KZBWS"/>
+    </attribute>
+    <attribute id="XLOEK" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLOEK"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="XLOEK"/>
+    </attribute>
+    <attribute id="SERNP" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="SERNP"/>
+    </attribute>
+    <attribute id="ANZSN" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZSN"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="ANZSN"/>
+    </attribute>
+    <attribute id="OBJTYPE" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJTYPE"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="OBJTYPE"/>
+    </attribute>
+    <attribute id="CH_PROC" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CH_PROC"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="CH_PROC"/>
+    </attribute>
+    <attribute id="FXPRU" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FXPRU"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="FXPRU"/>
+    </attribute>
+    <attribute id="CUOBJ_ROOT" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ_ROOT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="CUOBJ_ROOT"/>
+    </attribute>
+    <attribute id="BERID" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERID"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="BERID"/>
+    </attribute>
+    <attribute id="TECHS_COPY" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHS_COPY"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="TECHS_COPY"/>
+    </attribute>
+    <attribute id="KUNNR2" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR2"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="KUNNR2"/>
+    </attribute>
+    <attribute id="MILL_OC_AUFNR_U" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MILL_OC_AUFNR_U"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="MILL_OC_AUFNR_U"/>
+    </attribute>
+    <attribute id="MILL_OC_RUMNG" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MILL_OC_RUMNG"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="MILL_OC_RUMNG"/>
+    </attribute>
+    <attribute id="MILL_OC_RUMNG_DISP" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MILL_OC_RUMNG_DISP"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="MILL_OC_RUMNG_DISP"/>
+    </attribute>
+    <attribute id="MILL_OC_SORT" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MILL_OC_SORT"/>
+      <keyMapping columnObjectName="EP1_CV_PS_AFPO_3" columnName="MILL_OC_SORT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

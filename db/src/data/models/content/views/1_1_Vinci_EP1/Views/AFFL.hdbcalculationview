@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::AFFL" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table AFFL"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_AFFL">
+    <resourceUri>EP1_AFFL</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_AFFL">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="MANDT"/>
+    </attribute>
+    <attribute id="AUFPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="AUFPL"/>
+    </attribute>
+    <attribute id="APLZL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="APLZL"/>
+    </attribute>
+    <attribute id="PLNTY" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNTY"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="PLNTY"/>
+    </attribute>
+    <attribute id="PLNNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNNR"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="PLNNR"/>
+    </attribute>
+    <attribute id="PLNAL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNAL"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="PLNAL"/>
+    </attribute>
+    <attribute id="PLNFL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNFL"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="PLNFL"/>
+    </attribute>
+    <attribute id="ZAEHL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="ZAEHL"/>
+    </attribute>
+    <attribute id="AENNR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="AENNR"/>
+    </attribute>
+    <attribute id="FLGAT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLGAT"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="FLGAT"/>
+    </attribute>
+    <attribute id="BEZFL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEZFL"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="BEZFL"/>
+    </attribute>
+    <attribute id="BKNT1" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKNT1"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="BKNT1"/>
+    </attribute>
+    <attribute id="BKNT2" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKNT2"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="BKNT2"/>
+    </attribute>
+    <attribute id="LTXA1" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTXA1"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="LTXA1"/>
+    </attribute>
+    <attribute id="TXTSP" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXTSP"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="TXTSP"/>
+    </attribute>
+    <attribute id="LOSVN" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSVN"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="LOSVN"/>
+    </attribute>
+    <attribute id="LOSBS" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSBS"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="LOSBS"/>
+    </attribute>
+    <attribute id="BSCHL1" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSCHL1"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="BSCHL1"/>
+    </attribute>
+    <attribute id="BSCHL2" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSCHL2"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="BSCHL2"/>
+    </attribute>
+    <attribute id="AUSCHL" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSCHL"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="AUSCHL"/>
+    </attribute>
+    <attribute id="OBJNR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="OBJTYPE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJTYPE"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="OBJTYPE"/>
+    </attribute>
+    <attribute id="CH_PROC" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CH_PROC"/>
+      <keyMapping columnObjectName="EP1_AFFL" columnName="CH_PROC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

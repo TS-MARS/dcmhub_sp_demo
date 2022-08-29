@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TCURX" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table TCURX"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_TCURX">
+    <resourceUri>EP1_TCURX</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_TCURX">
+  <attributes>
+    <attribute id="CURRKEY" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURRKEY"/>
+      <keyMapping columnObjectName="EP1_TCURX" columnName="CURRKEY"/>
+    </attribute>
+    <attribute id="CURRDEC" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURRDEC"/>
+      <keyMapping columnObjectName="EP1_TCURX" columnName="CURRDEC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

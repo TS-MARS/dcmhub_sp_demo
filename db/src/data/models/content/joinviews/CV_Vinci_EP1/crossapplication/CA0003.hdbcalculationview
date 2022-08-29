@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CA0003" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CA0003"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CA0003">
+    <resourceUri>EP1_CV_CA0003</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CA0003">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KNTAB" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTAB"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNTAB"/>
+    </attribute>
+    <attribute id="KNOBJ" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNOBJ"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNOBJ"/>
+    </attribute>
+    <attribute id="KNNUM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNNUM"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNNUM"/>
+    </attribute>
+    <attribute id="ADZHL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADZHL"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="ADZHL"/>
+    </attribute>
+    <attribute id="KNSRT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNSRT"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNSRT"/>
+    </attribute>
+    <attribute id="AENNR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="AENNR"/>
+    </attribute>
+    <attribute id="LKENZ" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="LKENZ"/>
+    </attribute>
+    <attribute id="DATUV" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="DATUV"/>
+    </attribute>
+    <attribute id="MANDT_1" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="KNNUM_1" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNNUM_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNNUM_1"/>
+    </attribute>
+    <attribute id="ADZHL_1" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADZHL_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="ADZHL_1"/>
+    </attribute>
+    <attribute id="KNNAM" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNNAM"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNNAM"/>
+    </attribute>
+    <attribute id="KNART" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNART"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNART"/>
+    </attribute>
+    <attribute id="KNART2" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNART2"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNART2"/>
+    </attribute>
+    <attribute id="KNSOFT" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNSOFT"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNSOFT"/>
+    </attribute>
+    <attribute id="KNVER" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNVER"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNVER"/>
+    </attribute>
+    <attribute id="KNVER2" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNVER2"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNVER2"/>
+    </attribute>
+    <attribute id="KNSCE" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNSCE"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNSCE"/>
+    </attribute>
+    <attribute id="KNSTA" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNSTA"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNSTA"/>
+    </attribute>
+    <attribute id="KNEDT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNEDT"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNEDT"/>
+    </attribute>
+    <attribute id="KNEUS" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNEUS"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNEUS"/>
+    </attribute>
+    <attribute id="KNADT" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNADT"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNADT"/>
+    </attribute>
+    <attribute id="KNAUS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNAUS"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNAUS"/>
+    </attribute>
+    <attribute id="KNGRP" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNGRP"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNGRP"/>
+    </attribute>
+    <attribute id="KNBEO" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNBEO"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNBEO"/>
+    </attribute>
+    <attribute id="LKENZ_1" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="LKENZ_1"/>
+    </attribute>
+    <attribute id="AENNR_1" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="AENNR_1"/>
+    </attribute>
+    <attribute id="DATUV_1" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV_1"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="DATUV_1"/>
+    </attribute>
+    <attribute id="MANDT_2" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_2"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="MANDT_2"/>
+    </attribute>
+    <attribute id="KNNUM_2" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNNUM_2"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNNUM_2"/>
+    </attribute>
+    <attribute id="SPRAS" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="ADZHL_2" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADZHL_2"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="ADZHL_2"/>
+    </attribute>
+    <attribute id="KNKTX" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNKTX"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="KNKTX"/>
+    </attribute>
+    <attribute id="LANKZ" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANKZ"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="LANKZ"/>
+    </attribute>
+    <attribute id="LKEN" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKEN"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="LKEN"/>
+    </attribute>
+    <attribute id="AENNR_2" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR_2"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="AENNR_2"/>
+    </attribute>
+    <attribute id="DATUV_2" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV_2"/>
+      <keyMapping columnObjectName="EP1_CV_CA0003" columnName="DATUV_2"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

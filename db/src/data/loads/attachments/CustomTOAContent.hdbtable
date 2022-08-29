@@ -1,0 +1,14 @@
+COLUMN TABLE "att::CustomTOAContent" (
+	MANDT		nvarchar(3),
+	SAP_OBJECT  nvarchar(10),
+	OBJID		nvarchar(100),
+	ARCHIV_ID	nvarchar(2),
+	ARC_DOC_ID	nvarchar(100),
+	DATE		nvarchar(8),
+	AR_OBJECT	nvarchar(10),
+	RESERVE 	nvarchar(27),
+	FILENAME    nvarchar(255),
+	BLOB_DATA   blob,
+	PRIMARY KEY ("MANDT","SAP_OBJECT","OBJID","ARCHIV_ID","ARC_DOC_ID")
+)
+COMMENT 'TOA Content from mapped tables'

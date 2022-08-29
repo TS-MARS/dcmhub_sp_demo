@@ -61,6 +61,22 @@
 					"localUri": "localService/metadata.xml"
 				}
 			},
+			"attach": {
+				"uri": "../xsodata/attach.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"obj": {
+				"uri": "../xsodata/obj.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},				
 				"searchhelp": {
 				"uri": "../xsodata/searchhelp.xsodata/",
 				"type": "OData",
@@ -135,6 +151,18 @@
 				"type": "sap.ui.model.resource.ResourceModel",
 				"uri": "i18n/i18n.properties"
 			},
+			"attachSet": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",				
+				"dataSource": "attach",
+				"defaultBindingMode": "TwoWay",
+				"preload": true
+			},
+			"objSet": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",				
+				"dataSource": "obj",
+				"defaultBindingMode": "TwoWay",
+				"preload": true
+			},				
 			"persModel": {
 				"type" : "sap.ui.model.odata.v2.ODataModel",				
 				"dataSource": "personalization",
@@ -200,7 +228,14 @@
 					"target": [
 						"adhocQuery"
 					]
-				}			
+				},
+				{
+					"name": "attachment",
+					"pattern": "attachment",
+					"target": [
+						"attachment"
+					]
+				}				
 			],
 			"targets": {
 				"launchpad": {
@@ -223,7 +258,14 @@
 					"clearControlAggregation": false,
 					"viewId": "adhocQuery",
 					"viewName": "adhocQuery"
-				}			
+				},
+				"attachment": {
+					"viewType": "XML",
+					"transition": "fade",
+					"clearControlAggregation": false,
+					"viewId": "attachment",
+					"viewName": "Attachment"
+				}				
 			}
 		},
 		"config": {

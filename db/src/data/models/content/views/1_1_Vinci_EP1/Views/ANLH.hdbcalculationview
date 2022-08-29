@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ANLH" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table ANLH"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_ANLH">
+    <resourceUri>EP1_ANLH</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_ANLH">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_ANLH" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_ANLH" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="ANLN1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="EP1_ANLH" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="LUNTN" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LUNTN"/>
+      <keyMapping columnObjectName="EP1_ANLH" columnName="LUNTN"/>
+    </attribute>
+    <attribute id="LANEP" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANEP"/>
+      <keyMapping columnObjectName="EP1_ANLH" columnName="LANEP"/>
+    </attribute>
+    <attribute id="ANUPD" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANUPD"/>
+      <keyMapping columnObjectName="EP1_ANLH" columnName="ANUPD"/>
+    </attribute>
+    <attribute id="FUNTN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FUNTN"/>
+      <keyMapping columnObjectName="EP1_ANLH" columnName="FUNTN"/>
+    </attribute>
+    <attribute id="ANLHTXT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLHTXT"/>
+      <keyMapping columnObjectName="EP1_ANLH" columnName="ANLHTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

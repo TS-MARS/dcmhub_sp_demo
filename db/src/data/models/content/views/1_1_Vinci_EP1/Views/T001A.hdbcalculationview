@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T001A" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T001A"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T001A">
+    <resourceUri>EP1_T001A</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T001A">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="CURTP" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURTP"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="CURTP"/>
+    </attribute>
+    <attribute id="KURST" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURST"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="KURST"/>
+    </attribute>
+    <attribute id="CURSR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURSR"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="CURSR"/>
+    </attribute>
+    <attribute id="CURDT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURDT"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="CURDT"/>
+    </attribute>
+    <attribute id="CURTP2" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURTP2"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="CURTP2"/>
+    </attribute>
+    <attribute id="KURST2" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURST2"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="KURST2"/>
+    </attribute>
+    <attribute id="CURSR2" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURSR2"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="CURSR2"/>
+    </attribute>
+    <attribute id="CURDT2" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURDT2"/>
+      <keyMapping columnObjectName="EP1_T001A" columnName="CURDT2"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

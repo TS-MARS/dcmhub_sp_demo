@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CA_TTXIT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_CA_TTXIT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_CV_CA_TTXIT">
+    <resourceUri>EP1_CV_CA_TTXIT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_CV_CA_TTXIT">
+  <attributes>
+    <attribute id="TDSPRAS" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDSPRAS"/>
+      <keyMapping columnObjectName="EP1_CV_CA_TTXIT" columnName="TDSPRAS"/>
+    </attribute>
+    <attribute id="TDOBJECT" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDOBJECT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_TTXIT" columnName="TDOBJECT"/>
+    </attribute>
+    <attribute id="TDID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDID"/>
+      <keyMapping columnObjectName="EP1_CV_CA_TTXIT" columnName="TDID"/>
+    </attribute>
+    <attribute id="TDTEXT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDTEXT"/>
+      <keyMapping columnObjectName="EP1_CV_CA_TTXIT" columnName="TDTEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

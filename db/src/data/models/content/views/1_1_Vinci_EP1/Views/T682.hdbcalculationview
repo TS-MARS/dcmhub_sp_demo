@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T682" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T682"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T682">
+    <resourceUri>EP1_T682</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T682">
+  <attributes>
+    <attribute id="KVEWE" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="KVEWE"/>
+    </attribute>
+    <attribute id="KAPPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="KOZGF" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOZGF"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="KOZGF"/>
+    </attribute>
+    <attribute id="KOZGV" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOZGV"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="KOZGV"/>
+    </attribute>
+    <attribute id="KZAKT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZAKT"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="KZAKT"/>
+    </attribute>
+    <attribute id="KKMOD" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKMOD"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="KKMOD"/>
+    </attribute>
+    <attribute id="RPTSX" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RPTSX"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="RPTSX"/>
+    </attribute>
+    <attribute id="MANDT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SYPSY" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SYPSY"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="SYPSY"/>
+    </attribute>
+    <attribute id="SYSID" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SYSID"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="SYSID"/>
+    </attribute>
+    <attribute id="SAPRL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAPRL"/>
+      <keyMapping columnObjectName="EP1_T682" columnName="SAPRL"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

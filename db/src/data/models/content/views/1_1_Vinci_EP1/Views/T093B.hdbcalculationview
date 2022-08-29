@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T093B" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T093B"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T093B">
+    <resourceUri>EP1_T093B</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T093B">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="AFABE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="AFABE"/>
+    </attribute>
+    <attribute id="WAERS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="WAERS"/>
+    </attribute>
+    <attribute id="RUNDEN" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RUNDEN"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="RUNDEN"/>
+    </attribute>
+    <attribute id="ERWERT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERWERT"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="ERWERT"/>
+    </attribute>
+    <attribute id="GWGWRT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GWGWRT"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="GWGWRT"/>
+    </attribute>
+    <attribute id="UMRWRT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMRWRT"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="UMRWRT"/>
+    </attribute>
+    <attribute id="GWGBST" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GWGBST"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="GWGBST"/>
+    </attribute>
+    <attribute id="FILLER" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FILLER"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="FILLER"/>
+    </attribute>
+    <attribute id="RNDAHK" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RNDAHK"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="RNDAHK"/>
+    </attribute>
+    <attribute id="ABGJA" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGJA"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="ABGJA"/>
+    </attribute>
+    <attribute id="AFRHY" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFRHY"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="AFRHY"/>
+    </attribute>
+    <attribute id="XANZUM" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XANZUM"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="XANZUM"/>
+    </attribute>
+    <attribute id="VERSN_011" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN_011"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="VERSN_011"/>
+    </attribute>
+    <attribute id="X445R" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="X445R"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="X445R"/>
+    </attribute>
+    <attribute id="XAKPL" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAKPL"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="XAKPL"/>
+    </attribute>
+    <attribute id="BASRND" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BASRND"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="BASRND"/>
+    </attribute>
+    <attribute id="METRND" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="METRND"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="METRND"/>
+    </attribute>
+    <attribute id="PERIV" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIV"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="PERIV"/>
+    </attribute>
+    <attribute id="TOLERANZ" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOLERANZ"/>
+      <keyMapping columnObjectName="EP1_T093B" columnName="TOLERANZ"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

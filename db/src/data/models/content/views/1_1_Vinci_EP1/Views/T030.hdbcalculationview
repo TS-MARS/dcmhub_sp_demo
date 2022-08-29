@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T030" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T030"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="EP1_T030">
+    <resourceUri>EP1_T030</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="EP1_T030">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="EP1_T030" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KTOPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="EP1_T030" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="KTOSL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOSL"/>
+      <keyMapping columnObjectName="EP1_T030" columnName="KTOSL"/>
+    </attribute>
+    <attribute id="BWMOD" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWMOD"/>
+      <keyMapping columnObjectName="EP1_T030" columnName="BWMOD"/>
+    </attribute>
+    <attribute id="KOMOK" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOMOK"/>
+      <keyMapping columnObjectName="EP1_T030" columnName="KOMOK"/>
+    </attribute>
+    <attribute id="BKLAS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKLAS"/>
+      <keyMapping columnObjectName="EP1_T030" columnName="BKLAS"/>
+    </attribute>
+    <attribute id="KONTS" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONTS"/>
+      <keyMapping columnObjectName="EP1_T030" columnName="KONTS"/>
+    </attribute>
+    <attribute id="KONTH" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONTH"/>
+      <keyMapping columnObjectName="EP1_T030" columnName="KONTH"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
