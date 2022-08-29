@@ -1,5 +1,5 @@
-ID: dcmhub_vin_ep1
 _schema-version: '2.1'
+ID: dcmhub_vin_ep1
 version: 0.0.1
 modules:
   - name: dcmhub_vin_ep1-db
@@ -41,6 +41,19 @@ modules:
           url: '~{url}'
           forwardAuthToken: true
           timeout: 900000
+    properties:
+      SESSION_TIMEOUT: 30
+      INCOMING_CONNECTION_TIMEOUT: 1800000    
+      CORS:
+        - uriPattern: .
+          allowedMethods:
+            - GET
+            - POST
+          allowedOrigin:
+            - host: '*'
+      SAP_JWT_TRUST_ACL:
+        - clientid: '*'
+          identityzone: '*'          
 resources:
   - name: dcmhub_vin_ep1-hdi-container
     type: com.sap.xs.hdi-container
