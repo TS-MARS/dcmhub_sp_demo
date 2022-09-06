@@ -12,6 +12,5 @@ LIFNR,Vendor
 GJAHR,FiscalYear
 MJAHR,FiscalYear
 BWKEY,ValuationArea
-OBJECTID,OBJECT_ID
 KTOPL,ChartofAccounts
 RLDNR,Ledger
