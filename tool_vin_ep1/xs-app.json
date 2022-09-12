@@ -22,5 +22,9 @@
 			"default": "$XSAPPNAME.Display_EP1"
 		}		
 
-	}]
+	}],
+	"logout": {
+		"logoutEndpoint": "/logout",
+		"logoutPage": "/logoff.html"
+	}	
 }
