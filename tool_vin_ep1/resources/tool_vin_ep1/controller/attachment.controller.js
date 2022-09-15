@@ -55,9 +55,7 @@ sap.ui.define([
 			
 				// BLOB attachments stored into ZTRUE_POINTER
 				case ' ':
-				case 'AD':
-				case 'OF':	
-				case 'DE':						
+				case 'CA':
 					this._openBlobAttachment(filename);
 					break;
 				

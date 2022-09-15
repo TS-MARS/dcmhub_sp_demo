@@ -7,7 +7,7 @@ LANGUAGE SQLSCRIPT SQL
 SECURITY DEFINER AS
 BEGIN
 	DECLARE lv_page INT DEFAULT 0;
-	DECLARE lv_filename VARCHAR(1024);
+	DECLARE lv_filename NVARCHAR(1024);
 		
 	lv_page = :im_page - 1;
 	

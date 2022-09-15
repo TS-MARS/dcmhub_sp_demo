@@ -1,6 +1,12 @@
 _schema-version: '2.1'
 ID: dcmhub_vin_ep1
 version: 0.0.1
+#--- Template History ---#
+# Version ; Comments
+# 0.0.1   ; no rank views, extendet log out idle time
+#
+#------------------------#
+
 modules:
   - name: dcmhub_vin_ep1-db
     type: hdb
@@ -16,8 +22,8 @@ modules:
     type: nodejs
     path: xsjs_vin_ep1
     properties:
-      SESSION_TIMEOUT: 15
-      INCOMING_CONNECTION_TIMEOUT: 900000
+      SESSION_TIMEOUT: 60
+      INCOMING_CONNECTION_TIMEOUT: 3600000
     provides:
       - name: xsjs_api
         properties:
@@ -42,8 +48,8 @@ modules:
           forwardAuthToken: true
           timeout: 900000
     properties:
-      SESSION_TIMEOUT: 30
-      INCOMING_CONNECTION_TIMEOUT: 1800000    
+      SESSION_TIMEOUT: 60
+      INCOMING_CONNECTION_TIMEOUT: 3600000    
       CORS:
         - uriPattern: .
           allowedMethods:

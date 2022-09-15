@@ -8,7 +8,7 @@ PROCEDURE "att::doesFileExist"(
 BEGIN
 
 			DECLARE lv_found INT DEFAULT 1;
-			DECLARE lv_filename VARCHAR(1024);
+			DECLARE lv_filename NVARCHAR(1024);
 			
 			lv_filename = im_filename;
 			lv_filename = REPLACE(:lv_filename, '*', '%');

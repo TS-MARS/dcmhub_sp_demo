@@ -47,6 +47,7 @@ function getContentType(filename) {
 		break;
 
 	case "pdf":
+	case "PDF":
 		mimeType = "application/pdf";
 		break;
 
