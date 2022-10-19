@@ -1,0 +1,128 @@
+FUNCTION "faglamt1"(IP_MANDT nvarchar(3),
+				   IP_GJAHR nvarchar(4),
+				   IP_RLDNR nvarchar(2),
+				   IP_KTOPL nvarchar(4),
+				   IP_VERSN nvarchar(4),
+				   IP_BUKRS nvarchar(4),
+				   IP_RBUSA nvarchar(4)
+)
+       RETURNS TABLE (
+       	RCLNT NVARCHAR(3),
+       	RYEAR NVARCHAR(4),
+       	RTCUR NVARCHAR(5),
+       	RLDNR NVARCHAR(2),
+       	RACCT NVARCHAR(10),
+		BUKRS NVARCHAR(4),
+       	RBUSA NVARCHAR(4),       	
+       	ERGSL NVARCHAR(10),
+       	HSLVT DECIMAL(23,2),
+       	HSL01 DECIMAL(23,2),
+       	HSL02 DECIMAL(23,2),
+       	HSL03 DECIMAL(23,2),
+       	HSL04 DECIMAL(23,2),
+       	HSL05 DECIMAL(23,2),
+       	HSL06 DECIMAL(23,2),
+       	HSL07 DECIMAL(23,2),
+       	HSL08 DECIMAL(23,2),
+       	HSL09 DECIMAL(23,2),
+       	HSL10 DECIMAL(23,2),
+       	HSL11 DECIMAL(23,2),
+       	HSL12 DECIMAL(23,2),
+       	HSL13 DECIMAL(23,2),
+       	HSL14 DECIMAL(23,2),
+       	HSL15 DECIMAL(23,2),
+       	HSL16 DECIMAL(23,2),
+       	TSLVT DECIMAL(23,2),
+       	TSL01 DECIMAL(23,2),
+       	TSL02 DECIMAL(23,2),
+       	TSL03 DECIMAL(23,2),
+       	TSL04 DECIMAL(23,2),
+       	TSL05 DECIMAL(23,2),
+       	TSL06 DECIMAL(23,2),
+       	TSL07 DECIMAL(23,2),
+       	TSL08 DECIMAL(23,2),
+       	TSL09 DECIMAL(23,2),
+       	TSL10 DECIMAL(23,2),
+       	TSL11 DECIMAL(23,2),
+       	TSL12 DECIMAL(23,2),
+       	TSL13 DECIMAL(23,2),
+       	TSL14 DECIMAL(23,2),
+       	TSL15 DECIMAL(23,2),
+       	TSL16 DECIMAL(23,2)
+       )
+       LANGUAGE SQLSCRIPT 
+       SQL SECURITY INVOKER AS 
+BEGIN 
+    /*****************************
+        Write your function logic
+    ****************************/
+RETURN    
+    SELECT T0.RCLNT as RCLNT,
+    	T0.RYEAR as RYEAR,
+    	T0.RTCUR as RTCUR,
+    	T0.RLDNR as RLDNR,
+    	T0.RACCT as RACCT,
+    	T0.BUKRS as BUKRS,
+     	T0.RBUSA as RBUSA,
+/*    	T1.ERGSL as ERGSL,*/
+		( SELECT MAX(ERGSL) FROM SDA_FAGL_011ZC WHERE T0.RACCT BETWEEN VONKT AND BISKT AND VERSN = IP_VERSN ) as ERGSL,
+    	SUM(T0.HSLVT) as HSLVT,
+    	SUM(T0.HSL01) as HSL01,
+    	SUM(T0.HSL02) as HSL02,
+    	SUM(T0.HSL03) as HSL03,
+    	SUM(T0.HSL04) as HSL04,
+    	SUM(T0.HSL05) as HSL05,
+    	SUM(T0.HSL06) as HSL06,
+    	SUM(T0.HSL07) as HSL07,
+    	SUM(T0.HSL08) as HSL08,
+    	SUM(T0.HSL09) as HSL09,
+    	SUM(T0.HSL10) as HSL10,
+    	SUM(T0.HSL11) as HSL11,
+    	SUM(T0.HSL12) as HSL12,
+    	SUM(T0.HSL13) as HSL13,
+    	SUM(T0.HSL14) as HSL14,
+    	SUM(T0.HSL15) as HSL15,
+    	SUM(T0.HSL16) as HSL16,
+    	SUM(T0.TSLVT) as TSLVT,
+    	SUM(T0.TSL01) as TSL01,
+    	SUM(T0.TSL02) as TSL02,
+    	SUM(T0.TSL03) as TSL03,
+    	SUM(T0.TSL04) as TSL04,
+    	SUM(T0.TSL05) as TSL05,
+    	SUM(T0.TSL06) as TSL06,
+    	SUM(T0.TSL07) as TSL07,
+    	SUM(T0.TSL08) as TSL08,
+    	SUM(T0.TSL09) as TSL09,
+    	SUM(T0.TSL10) as TSL10,
+    	SUM(T0.TSL11) as TSL11,
+    	SUM(T0.TSL12) as TSL12,
+    	SUM(T0.TSL13) as TSL13,
+    	SUM(T0.TSL14) as TSL14,
+    	SUM(T0.TSL15) as TSL15,
+    	SUM(T0.TSL16) as TSL16 	
+/*    	T1."XSOLL" as XSOLL,
+    	T1."XHABN" as XHABN,
+    	T1."KTOPL" as KTOPL,
+    	T1."VERSN" as VERSN,*/
+   	FROM SDA_GLT0 as T0
+/*   	FULL OUTER JOIN P72_FAGL_011ZC as T1 ON T1.MANDT = T0.RCLNT
+   				AND T1.VONKT <= T0.RACCT
+ 				AND T1.BISKT >= T0.RACCT*/
+ 				WHERE T0.RCLNT = IP_MANDT
+    			AND T0.RYEAR = IP_GJAHR
+    			AND T0.RLDNR = IP_RLDNR
+/*    			AND T1."KTOPL" = IP_KTOPL
+    			AND T1.VERSN = IP_VERSN*/
+    			AND T0.BUKRS LIKE IP_BUKRS
+--    			AND T0.RACCT LIKE IP_RACCT
+    			AND T0.RBUSA LIKE IP_RBUSA
+/*    			AND (T0.RACCT BETWEEN T1.VONKT AND T1.BISKT OR T1.MANDT IS NULL)*/
+    			GROUP BY T0.RCLNT,T0.RYEAR,T0.RTCUR,T0.RLDNR,T0.RACCT,T0.BUKRS,T0.RBUSA;
+/*    			T0."HSLVT",T0."HSL01",T0."HSL02",T0."HSL03",T0."HSL04",T0."HSL05",T0."HSL06",T0."HSL07",T0."HSL08",T0."HSL09",T0."HSL10",T0."HSL11",T0."HSL12",T0."HSL13",T0."HSL14",T0."HSL15",T0."HSL16",
+    			T0."TSLVT",T0."TSL01",T0."TSL02",T0."TSL03",T0."TSL04",T0."TSL05",T0."TSL06",T0."TSL07",T0."TSL08",T0."TSL09",T0."TSL10",T0."TSL11",T0."TSL12",T0."TSL13",T0."TSL14",T0."TSL15",T0."TSL16",
+    			T1."ERGSO",T1."ERGHB";
+ 												  GROUP BY T0."RCLNT",T0."RYEAR",T0."DRCRK",T0."RTCUR",T0."RLDNR",T0."RACCT",T0."RBUKRS",T1."ERGSL",T1."XSOLL",T1."XHABN",T1."KTOPL",T1."VERSN";
+    */												  
+    	
+    	
+END;

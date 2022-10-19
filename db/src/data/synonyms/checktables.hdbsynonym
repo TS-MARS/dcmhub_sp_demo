@@ -43,5 +43,14 @@
 "SDA_T011": {"target": {"object": "EP1_T011","schema": "SDA_VIN_EP1"}},
 "SDA_T011T": {"target": {"object": "EP1_T011T","schema": "SDA_VIN_EP1"}},
 "SDA_T881T": {"target": {"object": "EP1_T881T","schema": "SDA_VIN_EP1"}},
-"SDA_TTYP": {"target": {"object": "EP1_TTYP","schema": "SDA_VIN_EP1"}}
+"SDA_TTYP": {"target": {"object": "EP1_TTYP","schema": "SDA_VIN_EP1"}},
+"SDA_FAGLFLEXT": {"target": {"object": "EP1_FAGLFLEXT","schema": "SDA_VIN_EP1"}},
+"SDA_FAGL_ACTIVEC": {"target": {"object": "EP1_FAGL_ACTIVEC","schema": "SDA_VIN_EP1"}},
+"SDA_FAGL_011QT": {"target": {"object": "EP1_FAGL_011QT","schema": "SDA_VIN_EP1"}},
+"SDA_FAGL_011ZC": {"target": {"object": "EP1_FAGL_011ZC","schema": "SDA_VIN_EP1"}},
+"SDA_FAGL_011FC": {"target": {"object": "EP1_FAGL_011FC","schema": "SDA_VIN_EP1"}},
+"SDA_FAGL_011PC": {"target": {"object": "EP1_FAGL_011PC","schema": "SDA_VIN_EP1"}},
+"SDA_FAGL_011SC": {"target": {"object": "EP1_FAGL_011SC","schema": "SDA_VIN_EP1"}},
+"SDA_FAGL_011TC": {"target": {"object": "EP1_FAGL_011TC","schema": "SDA_VIN_EP1"}},
+"SDA_FAGL_011VC": {"target": {"object": "EP1_FAGL_011VC","schema": "SDA_VIN_EP1"}}
 }

@@ -1,0 +1,193 @@
+<mvc:View xmlns:m="sap.m" xmlns="sap.uxap" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table"
+	xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:v="sap.ui.comp.variants" xmlns:smartTable="sap.ui.comp.smarttable"
+	controllerName="tool_vin_ep1.controller.finstatement" height="100%">
+	<m:Page showNavButton="true" title="{i18n>finstatement}" navButtonPress="onNavButtonPressMain">
+		<!-- use this to make the table occupy the available screen height -->
+		<m:content>
+			<m:NavContainer id="pageContainer" initialPage="page1">
+				<m:pages>
+					<m:Page id="page1">
+						<m:content>
+							<m:Panel headerText="{i18n>finstatement}" class="sapUiResponsiveMargin" width="auto">
+								<m:content>
+									<l:VerticalLayout width="100%">
+										<v:VariantManagement defaultVariantKey="*standard*" save="onSaveVariant" select="onChange" manage="onManage"
+											variantItems="{variants>/}" class="sapUiSmallMargin">
+											<v:variantItems>
+												<v:VariantItem key="{variants>}" text="{variants>}"></v:VariantItem>
+											</v:variantItems>
+										</v:VariantManagement>
+										<l:Grid containerQuery="true" defaultSpan="XL6 L6" width="100%" class="sapUiSmallMargin" vSpacing="0">
+											<m:Label text="{i18n>client}" textAlign="Right" labelFor="client"/>
+											<m:ComboBox selectedKey="100" required="true" id="client" placeholder="{i18n>client}" items="{ path: '/t000'}" selectionChange="resetFields">
+												<core:Item key="{MANDT}" text="{MANDT}"/>
+											</m:ComboBox>
+										
+											<m:Label text="{i18n>chart}" textAlign="Right" labelFor="chart"/>
+											<m:MultiInput placeholder="{i18n>chart}" valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showChart"
+												required="true" id="chart" submit="onChangeValue"/>
+											<m:Label text="{i18n>account}" textAlign="Right" labelFor="account"/>
+											<m:MultiInput placeholder="{i18n>account}" valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showAccount"
+												 id="account" submit="onChangeValue"/>	
+											<m:Label text="{i18n>companycode}" textAlign="Right" labelFor="companycode"/>
+											<m:MultiInput placeholder="{i18n>company}" valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showCompanyCode"
+												required="true" id="companycode" submit="onChangeValue"/>
+											<m:Label text="{i18n>barea}" textAlign="Right" labelFor="barea"/>
+											<m:MultiInput placeholder="{i18n>barea}" id="barea" required="false"  valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showBarea" submit="onChangeValue"/>												
+											<m:Label text="{i18n>version}" textAlign="Right" labelFor="version"/>
+											<m:MultiInput placeholder="{i18n>version}" valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showVersion"
+												required="true" id="version" submit="onChangeValue"/>
+											<m:Label text="{i18n>language}" textAlign="Right" labelFor="language"/>
+											<m:MultiInput placeholder="{i18n>language}" valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showLanguage"
+												required="true" id="language" submit="onChangeValue"/>
+
+											<m:Label text="{i18n>ryear}" textAlign="Right" labelFor="Ryear"/>
+											<m:MultiInput placeholder="{i18n>ryear}" valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showYear"
+												 id="Ryear" required="true" submit="onChangeValue"/>
+											<m:Label text="{i18n>cyear}" textAlign="Right" labelFor="Cyear"/>
+											<m:MultiInput placeholder="{i18n>cyear}" valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showYear"
+												 id="Cyear" submit="onChangeValue"/>
+											<m:Label text="{i18n>perfrom}" textAlign="Right" labelFor="periodfrom"/>
+											<m:Input value="1" placeholder="{i18n>perfrom}" id="periodfrom" required="true"/>
+											<m:Label text="{i18n>perto}" textAlign="Right" labelFor="periodto"/>
+											<m:Input value="16" placeholder="{i18n>perto}" id="periodto" required="true"/>
+											<m:Label text="{i18n>ledger}" textAlign="Right" labelFor="ledger"/>
+											<m:MultiInput placeholder="{i18n>ledger}" valueHelpOnly="false" showValueHelp="true" valueHelpRequest="showLedger"
+												required="true" id="ledger" submit="onChangeValue"/>	
+											
+										</l:Grid>
+									</l:VerticalLayout>
+								</m:content>
+							</m:Panel>
+						</m:content>
+					</m:Page>
+					<m:Page id="page2" showNavButton="true" navButtonPress="onNavButtonPress">
+						<m:Panel>
+							<m:content >
+								<m:VBox class="sapUiSmallMargin" justifyContent="SpaceBetween">
+									<m:Title level="H1" text="{i18n>cbs}" />
+									<m:Label text="{i18n>client} : {path: 'oInputModel>/0/oClient'}" design="Bold"/>
+									<m:Label text="{i18n>companycode} : {path: 'oInputModel>/0/oCCode'}" design="Bold"/>
+									<m:Label text="{i18n>chart} : {path: 'oInputModel>/0/oChart'}" design="Bold"/>
+									<m:Label text="{i18n>version} : {path: 'oInputModel>/0/oVersion'}" design="Bold"/>
+									<m:Label text="{i18n>ledger} : {path: 'oInputModel>/0/oLedger'}" design="Bold"/>
+									<m:Label text="{i18n>language} : {path: 'oInputModel>/0/oLanguage'}" design="Bold"/>
+									<m:Label text="{i18n>account} : {path: 'oInputModel>/0/oAccount'}" design="Bold"/>
+									<m:Label text="{i18n>barea} : {path: 'oInputModel>/0/oBArea'}" design="Bold"/>
+									<m:Label text="{i18n>ryear} : {path: 'oInputModel>/0/oRYear'}" design="Bold"/>
+									<m:Label text="{i18n>cyear} : {path: 'oInputModel>/0/oCYear'}" design="Bold"/>
+									<m:Label text="{i18n>period} : {path: 'oInputModel>/0/oPeriodFrom'} to {path: 'oInputModel>/0/oPeriodTo'}" design="Bold"/>
+								</m:VBox>
+							</m:content>
+						</m:Panel>
+						<m:Panel class="sapUiResponsiveMargin" width="auto">
+							<m:content>
+								<!-- Excel Export Start -->
+								<smartTable:SmartTable tableType="Table" useExportToExcel="true" beforeExport="onBeforeExport" useVariantManagement="true"
+									useTablePersonalisation="true" header="Line Items" showRowCount="false" persistencyKey="SmartTableAnalytical_Explored"
+									enableAutoBinding="true" class="sapUiResponsiveContentPadding">
+									<table:Table id="tableId" rows="{data>/rows}" visibleRowCount="20" selectionMode="Single" alternateRowColors="true">
+										<table:extension>
+											<m:OverflowToolbar>
+												<m:Title text="{i18n>finstatement}" />
+												<m:ToolbarSpacer/>
+												
+												<m:Button icon="sap-icon://excel-attachment" press="onExportPress">
+													<m:layoutData>
+														<m:OverflowToolbarLayoutData priority="NeverOverflow"/>
+													</m:layoutData>
+												</m:Button>
+												
+											</m:OverflowToolbar>
+										</table:extension>
+										<!-- Excel Export End -->
+									<table:rowSettingsTemplate>
+										<table:RowSettings highlight="{= ${data>TXTYP} === 'T' ? 'Success' : 'None'}"/>
+									</table:rowSettingsTemplate>
+									<table:columns>
+										<table:Column width="8em">
+											<m:Label text="{i18n>companycode}"/>
+											<table:template>
+												<m:Text text="{data>BUKRS}" wrapping="false"/>
+											</table:template>
+										</table:Column>					
+										<table:Column width="8em">
+											<m:Label text="{i18n>busarea}"/>
+											<table:template>
+												<m:Text text="{data>RBUSA}" wrapping="false"/>
+											</table:template>
+										</table:Column>										
+										<table:Column width="8em">
+											<m:Label text="{i18n>fsitem}"/>
+											<table:template>
+												<m:Text text="{data>ERGSL}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										<!--      <table:Column width="5em">-->
+										<!--          <m:Label text="Type"/>-->
+										<!--<table:template>-->
+										<!--	<m:Text text="{data>TXTYP}" wrapping="false" />-->
+										<!--</table:template>				              -->
+										<!--      </table:Column>				          -->
+										<table:Column width="8em" hAlign="Left">
+											<m:Label text="{i18n>plitem}"/>
+											<table:template>
+												<m:Text text="{data>RACCT}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Left" width="20em">
+											<m:Label text="{i18n>textbs}"/>
+											<table:template>
+												<m:Text text="{data>TXT45}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>reportingperiod}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>CC_1', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2} }"
+													state="{= ${data>CC_1} >= 0 ? 'None' : 'Error' }" unit="{data>RTCUR}"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>comparedperiod}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>CC_2', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>CC_2} >= 0 ? 'None' : 'Error' }" unit="{data>RTCUR}"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>absdif}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>CC_3', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2} }"
+													state="{= ${data>CC_3} >= 0 ? 'None' : 'Error' }" unit="{data>RTCUR}"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Right" width="5em">
+											<m:Label text="{i18n>reldif}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>CC_4', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 1, maxFractionDigits: 1 } }"/>
+											</table:template>
+										</table:Column>
+									</table:columns>
+								</table:Table>
+									<!-- Excel Export Start -->
+								</smartTable:SmartTable>
+								<!-- Excel Export End -->								
+							</m:content>
+						</m:Panel>
+					</m:Page>
+				</m:pages>
+			</m:NavContainer>
+		</m:content>
+		<m:footer>
+			<m:Toolbar>
+				<m:ToolbarSpacer/>
+				<m:Button id="nextButtonId" type="Emphasized" text="{i18n>next}" press="onPressNext"/>
+			</m:Toolbar>
+		</m:footer>
+	</m:Page>
+</mvc:View>

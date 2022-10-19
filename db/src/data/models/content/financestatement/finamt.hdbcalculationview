@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" xmlns:Variable="http://www.sap.com/ndb/BiModelVariable.ecore" id="core.models::finamt" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="finamt"/>
+<localVariables>
+  <variable id="IP_MANDT" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="100"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_GJAHR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="2019"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_KTOPL" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="CATK" operator="EQ" including="true"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_SPRAS" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="J"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_RLDNR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false" defaultValue="00">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="SingleValue"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_VERSN" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="ZALL"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_BUKRS" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="00"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_RBUSA" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="%"/>
+    </variableProperties>
+  </variable>
+</localVariables>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_SKAT">
+    <resourceUri>SDA_SKAT</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_T011">
+    <resourceUri>SDA_T011</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" cardinality="C1_1" joinType="leftOuter">
+    <viewAttributes>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="TXT20"/>
+      <viewAttribute id="TXT50"/>
+      <viewAttribute id="HSLVT"/>
+      <viewAttribute id="HSL01"/>
+      <viewAttribute id="HSL02"/>
+      <viewAttribute id="HSL03"/>
+      <viewAttribute id="HSL04"/>
+      <viewAttribute id="HSL05"/>
+      <viewAttribute id="HSL07"/>
+      <viewAttribute id="HSL08"/>
+      <viewAttribute id="HSL09"/>
+      <viewAttribute id="HSL10"/>
+      <viewAttribute id="HSL11"/>
+      <viewAttribute id="HSL12"/>
+      <viewAttribute id="HSL13"/>
+      <viewAttribute id="HSL14"/>
+      <viewAttribute id="HSL15"/>
+      <viewAttribute id="HSL16"/>
+      <viewAttribute id="TSLVT"/>
+      <viewAttribute id="TSL01"/>
+      <viewAttribute id="TSL02"/>
+      <viewAttribute id="TSL03"/>
+      <viewAttribute id="TSL04"/>
+      <viewAttribute id="TSL05"/>
+      <viewAttribute id="TSL06"/>
+      <viewAttribute id="TSL07"/>
+      <viewAttribute id="TSL08"/>
+      <viewAttribute id="TSL09"/>
+      <viewAttribute id="TSL10"/>
+      <viewAttribute id="TSL11"/>
+      <viewAttribute id="TSL12"/>
+      <viewAttribute id="TSL13"/>
+      <viewAttribute id="TSL14"/>
+      <viewAttribute id="TSL15"/>
+      <viewAttribute id="TSL16"/>
+      <viewAttribute id="ERGSL"/>
+      <viewAttribute id="HSL06"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RCLNT"/>
+    
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    </viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_1" datatype="NVARCHAR" length="13" expressionLanguage="SQL">
+        <formula>&quot;HSLVT&quot;</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <input node="Union_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RTCUR" source="RTCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12" source="HSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSLVT" source="TSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL01" source="TSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL02" source="TSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL03" source="TSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL04" source="TSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL05" source="TSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL06" source="TSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL07" source="TSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL08" source="TSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL09" source="TSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL10" source="TSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL11" source="TSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL12" source="TSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL13" source="TSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL14" source="TSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL15" source="TSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL16" source="TSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ERGSL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06" source="HSL06"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    </input>
+    <input node="Projection_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="TXT20" source="TXT20"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TXT50" source="TXT50"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="SAKNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="MANDT"/>
+    </input>
+    <joinAttribute name="RACCT"/>
+    <joinAttribute name="RCLNT"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:UnionView" id="Union_1">
+    <viewAttributes>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="HSLVT"/>
+      <viewAttribute id="HSL01"/>
+      <viewAttribute id="HSL02"/>
+      <viewAttribute id="HSL03"/>
+      <viewAttribute id="HSL04"/>
+      <viewAttribute id="HSL05"/>
+      <viewAttribute id="HSL07"/>
+      <viewAttribute id="HSL08"/>
+      <viewAttribute id="HSL09"/>
+      <viewAttribute id="HSL10"/>
+      <viewAttribute id="HSL11"/>
+      <viewAttribute id="HSL12"/>
+    
+      <viewAttribute id="HSL13"/>
+      <viewAttribute id="HSL14"/>
+      <viewAttribute id="HSL15"/>
+      <viewAttribute id="HSL16"/>
+      <viewAttribute id="TSLVT"/>
+      <viewAttribute id="TSL01"/>
+      <viewAttribute id="TSL02"/>
+      <viewAttribute id="TSL03"/>
+      <viewAttribute id="TSL04"/>
+      <viewAttribute id="TSL05"/>
+      <viewAttribute id="TSL06"/>
+      <viewAttribute id="TSL07"/>
+      <viewAttribute id="TSL08"/>
+      <viewAttribute id="TSL09"/>
+      <viewAttribute id="TSL10"/>
+      <viewAttribute id="TSL11"/>
+      <viewAttribute id="TSL12"/>
+      <viewAttribute id="TSL13"/>
+      <viewAttribute id="TSL14"/>
+      <viewAttribute id="TSL15"/>
+      <viewAttribute id="TSL16"/>
+      <viewAttribute id="ERGSL"/>
+      <viewAttribute id="HSL06"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="ERGSL_ACT" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL06" source="TSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL07" source="TSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL08" source="TSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL09" source="TSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL10" source="TSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06" source="HSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSLVT" source="TSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL11" source="TSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL01" source="TSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL12" source="TSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL02" source="TSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL13" source="TSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL03" source="TSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ERGSL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL14" source="TSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RTCUR" source="RTCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL04" source="TSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL15" source="TSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL05" source="TSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL16" source="TSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12" source="HSL12"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    </input>
+    <input node="Join_2" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL06" source="TSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL07" source="TSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL08" source="TSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL09" source="TSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL10" source="TSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06" source="HSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSLVT" source="TSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL11" source="TSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL01" source="TSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL12" source="TSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL02" source="TSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL13" source="TSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL03" source="TSL03"/>
+
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL14" source="TSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RTCUR" source="RTCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL04" source="TSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL15" source="TSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL05" source="TSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL16" source="TSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12" source="HSL12"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    </input>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_1" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="TXT20"/>
+      <viewAttribute id="TXT50"/>
+      <viewAttribute id="SAKNR"/>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="SPRAS"/>
+      <viewAttribute id="KTOPL"/>
+      <viewAttribute id="MCOD1"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_SKAT"/>
+    <filter>&quot;MANDT&quot; = '$$IP_MANDT$$' and
+&quot;KTOPL&quot; = '$$IP_KTOPL$$' and
+&quot;SPRAS&quot; = '$$IP_SPRAS$$'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="ERGSL_ACT" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="TSL06" aggregationType="sum"/>
+      <viewAttribute id="HSL02" aggregationType="sum"/>
+      <viewAttribute id="HSL13" aggregationType="sum"/>
+      <viewAttribute id="TSL07" aggregationType="sum"/>
+      <viewAttribute id="HSL03" aggregationType="sum"/>
+      <viewAttribute id="HSL14" aggregationType="sum"/>
+      <viewAttribute id="TSL08" aggregationType="sum"/>
+      <viewAttribute id="HSL04" aggregationType="sum"/>
+      <viewAttribute id="HSL15" aggregationType="sum"/>
+      <viewAttribute id="TSL09" aggregationType="sum"/>
+      <viewAttribute id="HSL05" aggregationType="sum"/>
+      <viewAttribute id="HSL16" aggregationType="sum"/>
+      <viewAttribute id="TSL10" aggregationType="sum"/>
+      <viewAttribute id="HSL06" aggregationType="sum"/>
+      <viewAttribute id="TSLVT" aggregationType="sum"/>
+      <viewAttribute id="TSL11" aggregationType="sum"/>
+      <viewAttribute id="HSL07" aggregationType="sum"/>
+      <viewAttribute id="TSL01" aggregationType="sum"/>
+      <viewAttribute id="TSL12" aggregationType="sum"/>
+      <viewAttribute id="HSL08" aggregationType="sum"/>
+      <viewAttribute id="TSL02" aggregationType="sum"/>
+      <viewAttribute id="TSL13" aggregationType="sum"/>
+      <viewAttribute id="HSL09" aggregationType="sum"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="TSL03" aggregationType="sum"/>
+      <viewAttribute id="ERGSL"/>
+      <viewAttribute id="TSL14" aggregationType="sum"/>
+      <viewAttribute id="HSL10" aggregationType="sum"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="TSL04" aggregationType="sum"/>
+      <viewAttribute id="HSLVT" aggregationType="sum"/>
+      <viewAttribute id="TSL15" aggregationType="sum"/>
+      <viewAttribute id="HSL11" aggregationType="sum"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="TSL05" aggregationType="sum"/>
+      <viewAttribute id="HSL01" aggregationType="sum"/>
+      <viewAttribute id="TSL16" aggregationType="sum"/>
+      <viewAttribute id="HSL12" aggregationType="sum"/>
+    
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="TableFunction_1"/>
+    <filter>&quot;ERGSL&quot; != 'NULL'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_2" cardinality="C1_1" joinType="inner">
+    <viewAttributes>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="TSL06"/>
+      <viewAttribute id="HSL02"/>
+      <viewAttribute id="HSL13"/>
+      <viewAttribute id="TSL07"/>
+      <viewAttribute id="HSL03"/>
+      <viewAttribute id="HSL14"/>
+      <viewAttribute id="TSL08"/>
+      <viewAttribute id="HSL04"/>
+      <viewAttribute id="HSL15"/>
+      <viewAttribute id="TSL09"/>
+      <viewAttribute id="HSL05"/>
+      <viewAttribute id="HSL16"/>
+      <viewAttribute id="TSL10"/>
+      <viewAttribute id="HSL06"/>
+      <viewAttribute id="TSLVT"/>
+      <viewAttribute id="TSL11"/>
+      <viewAttribute id="HSL07"/>
+      <viewAttribute id="TSL01"/>
+      <viewAttribute id="TSL12"/>
+      <viewAttribute id="HSL08"/>
+      <viewAttribute id="TSL02"/>
+      <viewAttribute id="TSL13"/>
+      <viewAttribute id="HSL09"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="TSL03"/>
+      <viewAttribute id="TSL14"/>
+      <viewAttribute id="HSL10"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="TSL04"/>
+      <viewAttribute id="HSLVT"/>
+      <viewAttribute id="TSL15"/>
+      <viewAttribute id="HSL11"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="TSL05"/>
+      <viewAttribute id="HSL01"/>
+      <viewAttribute id="TSL16"/>
+      <viewAttribute id="HSL12"/>
+    
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    
+    
+      <viewAttribute id="ERGSL"/></viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="ERGSL_NULL">
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL06" source="TSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL07" source="TSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL08" source="TSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL09" source="TSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL10" source="TSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06" source="HSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSLVT" source="TSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL11" source="TSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL01" source="TSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL12" source="TSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL02" source="TSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL13" source="TSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL03" source="TSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL14" source="TSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RTCUR" source="RTCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL04" source="TSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL15" source="TSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL05" source="TSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL16" source="TSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12" source="HSL12"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    </input>
+    <input node="T011">
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ZUORD"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="MANDT"/>
+    </input>
+    <joinAttribute name="RCLNT"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:TableFunctionView" id="TableFunction_1" tableFunctionName="faglamt1">
+    <viewAttributes/>
+    <calculatedViewAttributes/>
+    <variableMapping xsi:type="Variable:VariableMapping">
+      <targetVariable name="IP_MANDT"/>
+      <localVariable>IP_MANDT</localVariable>
+    </variableMapping>
+    <variableMapping xsi:type="Variable:VariableMapping">
+      <targetVariable name="IP_GJAHR"/>
+      <localVariable>IP_GJAHR</localVariable>
+    </variableMapping>
+    <variableMapping xsi:type="Variable:VariableMapping">
+      <targetVariable name="IP_RLDNR"/>
+      <localVariable>IP_RLDNR</localVariable>
+    </variableMapping>
+    <variableMapping xsi:type="Variable:VariableMapping">
+      <targetVariable name="IP_KTOPL"/>
+      <localVariable>IP_KTOPL</localVariable>
+    </variableMapping>
+    <variableMapping xsi:type="Variable:VariableMapping">
+      <targetVariable name="IP_VERSN"/>
+      <localVariable>IP_VERSN</localVariable>
+    </variableMapping>
+    <variableMapping xsi:type="Variable:VariableMapping">
+      <targetVariable name="IP_BUKRS"/>
+      <localVariable>IP_BUKRS</localVariable>
+    </variableMapping>
+    <variableMapping xsi:type="Variable:VariableMapping">
+      <targetVariable name="IP_RBUSA"/>
+      <localVariable>IP_RBUSA</localVariable>
+    </variableMapping>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="ERGSL_NULL" filterExpressionLanguage="COLUMN_ENGINE">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="TSL06" aggregationType="sum"/>
+      <viewAttribute id="HSL02" aggregationType="sum"/>
+      <viewAttribute id="HSL13" aggregationType="sum"/>
+      <viewAttribute id="TSL07" aggregationType="sum"/>
+      <viewAttribute id="HSL03" aggregationType="sum"/>
+      <viewAttribute id="HSL14" aggregationType="sum"/>
+      <viewAttribute id="TSL08" aggregationType="sum"/>
+      <viewAttribute id="HSL04" aggregationType="sum"/>
+      <viewAttribute id="HSL15" aggregationType="sum"/>
+      <viewAttribute id="TSL09" aggregationType="sum"/>
+      <viewAttribute id="HSL05" aggregationType="sum"/>
+      <viewAttribute id="HSL16" aggregationType="sum"/>
+      <viewAttribute id="TSL10" aggregationType="sum"/>
+      <viewAttribute id="HSL06" aggregationType="sum"/>
+      <viewAttribute id="TSLVT" aggregationType="sum"/>
+      <viewAttribute id="TSL11" aggregationType="sum"/>
+      <viewAttribute id="HSL07" aggregationType="sum"/>
+      <viewAttribute id="TSL01" aggregationType="sum"/>
+      <viewAttribute id="TSL12" aggregationType="sum"/>
+      <viewAttribute id="HSL08" aggregationType="sum"/>
+      <viewAttribute id="TSL02" aggregationType="sum"/>
+      <viewAttribute id="TSL13" aggregationType="sum"/>
+      <viewAttribute id="HSL09" aggregationType="sum"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="TSL03" aggregationType="sum"/>
+      <viewAttribute id="TSL14" aggregationType="sum"/>
+      <viewAttribute id="HSL10" aggregationType="sum"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="TSL04" aggregationType="sum"/>
+      <viewAttribute id="HSLVT" aggregationType="sum"/>
+      <viewAttribute id="TSL15" aggregationType="sum"/>
+      <viewAttribute id="HSL11" aggregationType="sum"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="TSL05" aggregationType="sum"/>
+      <viewAttribute id="HSL01" aggregationType="sum"/>
+      <viewAttribute id="TSL16" aggregationType="sum"/>
+      <viewAttribute id="HSL12" aggregationType="sum"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    
+    
+      <viewAttribute id="ERGSL"/></viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="TableFunction_1"/>
+    <filter>isnull(&quot;ERGSL&quot;)</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="T011" filterExpressionLanguage="SQL" ignoreMultipleOutputsForFilter="false">
+    <viewAttributes>
+      <viewAttribute id="ZUORD"/>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="VERSN"/>
+      <viewAttribute id="DSPRA"/>
+      <viewAttribute id="ASPRA"/>
+      <viewAttribute id="XERGS"/>
+      <viewAttribute id="KTOPL"/>
+      <viewAttribute id="AKTVA"/>
+      <viewAttribute id="PSSVA"/>
+      <viewAttribute id="ERGAK"/>
+      <viewAttribute id="ERGPA"/>
+      <viewAttribute id="ERGGV"/>
+      <viewAttribute id="XAUTO"/>
+      <viewAttribute id="XFBER"/>
+      <viewAttribute id="ANHNG"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="SDA_T011"/>
+    <filter>&quot;MANDT&quot; = '$$IP_MANDT$$' and
+&quot;VERSN&quot; = '$$IP_VERSN$$' and
+&quot;KTOPL&quot; = '$$IP_KTOPL$$' and
+&quot;DSPRA&quot; = '$$IP_SPRAS$$'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="Aggregation_1">
+    <viewAttributes>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="TXT20"/>
+      <viewAttribute id="TXT50"/>
+      <viewAttribute id="HSLVT" aggregationType="sum"/>
+      <viewAttribute id="HSL01" aggregationType="sum"/>
+      <viewAttribute id="HSL02" aggregationType="sum"/>
+      <viewAttribute id="HSL03" aggregationType="sum"/>
+      <viewAttribute id="HSL04" aggregationType="sum"/>
+      <viewAttribute id="HSL05" aggregationType="sum"/>
+      <viewAttribute id="HSL07" aggregationType="sum"/>
+      <viewAttribute id="HSL08" aggregationType="sum"/>
+      <viewAttribute id="HSL09" aggregationType="sum"/>
+      <viewAttribute id="HSL10" aggregationType="sum"/>
+      <viewAttribute id="HSL11" aggregationType="sum"/>
+      <viewAttribute id="HSL12" aggregationType="sum"/>
+      <viewAttribute id="HSL13" aggregationType="sum"/>
+      <viewAttribute id="HSL14" aggregationType="sum"/>
+      <viewAttribute id="HSL15" aggregationType="sum"/>
+      <viewAttribute id="HSL16" aggregationType="sum"/>
+      <viewAttribute id="TSLVT" aggregationType="sum"/>
+      <viewAttribute id="TSL01" aggregationType="sum"/>
+      <viewAttribute id="TSL02" aggregationType="sum"/>
+      <viewAttribute id="TSL03" aggregationType="sum"/>
+      <viewAttribute id="TSL04" aggregationType="sum"/>
+      <viewAttribute id="TSL05" aggregationType="sum"/>
+      <viewAttribute id="TSL06" aggregationType="sum"/>
+      <viewAttribute id="TSL07" aggregationType="sum"/>
+      <viewAttribute id="TSL08" aggregationType="sum"/>
+      <viewAttribute id="TSL09" aggregationType="sum"/>
+      <viewAttribute id="TSL10" aggregationType="sum"/>
+      <viewAttribute id="TSL11" aggregationType="sum"/>
+      <viewAttribute id="TSL12" aggregationType="sum"/>
+      <viewAttribute id="TSL13" aggregationType="sum"/>
+      <viewAttribute id="TSL14" aggregationType="sum"/>
+      <viewAttribute id="TSL15" aggregationType="sum"/>
+      <viewAttribute id="TSL16" aggregationType="sum"/>
+      <viewAttribute id="CC_1"/>
+    
+      <viewAttribute id="ERGSL"/>
+    
+      <viewAttribute id="HSL06" aggregationType="sum"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RCLNT"/>
+    
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="Join_1"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Aggregation_1">
+  <attributes>
+    <attribute id="RYEAR" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RYEAR"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RYEAR"/>
+    </attribute>
+    <attribute id="RTCUR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTCUR"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RTCUR"/>
+    </attribute>
+    <attribute id="RLDNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RLDNR"/>
+    </attribute>
+    <attribute id="TXT20" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT20"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TXT20"/>
+    </attribute>
+    <attribute id="TXT50" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT50"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TXT50"/>
+    </attribute>
+    <attribute id="HSLVT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSLVT"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSLVT"/>
+    </attribute>
+    <attribute id="HSL01" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL01"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL01"/>
+    </attribute>
+    <attribute id="HSL02" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL02"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL02"/>
+    </attribute>
+    <attribute id="HSL03" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL03"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL03"/>
+    </attribute>
+    <attribute id="HSL04" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL04"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL04"/>
+    </attribute>
+    <attribute id="HSL05" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL05"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL05"/>
+    </attribute>
+    <attribute id="HSL07" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL07"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL07"/>
+    </attribute>
+    <attribute id="HSL08" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL08"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL08"/>
+    </attribute>
+    <attribute id="HSL09" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL09"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL09"/>
+    </attribute>
+    <attribute id="HSL10" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL10"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL10"/>
+    </attribute>
+    <attribute id="HSL11" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL11"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL11"/>
+    </attribute>
+    <attribute id="HSL12" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL12"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL12"/>
+    </attribute>
+    <attribute id="HSL13" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL13"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL13"/>
+    </attribute>
+    <attribute id="HSL14" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL14"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL14"/>
+    </attribute>
+    <attribute id="HSL15" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL15"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL15"/>
+    </attribute>
+    <attribute id="HSL16" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL16"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL16"/>
+    </attribute>
+    <attribute id="TSLVT" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSLVT"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSLVT"/>
+    </attribute>
+    <attribute id="TSL01" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL01"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL01"/>
+    </attribute>
+    <attribute id="TSL02" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL02"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL02"/>
+    </attribute>
+    <attribute id="TSL03" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL03"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL03"/>
+    </attribute>
+    <attribute id="TSL04" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL04"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL04"/>
+    </attribute>
+    <attribute id="TSL05" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL05"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL05"/>
+    </attribute>
+    <attribute id="TSL06" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL06"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL06"/>
+    </attribute>
+    <attribute id="TSL07" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL07"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL07"/>
+    </attribute>
+    <attribute id="TSL08" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL08"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL08"/>
+    </attribute>
+    <attribute id="TSL09" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL09"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL09"/>
+    </attribute>
+    <attribute id="TSL10" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL10"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL10"/>
+    </attribute>
+    <attribute id="TSL11" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL11"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL11"/>
+    </attribute>
+    <attribute id="TSL12" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL12"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL12"/>
+    </attribute>
+    <attribute id="TSL13" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL13"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL13"/>
+    </attribute>
+    <attribute id="TSL14" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL14"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL14"/>
+    </attribute>
+    <attribute id="TSL15" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL15"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL15"/>
+    </attribute>
+    <attribute id="TSL16" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TSL16"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="TSL16"/>
+    </attribute>
+    <attribute id="CC_1" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CC_1"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="CC_1"/>
+    </attribute>
+    <attribute id="ERGSL" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERGSL"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="ERGSL"/>
+    </attribute>
+  
+    <attribute id="HSL06" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL06"/>
+  
+      <keyMapping columnObjectName="Aggregation_1" columnName="HSL06"/>
+  
+    </attribute>
+    <attribute id="RACCT" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RACCT"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RACCT"/>
+    </attribute>
+    <attribute id="RCLNT" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCLNT"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RCLNT"/>
+    </attribute>
+  
+    <attribute id="BUKRS" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+  
+      <keyMapping columnObjectName="Aggregation_1" columnName="BUKRS"/>
+  
+    </attribute>
+    <attribute id="RBUSA" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBUSA"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RBUSA"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/></logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="263" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="253" y="341"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Union_1" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="920" y="30"/>
+      <rectangleSize width="158"/>
+    </shape>
+    <shape modelObjectName="Projection_1" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="1220" y="30"/>
+      <rectangleSize width="136"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Union_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="124" y="505"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Projection_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="334" y="501"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="ERGSL_ACT" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="771"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_2" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="234" y="646"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="ERGSL_NULL" modelObjectNameSpace="Join_2" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="144"/>
+    </shape>
+    <shape modelObjectName="T011" modelObjectNameSpace="Join_2" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="920" y="30"/>
+      <rectangleSize width="125"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="TableFunction_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="275" y="916"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="ERGSL_NULL" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="302" y="771"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="T011" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="485" y="768"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Aggregation_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="253" y="236"/>
+      <rectangleSize height="30" width="160"/>
+    </shape></shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" xmlns:Variable="http://www.sap.com/ndb/BiModelVariable.ecore" id="core.models::finstructure" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="finstructure"/>
+<localVariables>
+  <variable id="IP_MANDT" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_GJAHR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_KTOPL" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_SPRAS" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_RLDNR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_BUKRS" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_VERSN" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_GJAHR2" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_RBUSA" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+</localVariables>
+<variableMappings>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="core.models::finamt">
+    <targetVariable name="IP_MANDT" resourceUri="core.models::finamt"/>
+    <localVariable>IP_MANDT</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="core.models::finamt">
+    <targetVariable name="IP_KTOPL" resourceUri="core.models::finamt"/>
+    <localVariable>IP_KTOPL</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="core.models::finamt">
+    <targetVariable name="IP_SPRAS" resourceUri="core.models::finamt"/>
+    <localVariable>IP_SPRAS</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="core.models::finamt">
+    <targetVariable name="IP_RLDNR" resourceUri="core.models::finamt"/>
+    <localVariable>IP_RLDNR</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="core.models::finamt">
+    <targetVariable name="IP_VERSN" resourceUri="core.models::finamt"/>
+    <localVariable>IP_VERSN</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="core.models::finamt">
+    <targetVariable name="IP_BUKRS" resourceUri="core.models::finamt"/>
+    <localVariable>IP_BUKRS</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="core.models::finamt">
+    <targetVariable name="IP_GJAHR" resourceUri="core.models::finamt"/>
+    <localVariable>IP_GJAHR</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="core.models::finamt">
+    <targetVariable name="IP_RBUSA" resourceUri="core.models::finamt"/>
+    <localVariable>IP_RBUSA</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="Join_2$$$$core.models::finamt$$">
+    <targetVariable name="IP_MANDT" resourceUri="core.models::finamt"/>
+    <localVariable>IP_MANDT</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="Join_2$$$$core.models::finamt$$">
+    <targetVariable name="IP_KTOPL" resourceUri="core.models::finamt"/>
+    <localVariable>IP_KTOPL</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="Join_2$$$$core.models::finamt$$">
+    <targetVariable name="IP_SPRAS" resourceUri="core.models::finamt"/>
+    <localVariable>IP_SPRAS</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="Join_2$$$$core.models::finamt$$">
+    <targetVariable name="IP_RLDNR" resourceUri="core.models::finamt"/>
+    <localVariable>IP_RLDNR</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="Join_2$$$$core.models::finamt$$">
+    <targetVariable name="IP_VERSN" resourceUri="core.models::finamt"/>
+    <localVariable>IP_VERSN</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="Join_2$$$$core.models::finamt$$">
+    <targetVariable name="IP_BUKRS" resourceUri="core.models::finamt"/>
+    <localVariable>IP_BUKRS</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="Join_2$$$$core.models::finamt$$">
+    <targetVariable name="IP_GJAHR" resourceUri="core.models::finamt"/>
+    <localVariable>IP_GJAHR2</localVariable>
+  </mapping>
+  <mapping xsi:type="Variable:VariableMapping" dataSource="Join_2$$$$core.models::finamt$$">
+    <targetVariable name="IP_RBUSA" resourceUri="core.models::finamt"/>
+    <localVariable>IP_RBUSA</localVariable>
+  </mapping>
+</variableMappings>
+<dataSources>
+  <DataSource id="SDA_FAGL_011PC">
+    <resourceUri>SDA_FAGL_011PC</resourceUri>
+  </DataSource>
+  <DataSource id="core.models::finamt">
+    <resourceUri>core.models::finamt</resourceUri>
+  </DataSource>
+  <DataSource id="Join_2$$$$core.models::finamt$$">
+    <resourceUri>core.models::finamt</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_1" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="VERSN"/>
+      <viewAttribute id="ID"/>
+      <viewAttribute id="ERGSL"/>
+      <viewAttribute id="SUMME"/>
+      <viewAttribute id="STUFE"/>
+      <viewAttribute id="SIGN"/></viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_FAGL_011PC"/>
+    <filter>&quot;MANDT&quot; = '$$IP_MANDT$$' and
+&quot;VERSN&quot; = '$$IP_VERSN$$'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" cardinality="CN_N" joinType="inner">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="VERSN"/>
+      <viewAttribute id="ID"/>
+      <viewAttribute id="ERGSL"/>
+      <viewAttribute id="SUMME"/>
+      <viewAttribute id="STUFE"/>
+      <viewAttribute id="SIGN"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="TXT20"/>
+      <viewAttribute id="TXT50"/>
+      <viewAttribute id="HSLVT"/>
+      <viewAttribute id="HSL01"/>
+      <viewAttribute id="HSL02"/>
+      <viewAttribute id="HSL03"/>
+      <viewAttribute id="HSL04"/>
+      <viewAttribute id="HSL05"/>
+      <viewAttribute id="HSL07"/>
+      <viewAttribute id="HSL08"/>
+      <viewAttribute id="HSL09"/>
+      <viewAttribute id="HSL10"/>
+      <viewAttribute id="HSL11"/>
+      <viewAttribute id="HSL12"/>
+      <viewAttribute id="HSL13"/>
+      <viewAttribute id="HSL14"/>
+      <viewAttribute id="HSL15"/>
+      <viewAttribute id="HSL16"/>
+      <viewAttribute id="TSLVT"/>
+      <viewAttribute id="TSL01"/>
+      <viewAttribute id="TSL02"/>
+      <viewAttribute id="TSL03"/>
+      <viewAttribute id="TSL04"/>
+      <viewAttribute id="TSL05"/>
+      <viewAttribute id="TSL06"/>
+      <viewAttribute id="TSL07"/>
+      <viewAttribute id="TSL08"/>
+      <viewAttribute id="TSL09"/>
+      <viewAttribute id="TSL10"/>
+      <viewAttribute id="TSL11"/>
+      <viewAttribute id="TSL12"/>
+      <viewAttribute id="TSL13"/>
+      <viewAttribute id="TSL14"/>
+      <viewAttribute id="TSL15"/>
+      <viewAttribute id="TSL16"/>
+      <viewAttribute id="CC_1"/>
+      <viewAttribute id="ERGSL_1"/>
+      <viewAttribute id="HSL06"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RCLNT"/>
+    
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Projection_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ERGSL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERSN" source="VERSN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ID" source="ID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUMME" source="SUMME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STUFE" source="STUFE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SIGN" source="SIGN"/></input>
+    <input node="core.models::finamt">
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL_1" source="ERGSL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RTCUR" source="RTCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TXT20" source="TXT20"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TXT50" source="TXT50"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12" source="HSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSLVT" source="TSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL01" source="TSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL02" source="TSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL03" source="TSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL04" source="TSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL05" source="TSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL06" source="TSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL07" source="TSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL08" source="TSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL09" source="TSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL10" source="TSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL11" source="TSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL12" source="TSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL13" source="TSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL14" source="TSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL15" source="TSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL16" source="TSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_1" source="CC_1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06" source="HSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ERGSL"/>
+    </input>
+    <joinAttribute name="MANDT"/>
+    <joinAttribute name="ERGSL"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_2" cardinality="CN_N" joinType="inner">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="VERSN"/>
+      <viewAttribute id="ID"/>
+      <viewAttribute id="ERGSL"/>
+      <viewAttribute id="SUMME"/>
+      <viewAttribute id="STUFE"/>
+      <viewAttribute id="SIGN"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="TXT20"/>
+      <viewAttribute id="TXT50"/>
+      <viewAttribute id="HSLVT"/>
+      <viewAttribute id="HSL01"/>
+      <viewAttribute id="HSL02"/>
+      <viewAttribute id="HSL03"/>
+      <viewAttribute id="HSL04"/>
+      <viewAttribute id="HSL05"/>
+      <viewAttribute id="HSL07"/>
+      <viewAttribute id="HSL08"/>
+      <viewAttribute id="HSL09"/>
+      <viewAttribute id="HSL10"/>
+      <viewAttribute id="HSL11"/>
+      <viewAttribute id="HSL12"/>
+      <viewAttribute id="HSL13"/>
+      <viewAttribute id="HSL14"/>
+      <viewAttribute id="HSL15"/>
+      <viewAttribute id="HSL16"/>
+      <viewAttribute id="TSLVT"/>
+      <viewAttribute id="TSL01"/>
+      <viewAttribute id="TSL02"/>
+      <viewAttribute id="TSL03"/>
+      <viewAttribute id="TSL04"/>
+      <viewAttribute id="TSL05"/>
+      <viewAttribute id="TSL06"/>
+      <viewAttribute id="TSL07"/>
+      <viewAttribute id="TSL08"/>
+      <viewAttribute id="TSL09"/>
+      <viewAttribute id="TSL10"/>
+      <viewAttribute id="TSL11"/>
+      <viewAttribute id="TSL12"/>
+      <viewAttribute id="TSL13"/>
+      <viewAttribute id="TSL14"/>
+      <viewAttribute id="TSL15"/>
+      <viewAttribute id="TSL16"/>
+      <viewAttribute id="CC_1"/>
+      <viewAttribute id="ERGSL_1"/>
+      <viewAttribute id="HSL06"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RCLNT"/>
+    
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Projection_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ERGSL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERSN" source="VERSN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ID" source="ID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUMME" source="SUMME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STUFE" source="STUFE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SIGN" source="SIGN"/></input>
+    <input node="Join_2$$$$core.models::finamt$$">
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL_1" source="ERGSL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RTCUR" source="RTCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TXT20" source="TXT20"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TXT50" source="TXT50"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12" source="HSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSLVT" source="TSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL01" source="TSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL02" source="TSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL03" source="TSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL04" source="TSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL05" source="TSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL06" source="TSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL07" source="TSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL08" source="TSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL09" source="TSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL10" source="TSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL11" source="TSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL12" source="TSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL13" source="TSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL14" source="TSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL15" source="TSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL16" source="TSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_1" source="CC_1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06" source="HSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ERGSL"/>
+    </input>
+    <joinAttribute name="MANDT"/>
+    <joinAttribute name="ERGSL"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_3" cardinality="C1_1" joinType="fullOuter">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="VERSN"/>
+      <viewAttribute id="ID"/>
+      <viewAttribute id="ERGSL"/>
+      <viewAttribute id="SUMME"/>
+      <viewAttribute id="STUFE"/>
+      <viewAttribute id="SIGN"/>
+      <viewAttribute id="HSLVT"/>
+      <viewAttribute id="HSL01"/>
+      <viewAttribute id="HSL02"/>
+      <viewAttribute id="HSL03"/>
+      <viewAttribute id="HSL04"/>
+      <viewAttribute id="HSL05"/>
+      <viewAttribute id="HSL06"/>
+      <viewAttribute id="HSL07"/>
+      <viewAttribute id="HSL08"/>
+      <viewAttribute id="HSL09"/>
+      <viewAttribute id="HSL10"/>
+      <viewAttribute id="HSL11"/>
+      <viewAttribute id="HSL12"/>
+      <viewAttribute id="HSL13"/>
+      <viewAttribute id="HSL14"/>
+      <viewAttribute id="HSL15"/>
+      <viewAttribute id="HSL16"/>
+      <viewAttribute id="HSLVT_1"/>
+      <viewAttribute id="HSL01_1"/>
+      <viewAttribute id="HSL02_1"/>
+      <viewAttribute id="HSL03_1"/>
+      <viewAttribute id="HSL04_1"/>
+      <viewAttribute id="HSL05_1"/>
+      <viewAttribute id="HSL06_1"/>
+      <viewAttribute id="HSL07_1"/>
+      <viewAttribute id="HSL08_1"/>
+      <viewAttribute id="HSL09_1"/>
+      <viewAttribute id="HSL10_1"/>
+      <viewAttribute id="HSL11_1"/>
+      <viewAttribute id="HSL12_1"/>
+      <viewAttribute id="HSL13_1"/>
+      <viewAttribute id="HSL14_1"/>
+      <viewAttribute id="HSL15_1"/>
+      <viewAttribute id="HSL16_1"/>
+      <viewAttribute id="RACCT"/>
+    
+      <viewAttribute id="TXT20"/>
+      <viewAttribute id="TXT50"/>
+    
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="RBUSA"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Join_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERSN" source="VERSN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ID" source="ID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ERGSL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUMME" source="SUMME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STUFE" source="STUFE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SIGN" source="SIGN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06" source="HSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12" source="HSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="TXT20" source="TXT20"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TXT50" source="TXT50"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    </input>
+    <input node="Join_2">
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT_1" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01_1" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02_1" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03_1" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04_1" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05_1" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06_1" source="HSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07_1" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08_1" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09_1" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10_1" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11_1" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12_1" source="HSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13_1" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14_1" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15_1" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16_1" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERSN" source="VERSN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ID" source="ID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ERGSL" source="ERGSL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUMME" source="SUMME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STUFE" source="STUFE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SIGN" source="SIGN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    </input>
+    <joinAttribute name="MANDT"/>
+    <joinAttribute name="VERSN"/>
+    <joinAttribute name="ID"/>
+    <joinAttribute name="ERGSL"/>
+    <joinAttribute name="SUMME"/>
+    <joinAttribute name="STUFE"/>
+    <joinAttribute name="SIGN"/>
+    <joinAttribute name="RACCT"/>
+    <joinAttribute name="BUKRS"/>
+    <joinAttribute name="RBUSA"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_3">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="Join_3" columnName="MANDT"/>
+    </attribute>
+    <attribute id="VERSN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSN"/>
+      <keyMapping columnObjectName="Join_3" columnName="VERSN"/>
+    </attribute>
+    <attribute id="ID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ID"/>
+      <keyMapping columnObjectName="Join_3" columnName="ID"/>
+    </attribute>
+    <attribute id="ERGSL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERGSL"/>
+      <keyMapping columnObjectName="Join_3" columnName="ERGSL"/>
+    </attribute>
+    <attribute id="SUMME" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUMME"/>
+      <keyMapping columnObjectName="Join_3" columnName="SUMME"/>
+    </attribute>
+    <attribute id="STUFE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUFE"/>
+      <keyMapping columnObjectName="Join_3" columnName="STUFE"/>
+    </attribute>
+    <attribute id="SIGN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SIGN"/>
+      <keyMapping columnObjectName="Join_3" columnName="SIGN"/>
+    </attribute>
+    <attribute id="RACCT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RACCT"/>
+      <keyMapping columnObjectName="Join_3" columnName="RACCT"/>
+    </attribute>
+    <attribute id="TXT20" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT20"/>
+      <keyMapping columnObjectName="Join_3" columnName="TXT20"/>
+    </attribute>
+    <attribute id="TXT50" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT50"/>
+      <keyMapping columnObjectName="Join_3" columnName="TXT50"/>
+    </attribute>
+    <attribute id="HSLVT" order="11" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSLVT"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSLVT"/>
+    </attribute>
+    <attribute id="HSL01" order="12" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL01"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL01"/>
+    </attribute>
+    <attribute id="HSL02" order="13" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL02"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL02"/>
+    </attribute>
+    <attribute id="HSL03" order="14" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL03"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL03"/>
+    </attribute>
+    <attribute id="HSL04" order="15" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL04"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL04"/>
+    </attribute>
+    <attribute id="HSL05" order="16" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL05"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL05"/>
+    </attribute>
+    <attribute id="HSL06" order="17" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL06"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL06"/>
+    </attribute>
+    <attribute id="HSL07" order="18" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL07"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL07"/>
+    </attribute>
+    <attribute id="HSL08" order="19" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL08"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL08"/>
+    </attribute>
+    <attribute id="HSL09" order="20" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL09"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL09"/>
+    </attribute>
+    <attribute id="HSL10" order="21" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL10"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL10"/>
+    </attribute>
+    <attribute id="HSL11" order="22" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL11"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL11"/>
+    </attribute>
+    <attribute id="HSL12" order="23" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL12"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL12"/>
+    </attribute>
+    <attribute id="HSL13" order="24" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL13"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL13"/>
+    </attribute>
+    <attribute id="HSL14" order="25" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL14"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL14"/>
+    </attribute>
+    <attribute id="HSL15" order="26" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL15"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL15"/>
+    </attribute>
+    <attribute id="HSL16" order="27" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL16"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL16"/>
+    </attribute>
+    <attribute id="HSLVT_1" order="28" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSLVT_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSLVT_1"/>
+    </attribute>
+    <attribute id="HSL01_1" order="29" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL01_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL01_1"/>
+    </attribute>
+    <attribute id="HSL02_1" order="30" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL02_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL02_1"/>
+    </attribute>
+    <attribute id="HSL03_1" order="31" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL03_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL03_1"/>
+    </attribute>
+    <attribute id="HSL04_1" order="32" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL04_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL04_1"/>
+    </attribute>
+    <attribute id="HSL05_1" order="33" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL05_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL05_1"/>
+    </attribute>
+    <attribute id="HSL06_1" order="34" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL06_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL06_1"/>
+    </attribute>
+    <attribute id="HSL07_1" order="35" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL07_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL07_1"/>
+    </attribute>
+    <attribute id="HSL08_1" order="36" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL08_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL08_1"/>
+    </attribute>
+    <attribute id="HSL09_1" order="37" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL09_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL09_1"/>
+    </attribute>
+    <attribute id="HSL10_1" order="38" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL10_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL10_1"/>
+    </attribute>
+    <attribute id="HSL11_1" order="39" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL11_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL11_1"/>
+    </attribute>
+    <attribute id="HSL12_1" order="40" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL12_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL12_1"/>
+    </attribute>
+    <attribute id="HSL13_1" order="41" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL13_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL13_1"/>
+    </attribute>
+    <attribute id="HSL14_1" order="42" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL14_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL14_1"/>
+    </attribute>
+    <attribute id="HSL15_1" order="43" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL15_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL15_1"/>
+    </attribute>
+    <attribute id="HSL16_1" order="44" replaceNull="true" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSL16_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="HSL16_1"/>
+    </attribute>
+  
+    <attribute id="BUKRS" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+  
+      <keyMapping columnObjectName="Join_3" columnName="BUKRS"/>
+  
+    </attribute>
+    <attribute id="RBUSA" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBUSA"/>
+      <keyMapping columnObjectName="Join_3" columnName="RBUSA"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="228" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Projection_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="118" y="641"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="481"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Projection_1" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="136"/>
+    </shape>
+    <shape modelObjectName="core.models::finamt" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="178"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Join_2" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="301" y="481"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Projection_1" modelObjectNameSpace="Join_2" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="136"/>
+    </shape>
+    <shape modelObjectName="core.models::finamt" modelObjectNameSpace="Join_2" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="178"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_3" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="218" y="342"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Join_1" modelObjectNameSpace="Join_3" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="129"/>
+    </shape>
+    <shape modelObjectName="Join_2" modelObjectNameSpace="Join_3" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="129"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

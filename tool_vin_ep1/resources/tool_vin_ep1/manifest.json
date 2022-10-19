@@ -70,7 +70,15 @@
 					"odataVersion": "2.0",
 					"localUri": "localService/metadata.xml"
 				}
-			},				
+			},
+			"finance": {
+				"uri": "../xsodata/finstatement.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},			
 				"searchhelp": {
 				"uri": "../xsodata/searchhelp.xsodata/",
 				"type": "OData",
@@ -156,7 +164,13 @@
 				"dataSource": "obj",
 				"defaultBindingMode": "TwoWay",
 				"preload": true
-			},				
+			},
+			"FinanceSet": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",				
+				"dataSource": "finance",
+				"defaultBindingMode": "TwoWay",
+				"preload": true
+			},			
 			"persModel": {
 				"type" : "sap.ui.model.odata.v2.ODataModel",				
 				"dataSource": "personalization",
@@ -229,6 +243,13 @@
 					"target": [
 						"attachment"
 					]
+				},
+				{
+					"name": "finance",
+					"pattern": "finance",
+					"target": [
+						"finance"
+					]
 				}				
 			],
 			"targets": {
@@ -259,6 +280,13 @@
 					"clearControlAggregation": false,
 					"viewId": "attachment",
 					"viewName": "Attachment"
+				},
+				"finance": {
+					"viewType": "XML",
+					"transition": "fade",
+					"clearControlAggregation": false,
+					"viewId": "finance",
+					"viewName": "FinStatement"
 				}				
 			}
 		},

@@ -18,6 +18,10 @@ sap.ui.define([
 		onPressAttachment: function () {
 			this._router = sap.ui.core.UIComponent.getRouterFor(this);
 			this._router.navTo("attachment");
-    	}		
+    	},
+    	onPressFinance: function () {
+			this._router = sap.ui.core.UIComponent.getRouterFor(this);
+			this._router.navTo("finance");
+		}    	
 	});
 });
