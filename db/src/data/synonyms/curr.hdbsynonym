@@ -1,8 +1,8 @@
 {
-"SDA_TCURF": {"target": {"object": "EP1_TCURF","schema": "SDA_VIN_EP1"}},
-"SDA_TCURN": {"target": {"object": "EP1_TCURN","schema": "SDA_VIN_EP1"}},
-"SDA_TCURR": {"target": {"object": "EP1_TCURR","schema": "SDA_VIN_EP1"}},
-"SDA_TCURT": {"target": {"object": "EP1_TCURT","schema": "SDA_VIN_EP1"}},
-"SDA_TCURV": {"target": {"object": "EP1_TCURV","schema": "SDA_VIN_EP1"}},
-"SDA_TCURX": {"target": {"object": "EP1_TCURX","schema": "SDA_VIN_EP1"}}
+"SDA_TCURF": {"target": {"object": "HP1_TCURF","schema": "SDA_SVH_HP1"}},
+"SDA_TCURN": {"target": {"object": "HP1_TCURN","schema": "SDA_SVH_HP1"}},
+"SDA_TCURR": {"target": {"object": "HP1_TCURR","schema": "SDA_SVH_HP1"}},
+"SDA_TCURT": {"target": {"object": "HP1_TCURT","schema": "SDA_SVH_HP1"}},
+"SDA_TCURV": {"target": {"object": "HP1_TCURV","schema": "SDA_SVH_HP1"}},
+"SDA_TCURX": {"target": {"object": "HP1_TCURX","schema": "SDA_SVH_HP1"}}
 }

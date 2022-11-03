@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FD11SL" applyPrivilegeType="NONE" dataCategory="CUBE" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="FD10NSL"/>
+<localVariables>
+  <variable id="IP_MANDT" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="SingleValue"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_BUKRS" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_GJAHR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="SingleValue"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_KUNNR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="SingleValue"/>
+    </variableProperties>
+  </variable>
+</localVariables>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_KNC3">
+    <resourceUri>SDA_KNC3</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_1" filterExpressionLanguage="COLUMN_ENGINE">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="KUNNR"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="GJAHR"/>
+      <viewAttribute id="SHBKZ"/>
+      <viewAttribute id="SALDV"/>
+      <viewAttribute id="SOLLL"/>
+      <viewAttribute id="HABNL"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_KNC3"/>
+    <filter>&quot;MANDT&quot; = '$$IP_MANDT$$' and
+(in(&quot;BUKRS&quot;,'$$IP_BUKRS$$') or match (&quot;BUKRS&quot;,'$$IP_BUKRS$$')) and
+&quot;KUNNR&quot; = '$$IP_KUNNR$$' and
+&quot;GJAHR&quot; = '$$IP_GJAHR$$'</filter>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Projection_1">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="Projection_1" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="Projection_1" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="Projection_1" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="SHBKZ" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHBKZ"/>
+      <keyMapping columnObjectName="Projection_1" columnName="SHBKZ"/>
+    </attribute></attributes>
+  <calculatedAttributes/>
+  <baseMeasures>
+    <measure id="SALDV" order="5" semanticType="amount" aggregationType="sum" measureType="amount" unconverted="false">
+      <descriptions defaultDescription="SALDV"/>
+      <fixedCurrency>USD</fixedCurrency>
+      <currencyConversion generateOutputUnitCurrencyAttribute="false" method="ERP" lookup="REGULAR">
+        <client/>
+        <currencyConversionTables rates="SDA_TCURR" configuration="SDA_TCURV" prefactors="SDA_TCURF" notations="SDA_TCURN" precisions="SDA_TCURX"/>
+        <outputDataType datatype="DECIMAL" length="15" scale="2"/>
+        <sourceCurrency>
+          <value>USD</value>
+        </sourceCurrency>
+        <erpDecimalShift>true</erpDecimalShift>
+        <targetCurrency>
+          <value>USD</value>
+        </targetCurrency>
+        <referenceDate/>
+      </currencyConversion>
+      <measureMapping columnObjectName="Projection_1" columnName="SALDV"/>
+    </measure>
+    <measure id="SOLLL" order="6" semanticType="amount" aggregationType="sum" measureType="amount">
+      <descriptions defaultDescription="SOLLL"/>
+      <conversionReference>SALDV</conversionReference>
+      <measureMapping columnObjectName="Projection_1" columnName="SOLLL"/>
+    </measure>
+    <measure id="HABNL" order="7" semanticType="amount" aggregationType="sum" measureType="amount">
+      <descriptions defaultDescription="HABNL"/>
+      <conversionReference>SALDV</conversionReference>
+      <measureMapping columnObjectName="Projection_1" columnName="HABNL"/>
+    </measure>
+  </baseMeasures>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+
+  <localDimensions/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Projection_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="127" y="209"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

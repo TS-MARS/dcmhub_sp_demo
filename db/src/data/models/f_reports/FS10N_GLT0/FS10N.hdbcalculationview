@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" xmlns:Privilege="http://www.sap.com/ndb/BiModelPrivilege.ecore" id="core.models::FS10N" applyPrivilegeType="NONE" dataCategory="CUBE" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="FS10N"/>
+<localVariables>
+  <variable id="IP_MANDT" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_BUKRS" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_GJAHR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_ACCNT" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_RLDNR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="0L"/>
+    </variableProperties>
+  </variable>  
+</localVariables>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_GLT0">
+    <resourceUri>SDA_GLT0</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_T000">
+    <resourceUri>SDA_T000</resourceUri>
+  </DataSource>
+  <DataSource id="FAGL_Version$$$$SDA_T000$$">
+    <resourceUri>SDA_T000</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_T881">
+    <resourceUri>SDA_T881</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="FAGLFLEXT" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="RPMAX"/>
+      <viewAttribute id="RTCUR"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="RRCTY"/>
+      <viewAttribute id="RVERS"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="TSLVT"/>
+      <viewAttribute id="TSL01"/>
+      <viewAttribute id="TSL02"/>
+      <viewAttribute id="TSL03"/>
+      <viewAttribute id="TSL04"/>
+      <viewAttribute id="TSL05"/>
+      <viewAttribute id="TSL06"/>
+      <viewAttribute id="TSL07"/>
+      <viewAttribute id="TSL08"/>
+      <viewAttribute id="TSL09"/>
+      <viewAttribute id="TSL10"/>
+      <viewAttribute id="TSL11"/>
+      <viewAttribute id="TSL12"/>
+      <viewAttribute id="TSL13"/>
+      <viewAttribute id="TSL14"/>
+      <viewAttribute id="TSL15"/>
+      <viewAttribute id="TSL16"/>
+      <viewAttribute id="HSLVT"/>
+      <viewAttribute id="HSL01"/>
+      <viewAttribute id="HSL02"/>
+      <viewAttribute id="HSL03"/>
+      <viewAttribute id="HSL04"/>
+      <viewAttribute id="HSL05"/>
+      <viewAttribute id="HSL06"/>
+      <viewAttribute id="HSL07"/>
+      <viewAttribute id="HSL08"/>
+      <viewAttribute id="HSL09"/>
+      <viewAttribute id="HSL10"/>
+      <viewAttribute id="HSL11"/>
+      <viewAttribute id="HSL12"/>
+      <viewAttribute id="HSL13"/>
+      <viewAttribute id="HSL14"/>
+      <viewAttribute id="HSL15"/>
+      <viewAttribute id="HSL16"/>
+      <viewAttribute id="KSLVT"/>
+      <viewAttribute id="KSL01"/>
+      <viewAttribute id="KSL02"/>
+      <viewAttribute id="KSL03"/>
+      <viewAttribute id="KSL04"/>
+      <viewAttribute id="KSL05"/>
+      <viewAttribute id="KSL06"/>
+      <viewAttribute id="KSL07"/>
+      <viewAttribute id="KSL08"/>
+      <viewAttribute id="KSL09"/>
+      <viewAttribute id="KSL10"/>
+      <viewAttribute id="KSL11"/>
+      <viewAttribute id="KSL12"/>
+      <viewAttribute id="KSL13"/>
+      <viewAttribute id="KSL14"/>
+      <viewAttribute id="KSL15"/>
+      <viewAttribute id="KSL16"/></viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_GLT0">
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="BUKRS"/>
+    </input>
+    <filter>&quot;RCLNT&quot; = '$$IP_MANDT$$' and
+&quot;RYEAR&quot; ='$$IP_GJAHR$$' and
+&quot;RBUKRS&quot; = '$$IP_BUKRS$$' and
+&quot;RACCT&quot; = '$$IP_ACCNT$$' and
+&quot;RLDNR&quot; = '$$IP_RLDNR$$'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period1">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="RPMAX"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="TSL01" aggregationType="sum"/>
+      <viewAttribute id="HSL01" aggregationType="sum"/>
+      <viewAttribute id="KSL01" aggregationType="sum"/>
+    
+      <viewAttribute id="DRCRK"/>
+    
+      <viewAttribute id="RBUSA"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P1" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'01'</formula>
+      </calculatedViewAttribute></calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL01">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL01">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL01">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL01">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="FAGL_Data" cardinality="CN_N" joinType="inner">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="RPMAX"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="TSL01"/>
+      <viewAttribute id="HSL01"/>
+      <viewAttribute id="KSL01"/>
+      <viewAttribute id="DRCRK"/>
+     
+    
+      <viewAttribute id="RBUSA"/>
+    
+    
+      <viewAttribute id="TSL03"/>
+      <viewAttribute id="HSL03"/>
+      <viewAttribute id="KSL03"/>
+      <viewAttribute id="TSL04"/>
+      <viewAttribute id="HSL04"/>
+      <viewAttribute id="KSL04"/>
+      <viewAttribute id="TSL05"/>
+      <viewAttribute id="HSL05"/>
+      <viewAttribute id="KSL05"/>
+      <viewAttribute id="TSLVT"/>
+      <viewAttribute id="TSL02"/>
+      <viewAttribute id="TSL06"/>
+      <viewAttribute id="TSL07"/>
+      <viewAttribute id="TSL08"/>
+      <viewAttribute id="TSL09"/>
+      <viewAttribute id="TSL10"/>
+      <viewAttribute id="TSL11"/>
+      <viewAttribute id="TSL12"/>
+      <viewAttribute id="TSL13"/>
+      <viewAttribute id="TSL14"/>
+      <viewAttribute id="TSL15"/>
+      <viewAttribute id="TSL16"/>
+      <viewAttribute id="HSLVT"/>
+      <viewAttribute id="HSL02"/>
+      <viewAttribute id="HSL06"/>
+      <viewAttribute id="HSL07"/>
+      <viewAttribute id="HSL08"/>
+      <viewAttribute id="HSL09"/>
+      <viewAttribute id="HSL10"/>
+      <viewAttribute id="HSL11"/>
+      <viewAttribute id="HSL12"/>
+      <viewAttribute id="HSL13"/>
+      <viewAttribute id="HSL14"/>
+      <viewAttribute id="HSL15"/>
+      <viewAttribute id="HSL16"/>
+      <viewAttribute id="KSLVT"/>
+      <viewAttribute id="KSL02"/>
+      <viewAttribute id="KSL06"/>
+      <viewAttribute id="KSL07"/>
+      <viewAttribute id="KSL08"/>
+      <viewAttribute id="KSL09"/>
+      <viewAttribute id="KSL10"/>
+      <viewAttribute id="KSL11"/>
+      <viewAttribute id="KSL12"/>
+      <viewAttribute id="KSL13"/>
+      <viewAttribute id="KSL14"/>
+      <viewAttribute id="KSL15"/>
+      <viewAttribute id="KSL16"/>
+    
+
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="FAGLFLEXT">
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="RTCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RPMAX" source="RPMAX"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL01" source="TSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL01" source="HSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL01" source="KSL01"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DRCRK" source="DRCRK"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL03" source="TSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL03" source="HSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL03" source="KSL03"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL04" source="TSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL04" source="HSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL04" source="KSL04"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL05" source="TSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL05" source="HSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL05" source="KSL05"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSLVT" source="TSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL02" source="TSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL06" source="TSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL07" source="TSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL08" source="TSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL09" source="TSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL10" source="TSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL11" source="TSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL12" source="TSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL13" source="TSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL14" source="TSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL15" source="TSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TSL16" source="TSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSLVT" source="HSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL02" source="HSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL06" source="HSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL07" source="HSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL08" source="HSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL09" source="HSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL10" source="HSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL11" source="HSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL12" source="HSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL13" source="HSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL14" source="HSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL15" source="HSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HSL16" source="HSL16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSLVT" source="KSLVT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL02" source="KSL02"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL06" source="KSL06"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL07" source="KSL07"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL08" source="KSL08"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL09" source="KSL09"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL10" source="KSL10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL11" source="KSL11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL12" source="KSL12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL13" source="KSL13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL14" source="KSL14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL15" source="KSL15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KSL16" source="KSL16"/>
+    </input>
+    <input node="FAGL_Active_join">
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="MWAER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+    </input>
+    <joinAttribute name="RCLNT"/>
+    <joinAttribute name="RLDNR"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="FAGL_Active_join" cardinality="CN_N" joinType="inner" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="MWAER"/>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="RLDNR"/></viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="FAGL_active">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/></input>
+    <input node="FAGL_Version">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MWAER" source="MWAER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+    </input>
+    <joinAttribute name="MANDT"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="FAGL_active" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/></viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_T000"/>
+    <filter>&quot;MANDT&quot; = '$$IP_MANDT$$'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="FAGL_Version" cardinality="C1_N" joinType="inner" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="MWAER"/>
+      <viewAttribute id="RLDNR"/>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="APPL"/>
+      <viewAttribute id="SUBAPPL"/>
+      <viewAttribute id="XLEADING"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="FAGL_Version$$$$SDA_T000$$">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MWAER" source="MWAER"/>
+    </input>
+    <input node="SDA_T881">
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="APPL" source="APPL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUBAPPL" source="SUBAPPL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="XLEADING" source="XLEADING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+    </input>
+    <filter>&quot;MANDT&quot; = '$$IP_MANDT$$' and
+&quot;APPL&quot; = 'FI' and
+&quot;SUBAPPL&quot; = 'GL' and
+&quot;RLDNR&quot; = '$$IP_RLDNR$$'</filter>
+    <joinAttribute name="MANDT"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:UnionView" id="FAGL_ALL">
+    <viewAttributes>
+      <viewAttribute id="PERIOD"/>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+    
+      <viewAttribute id="RACCT"/>
+    
+      <viewAttribute id="RES_TSLDR"/>
+      <viewAttribute id="RES_TSLCR"/>
+    
+      <viewAttribute id="RES_HCLDR"/>
+      <viewAttribute id="RES_HCLCR"/>
+    
+      <viewAttribute id="RBUSA"/>
+    
+      <viewAttribute id="RLDNR"/></viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="FAGL_Balance_Carry_Forward" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P00"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="TSLVT"/>
+      <mapping xsi:type="Calculation:ConstantAttributeMapping" target="RES_TSLCR" null="true" value=""/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="HSLVT"/>
+      <mapping xsi:type="Calculation:ConstantAttributeMapping" target="RES_HCLCR" null="true" value=""/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+    <input node="FAGL_Period1" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+  
+    <input node="FAGL_Period2" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P2"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+    
+  
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+  
+    
+  
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+  
+    <input node="FAGL_Period3" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P3"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+    
+  
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+  
+    
+  
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+    <input node="FAGL_Period4" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P4"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+  
+    <input node="FAGL_Period5" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P5"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+    
+  
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+  
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+  
+    <input node="FAGL_Period6" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P6"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+    <input node="FAGL_Period7" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P7"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+  
+    <input node="FAGL_Period8" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P8"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>
+    <input node="FAGL_Period9" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P9"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>    
+    <input node="FAGL_Period10" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P10"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+        
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>   
+    <input node="FAGL_Period11" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P11"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+       
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>  
+    <input node="FAGL_Period12" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P12"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+      
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>  
+    <input node="FAGL_Period13" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P13"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+      
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>     
+    <input node="FAGL_Period14" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P14"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+         
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>     
+    <input node="FAGL_Period15" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P15"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+         
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>     
+    <input node="FAGL_Period16" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="PERIOD" source="CC_P16"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RCLNT" source="RCLNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUKRS" source="RBUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RYEAR" source="RYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DOCCUR" source="DOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOCCUR" source="LOCCUR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RACCT" source="RACCT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR" source="RES_TSLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR" source="RES_HCLCR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RBUSA" source="RBUSA"/>
+         
+      <mapping xsi:type="Calculation:AttributeMapping" target="RLDNR" source="RLDNR"/></input>     
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Balance_Carry_Forward">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="TSLVT" aggregationType="sum"/>
+      <viewAttribute id="HSLVT" aggregationType="sum"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+    
+      <viewAttribute id="KSLVT" aggregationType="sum"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="RPMAX"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P00" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>00</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes/>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period2">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+    
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+    
+      <viewAttribute id="RPMAX"/>
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL02" aggregationType="sum"/>
+      <viewAttribute id="HSL02" aggregationType="sum"/>
+      <viewAttribute id="KSL02" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P2" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'02'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL02">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL02">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL02">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL02">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period3">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+    
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+    
+      <viewAttribute id="RPMAX"/>
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL03" aggregationType="sum"/>
+      <viewAttribute id="HSL03" aggregationType="sum"/>
+      <viewAttribute id="KSL03" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P3" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'03'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL03">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL03">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL03">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL03">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period4">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+    
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+    
+      <viewAttribute id="RPMAX"/>
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL04" aggregationType="sum"/>
+      <viewAttribute id="HSL04" aggregationType="sum"/>
+      <viewAttribute id="KSL04" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P4" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'04'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL04">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL04">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL04">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL04">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period5">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+    
+      <viewAttribute id="RBUSA"/>
+    
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL05" aggregationType="sum"/>
+      <viewAttribute id="HSL05" aggregationType="sum"/>
+      <viewAttribute id="KSL05" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P5" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'05'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL05">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL05">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL05">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL05">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period6">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL06" aggregationType="sum"/>
+      <viewAttribute id="HSL06" aggregationType="sum"/>
+      <viewAttribute id="KSL06" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P6" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'06'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL06">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL06">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL06">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL06">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period7">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL07" aggregationType="sum"/>
+      <viewAttribute id="HSL07" aggregationType="sum"/>
+      <viewAttribute id="KSL07" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P7" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'07'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL07">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL07">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL07">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL07">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period8">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL08" aggregationType="sum"/>
+      <viewAttribute id="HSL08" aggregationType="sum"/>
+      <viewAttribute id="KSL08" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P8" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'08'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL08">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL08">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL08">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL08">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period9">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL09" aggregationType="sum"/>
+      <viewAttribute id="HSL09" aggregationType="sum"/>
+      <viewAttribute id="KSL09" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P9" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'09'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL09">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL09">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL09">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL09">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period10">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL10" aggregationType="sum"/>
+      <viewAttribute id="HSL10" aggregationType="sum"/>
+      <viewAttribute id="KSL10" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P10" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'10'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL10">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL10">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL10">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL10">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period11">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL11" aggregationType="sum"/>
+      <viewAttribute id="HSL11" aggregationType="sum"/>
+      <viewAttribute id="KSL11" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P11" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'11'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL11">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL11">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL11">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL11">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period12">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL12" aggregationType="sum"/>
+      <viewAttribute id="HSL12" aggregationType="sum"/>
+      <viewAttribute id="KSL12" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P12" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'12'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL12">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL12">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL12">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL12">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period13">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL13" aggregationType="sum"/>
+      <viewAttribute id="HSL13" aggregationType="sum"/>
+      <viewAttribute id="KSL13" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P13" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'13'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL13">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL13">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL13">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL13">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period14">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL14" aggregationType="sum"/>
+      <viewAttribute id="HSL14" aggregationType="sum"/>
+      <viewAttribute id="KSL14" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P14" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'14'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL14">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL14">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL14">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL14">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period15">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL15" aggregationType="sum"/>
+      <viewAttribute id="HSL15" aggregationType="sum"/>
+      <viewAttribute id="KSL15" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P15" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'15'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL15">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL15">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL15">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL15">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="FAGL_Period16">
+    <viewAttributes>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/>
+    
+      <viewAttribute id="DRCRK"/>
+      <viewAttribute id="TSL16" aggregationType="sum"/>
+      <viewAttribute id="HSL16" aggregationType="sum"/>
+      <viewAttribute id="KSL16" aggregationType="sum"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_P16" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'16'</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes>
+      <restrictedViewAttribute id="RES_TSLDR" baseViewAttribute="TSL16">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_TSLCR" baseViewAttribute="TSL16">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLDR" baseViewAttribute="HSL16">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="S"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+      <restrictedViewAttribute id="RES_HCLCR" baseViewAttribute="HSL16">
+        <restriction logicalOperator="AND">
+          <filter xsi:type="Privilege:AttributeFilter" attributeName="DRCRK">
+            <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="H"/>
+          </filter>
+          <attributeName>DRCRK</attributeName>
+        </restriction>
+      </restrictedViewAttribute>
+    </restrictedViewAttributes>
+    <input node="FAGL_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:AggregationView" id="Aggregation_1">
+    <viewAttributes>
+      <viewAttribute id="PERIOD"/>
+      <viewAttribute id="RCLNT"/>
+      <viewAttribute id="RBUKRS"/>
+      <viewAttribute id="RYEAR"/>
+      <viewAttribute id="DOCCUR"/>
+      <viewAttribute id="LOCCUR"/>
+      <viewAttribute id="RACCT"/>
+      <viewAttribute id="RES_TSLDR1" semanticType="amount" aggregationType="sum" measureType="amount">
+        <unitCurrencyAttribute attributeName="DOCCUR"/>
+        <currencyConversion errorHandling="keepUnconverted" generateOutputUnitCurrencyAttribute="false" method="ERP" lookup="REGULAR">
+          <client/>
+          <currencyConversionTables rates="SDA_TCURR" configuration="SDA_TCURV" prefactors="SDA_TCURF" notations="SDA_TCURN" precisions="SDA_TCURX"/>
+          <outputDataType datatype="DECIMAL" length="23" scale="3"/>
+          <sourceCurrency>
+            <attribute attributeName="DOCCUR"/>
+          </sourceCurrency>
+          <erpDecimalShift>true</erpDecimalShift>
+          <targetCurrency>
+            <attribute attributeName="DOCCUR"/>
+          </targetCurrency>
+          <referenceDate/>
+        </currencyConversion>
+      </viewAttribute>
+      <viewAttribute id="RES_TSLCR1" semanticType="amount" aggregationType="sum" measureType="amount">
+        <conversionReference>RES_TSLDR1</conversionReference>
+      </viewAttribute>
+      <viewAttribute id="RES_HCLDR1" semanticType="amount" aggregationType="sum" measureType="amount">
+        <unitCurrencyAttribute attributeName="LOCCUR"/>
+        <currencyConversion generateOutputUnitCurrencyAttribute="false" method="ERP" lookup="REGULAR">
+          <client/>
+          <currencyConversionTables rates="SDA_TCURR" configuration="SDA_TCURV" prefactors="SDA_TCURF" notations="SDA_TCURN" precisions="SDA_TCURX"/>
+          <outputDataType datatype="DECIMAL" length="23" scale="3"/>
+          <sourceCurrency>
+            <attribute attributeName="LOCCUR"/>
+          </sourceCurrency>
+          <erpDecimalShift>true</erpDecimalShift>
+          <targetCurrency>
+            <attribute attributeName="LOCCUR"/>
+          </targetCurrency>
+          <referenceDate/>
+        </currencyConversion>
+      </viewAttribute>
+      <viewAttribute id="RES_HCLCR1" semanticType="amount" aggregationType="sum" measureType="amount">
+        <conversionReference>RES_HCLDR1</conversionReference>
+      </viewAttribute>
+      <viewAttribute id="RBUSA"/>
+      <viewAttribute id="RLDNR"/></viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="RES_HCLDR" datatype="DECIMAL" length="23" scale="2" expressionLanguage="COLUMN_ENGINE">
+        <formula>if(&quot;LOCCUR&quot;='JPY', ROUND(&quot;RES_HCLDR1&quot;,0), ROUND(&quot;RES_HCLDR1&quot;,2))</formula>
+      </calculatedViewAttribute>
+    
+      <calculatedViewAttribute id="RES_HCLCR" datatype="DECIMAL" length="23" scale="2" expressionLanguage="COLUMN_ENGINE">
+    
+        <formula>if(&quot;LOCCUR&quot;='JPY', ROUND(&quot;RES_HCLCR1&quot;,0), ROUND(&quot;RES_HCLCR1&quot;,2))</formula>
+    
+      </calculatedViewAttribute>
+    
+      <calculatedViewAttribute id="RES_TSLDR" datatype="DECIMAL" length="23" scale="2" expressionLanguage="COLUMN_ENGINE">
+    
+        <formula>if(&quot;DOCCUR&quot;='JPY', ROUND(&quot;RES_TSLDR1&quot;,0), ROUND(&quot;RES_TSLDR1&quot;,2))</formula>
+    
+      </calculatedViewAttribute>
+      <calculatedViewAttribute id="RES_TSLCR" datatype="DECIMAL" length="23" scale="2" expressionLanguage="COLUMN_ENGINE">
+        <formula>if(&quot;DOCCUR&quot;='JPY', ROUND(&quot;RES_TSLCR1&quot;,0), ROUND(&quot;RES_TSLCR1&quot;,2))</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <restrictedViewAttributes/>
+    <input node="FAGL_ALL">
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLDR1" source="RES_HCLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_HCLCR1" source="RES_HCLCR"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLDR1" source="RES_TSLDR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RES_TSLCR1" source="RES_TSLCR"/>
+    </input>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Aggregation_1">
+  <attributes>
+    <attribute id="RCLNT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCLNT"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RCLNT"/>
+    </attribute>
+    <attribute id="RBUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBUKRS"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RBUKRS"/>
+    </attribute>
+    <attribute id="RYEAR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RYEAR"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RYEAR"/>
+    </attribute>
+    <attribute id="PERIOD" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIOD"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="PERIOD"/>
+    </attribute>
+    <attribute id="RACCT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RACCT"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RACCT"/>
+    </attribute>
+    <attribute id="DOCCUR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOCCUR"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="DOCCUR"/>
+    </attribute>
+    <attribute id="LOCCUR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOCCUR"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="LOCCUR"/>
+    </attribute>
+    <attribute id="RBUSA" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBUSA"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RBUSA"/>
+    </attribute>
+    <attribute id="RLDNR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR"/>
+      <keyMapping columnObjectName="Aggregation_1" columnName="RLDNR"/>
+    </attribute></attributes>
+  <calculatedAttributes/>
+  <baseMeasures>
+    <measure id="RES_HCLDR" order="10" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="RES_HCLDR"/>
+      <measureMapping columnObjectName="Aggregation_1" columnName="RES_HCLDR"/>
+    </measure>
+    <measure id="RES_HCLCR" order="11" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="RES_HCLCR"/>
+      <measureMapping columnObjectName="Aggregation_1" columnName="RES_HCLCR"/>
+    </measure>
+    <measure id="RES_TSLDR" order="12" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="RES_TSLDR"/>
+      <measureMapping columnObjectName="Aggregation_1" columnName="RES_TSLDR"/>
+    </measure>
+    <measure id="RES_TSLCR" order="13" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="RES_TSLCR"/>
+      <measureMapping columnObjectName="Aggregation_1" columnName="RES_TSLCR"/>
+    </measure>
+  </baseMeasures>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+  <localDimensions/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="1959" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="FAGLFLEXT" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1844" y="1271"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1352" y="846"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Data" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1771" y="1111"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="FAGLFLEXT" modelObjectNameSpace="FAGL_Data" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="135"/>
+    </shape>
+    <shape modelObjectName="FAGL_Active_join" modelObjectNameSpace="FAGL_Data" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="384" y="43"/>
+      <rectangleSize width="166"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Active_join" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1563" y="1271"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="FAGL_active" modelObjectNameSpace="FAGL_Active_join" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="136"/>
+    </shape>
+    <shape modelObjectName="FAGL_Version" modelObjectNameSpace="FAGL_Active_join" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="141"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_active" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1537" y="1431"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Version" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1747" y="1431"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="SDA_T000" modelObjectNameSpace="FAGL_Version" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="164"/>
+    </shape>
+    <shape modelObjectName="SDA_T881" modelObjectNameSpace="FAGL_Version" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="140"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="FAGL_ALL" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1771" y="341"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Balance_Carry_Forward" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="3452" y="846"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period2" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="3242" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period3" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period4" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="2822" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period5" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="512" y="846"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period6" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1561" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period7" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="302" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape modelObjectName="FAGL_Period8" modelObjectNameSpace="CalculationView" expanded="true">
+      <upperLeftCorner x="1142" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="FAGL_Period9" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="722" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period10" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1771" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period11" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1981" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period12" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="932" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period13" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="2402" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period14" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="3032" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period15" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="2612" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FAGL_Period16" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="2192" y="846"/>
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Aggregation_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="1771" y="245"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

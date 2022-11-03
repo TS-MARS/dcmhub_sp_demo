@@ -1,8 +1,0 @@
-{
-  "att::ZPOINTER": {
-    "target": {
-      "object": "EP1_ZTRUE_POINTER",
-      "schema": "SDA_VIN_EP1"
-    }
-  }
-}
