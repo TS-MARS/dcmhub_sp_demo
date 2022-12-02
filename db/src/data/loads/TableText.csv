@@ -456,6 +456,8 @@ CUOB,D,Zuordnung Objekt - Wissensbausteine
 CUOB,E,Assignment of Object to Dependency
 DDFTX,E,Run-time object with Screen Painter texts
 DDFTX,D,Laufzeitobjekt mit Screen Painter-Texten
+DD03L,E,Table Fields
+DD03L,D,Tabellenfelder
 DD04T,D,R/3-DD: Texte der Datenelemente
 DD04T,E,R/3 DD: Data element texts
 DD07L,D,R/3-DD: Werte zu den Domaenen
@@ -1111,6 +1113,8 @@ KNAS,D,Kundenstamm (allgemeiner Teil EG-Steuernummern)
 KNAS,E,Customer master (VAT registration numbers general section)
 KNB1,D,Kundenstamm (Buchungskreis)
 KNB1,E,Customer Master (Company Code)
+KNB4,D,Zahlungshistorie des Kunden
+KNB4,E,Customer Payment History
 KNB5,D,Kundenstamm (Mahndaten)
 KNB5,E,Customer master (dunning data)
 KNBK,D,Kundenstamm (Bankverbindungen)
@@ -2145,6 +2149,10 @@ T001P,D,Personalbereich/-teilbereich
 T001P,E,Personnel Area/Subarea
 T001W,D,Werke/Niederlassungen
 T001W,E,Plants/Branches
+T002,E,Language Keys (Component BC-I18)
+T002,D,Sprachschluessel (Komponente BC-I18)
+T002T,E,Language Key Texts
+T002T,D,Sprachschluesseltexte
 T003,D,Belegarten
 T003,E,Document Types
 T003O,D,Auftragsarten
@@ -2153,6 +2161,8 @@ T003P,D,Auftragsarten-Texte
 T003P,E,Order Type Descriptions
 T003T,D,Belegartentexte
 T003T,E,Document Type Texts
+T004,D,Verzeichnis der Kontenpläne
+T004,E,Directory of Charts of Accounts data
 T004T,D,Bezeichnung der Kontenpläne
 T004T,E,Chart of Account Names
 T005,D,Länder
@@ -2177,8 +2187,14 @@ T012K,D,Konten bei Hausbanken
 T012K,E,House Bank Accounts
 T014,D,Kreditkontrollbereiche
 T014,E,Credit control areas
+T160L,D,Umfang der Einkaufslisten
+T160L,E,Scope of Purchasing Lists
+T161,D,Einkaufsbelegarten
+T161,E,Purchasing Document Types
 T016T,D,Bezeichnung der Branchen
 T016T,E,Industry Names
+T023,D,Materialgruppen
+T023,E,Material Groups
 T023T,D,Bezeichnungen zu Warengruppen
 T023T,E,Material Group Descriptions
 T024,D,Einkaufsgruppen
@@ -2428,6 +2444,16 @@ TCUGT,D,Beziehungsgruppen - Texte
 TCUGT,E,Dependency Groups - Texts
 TCURT,D,Bezeichnung der Waehrungscodes
 TCURT,E,Currency Code Names
+TCURF,D,Umrechnungsfaktoren
+TCURF,E,Conversion Factors
+TCURN,D,Quotation
+TCURN,E,Quotations
+TCURR,D,Wechselkurse
+TCURR,E,Exchange Rates
+TCURV,D,Kurstypen für die Waehrungsumrechnung
+TCURV,E,Exchange rate types for currency translation
+TCURX,D,Dezimalstellen in Waehrungen
+TCURX,E,Decimal Places in Currencies
 TCUXT,D,Beziehungspflegestatus - Texte
 TCUXT,E,Dependency Maintenance Statuses - Texts
 TFIN020,D,Zuordnung Geschäftsbereiche zu Buchungskreisen

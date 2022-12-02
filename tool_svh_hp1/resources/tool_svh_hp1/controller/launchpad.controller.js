@@ -15,13 +15,21 @@ sap.ui.define([
 			this._router = sap.ui.core.UIComponent.getRouterFor(this);
 			this._router.navTo("adhocQuery");
 		},
-		onPressAttachment: function () {
+		onPressFD10N: function () {
+				this._router = sap.ui.core.UIComponent.getRouterFor(this);
+				this._router.navTo("FD10N");
+		},
+		onPressFK10N: function () {
+				this._router = sap.ui.core.UIComponent.getRouterFor(this);
+				this._router.navTo("FK10N");
+		},
+		onPressFS10N: function () {
+				this._router = sap.ui.core.UIComponent.getRouterFor(this);
+				this._router.navTo("FS10N");
+		},
+		onPressFD11N: function () {
 			this._router = sap.ui.core.UIComponent.getRouterFor(this);
-			this._router.navTo("attachment");
-    	},
-    	onPressFinance: function () {
-			this._router = sap.ui.core.UIComponent.getRouterFor(this);
-			this._router.navTo("finance");
-		}    	
+			this._router.navTo("FD11N");
+		}  	
 	});
 });

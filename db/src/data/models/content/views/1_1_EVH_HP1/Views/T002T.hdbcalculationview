@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T002T" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T002T"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="HP1_T002T">
+    <resourceUri>HP1_T002T</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="HP1_T002T">
+  <attributes>
+    <attribute id="SPRAS" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="HP1_T002T" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="SPRSL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRSL"/>
+      <keyMapping columnObjectName="HP1_T002T" columnName="SPRSL"/>
+    </attribute>
+    <attribute id="SPTXT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPTXT"/>
+      <keyMapping columnObjectName="HP1_T002T" columnName="SPTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIGL_FAGLB03" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIGL_FAGLB03"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="HP1_CV_FIGL_FAGLB03">
+    <resourceUri>HP1_CV_FIGL_FAGLB03</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="HP1_CV_FIGL_FAGLB03">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="HKONT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="HKONT"/>
+    </attribute>
+    <attribute id="AUGDT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGDT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="AUGDT"/>
+    </attribute>
+    <attribute id="AUGBL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGBL"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="AUGBL"/>
+    </attribute>
+    <attribute id="ZUONR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="GJAHR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BELNR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BELNR"/>
+    </attribute>
+    <attribute id="BUZEI" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BUDAT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="BLDAT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="WAERS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="WAERS"/>
+    </attribute>
+    <attribute id="XBLNR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="XBLNR"/>
+    </attribute>
+    <attribute id="BLART" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BLART"/>
+    </attribute>
+    <attribute id="MONAT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MONAT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="MONAT"/>
+    </attribute>
+    <attribute id="BSCHL" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSCHL"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BSCHL"/>
+    </attribute>
+    <attribute id="SHKZG" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="GSBER" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="GSBER"/>
+    </attribute>
+    <attribute id="MWSKZ" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="FKONT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKONT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="FKONT"/>
+    </attribute>
+    <attribute id="DMBTR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="DMBTR"/>
+    </attribute>
+    <attribute id="WRBTR" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="MWSTS" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSTS"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="MWSTS"/>
+    </attribute>
+    <attribute id="WMWST" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WMWST"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="WMWST"/>
+    </attribute>
+    <attribute id="SGTXT" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="PROJN" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROJN"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PROJN"/>
+    </attribute>
+    <attribute id="AUFNR" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="WERKS" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="WERKS"/>
+    </attribute>
+    <attribute id="KOSTL" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="ZFBDT" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZFBDT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="ZFBDT"/>
+    </attribute>
+    <attribute id="XOPVW" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XOPVW"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="XOPVW"/>
+    </attribute>
+    <attribute id="VALUT" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALUT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="VALUT"/>
+    </attribute>
+    <attribute id="BSTAT" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTAT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BSTAT"/>
+    </attribute>
+    <attribute id="BDIFF" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDIFF"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BDIFF"/>
+    </attribute>
+    <attribute id="BDIF2" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDIF2"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BDIF2"/>
+    </attribute>
+    <attribute id="VBUND" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBUND"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="VBUND"/>
+    </attribute>
+    <attribute id="PSWSL" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSWSL"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PSWSL"/>
+    </attribute>
+    <attribute id="WVERW" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WVERW"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="WVERW"/>
+    </attribute>
+    <attribute id="DMBE2" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBE2"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="DMBE2"/>
+    </attribute>
+    <attribute id="DMBE3" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBE3"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="DMBE3"/>
+    </attribute>
+    <attribute id="MWST2" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWST2"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="MWST2"/>
+    </attribute>
+    <attribute id="MWST3" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWST3"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="MWST3"/>
+    </attribute>
+    <attribute id="BDIF3" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDIF3"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BDIF3"/>
+    </attribute>
+    <attribute id="RDIF3" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RDIF3"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="RDIF3"/>
+    </attribute>
+    <attribute id="XRAGL" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRAGL"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="XRAGL"/>
+    </attribute>
+    <attribute id="PROJK" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROJK"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PROJK"/>
+    </attribute>
+    <attribute id="PRCTR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="XSTOV" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTOV"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="XSTOV"/>
+    </attribute>
+    <attribute id="XARCH" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XARCH"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="XARCH"/>
+    </attribute>
+    <attribute id="PSWBT" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSWBT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PSWBT"/>
+    </attribute>
+    <attribute id="XNEGP" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNEGP"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="XNEGP"/>
+    </attribute>
+    <attribute id="RFZEI" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFZEI"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="RFZEI"/>
+    </attribute>
+    <attribute id="CCBTC" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCBTC"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="CCBTC"/>
+    </attribute>
+    <attribute id="XREF3" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREF3"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="XREF3"/>
+    </attribute>
+    <attribute id="BUPLA" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUPLA"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BUPLA"/>
+    </attribute>
+    <attribute id="PPDIFF" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPDIFF"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PPDIFF"/>
+    </attribute>
+    <attribute id="PPDIF2" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPDIF2"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PPDIF2"/>
+    </attribute>
+    <attribute id="PPDIF3" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPDIF3"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PPDIF3"/>
+    </attribute>
+    <attribute id="BEWAR" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEWAR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BEWAR"/>
+    </attribute>
+    <attribute id="IMKEY" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMKEY"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="IMKEY"/>
+    </attribute>
+    <attribute id="DABRZ" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DABRZ"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="DABRZ"/>
+    </attribute>
+    <attribute id="INTRENO" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTRENO"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="INTRENO"/>
+    </attribute>
+    <attribute id="GRANT_NBR" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="GRANT_NBR"/>
+    </attribute>
+    <attribute id="FKBER" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="FKBER"/>
+    </attribute>
+    <attribute id="FIPOS" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIPOS"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="FIPOS"/>
+    </attribute>
+    <attribute id="FISTL" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="FISTL"/>
+    </attribute>
+    <attribute id="GEBER" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="GEBER"/>
+    </attribute>
+    <attribute id="PPRCT" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPRCT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PPRCT"/>
+    </attribute>
+    <attribute id="BUZID" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZID"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BUZID"/>
+    </attribute>
+    <attribute id="AUGGJ" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGGJ"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="AUGGJ"/>
+    </attribute>
+    <attribute id="UZAWE" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UZAWE"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="UZAWE"/>
+    </attribute>
+    <attribute id="SEGMENT" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEGMENT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="SEGMENT"/>
+    </attribute>
+    <attribute id="PSEGMENT" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSEGMENT"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PSEGMENT"/>
+    </attribute>
+    <attribute id="PGEBER" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGEBER"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PGEBER"/>
+    </attribute>
+    <attribute id="PGRANT_NBR" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGRANT_NBR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PGRANT_NBR"/>
+    </attribute>
+    <attribute id="MEASURE" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEASURE"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="MEASURE"/>
+    </attribute>
+    <attribute id="BUDGET_PD" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDGET_PD"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="BUDGET_PD"/>
+    </attribute>
+    <attribute id="PBUDGET_PD" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PBUDGET_PD"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PBUDGET_PD"/>
+    </attribute>
+    <attribute id="FIPEX" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIPEX"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="FIPEX"/>
+    </attribute>
+    <attribute id="PRODPER" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRODPER"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PRODPER"/>
+    </attribute>
+    <attribute id="QSSKZ" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSSKZ"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="QSSKZ"/>
+    </attribute>
+    <attribute id="PROPMANO" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROPMANO"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="PROPMANO"/>
+    </attribute>
+    <attribute id="ZLSPR" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZLSPR"/>
+      <keyMapping columnObjectName="HP1_CV_FIGL_FAGLB03" columnName="ZLSPR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

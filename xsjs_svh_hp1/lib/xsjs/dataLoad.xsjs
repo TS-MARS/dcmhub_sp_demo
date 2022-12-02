@@ -8,9 +8,9 @@ var sTable = $.request.parameters.get('table');
 var where = $.request.parameters.get('where');
 
  if (where !==""){
- var sQuery = "SELECT TOP 10000 " + sField + " FROM \"core.models::" + sTable +"\" WHERE "+where;
+ var sQuery = "SELECT TOP 100000 " + sField + " FROM \"core.models::" + sTable +"\" WHERE "+where;
  }else{
- var sQuery = "SELECT TOP 10000 " + sField + " FROM \"core.models::" + sTable +"\"";
+ var sQuery = "SELECT TOP 100000 " + sField + " FROM \"core.models::" + sTable +"\"";
  }
  console.log(sQuery);
 var oResultSet = oConn.executeQuery(sQuery);

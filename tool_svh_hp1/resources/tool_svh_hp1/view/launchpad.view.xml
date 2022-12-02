@@ -16,18 +16,30 @@
 								<ImageContent src="sap-icon://filter"/>
 							</TileContent>
 						</GenericTile>
-						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Attachment Browser" subheader="Analysis" mode="HeaderMode"
-							press="onPressAttachment">
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>fd10n}" subheader="Analysis" mode="HeaderMode"
+							press="onPressFD10N">
+							<TileContent>
+								<ImageContent src="sap-icon://filter"/>
+							</TileContent>
+						</GenericTile>							
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>fk10n}" subheader="Analysis" mode="HeaderMode"
+							press="onPressFK10N">
+							<TileContent>
+								<ImageContent src="sap-icon://filter"/>
+							</TileContent>
+						</GenericTile>		
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>fs10n}" subheader="Analysis" mode="HeaderMode"
+							press="onPressFS10N">
+							<TileContent>
+								<ImageContent src="sap-icon://filter"/>
+							</TileContent>
+						</GenericTile>	
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>fd11}" subheader="Analysis" mode="HeaderMode"
+							press="onPressFD11N">
 							<TileContent>
 								<ImageContent src="sap-icon://filter"/>
 							</TileContent>
 						</GenericTile>
-						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>finstatement}" subheader="Analysis" mode="HeaderMode"
-							press="onPressFinance">
-							<TileContent>
-								<ImageContent src="sap-icon://filter"/>
-							</TileContent>
-						</GenericTile>						
 					</content>
 				</Page>
 			</pages>

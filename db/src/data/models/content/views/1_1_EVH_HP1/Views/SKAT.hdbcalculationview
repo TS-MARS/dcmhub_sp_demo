@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::SKAT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table SKAT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="HP1_SKAT">
+    <resourceUri>HP1_SKAT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="HP1_SKAT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="HP1_SKAT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="HP1_SKAT" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KTOPL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="HP1_SKAT" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="SAKNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKNR"/>
+      <keyMapping columnObjectName="HP1_SKAT" columnName="SAKNR"/>
+    </attribute>
+    <attribute id="TXT20" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT20"/>
+      <keyMapping columnObjectName="HP1_SKAT" columnName="TXT20"/>
+    </attribute>
+    <attribute id="TXT50" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT50"/>
+      <keyMapping columnObjectName="HP1_SKAT" columnName="TXT50"/>
+    </attribute>
+    <attribute id="MCOD1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MCOD1"/>
+      <keyMapping columnObjectName="HP1_SKAT" columnName="MCOD1"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

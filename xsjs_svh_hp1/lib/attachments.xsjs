@@ -67,6 +67,7 @@ function getContentType(filename) {
 function displayFile(filename,page) {
 	$.response.contentType  = getContentType(filename);
 	$.response.setBody(getFileContent(filename,page));
+    $.response.headers.set("Content-Disposition","attachment;filename="+filename);		
 
 	if ($.response.contentType === 'application/octet-stream') {
 		$.response.headers.set("Content-Disposition", "attachment; filename=" + filename);

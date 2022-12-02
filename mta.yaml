@@ -60,6 +60,22 @@ modules:
       SAP_JWT_TRUST_ACL:
         - clientid: '*'
           identityzone: '*'          
+
+  - name: webjava_svh_hp1
+    type: java
+    path: webjava_svh_hp1
+    parameters:
+       memory: 512M
+    provides:
+     - name: webjava_svh_hp1_api
+       properties:
+          url: ${default-url}
+    requires:
+     - name: dcmhub_svh_hp1-hdi-container
+       properties:
+          JBP_CONFIG_RESOURCE_CONFIGURATION: '[tomcat/webapps/ROOT/META-INF/context.xml:
+             {"service_name_for_DefaultDB" : "~{hdi-container-name}"}]'
+
 resources:
   - name: dcmhub_svh_hp1-hdi-container
     type: com.sap.xs.hdi-container

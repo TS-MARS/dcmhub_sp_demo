@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::KNVP" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table KNVP"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="HP1_KNVP">
+    <resourceUri>HP1_KNVP</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="HP1_KNVP">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="VKORG" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKORG"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="VKORG"/>
+    </attribute>
+    <attribute id="VTWEG" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEG"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="VTWEG"/>
+    </attribute>
+    <attribute id="SPART" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="SPART"/>
+    </attribute>
+    <attribute id="PARVW" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARVW"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="PARVW"/>
+    </attribute>
+    <attribute id="PARZA" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARZA"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="PARZA"/>
+    </attribute>
+    <attribute id="KUNN2" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNN2"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="KUNN2"/>
+    </attribute>
+    <attribute id="LIFNR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="PERNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERNR"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="PERNR"/>
+    </attribute>
+    <attribute id="PARNR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARNR"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="PARNR"/>
+    </attribute>
+    <attribute id="KNREF" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNREF"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="KNREF"/>
+    </attribute>
+    <attribute id="DEFPA" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEFPA"/>
+      <keyMapping columnObjectName="HP1_KNVP" columnName="DEFPA"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
