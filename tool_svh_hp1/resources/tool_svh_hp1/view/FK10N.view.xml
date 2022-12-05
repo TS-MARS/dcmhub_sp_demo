@@ -17,7 +17,7 @@
 								</v:VariantManagement>
 								<l:Grid containerQuery="true" defaultSpan="XL6 L6" width="100%" class="sapUiSmallMargin" vSpacing="0">
 									<m:Label text="{i18n>client}" textAlign="Right" labelFor="client"/>
-									<m:ComboBox selectedKey="100" required="true" id="client" placeholder="{i18n>client}" items="{ path: '/t000'}" selectionChange="resetFields">
+									<m:ComboBox selectedKey="800" required="true" id="client" placeholder="{i18n>client}" items="{ path: '/t000'}" selectionChange="resetFields">
 										<core:Item key="{MANDT}" text="{MANDT}"/>
 									</m:ComboBox>
 									<m:Label text="{i18n>companycode}" textAlign="Right" labelFor="companycode"/>

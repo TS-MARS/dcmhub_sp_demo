@@ -47,6 +47,6 @@ settings {
   content cache-control "no-store"; 
   metadata cache-control "max-age=86401,must-revalidate";   
   limits 
-      max_records = 2500000,
-      max_expanded_records = 2500000;
+      max_records = 500000,
+      max_expanded_records = 500000;
 }

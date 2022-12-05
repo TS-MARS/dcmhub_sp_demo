@@ -468,6 +468,8 @@ VL03N,D,Lieferungen SD
 VF05,D,Fakturen Liste 
 SDCRFU,D,Übergrf. Funktion SD
 FV,E,Favourites
+FV,D,Favoriten
 SYS,E,System
 SYS,D,System
 SYS0006,E,Systems
+SYS0006,D,Systeme

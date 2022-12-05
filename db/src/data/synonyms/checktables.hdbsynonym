@@ -1,6 +1,7 @@
 {
 "SDA_ANKA": {"target": {"object": "HP1_ANKA","schema": "SDA_SVH_HP1"}},
 "SDA_BKPF": {"target": {"object": "HP1_BKPF","schema": "SDA_SVH_HP1"}},
+"SDA_BSEG": {"target": {"object": "HP1_BSEG","schema": "SDA_SVH_HP1"}},
 "SDA_BSID": {"target": {"object": "HP1_BSID","schema": "SDA_SVH_HP1"}},
 "SDA_DD03L": {"target": {"object": "HP1_DD03L","schema": "SDA_SVH_HP1"}},
 "SDA_DD04T": {"target": {"object": "HP1_DD04T","schema": "SDA_SVH_HP1"}},
