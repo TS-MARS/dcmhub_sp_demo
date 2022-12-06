@@ -1,7 +1,7 @@
 {
-"SDA_TCURF": {"target": {"object": "HP1_TCURF","schema": "SDA_SVH_HP1"}},
-"SDA_TCURN": {"target": {"object": "HP1_TCURN","schema": "SDA_SVH_HP1"}},
-"SDA_TCURR": {"target": {"object": "HP1_TCURR","schema": "SDA_SVH_HP1"}},
-"SDA_TCURV": {"target": {"object": "HP1_TCURV","schema": "SDA_SVH_HP1"}},
-"SDA_TCURX": {"target": {"object": "HP1_TCURX","schema": "SDA_SVH_HP1"}}
+"SDA_TCURF": {"target": {"object": "MASTER_TCURF","schema": "SDA_MASTER"}},
+"SDA_TCURN": {"target": {"object": "MASTER_TCURN","schema": "SDA_MASTER"}},
+"SDA_TCURR": {"target": {"object": "MASTER_TCURR","schema": "SDA_MASTER"}},
+"SDA_TCURV": {"target": {"object": "MASTER_TCURV","schema": "SDA_MASTER"}},
+"SDA_TCURX": {"target": {"object": "MASTER_TCURX","schema": "SDA_MASTER"}}
 }

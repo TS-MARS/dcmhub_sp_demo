@@ -1,5 +1,5 @@
 _schema-version: '2.1'
-ID: dcmhub_svh_hp1
+ID: dcmhub_master
 version: 0.0.1
 #--- Template History ---#
 # Version ; Comments
@@ -8,19 +8,19 @@ version: 0.0.1
 #------------------------#
 
 modules:
-  - name: dcmhub_svh_hp1-db
+  - name: dcmhub_master-db
     type: hdb
     path: db
     requires:
-      - name: dcmhub_svh_hp1-hdi-container
+      - name: dcmhub_master-hdi-container
       - name: cross-container-service
         group: SERVICE_REPLACEMENTS
         properties:
           key: ServiceName_1
           service: '~{the-service-name}'      
-  - name: xsjs_svh_hp1
+  - name: xsjs_master
     type: nodejs
-    path: xsjs_svh_hp1
+    path: xsjs_master
     properties:
       SESSION_TIMEOUT: 60
       INCOMING_CONNECTION_TIMEOUT: 3600000
@@ -29,17 +29,17 @@ modules:
         properties:
           url: '${default-url}'
     requires:
-      - name: dcmhub_svh_hp1-hdi-container
-      - name: dcmhub_svh_hp1-db
-      - name: dcmhub_svh_hp1-uaa
-      - name: dcmhub_svh_hp1-fs      
-  - name: tool_svh_hp1
+      - name: dcmhub_master-hdi-container
+      - name: dcmhub_master-db
+      - name: dcmhub_master-uaa
+      - name: dcmhub_master-fs      
+  - name: tool_master
     type: html5
-    path: tool_svh_hp1
+    path: tool_master
     requires:
-      - name: flp-tool_svh_hp1-client
-      - name: dcmhub_svh_hp1-uaa
-      - name: dcmhub_svh_hp1-ui5
+      - name: flp-tool_master-client
+      - name: dcmhub_master-uaa
+      - name: dcmhub_master-ui5
       - name: xsjs_api
         group: destinations
         properties:
@@ -61,47 +61,47 @@ modules:
         - clientid: '*'
           identityzone: '*'          
 
-  - name: webjava_svh_hp1
+  - name: webjava_master
     type: java
-    path: webjava_svh_hp1
+    path: webjava_master
     parameters:
        memory: 512M
     provides:
-     - name: webjava_svh_hp1_api
+     - name: webjava_master_api
        properties:
           url: ${default-url}
     requires:
-     - name: dcmhub_svh_hp1-hdi-container
+     - name: dcmhub_master-hdi-container
        properties:
           JBP_CONFIG_RESOURCE_CONFIGURATION: '[tomcat/webapps/ROOT/META-INF/context.xml:
              {"service_name_for_DefaultDB" : "~{hdi-container-name}"}]'
 
 resources:
-  - name: dcmhub_svh_hp1-hdi-container
+  - name: dcmhub_master-hdi-container
     type: com.sap.xs.hdi-container
     properties:
       hdi-container-name: '${service-name}'
   - name: cross-container-service
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: DCMHUB-SVH-HP1
+      service-name: DCMHUB-MASTER
     properties:
       the-service-name: '${service-name}'
-  - name: dcmhub_svh_hp1-ui5
+  - name: dcmhub_master-ui5
     type: org.cloudfoundry.managed-service
     parameters:
       service: sapui5_sb
       service-plan: sapui5-1.71
-  - name: dcmhub_svh_hp1-uaa
+  - name: dcmhub_master-uaa
     type: org.cloudfoundry.existing-service
     parameters:
       service-name: portal-uaa-dcmhubflp
-  - name: flp-tool_svh_hp1-client
+  - name: flp-tool_master-client
     type: com.sap.portal.site-content
     parameters:
       config:
         siteId: dcmhubflp
-  - name: dcmhub_svh_hp1-fs
+  - name: dcmhub_master-fs
     type: com.sap.xs.fs
     parameters:
-      service-name: FILEDIR_HP1
+      service-name: FILEDIR_MASTER
