@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T052U" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T052U"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_T052U">
+    <resourceUri>M30_T052U</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_T052U">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_T052U" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="M30_T052U" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="ZTERM" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZTERM"/>
+      <keyMapping columnObjectName="M30_T052U" columnName="ZTERM"/>
+    </attribute>
+    <attribute id="ZTAGG" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZTAGG"/>
+      <keyMapping columnObjectName="M30_T052U" columnName="ZTAGG"/>
+    </attribute>
+    <attribute id="TEXT1" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEXT1"/>
+      <keyMapping columnObjectName="M30_T052U" columnName="TEXT1"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

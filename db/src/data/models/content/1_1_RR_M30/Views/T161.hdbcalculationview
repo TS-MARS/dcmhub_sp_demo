@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T161" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T161"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_T161">
+    <resourceUri>M30_T161</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_T161">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_T161" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BSTYP" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTYP"/>
+      <keyMapping columnObjectName="M30_T161" columnName="BSTYP"/>
+    </attribute>
+    <attribute id="BSART" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSART"/>
+      <keyMapping columnObjectName="M30_T161" columnName="BSART"/>
+    </attribute>
+    <attribute id="BSAKZ" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSAKZ"/>
+      <keyMapping columnObjectName="M30_T161" columnName="BSAKZ"/>
+    </attribute>
+    <attribute id="PINCR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PINCR"/>
+      <keyMapping columnObjectName="M30_T161" columnName="PINCR"/>
+    </attribute>
+    <attribute id="NUMKI" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMKI"/>
+      <keyMapping columnObjectName="M30_T161" columnName="NUMKI"/>
+    </attribute>
+    <attribute id="NUMKE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMKE"/>
+      <keyMapping columnObjectName="M30_T161" columnName="NUMKE"/>
+    </attribute>
+    <attribute id="BREFN" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BREFN"/>
+      <keyMapping columnObjectName="M30_T161" columnName="BREFN"/>
+    </attribute>
+    <attribute id="REFBA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFBA"/>
+      <keyMapping columnObjectName="M30_T161" columnName="REFBA"/>
+    </attribute>
+    <attribute id="ABVOR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABVOR"/>
+      <keyMapping columnObjectName="M30_T161" columnName="ABVOR"/>
+    </attribute>
+    <attribute id="STAFO" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAFO"/>
+      <keyMapping columnObjectName="M30_T161" columnName="STAFO"/>
+    </attribute>
+    <attribute id="UPINC" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPINC"/>
+      <keyMapping columnObjectName="M30_T161" columnName="UPINC"/>
+    </attribute>
+    <attribute id="STAKO" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAKO"/>
+      <keyMapping columnObjectName="M30_T161" columnName="STAKO"/>
+    </attribute>
+    <attribute id="PARGR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARGR"/>
+      <keyMapping columnObjectName="M30_T161" columnName="PARGR"/>
+    </attribute>
+    <attribute id="NUMKA" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMKA"/>
+      <keyMapping columnObjectName="M30_T161" columnName="NUMKA"/>
+    </attribute>
+    <attribute id="HITYP" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HITYP"/>
+      <keyMapping columnObjectName="M30_T161" columnName="HITYP"/>
+    </attribute>
+    <attribute id="LPHIS" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LPHIS"/>
+      <keyMapping columnObjectName="M30_T161" columnName="LPHIS"/>
+    </attribute>
+    <attribute id="GSFRG" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSFRG"/>
+      <keyMapping columnObjectName="M30_T161" columnName="GSFRG"/>
+    </attribute>
+    <attribute id="VARIANTE" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VARIANTE"/>
+      <keyMapping columnObjectName="M30_T161" columnName="VARIANTE"/>
+    </attribute>
+    <attribute id="SHENQ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHENQ"/>
+      <keyMapping columnObjectName="M30_T161" columnName="SHENQ"/>
+    </attribute>
+    <attribute id="KZALE" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZALE"/>
+      <keyMapping columnObjectName="M30_T161" columnName="KZALE"/>
+    </attribute>
+    <attribute id="ABGEBOT" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGEBOT"/>
+      <keyMapping columnObjectName="M30_T161" columnName="ABGEBOT"/>
+    </attribute>
+    <attribute id="KORNR" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KORNR"/>
+      <keyMapping columnObjectName="M30_T161" columnName="KORNR"/>
+    </attribute>
+    <attribute id="UMLIF" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMLIF"/>
+      <keyMapping columnObjectName="M30_T161" columnName="UMLIF"/>
+    </attribute>
+    <attribute id="KOETT" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOETT"/>
+      <keyMapping columnObjectName="M30_T161" columnName="KOETT"/>
+    </attribute>
+    <attribute id="AR_OBJECT" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AR_OBJECT"/>
+      <keyMapping columnObjectName="M30_T161" columnName="AR_OBJECT"/>
+    </attribute>
+    <attribute id="KOAKO" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOAKO"/>
+      <keyMapping columnObjectName="M30_T161" columnName="KOAKO"/>
+    </attribute>
+    <attribute id="TOLSL" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOLSL"/>
+      <keyMapping columnObjectName="M30_T161" columnName="TOLSL"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

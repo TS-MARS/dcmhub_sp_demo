@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T024" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T024"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_T024">
+    <resourceUri>M30_T024</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_T024">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_T024" columnName="MANDT"/>
+    </attribute>
+    <attribute id="EKGRP" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKGRP"/>
+      <keyMapping columnObjectName="M30_T024" columnName="EKGRP"/>
+    </attribute>
+    <attribute id="EKNAM" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKNAM"/>
+      <keyMapping columnObjectName="M30_T024" columnName="EKNAM"/>
+    </attribute>
+    <attribute id="EKTEL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKTEL"/>
+      <keyMapping columnObjectName="M30_T024" columnName="EKTEL"/>
+    </attribute>
+    <attribute id="LDEST" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LDEST"/>
+      <keyMapping columnObjectName="M30_T024" columnName="LDEST"/>
+    </attribute>
+    <attribute id="TELFX" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TELFX"/>
+      <keyMapping columnObjectName="M30_T024" columnName="TELFX"/>
+    </attribute>
+    <attribute id="TEL_NUMBER" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEL_NUMBER"/>
+      <keyMapping columnObjectName="M30_T024" columnName="TEL_NUMBER"/>
+    </attribute>
+    <attribute id="TEL_EXTENS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEL_EXTENS"/>
+      <keyMapping columnObjectName="M30_T024" columnName="TEL_EXTENS"/>
+    </attribute>
+    <attribute id="SMTP_ADDR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMTP_ADDR"/>
+      <keyMapping columnObjectName="M30_T024" columnName="SMTP_ADDR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

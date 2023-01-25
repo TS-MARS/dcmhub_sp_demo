@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ANLZ" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table ANLZ"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_ANLZ">
+    <resourceUri>M30_ANLZ</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_ANLZ">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="ANLN1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="BDATU" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDATU"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="BDATU"/>
+    </attribute>
+    <attribute id="ADATU" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADATU"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="ADATU"/>
+    </attribute>
+    <attribute id="KOSTL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="WERKS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="WERKS"/>
+    </attribute>
+    <attribute id="GSBER" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="GSBER"/>
+    </attribute>
+    <attribute id="LSTAR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="MSFAK" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSFAK"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="MSFAK"/>
+    </attribute>
+    <attribute id="XSTIL" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTIL"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="XSTIL"/>
+    </attribute>
+    <attribute id="STORT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STORT"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="STORT"/>
+    </attribute>
+    <attribute id="CAUFN" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CAUFN"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="CAUFN"/>
+    </attribute>
+    <attribute id="PLAN1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLAN1"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="PLAN1"/>
+    </attribute>
+    <attribute id="PLAN2" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLAN2"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="PLAN2"/>
+    </attribute>
+    <attribute id="RAUMN" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RAUMN"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="RAUMN"/>
+    </attribute>
+    <attribute id="IAUFN" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IAUFN"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="IAUFN"/>
+    </attribute>
+    <attribute id="IPROJ" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IPROJ"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="IPROJ"/>
+    </attribute>
+    <attribute id="TPLKZ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLKZ"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="TPLKZ"/>
+    </attribute>
+    <attribute id="TPLNR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLNR"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="TPLNR"/>
+    </attribute>
+    <attribute id="ANUPD" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANUPD"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="ANUPD"/>
+    </attribute>
+    <attribute id="TXJCD" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="IPSNR" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IPSNR"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="IPSNR"/>
+    </attribute>
+    <attribute id="KFZKZ" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFZKZ"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="KFZKZ"/>
+    </attribute>
+    <attribute id="PERNR" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERNR"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="PERNR"/>
+    </attribute>
+    <attribute id="KOSTLV" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTLV"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="KOSTLV"/>
+    </attribute>
+    <attribute id="FISTL" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="FISTL"/>
+    </attribute>
+    <attribute id="GEBER" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="GEBER"/>
+    </attribute>
+    <attribute id="FKBER" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="FKBER"/>
+    </attribute>
+    <attribute id="GRANT_NBR" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="GRANT_NBR"/>
+    </attribute>
+    <attribute id="GEBER2" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER2"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="GEBER2"/>
+    </attribute>
+    <attribute id="FKBER2" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER2"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="FKBER2"/>
+    </attribute>
+    <attribute id="GRANT_NBR2" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR2"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="GRANT_NBR2"/>
+    </attribute>
+    <attribute id="FISTL2" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL2"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="FISTL2"/>
+    </attribute>
+    <attribute id="IMKEY" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMKEY"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="IMKEY"/>
+    </attribute>
+    <attribute id="PS_PSP_PNR2" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PS_PSP_PNR2"/>
+      <keyMapping columnObjectName="M30_ANLZ" columnName="PS_PSP_PNR2"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIGL_FBL3N_1" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIGL_FBL3N_1"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_CV_FIGL_FBL3N_1">
+    <resourceUri>M30_CV_FIGL_FBL3N_1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_CV_FIGL_FBL3N_1">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KTOPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="SAKNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKNR"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="SAKNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BUDAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="BUZEI" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="ZUONR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="BELNR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GSBER" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="GSBER"/>
+    </attribute>
+    <attribute id="BLART" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="BLART"/>
+    </attribute>
+    <attribute id="BLDAT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BSCHL" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSCHL"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="BSCHL"/>
+    </attribute>
+    <attribute id="KOART" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOART"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="KOART"/>
+    </attribute>
+    <attribute id="SHKZG" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="DMBTR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="DMBTR"/>
+    </attribute>
+    <attribute id="HWAER" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWAER"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="HWAER"/>
+    </attribute>
+    <attribute id="WRBTR" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="WAERS" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="WAERS"/>
+    </attribute>
+    <attribute id="MWSKZ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="AUGBL" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGBL"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="AUGBL"/>
+    </attribute>
+    <attribute id="SGTXT" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="UMSKZ" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSKZ"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="UMSKZ"/>
+    </attribute>
+    <attribute id="UMSKS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSKS"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="UMSKS"/>
+    </attribute>
+    <attribute id="HKONT" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="HKONT"/>
+    </attribute>
+    <attribute id="KUNNR" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="LIFNR" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="ValueFC" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ValueFC"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="ValueFC"/>
+    </attribute>
+    <attribute id="ValueHC" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ValueHC"/>
+      <keyMapping columnObjectName="M30_CV_FIGL_FBL3N_1" columnName="ValueHC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAA_AB03" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAA_AB03"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_CV_FIAA_AB03">
+    <resourceUri>M30_CV_FIAA_AB03</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_CV_FIAA_AB03">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="ANLN1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="GJAHR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="LNRAN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNRAN"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="LNRAN"/>
+    </attribute>
+    <attribute id="AFABE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="AFABE"/>
+    </attribute>
+    <attribute id="BLDAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BUDAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="MONAT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MONAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="MONAT"/>
+    </attribute>
+    <attribute id="BWASL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWASL"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BWASL"/>
+    </attribute>
+    <attribute id="ANBTR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANBTR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ANBTR"/>
+    </attribute>
+    <attribute id="NAFAB" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAB"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="NAFAB"/>
+    </attribute>
+    <attribute id="SAFAB" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFAB"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="SAFAB"/>
+    </attribute>
+    <attribute id="ZUJHR" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUJHR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ZUJHR"/>
+    </attribute>
+    <attribute id="ZUCOD" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUCOD"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ZUCOD"/>
+    </attribute>
+    <attribute id="CPUDT" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUDT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="CPUDT"/>
+    </attribute>
+    <attribute id="CPUTM" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUTM"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="CPUTM"/>
+    </attribute>
+    <attribute id="AEDAT" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="UPDDT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPDDT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="UPDDT"/>
+    </attribute>
+    <attribute id="USNAM" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USNAM"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="USNAM"/>
+    </attribute>
+    <attribute id="TCODE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TCODE"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="TCODE"/>
+    </attribute>
+    <attribute id="BVORG" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BVORG"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BVORG"/>
+    </attribute>
+    <attribute id="XBLNR" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="XBLNR"/>
+    </attribute>
+    <attribute id="STBLG" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STBLG"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="STBLG"/>
+    </attribute>
+    <attribute id="STJAH" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STJAH"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="STJAH"/>
+    </attribute>
+    <attribute id="SGTXT" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="MENGE" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MENGE_DISP" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_DISP"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="MENGE_DISP"/>
+    </attribute>
+    <attribute id="MEINS" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="MEINS"/>
+    </attribute>
+    <attribute id="ANLU1" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLU1"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ANLU1"/>
+    </attribute>
+    <attribute id="ANLU2" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLU2"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ANLU2"/>
+    </attribute>
+    <attribute id="ANUPD" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANUPD"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ANUPD"/>
+    </attribute>
+    <attribute id="GLVOR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLVOR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="GLVOR"/>
+    </attribute>
+    <attribute id="VBUND" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBUND"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="VBUND"/>
+    </attribute>
+    <attribute id="PARGB" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARGB"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="PARGB"/>
+    </attribute>
+    <attribute id="BUREG" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUREG"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BUREG"/>
+    </attribute>
+    <attribute id="AUGLZ" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGLZ"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="AUGLZ"/>
+    </attribute>
+    <attribute id="ABRBUP" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABRBUP"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ABRBUP"/>
+    </attribute>
+    <attribute id="OBART" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBART"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="OBART"/>
+    </attribute>
+    <attribute id="OBJID" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJID"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="OBJID"/>
+    </attribute>
+    <attribute id="ZUONR" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="MWSKZ" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="EBELN" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="EBELP"/>
+    </attribute>
+    <attribute id="MATNR" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="MATNR"/>
+    </attribute>
+    <attribute id="AUGLN" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGLN"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="AUGLN"/>
+    </attribute>
+    <attribute id="BELNR" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BELNR"/>
+    </attribute>
+    <attribute id="BUZEI" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BZDAT" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BZDAT"/>
+    </attribute>
+    <attribute id="XANTEI" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XANTEI"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="XANTEI"/>
+    </attribute>
+    <attribute id="AWTYP" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWTYP"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="AWTYP"/>
+    </attribute>
+    <attribute id="AWORG" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWORG"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="AWORG"/>
+    </attribute>
+    <attribute id="AWSYS" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWSYS"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="AWSYS"/>
+    </attribute>
+    <attribute id="PBUKR" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PBUKR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="PBUKR"/>
+    </attribute>
+    <attribute id="PERAF" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERAF"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="PERAF"/>
+    </attribute>
+    <attribute id="BELNR_1" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR_1"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BELNR_1"/>
+    </attribute>
+    <attribute id="BUZEI_1" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI_1"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BUZEI_1"/>
+    </attribute>
+    <attribute id="BZDAT_1" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZDAT_1"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="BZDAT_1"/>
+    </attribute>
+    <attribute id="XAFAR" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAFAR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="XAFAR"/>
+    </attribute>
+    <attribute id="ZINSB" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINSB"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ZINSB"/>
+    </attribute>
+    <attribute id="XANTW" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XANTW"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="XANTW"/>
+    </attribute>
+    <attribute id="XAWBT" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAWBT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="XAWBT"/>
+    </attribute>
+    <attribute id="LNSAN" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNSAN"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="LNSAN"/>
+    </attribute>
+    <attribute id="ANUPD_1" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANUPD_1"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="ANUPD_1"/>
+    </attribute>
+    <attribute id="AUGLN_1" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGLN_1"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_AB03" columnName="AUGLN_1"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

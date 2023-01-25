@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T160L" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T160L"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_T160L">
+    <resourceUri>M30_T160L</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_T160L">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LISTU" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LISTU"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="LISTU"/>
+    </attribute>
+    <attribute id="SOMME" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOMME"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOMME"/>
+    </attribute>
+    <attribute id="SOWRS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOWRS"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOWRS"/>
+    </attribute>
+    <attribute id="SOWRO" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOWRO"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOWRO"/>
+    </attribute>
+    <attribute id="SOKTR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOKTR"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOKTR"/>
+    </attribute>
+    <attribute id="SOKTO" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOKTO"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOKTO"/>
+    </attribute>
+    <attribute id="SORSU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORSU"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SORSU"/>
+    </attribute>
+    <attribute id="SOUML" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOUML"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOUML"/>
+    </attribute>
+    <attribute id="SOSUB" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOSUB"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOSUB"/>
+    </attribute>
+    <attribute id="SOKNT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOKNT"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOKNT"/>
+    </attribute>
+    <attribute id="INCHD" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INCHD"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="INCHD"/>
+    </attribute>
+    <attribute id="INEKB" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INEKB"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="INEKB"/>
+    </attribute>
+    <attribute id="INEKE" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INEKE"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="INEKE"/>
+    </attribute>
+    <attribute id="INEKA" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INEKA"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="INEKA"/>
+    </attribute>
+    <attribute id="SOZWS" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOZWS"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOZWS"/>
+    </attribute>
+    <attribute id="SOZWO" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOZWO"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOZWO"/>
+    </attribute>
+    <attribute id="SOLFZ" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOLFZ"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOLFZ"/>
+    </attribute>
+    <attribute id="KURZF" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURZF"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="KURZF"/>
+    </attribute>
+    <attribute id="SORWE" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORWE"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SORWE"/>
+    </attribute>
+    <attribute id="SOBED" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBED"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOBED"/>
+    </attribute>
+    <attribute id="BASKZ" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BASKZ"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="BASKZ"/>
+    </attribute>
+    <attribute id="SOAVI" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOAVI"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SOAVI"/>
+    </attribute>
+    <attribute id="SGRWE" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGRWE"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="SGRWE"/>
+    </attribute>
+    <attribute id="ALVGR" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALVGR"/>
+      <keyMapping columnObjectName="M30_T160L" columnName="ALVGR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

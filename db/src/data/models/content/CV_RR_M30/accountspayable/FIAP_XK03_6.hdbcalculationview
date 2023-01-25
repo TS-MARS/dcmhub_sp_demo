@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAP_XK03_6" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAP_XK03_6"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_CV_FIAP_XK03_6">
+    <resourceUri>M30_CV_FIAP_XK03_6</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_CV_FIAP_XK03_6">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BANKS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKS"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="BANKS"/>
+    </attribute>
+    <attribute id="BANKL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKL"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="BANKL"/>
+    </attribute>
+    <attribute id="ERDAT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="ERNAM" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="BANKA" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKA"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="BANKA"/>
+    </attribute>
+    <attribute id="PROVZ" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROVZ"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="PROVZ"/>
+    </attribute>
+    <attribute id="STRAS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRAS"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="STRAS"/>
+    </attribute>
+    <attribute id="ORT01" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="ORT01"/>
+    </attribute>
+    <attribute id="SWIFT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SWIFT"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="SWIFT"/>
+    </attribute>
+    <attribute id="BGRUP" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BGRUP"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="BGRUP"/>
+    </attribute>
+    <attribute id="XPGRO" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPGRO"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="XPGRO"/>
+    </attribute>
+    <attribute id="LOEVM" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEVM"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="LOEVM"/>
+    </attribute>
+    <attribute id="BNKLZ" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNKLZ"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="BNKLZ"/>
+    </attribute>
+    <attribute id="PSKTO" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSKTO"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="PSKTO"/>
+    </attribute>
+    <attribute id="ADRNR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="BRNCH" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRNCH"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="BRNCH"/>
+    </attribute>
+    <attribute id="CHKME" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHKME"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="CHKME"/>
+    </attribute>
+    <attribute id="VERS" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERS"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="VERS"/>
+    </attribute>
+    <attribute id="BICKY" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BICKY"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="BICKY"/>
+    </attribute>
+    <attribute id="RCCODE" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCCODE"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_6" columnName="RCCODE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CDPOS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CDPOS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_CDPOS">
+    <resourceUri>M30_CDPOS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_CDPOS">
+  <attributes>
+    <attribute id="MANDANT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDANT"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="MANDANT"/>
+    </attribute>
+    <attribute id="OBJECTCLAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJECTCLAS"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="OBJECTCLAS"/>
+    </attribute>
+    <attribute id="OBJECTID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJECTID"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="OBJECTID"/>
+    </attribute>
+    <attribute id="CHANGENR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHANGENR"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="CHANGENR"/>
+    </attribute>
+    <attribute id="TABNAME" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TABNAME"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="TABNAME"/>
+    </attribute>
+    <attribute id="TABKEY" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TABKEY"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="TABKEY"/>
+    </attribute>
+    <attribute id="FNAME" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FNAME"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="FNAME"/>
+    </attribute>
+    <attribute id="CHNGIND" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHNGIND"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="CHNGIND"/>
+    </attribute>
+    <attribute id="TEXT_CASE" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEXT_CASE"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="TEXT_CASE"/>
+    </attribute>
+    <attribute id="UNIT_OLD" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNIT_OLD"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="UNIT_OLD"/>
+    </attribute>
+    <attribute id="UNIT_NEW" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNIT_NEW"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="UNIT_NEW"/>
+    </attribute>
+    <attribute id="CUKY_OLD" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUKY_OLD"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="CUKY_OLD"/>
+    </attribute>
+    <attribute id="CUKY_NEW" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUKY_NEW"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="CUKY_NEW"/>
+    </attribute>
+    <attribute id="VALUE_NEW" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALUE_NEW"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="VALUE_NEW"/>
+    </attribute>
+    <attribute id="VALUE_OLD" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALUE_OLD"/>
+      <keyMapping columnObjectName="M30_CDPOS" columnName="VALUE_OLD"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::KNC1" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table KNC1"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_KNC1">
+    <resourceUri>M30_KNC1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_KNC1">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="ERDAT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="USNAM" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USNAM"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="USNAM"/>
+    </attribute>
+    <attribute id="UMSAV" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSAV"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UMSAV"/>
+    </attribute>
+    <attribute id="UM01S" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM01S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM01S"/>
+    </attribute>
+    <attribute id="UM01H" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM01H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM01H"/>
+    </attribute>
+    <attribute id="UM01U" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM01U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM01U"/>
+    </attribute>
+    <attribute id="UM02S" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM02S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM02S"/>
+    </attribute>
+    <attribute id="UM02H" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM02H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM02H"/>
+    </attribute>
+    <attribute id="UM02U" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM02U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM02U"/>
+    </attribute>
+    <attribute id="UM03S" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM03S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM03S"/>
+    </attribute>
+    <attribute id="UM03H" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM03H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM03H"/>
+    </attribute>
+    <attribute id="UM03U" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM03U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM03U"/>
+    </attribute>
+    <attribute id="UM04S" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM04S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM04S"/>
+    </attribute>
+    <attribute id="UM04H" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM04H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM04H"/>
+    </attribute>
+    <attribute id="UM04U" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM04U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM04U"/>
+    </attribute>
+    <attribute id="UM05S" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM05S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM05S"/>
+    </attribute>
+    <attribute id="UM05H" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM05H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM05H"/>
+    </attribute>
+    <attribute id="UM05U" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM05U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM05U"/>
+    </attribute>
+    <attribute id="UM06S" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM06S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM06S"/>
+    </attribute>
+    <attribute id="UM06H" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM06H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM06H"/>
+    </attribute>
+    <attribute id="UM06U" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM06U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM06U"/>
+    </attribute>
+    <attribute id="UM07S" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM07S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM07S"/>
+    </attribute>
+    <attribute id="UM07H" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM07H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM07H"/>
+    </attribute>
+    <attribute id="UM07U" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM07U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM07U"/>
+    </attribute>
+    <attribute id="UM08S" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM08S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM08S"/>
+    </attribute>
+    <attribute id="UM08H" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM08H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM08H"/>
+    </attribute>
+    <attribute id="UM08U" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM08U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM08U"/>
+    </attribute>
+    <attribute id="UM09S" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM09S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM09S"/>
+    </attribute>
+    <attribute id="UM09H" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM09H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM09H"/>
+    </attribute>
+    <attribute id="UM09U" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM09U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM09U"/>
+    </attribute>
+    <attribute id="UM10S" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM10S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM10S"/>
+    </attribute>
+    <attribute id="UM10H" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM10H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM10H"/>
+    </attribute>
+    <attribute id="UM10U" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM10U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM10U"/>
+    </attribute>
+    <attribute id="UM11S" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM11S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM11S"/>
+    </attribute>
+    <attribute id="UM11H" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM11H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM11H"/>
+    </attribute>
+    <attribute id="UM11U" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM11U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM11U"/>
+    </attribute>
+    <attribute id="UM12S" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM12S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM12S"/>
+    </attribute>
+    <attribute id="UM12H" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM12H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM12H"/>
+    </attribute>
+    <attribute id="UM12U" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM12U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM12U"/>
+    </attribute>
+    <attribute id="UM13S" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM13S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM13S"/>
+    </attribute>
+    <attribute id="UM13H" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM13H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM13H"/>
+    </attribute>
+    <attribute id="UM13U" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM13U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM13U"/>
+    </attribute>
+    <attribute id="UM14S" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM14S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM14S"/>
+    </attribute>
+    <attribute id="UM14H" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM14H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM14H"/>
+    </attribute>
+    <attribute id="UM14U" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM14U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM14U"/>
+    </attribute>
+    <attribute id="UM15S" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM15S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM15S"/>
+    </attribute>
+    <attribute id="UM15H" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM15H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM15H"/>
+    </attribute>
+    <attribute id="UM15U" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM15U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM15U"/>
+    </attribute>
+    <attribute id="UM16S" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM16S"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM16S"/>
+    </attribute>
+    <attribute id="UM16H" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM16H"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM16H"/>
+    </attribute>
+    <attribute id="UM16U" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM16U"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UM16U"/>
+    </attribute>
+    <attribute id="BABZG" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BABZG"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="BABZG"/>
+    </attribute>
+    <attribute id="UABZG" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UABZG"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="UABZG"/>
+    </attribute>
+    <attribute id="KZINS" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZINS"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="KZINS"/>
+    </attribute>
+    <attribute id="KUMAG" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUMAG"/>
+      <keyMapping columnObjectName="M30_KNC1" columnName="KUMAG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

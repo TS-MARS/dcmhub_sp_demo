@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAA_S_ALR_87012058" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAA_S_ALR_87012058"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_CV_FIAA_S_ALR_87012058">
+    <resourceUri>M30_CV_FIAA_S_ALR_87012058</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_CV_FIAA_S_ALR_87012058">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BELNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BUZEI" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="ANLN1" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="TXT50" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXT50"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="TXT50"/>
+    </attribute>
+    <attribute id="ANLN2" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="BLART" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="BLART"/>
+    </attribute>
+    <attribute id="BLDAT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BUDAT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="SHKZG" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="GSBER" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="GSBER"/>
+    </attribute>
+    <attribute id="DMBTR" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="DMBTR"/>
+    </attribute>
+    <attribute id="WRBTR" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="VALUT" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALUT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="VALUT"/>
+    </attribute>
+    <attribute id="ZUONR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="SGTXT" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="ANBWA" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANBWA"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="ANBWA"/>
+    </attribute>
+    <attribute id="BZDAT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="BZDAT"/>
+    </attribute>
+    <attribute id="HKONT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="HKONT"/>
+    </attribute>
+    <attribute id="KUNNR" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="LIFNR" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAA_S_ALR_87012058" columnName="LIFNR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

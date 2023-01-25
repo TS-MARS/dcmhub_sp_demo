@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::AFPO" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table AFPO"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_AFPO">
+    <resourceUri>M30_AFPO</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_AFPO">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="MANDT"/>
+    </attribute>
+    <attribute id="AUFNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="POSNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="POSNR"/>
+    </attribute>
+    <attribute id="PSOBS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOBS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="PSOBS"/>
+    </attribute>
+    <attribute id="QUNUM" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUNUM"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="QUNUM"/>
+    </attribute>
+    <attribute id="QUPOS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QUPOS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="QUPOS"/>
+    </attribute>
+    <attribute id="PROJN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROJN"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="PROJN"/>
+    </attribute>
+    <attribute id="PLNUM" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNUM"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="PLNUM"/>
+    </attribute>
+    <attribute id="STRMP" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRMP"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="STRMP"/>
+    </attribute>
+    <attribute id="ETRMP" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETRMP"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="ETRMP"/>
+    </attribute>
+    <attribute id="KDAUF" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDAUF"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KDAUF"/>
+    </attribute>
+    <attribute id="KDPOS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDPOS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KDPOS"/>
+    </attribute>
+    <attribute id="KDEIN" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDEIN"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KDEIN"/>
+    </attribute>
+    <attribute id="BESKZ" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BESKZ"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="BESKZ"/>
+    </attribute>
+    <attribute id="PSAMG" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSAMG"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="PSAMG"/>
+    </attribute>
+    <attribute id="PSMNG" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSMNG"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="PSMNG"/>
+    </attribute>
+    <attribute id="WEMNG" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEMNG"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="WEMNG"/>
+    </attribute>
+    <attribute id="IAMNG" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IAMNG"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="IAMNG"/>
+    </attribute>
+    <attribute id="AMEIN" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AMEIN"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="AMEIN"/>
+    </attribute>
+    <attribute id="MEINS" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="MEINS"/>
+    </attribute>
+    <attribute id="MATNR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="MATNR"/>
+    </attribute>
+    <attribute id="PAMNG" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAMNG"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="PAMNG"/>
+    </attribute>
+    <attribute id="PGMNG" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGMNG"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="PGMNG"/>
+    </attribute>
+    <attribute id="KNTTP" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTTP"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KNTTP"/>
+    </attribute>
+    <attribute id="TPAUF" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPAUF"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="TPAUF"/>
+    </attribute>
+    <attribute id="LTRMI" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTRMI"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="LTRMI"/>
+    </attribute>
+    <attribute id="LTRMP" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTRMP"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="LTRMP"/>
+    </attribute>
+    <attribute id="KALNR" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALNR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KALNR"/>
+    </attribute>
+    <attribute id="UEBTO" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBTO"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="UEBTO"/>
+    </attribute>
+    <attribute id="UEBTK" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBTK"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="UEBTK"/>
+    </attribute>
+    <attribute id="UNTTO" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNTTO"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="UNTTO"/>
+    </attribute>
+    <attribute id="INSMK" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSMK"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="INSMK"/>
+    </attribute>
+    <attribute id="WEPOS" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEPOS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="WEPOS"/>
+    </attribute>
+    <attribute id="BWTAR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="BWTTY" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTTY"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="BWTTY"/>
+    </attribute>
+    <attribute id="PWERK" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PWERK"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="PWERK"/>
+    </attribute>
+    <attribute id="LGORT" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGORT"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="LGORT"/>
+    </attribute>
+    <attribute id="UMREZ" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMREZ"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="UMREZ"/>
+    </attribute>
+    <attribute id="UMREN" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMREN"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="UMREN"/>
+    </attribute>
+    <attribute id="WEBAZ" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEBAZ"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="WEBAZ"/>
+    </attribute>
+    <attribute id="ELIKZ" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ELIKZ"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="ELIKZ"/>
+    </attribute>
+    <attribute id="SAFNR" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAFNR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="SAFNR"/>
+    </attribute>
+    <attribute id="VERID" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERID"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="VERID"/>
+    </attribute>
+    <attribute id="SERNR" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="SERNR"/>
+    </attribute>
+    <attribute id="TECHS" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="TECHS"/>
+    </attribute>
+    <attribute id="DWERK" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DWERK"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="DWERK"/>
+    </attribute>
+    <attribute id="DAUTY" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DAUTY"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="DAUTY"/>
+    </attribute>
+    <attribute id="DAUAT" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DAUAT"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="DAUAT"/>
+    </attribute>
+    <attribute id="DGLTP" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DGLTP"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="DGLTP"/>
+    </attribute>
+    <attribute id="DGLTS" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DGLTS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="DGLTS"/>
+    </attribute>
+    <attribute id="DFREI" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DFREI"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="DFREI"/>
+    </attribute>
+    <attribute id="DNREL" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DNREL"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="DNREL"/>
+    </attribute>
+    <attribute id="VERTO" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERTO"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="VERTO"/>
+    </attribute>
+    <attribute id="SOBKZ" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBKZ"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="SOBKZ"/>
+    </attribute>
+    <attribute id="KZVBR" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVBR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KZVBR"/>
+    </attribute>
+    <attribute id="WEWRT" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEWRT"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="WEWRT"/>
+    </attribute>
+    <attribute id="WEUNB" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEUNB"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="WEUNB"/>
+    </attribute>
+    <attribute id="ABLAD" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABLAD"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="ABLAD"/>
+    </attribute>
+    <attribute id="WEMPF" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEMPF"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="WEMPF"/>
+    </attribute>
+    <attribute id="CHARG" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHARG"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="CHARG"/>
+    </attribute>
+    <attribute id="GSBER" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="GSBER"/>
+    </attribute>
+    <attribute id="WEAED" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEAED"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="WEAED"/>
+    </attribute>
+    <attribute id="CUOBJ" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="CUOBJ"/>
+    </attribute>
+    <attribute id="KBNKZ" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBNKZ"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KBNKZ"/>
+    </attribute>
+    <attribute id="ARSNR" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARSNR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="ARSNR"/>
+    </attribute>
+    <attribute id="ARSPS" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARSPS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="ARSPS"/>
+    </attribute>
+    <attribute id="KRSNR" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRSNR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KRSNR"/>
+    </attribute>
+    <attribute id="KRSPS" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRSPS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KRSPS"/>
+    </attribute>
+    <attribute id="KCKEY" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCKEY"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KCKEY"/>
+    </attribute>
+    <attribute id="RTP01" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTP01"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="RTP01"/>
+    </attribute>
+    <attribute id="RTP02" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTP02"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="RTP02"/>
+    </attribute>
+    <attribute id="RTP03" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTP03"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="RTP03"/>
+    </attribute>
+    <attribute id="RTP04" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RTP04"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="RTP04"/>
+    </attribute>
+    <attribute id="KSVON" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSVON"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KSVON"/>
+    </attribute>
+    <attribute id="KSBIS" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSBIS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KSBIS"/>
+    </attribute>
+    <attribute id="OBJNP" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNP"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="OBJNP"/>
+    </attribute>
+    <attribute id="NDISR" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NDISR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="NDISR"/>
+    </attribute>
+    <attribute id="VFMNG" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VFMNG"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="VFMNG"/>
+    </attribute>
+    <attribute id="GSBTR" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBTR"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="GSBTR"/>
+    </attribute>
+    <attribute id="KZAVC" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZAVC"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KZAVC"/>
+    </attribute>
+    <attribute id="KZBWS" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBWS"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="KZBWS"/>
+    </attribute>
+    <attribute id="XLOEK" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLOEK"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="XLOEK"/>
+    </attribute>
+    <attribute id="SERNP" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNP"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="SERNP"/>
+    </attribute>
+    <attribute id="ANZSN" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZSN"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="ANZSN"/>
+    </attribute>
+    <attribute id="OBJTYPE" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJTYPE"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="OBJTYPE"/>
+    </attribute>
+    <attribute id="CH_PROC" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CH_PROC"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="CH_PROC"/>
+    </attribute>
+    <attribute id="FXPRU" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FXPRU"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="FXPRU"/>
+    </attribute>
+    <attribute id="CUOBJ_ROOT" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ_ROOT"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="CUOBJ_ROOT"/>
+    </attribute>
+    <attribute id="BERID" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERID"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="BERID"/>
+    </attribute>
+    <attribute id="TECHS_COPY" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHS_COPY"/>
+      <keyMapping columnObjectName="M30_AFPO" columnName="TECHS_COPY"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

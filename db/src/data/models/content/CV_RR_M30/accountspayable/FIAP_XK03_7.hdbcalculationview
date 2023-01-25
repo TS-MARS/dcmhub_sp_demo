@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAP_XK03_7" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAP_XK03_7"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_CV_FIAP_XK03_7">
+    <resourceUri>M30_CV_FIAP_XK03_7</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_CV_FIAP_XK03_7">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="MANDT"/>
+    </attribute>
+    <attribute id="LIFNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="EKORG" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKORG"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="EKORG"/>
+    </attribute>
+    <attribute id="LTSNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTSNR"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="LTSNR"/>
+    </attribute>
+    <attribute id="WERKS" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="WERKS"/>
+    </attribute>
+    <attribute id="ERDAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="ERNAM" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="SPERM" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPERM"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="SPERM"/>
+    </attribute>
+    <attribute id="LOEVM" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEVM"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="LOEVM"/>
+    </attribute>
+    <attribute id="LFABC" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFABC"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="LFABC"/>
+    </attribute>
+    <attribute id="WAERS" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="WAERS"/>
+    </attribute>
+    <attribute id="VERKF" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERKF"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="VERKF"/>
+    </attribute>
+    <attribute id="TELF1" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TELF1"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="TELF1"/>
+    </attribute>
+    <attribute id="MINBW" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MINBW"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="MINBW"/>
+    </attribute>
+    <attribute id="ZTERM" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZTERM"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="ZTERM"/>
+    </attribute>
+    <attribute id="INCO1" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INCO1"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="INCO1"/>
+    </attribute>
+    <attribute id="INCO2" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INCO2"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="INCO2"/>
+    </attribute>
+    <attribute id="EKGRP" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKGRP"/>
+      <keyMapping columnObjectName="M30_CV_FIAP_XK03_7" columnName="EKGRP"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

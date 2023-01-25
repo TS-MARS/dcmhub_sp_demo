@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T006A" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T006A"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_T006A">
+    <resourceUri>M30_T006A</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_T006A">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_T006A" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SPRAS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="M30_T006A" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="MSEHI" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSEHI"/>
+      <keyMapping columnObjectName="M30_T006A" columnName="MSEHI"/>
+    </attribute>
+    <attribute id="MSEH3" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSEH3"/>
+      <keyMapping columnObjectName="M30_T006A" columnName="MSEH3"/>
+    </attribute>
+    <attribute id="MSEH6" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSEH6"/>
+      <keyMapping columnObjectName="M30_T006A" columnName="MSEH6"/>
+    </attribute>
+    <attribute id="MSEHT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSEHT"/>
+      <keyMapping columnObjectName="M30_T006A" columnName="MSEHT"/>
+    </attribute>
+    <attribute id="MSEHL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSEHL"/>
+      <keyMapping columnObjectName="M30_T006A" columnName="MSEHL"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

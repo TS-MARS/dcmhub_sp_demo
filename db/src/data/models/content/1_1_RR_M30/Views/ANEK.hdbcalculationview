@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ANEK" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table ANEK"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_ANEK">
+    <resourceUri>M30_ANEK</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_ANEK">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="ANLN1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="GJAHR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="LNRAN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNRAN"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="LNRAN"/>
+    </attribute>
+    <attribute id="BLDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BUDAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="MONAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MONAT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="MONAT"/>
+    </attribute>
+    <attribute id="CPUDT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUDT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="CPUDT"/>
+    </attribute>
+    <attribute id="CPUTM" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUTM"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="CPUTM"/>
+    </attribute>
+    <attribute id="AEDAT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="UPDDT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPDDT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="UPDDT"/>
+    </attribute>
+    <attribute id="USNAM" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USNAM"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="USNAM"/>
+    </attribute>
+    <attribute id="TCODE" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TCODE"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="TCODE"/>
+    </attribute>
+    <attribute id="BVORG" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BVORG"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="BVORG"/>
+    </attribute>
+    <attribute id="XBLNR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="XBLNR"/>
+    </attribute>
+    <attribute id="STBLG" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STBLG"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="STBLG"/>
+    </attribute>
+    <attribute id="STJAH" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STJAH"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="STJAH"/>
+    </attribute>
+    <attribute id="SGTXT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="MENGE" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MEINS" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="MEINS"/>
+    </attribute>
+    <attribute id="ANLU1" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLU1"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="ANLU1"/>
+    </attribute>
+    <attribute id="ANLU2" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLU2"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="ANLU2"/>
+    </attribute>
+    <attribute id="ANUPD" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANUPD"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="ANUPD"/>
+    </attribute>
+    <attribute id="GLVOR" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLVOR"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="GLVOR"/>
+    </attribute>
+    <attribute id="VBUND" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBUND"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="VBUND"/>
+    </attribute>
+    <attribute id="PARGB" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARGB"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="PARGB"/>
+    </attribute>
+    <attribute id="BUREG" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUREG"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="BUREG"/>
+    </attribute>
+    <attribute id="AUGLZ" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGLZ"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="AUGLZ"/>
+    </attribute>
+    <attribute id="ABRBUP" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABRBUP"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="ABRBUP"/>
+    </attribute>
+    <attribute id="OBART" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBART"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="OBART"/>
+    </attribute>
+    <attribute id="OBJID" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJID"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="OBJID"/>
+    </attribute>
+    <attribute id="ZUONR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="MWSKZ" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="EBELN" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="EBELP"/>
+    </attribute>
+    <attribute id="MATNR" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="MATNR"/>
+    </attribute>
+    <attribute id="AUGLN" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGLN"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="AUGLN"/>
+    </attribute>
+    <attribute id="BELNR" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="BELNR"/>
+    </attribute>
+    <attribute id="BUZEI" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BZDAT" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZDAT"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="BZDAT"/>
+    </attribute>
+    <attribute id="XANTEI" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XANTEI"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="XANTEI"/>
+    </attribute>
+    <attribute id="AWTYP" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWTYP"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="AWTYP"/>
+    </attribute>
+    <attribute id="AWORG" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWORG"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="AWORG"/>
+    </attribute>
+    <attribute id="AWSYS" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWSYS"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="AWSYS"/>
+    </attribute>
+    <attribute id="PBUKR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PBUKR"/>
+      <keyMapping columnObjectName="M30_ANEK" columnName="PBUKR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

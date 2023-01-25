@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::DD03L" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table DD03L"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_DD03L">
+    <resourceUri>M30_DD03L</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_DD03L">
+  <attributes>
+    <attribute id="TABNAME" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TABNAME"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="TABNAME"/>
+    </attribute>
+    <attribute id="FIELDNAME" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIELDNAME"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="FIELDNAME"/>
+    </attribute>
+    <attribute id="AS4LOCAL" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AS4LOCAL"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="AS4LOCAL"/>
+    </attribute>
+    <attribute id="AS4VERS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AS4VERS"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="AS4VERS"/>
+    </attribute>
+    <attribute id="POSITION" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSITION"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="POSITION"/>
+    </attribute>
+    <attribute id="KEYFLAG" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KEYFLAG"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="KEYFLAG"/>
+    </attribute>
+    <attribute id="MANDATORY" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDATORY"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="MANDATORY"/>
+    </attribute>
+    <attribute id="ROLLNAME" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROLLNAME"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="ROLLNAME"/>
+    </attribute>
+    <attribute id="CHECKTABLE" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHECKTABLE"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="CHECKTABLE"/>
+    </attribute>
+    <attribute id="ADMINFIELD" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADMINFIELD"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="ADMINFIELD"/>
+    </attribute>
+    <attribute id="INTTYPE" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTTYPE"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="INTTYPE"/>
+    </attribute>
+    <attribute id="INTLEN" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTLEN"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="INTLEN"/>
+    </attribute>
+    <attribute id="REFTABLE" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFTABLE"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="REFTABLE"/>
+    </attribute>
+    <attribute id="PRECFIELD" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRECFIELD"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="PRECFIELD"/>
+    </attribute>
+    <attribute id="REFFIELD" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFFIELD"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="REFFIELD"/>
+    </attribute>
+    <attribute id="CONROUT" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONROUT"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="CONROUT"/>
+    </attribute>
+    <attribute id="NOTNULL" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOTNULL"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="NOTNULL"/>
+    </attribute>
+    <attribute id="DATATYPE" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATATYPE"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="DATATYPE"/>
+    </attribute>
+    <attribute id="LENG" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LENG"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="LENG"/>
+    </attribute>
+    <attribute id="DECIMALS" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DECIMALS"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="DECIMALS"/>
+    </attribute>
+    <attribute id="DOMNAME" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOMNAME"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="DOMNAME"/>
+    </attribute>
+    <attribute id="SHLPORIGIN" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHLPORIGIN"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="SHLPORIGIN"/>
+    </attribute>
+    <attribute id="TABLETYPE" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TABLETYPE"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="TABLETYPE"/>
+    </attribute>
+    <attribute id="DEPTH" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEPTH"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="DEPTH"/>
+    </attribute>
+    <attribute id="COMPTYPE" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COMPTYPE"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="COMPTYPE"/>
+    </attribute>
+    <attribute id="REFTYPE" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFTYPE"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="REFTYPE"/>
+    </attribute>
+    <attribute id="LANGUFLAG" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGUFLAG"/>
+      <keyMapping columnObjectName="M30_DD03L" columnName="LANGUFLAG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

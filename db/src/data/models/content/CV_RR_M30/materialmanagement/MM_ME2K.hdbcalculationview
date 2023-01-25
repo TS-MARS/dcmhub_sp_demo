@@ -1,0 +1,1911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_ME2K" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_ME2K"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_CV_MM_ME2K">
+    <resourceUri>M30_CV_MM_ME2K</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_CV_MM_ME2K">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MANDT"/>
+    </attribute>
+    <attribute id="EBELN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EBELN"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BSTYP" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTYP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BSTYP"/>
+    </attribute>
+    <attribute id="BSART" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSART"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BSART"/>
+    </attribute>
+    <attribute id="BSAKZ" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSAKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BSAKZ"/>
+    </attribute>
+    <attribute id="LOEKZ" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LOEKZ"/>
+    </attribute>
+    <attribute id="STATU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STATU"/>
+    </attribute>
+    <attribute id="AEDAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="ERNAM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="PINCR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PINCR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PINCR"/>
+    </attribute>
+    <attribute id="LPONR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LPONR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LPONR"/>
+    </attribute>
+    <attribute id="LIFNR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="SPRAS" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="ZTERM" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZTERM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZTERM"/>
+    </attribute>
+    <attribute id="ZBD1T" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD1T"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZBD1T"/>
+    </attribute>
+    <attribute id="ZBD2T" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD2T"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZBD2T"/>
+    </attribute>
+    <attribute id="ZBD3T" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD3T"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZBD3T"/>
+    </attribute>
+    <attribute id="ZBD1P" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD1P"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZBD1P"/>
+    </attribute>
+    <attribute id="ZBD2P" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD2P"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZBD2P"/>
+    </attribute>
+    <attribute id="EKORG" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKORG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EKORG"/>
+    </attribute>
+    <attribute id="EKGRP" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKGRP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EKGRP"/>
+    </attribute>
+    <attribute id="WAERS" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WAERS"/>
+    </attribute>
+    <attribute id="WKURS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKURS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WKURS"/>
+    </attribute>
+    <attribute id="KUFIX" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUFIX"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KUFIX"/>
+    </attribute>
+    <attribute id="BEDAT" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEDAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BEDAT"/>
+    </attribute>
+    <attribute id="KDATB" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDATB"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KDATB"/>
+    </attribute>
+    <attribute id="KDATE" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDATE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KDATE"/>
+    </attribute>
+    <attribute id="BWBDT" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWBDT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BWBDT"/>
+    </attribute>
+    <attribute id="ANGDT" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANGDT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ANGDT"/>
+    </attribute>
+    <attribute id="BNDDT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNDDT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BNDDT"/>
+    </attribute>
+    <attribute id="GWLDT" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GWLDT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GWLDT"/>
+    </attribute>
+    <attribute id="AUSNR" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AUSNR"/>
+    </attribute>
+    <attribute id="ANGNR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANGNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ANGNR"/>
+    </attribute>
+    <attribute id="IHRAN" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IHRAN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="IHRAN"/>
+    </attribute>
+    <attribute id="IHREZ" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IHREZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="IHREZ"/>
+    </attribute>
+    <attribute id="VERKF" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERKF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VERKF"/>
+    </attribute>
+    <attribute id="TELF1" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TELF1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TELF1"/>
+    </attribute>
+    <attribute id="LLIEF" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LLIEF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LLIEF"/>
+    </attribute>
+    <attribute id="KUNNR" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="KONNR" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KONNR"/>
+    </attribute>
+    <attribute id="ABGRU" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGRU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABGRU"/>
+    </attribute>
+    <attribute id="AUTLF" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUTLF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AUTLF"/>
+    </attribute>
+    <attribute id="WEAKT" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEAKT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WEAKT"/>
+    </attribute>
+    <attribute id="RESWK" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESWK"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="RESWK"/>
+    </attribute>
+    <attribute id="LBLIF" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LBLIF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LBLIF"/>
+    </attribute>
+    <attribute id="INCO1" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INCO1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="INCO1"/>
+    </attribute>
+    <attribute id="INCO2" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INCO2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="INCO2"/>
+    </attribute>
+    <attribute id="KTWRT" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTWRT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KTWRT"/>
+    </attribute>
+    <attribute id="SUBMI" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBMI"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SUBMI"/>
+    </attribute>
+    <attribute id="KNUMV" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMV"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KNUMV"/>
+    </attribute>
+    <attribute id="KALSM" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KALSM"/>
+    </attribute>
+    <attribute id="STAFO" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAFO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STAFO"/>
+    </attribute>
+    <attribute id="LIFRE" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFRE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LIFRE"/>
+    </attribute>
+    <attribute id="EXNUM" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXNUM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EXNUM"/>
+    </attribute>
+    <attribute id="UNSEZ" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNSEZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UNSEZ"/>
+    </attribute>
+    <attribute id="LOGSY" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGSY"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LOGSY"/>
+    </attribute>
+    <attribute id="UPINC" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPINC"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UPINC"/>
+    </attribute>
+    <attribute id="STAKO" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAKO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STAKO"/>
+    </attribute>
+    <attribute id="FRGGR" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRGGR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FRGGR"/>
+    </attribute>
+    <attribute id="FRGSX" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRGSX"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FRGSX"/>
+    </attribute>
+    <attribute id="FRGKE" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRGKE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FRGKE"/>
+    </attribute>
+    <attribute id="FRGZU" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRGZU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FRGZU"/>
+    </attribute>
+    <attribute id="FRGRL" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRGRL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FRGRL"/>
+    </attribute>
+    <attribute id="LANDS" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LANDS"/>
+    </attribute>
+    <attribute id="LPHIS" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LPHIS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LPHIS"/>
+    </attribute>
+    <attribute id="ADRNR" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="STCEG_L" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG_L"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STCEG_L"/>
+    </attribute>
+    <attribute id="STCEG" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STCEG"/>
+    </attribute>
+    <attribute id="ABSGR" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABSGR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABSGR"/>
+    </attribute>
+    <attribute id="ADDNR" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ADDNR"/>
+    </attribute>
+    <attribute id="KORNR" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KORNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KORNR"/>
+    </attribute>
+    <attribute id="MEMORY" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEMORY"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MEMORY"/>
+    </attribute>
+    <attribute id="PROCSTAT" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROCSTAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PROCSTAT"/>
+    </attribute>
+    <attribute id="RLWRT" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLWRT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="RLWRT"/>
+    </attribute>
+    <attribute id="REVNO" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REVNO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="REVNO"/>
+    </attribute>
+    <attribute id="ZZVERPACK" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZVERPACK"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZZVERPACK"/>
+    </attribute>
+    <attribute id="MANDT_1" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="EBELN_1" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EBELN_1"/>
+    </attribute>
+    <attribute id="EBELP" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EBELP"/>
+    </attribute>
+    <attribute id="LOEKZ_1" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEKZ_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LOEKZ_1"/>
+    </attribute>
+    <attribute id="STATU_1" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATU_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STATU_1"/>
+    </attribute>
+    <attribute id="AEDAT_1" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AEDAT_1"/>
+    </attribute>
+    <attribute id="TXZ01" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXZ01"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TXZ01"/>
+    </attribute>
+    <attribute id="MATNR" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MATNR"/>
+    </attribute>
+    <attribute id="EMATN" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMATN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EMATN"/>
+    </attribute>
+    <attribute id="BUKRS_1" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BUKRS_1"/>
+    </attribute>
+    <attribute id="WERKS" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WERKS"/>
+    </attribute>
+    <attribute id="LGORT" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGORT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LGORT"/>
+    </attribute>
+    <attribute id="BEDNR" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEDNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BEDNR"/>
+    </attribute>
+    <attribute id="MATKL" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATKL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MATKL"/>
+    </attribute>
+    <attribute id="INFNR" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INFNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="INFNR"/>
+    </attribute>
+    <attribute id="IDNLF" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDNLF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="IDNLF"/>
+    </attribute>
+    <attribute id="KTMNG" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTMNG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KTMNG"/>
+    </attribute>
+    <attribute id="KTMNG_DISP" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTMNG_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KTMNG_DISP"/>
+    </attribute>
+    <attribute id="MENGE" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MENGE_DISP" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MENGE_DISP"/>
+    </attribute>
+    <attribute id="MEINS" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MEINS"/>
+    </attribute>
+    <attribute id="BPRME" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPRME"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BPRME"/>
+    </attribute>
+    <attribute id="BPUMZ" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPUMZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BPUMZ"/>
+    </attribute>
+    <attribute id="BPUMN" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPUMN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BPUMN"/>
+    </attribute>
+    <attribute id="UMREZ" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMREZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UMREZ"/>
+    </attribute>
+    <attribute id="UMREN" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMREN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UMREN"/>
+    </attribute>
+    <attribute id="NETPR" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NETPR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NETPR"/>
+    </attribute>
+    <attribute id="PEINH" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PEINH"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PEINH"/>
+    </attribute>
+    <attribute id="NETWR" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NETWR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NETWR"/>
+    </attribute>
+    <attribute id="BRTWR" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRTWR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BRTWR"/>
+    </attribute>
+    <attribute id="AGDAT" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AGDAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AGDAT"/>
+    </attribute>
+    <attribute id="WEBAZ" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEBAZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WEBAZ"/>
+    </attribute>
+    <attribute id="MWSKZ" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="BONUS" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BONUS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BONUS"/>
+    </attribute>
+    <attribute id="INSMK" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSMK"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="INSMK"/>
+    </attribute>
+    <attribute id="SPINF" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPINF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SPINF"/>
+    </attribute>
+    <attribute id="PRSDR" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSDR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PRSDR"/>
+    </attribute>
+    <attribute id="SCHPR" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCHPR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SCHPR"/>
+    </attribute>
+    <attribute id="MAHNZ" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAHNZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MAHNZ"/>
+    </attribute>
+    <attribute id="MAHN1" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAHN1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MAHN1"/>
+    </attribute>
+    <attribute id="MAHN2" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAHN2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MAHN2"/>
+    </attribute>
+    <attribute id="MAHN3" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAHN3"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MAHN3"/>
+    </attribute>
+    <attribute id="UEBTO" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBTO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UEBTO"/>
+    </attribute>
+    <attribute id="UEBTK" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBTK"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UEBTK"/>
+    </attribute>
+    <attribute id="UNTTO" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNTTO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UNTTO"/>
+    </attribute>
+    <attribute id="BWTAR" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="BWTTY" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTTY"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BWTTY"/>
+    </attribute>
+    <attribute id="ABSKZ" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABSKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABSKZ"/>
+    </attribute>
+    <attribute id="AGMEM" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AGMEM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AGMEM"/>
+    </attribute>
+    <attribute id="ELIKZ" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ELIKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ELIKZ"/>
+    </attribute>
+    <attribute id="EREKZ" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EREKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EREKZ"/>
+    </attribute>
+    <attribute id="PSTYP" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTYP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PSTYP"/>
+    </attribute>
+    <attribute id="KNTTP" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTTP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KNTTP"/>
+    </attribute>
+    <attribute id="KZVBR" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVBR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZVBR"/>
+    </attribute>
+    <attribute id="VRTKZ" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRTKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VRTKZ"/>
+    </attribute>
+    <attribute id="TWRKZ" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TWRKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TWRKZ"/>
+    </attribute>
+    <attribute id="WEPOS" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEPOS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WEPOS"/>
+    </attribute>
+    <attribute id="WEUNB" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEUNB"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WEUNB"/>
+    </attribute>
+    <attribute id="REPOS" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REPOS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="REPOS"/>
+    </attribute>
+    <attribute id="WEBRE" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEBRE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WEBRE"/>
+    </attribute>
+    <attribute id="KZABS" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZABS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZABS"/>
+    </attribute>
+    <attribute id="LABNR" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LABNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LABNR"/>
+    </attribute>
+    <attribute id="KONNR_1" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONNR_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KONNR_1"/>
+    </attribute>
+    <attribute id="KTPNR" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTPNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KTPNR"/>
+    </attribute>
+    <attribute id="ABDAT" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABDAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABDAT"/>
+    </attribute>
+    <attribute id="ABFTZ" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABFTZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABFTZ"/>
+    </attribute>
+    <attribute id="ABFTZ_DISP" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABFTZ_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABFTZ_DISP"/>
+    </attribute>
+    <attribute id="ETFZ1" order="145" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETFZ1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ETFZ1"/>
+    </attribute>
+    <attribute id="ETFZ2" order="146" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETFZ2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ETFZ2"/>
+    </attribute>
+    <attribute id="KZSTU" order="147" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZSTU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZSTU"/>
+    </attribute>
+    <attribute id="NOTKZ" order="148" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOTKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NOTKZ"/>
+    </attribute>
+    <attribute id="LMEIN" order="149" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMEIN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LMEIN"/>
+    </attribute>
+    <attribute id="EVERS" order="150" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EVERS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EVERS"/>
+    </attribute>
+    <attribute id="ZWERT" order="151" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZWERT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZWERT"/>
+    </attribute>
+    <attribute id="NAVNW" order="152" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAVNW"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NAVNW"/>
+    </attribute>
+    <attribute id="ABMNG" order="153" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABMNG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABMNG"/>
+    </attribute>
+    <attribute id="ABMNG_DISP" order="154" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABMNG_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABMNG_DISP"/>
+    </attribute>
+    <attribute id="PRDAT" order="155" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRDAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PRDAT"/>
+    </attribute>
+    <attribute id="BSTYP_1" order="156" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTYP_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BSTYP_1"/>
+    </attribute>
+    <attribute id="EFFWR" order="157" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EFFWR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EFFWR"/>
+    </attribute>
+    <attribute id="XOBLR" order="158" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XOBLR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="XOBLR"/>
+    </attribute>
+    <attribute id="KUNNR_1" order="159" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KUNNR_1"/>
+    </attribute>
+    <attribute id="ADRNR_1" order="160" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ADRNR_1"/>
+    </attribute>
+    <attribute id="EKKOL" order="161" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKKOL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EKKOL"/>
+    </attribute>
+    <attribute id="SKTOF" order="162" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SKTOF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SKTOF"/>
+    </attribute>
+    <attribute id="STAFO_1" order="163" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAFO_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STAFO_1"/>
+    </attribute>
+    <attribute id="PLIFZ" order="164" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLIFZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PLIFZ"/>
+    </attribute>
+    <attribute id="NTGEW" order="165" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NTGEW"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NTGEW"/>
+    </attribute>
+    <attribute id="NTGEW_DISP" order="166" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NTGEW_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NTGEW_DISP"/>
+    </attribute>
+    <attribute id="GEWEI" order="167" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEWEI"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GEWEI"/>
+    </attribute>
+    <attribute id="TXJCD" order="168" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="ETDRK" order="169" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETDRK"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ETDRK"/>
+    </attribute>
+    <attribute id="SOBKZ" order="170" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SOBKZ"/>
+    </attribute>
+    <attribute id="ARSNR" order="171" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARSNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ARSNR"/>
+    </attribute>
+    <attribute id="ARSPS" order="172" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARSPS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ARSPS"/>
+    </attribute>
+    <attribute id="INSNC" order="173" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSNC"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="INSNC"/>
+    </attribute>
+    <attribute id="SSQSS" order="174" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SSQSS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SSQSS"/>
+    </attribute>
+    <attribute id="ZGTYP" order="175" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZGTYP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZGTYP"/>
+    </attribute>
+    <attribute id="EAN11" order="176" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EAN11"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EAN11"/>
+    </attribute>
+    <attribute id="BSTAE" order="177" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTAE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BSTAE"/>
+    </attribute>
+    <attribute id="REVLV" order="178" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REVLV"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="REVLV"/>
+    </attribute>
+    <attribute id="GEBER" order="179" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GEBER"/>
+    </attribute>
+    <attribute id="FISTL" order="180" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FISTL"/>
+    </attribute>
+    <attribute id="FIPOS" order="181" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIPOS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FIPOS"/>
+    </attribute>
+    <attribute id="KO_GSBER" order="182" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KO_GSBER"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KO_GSBER"/>
+    </attribute>
+    <attribute id="KO_PARGB" order="183" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KO_PARGB"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KO_PARGB"/>
+    </attribute>
+    <attribute id="KO_PRCTR" order="184" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KO_PRCTR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KO_PRCTR"/>
+    </attribute>
+    <attribute id="KO_PPRCTR" order="185" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KO_PPRCTR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KO_PPRCTR"/>
+    </attribute>
+    <attribute id="MEPRF" order="186" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEPRF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MEPRF"/>
+    </attribute>
+    <attribute id="BRGEW" order="187" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRGEW"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BRGEW"/>
+    </attribute>
+    <attribute id="BRGEW_DISP" order="188" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRGEW_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BRGEW_DISP"/>
+    </attribute>
+    <attribute id="VOLUM" order="189" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VOLUM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VOLUM"/>
+    </attribute>
+    <attribute id="VOLUM_DISP" order="190" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VOLUM_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VOLUM_DISP"/>
+    </attribute>
+    <attribute id="VOLEH" order="191" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VOLEH"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VOLEH"/>
+    </attribute>
+    <attribute id="INCO1_1" order="192" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INCO1_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="INCO1_1"/>
+    </attribute>
+    <attribute id="INCO2_1" order="193" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INCO2_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="INCO2_1"/>
+    </attribute>
+    <attribute id="VORAB" order="194" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VORAB"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VORAB"/>
+    </attribute>
+    <attribute id="KOLIF" order="195" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOLIF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KOLIF"/>
+    </attribute>
+    <attribute id="LTSNR" order="196" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTSNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LTSNR"/>
+    </attribute>
+    <attribute id="PACKNO" order="197" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PACKNO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PACKNO"/>
+    </attribute>
+    <attribute id="FPLNR" order="198" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FPLNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FPLNR"/>
+    </attribute>
+    <attribute id="GNETWR" order="199" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GNETWR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GNETWR"/>
+    </attribute>
+    <attribute id="STAPO" order="200" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAPO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STAPO"/>
+    </attribute>
+    <attribute id="UEBPO" order="201" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBPO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UEBPO"/>
+    </attribute>
+    <attribute id="LEWED" order="202" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEWED"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LEWED"/>
+    </attribute>
+    <attribute id="EMLIF" order="203" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMLIF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EMLIF"/>
+    </attribute>
+    <attribute id="LBLKZ" order="204" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LBLKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LBLKZ"/>
+    </attribute>
+    <attribute id="SATNR" order="205" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SATNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SATNR"/>
+    </attribute>
+    <attribute id="ATTYP" order="206" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATTYP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ATTYP"/>
+    </attribute>
+    <attribute id="KANBA" order="207" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KANBA"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KANBA"/>
+    </attribute>
+    <attribute id="ADRN2" order="208" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRN2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ADRN2"/>
+    </attribute>
+    <attribute id="CUOBJ" order="209" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="CUOBJ"/>
+    </attribute>
+    <attribute id="XERSY" order="210" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XERSY"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="XERSY"/>
+    </attribute>
+    <attribute id="EILDT" order="211" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EILDT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EILDT"/>
+    </attribute>
+    <attribute id="DRDAT" order="212" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DRDAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="DRDAT"/>
+    </attribute>
+    <attribute id="DRUHR" order="213" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DRUHR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="DRUHR"/>
+    </attribute>
+    <attribute id="DRUNR" order="214" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DRUNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="DRUNR"/>
+    </attribute>
+    <attribute id="AKTNR" order="215" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKTNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AKTNR"/>
+    </attribute>
+    <attribute id="ABELN" order="216" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABELN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABELN"/>
+    </attribute>
+    <attribute id="ABELP" order="217" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABELP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABELP"/>
+    </attribute>
+    <attribute id="ANZPU" order="218" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZPU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ANZPU"/>
+    </attribute>
+    <attribute id="ANZPU_DISP" order="219" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZPU_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ANZPU_DISP"/>
+    </attribute>
+    <attribute id="PUNEI" order="220" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PUNEI"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PUNEI"/>
+    </attribute>
+    <attribute id="SAISO" order="221" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAISO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SAISO"/>
+    </attribute>
+    <attribute id="SAISJ" order="222" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAISJ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SAISJ"/>
+    </attribute>
+    <attribute id="EBON2" order="223" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBON2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EBON2"/>
+    </attribute>
+    <attribute id="EBON3" order="224" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBON3"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EBON3"/>
+    </attribute>
+    <attribute id="EBONF" order="225" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBONF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EBONF"/>
+    </attribute>
+    <attribute id="MLMAA" order="226" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLMAA"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MLMAA"/>
+    </attribute>
+    <attribute id="MHDRZ" order="227" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MHDRZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MHDRZ"/>
+    </attribute>
+    <attribute id="ANFNR" order="228" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANFNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ANFNR"/>
+    </attribute>
+    <attribute id="ANFPS" order="229" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANFPS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ANFPS"/>
+    </attribute>
+    <attribute id="KZKFG" order="230" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKFG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZKFG"/>
+    </attribute>
+    <attribute id="USEQU" order="231" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USEQU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USEQU"/>
+    </attribute>
+    <attribute id="UMSOK" order="232" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSOK"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UMSOK"/>
+    </attribute>
+    <attribute id="BANFN" order="233" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANFN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BANFN"/>
+    </attribute>
+    <attribute id="BNFPO" order="234" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNFPO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BNFPO"/>
+    </attribute>
+    <attribute id="MTART" order="235" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MTART"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MTART"/>
+    </attribute>
+    <attribute id="UPTYP" order="236" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPTYP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UPTYP"/>
+    </attribute>
+    <attribute id="UPVOR" order="237" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPVOR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="UPVOR"/>
+    </attribute>
+    <attribute id="KZWI1" order="238" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZWI1"/>
+    </attribute>
+    <attribute id="KZWI2" order="239" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZWI2"/>
+    </attribute>
+    <attribute id="KZWI3" order="240" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI3"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZWI3"/>
+    </attribute>
+    <attribute id="KZWI4" order="241" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI4"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZWI4"/>
+    </attribute>
+    <attribute id="KZWI5" order="242" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI5"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZWI5"/>
+    </attribute>
+    <attribute id="KZWI6" order="243" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI6"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZWI6"/>
+    </attribute>
+    <attribute id="SIKGR" order="244" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SIKGR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SIKGR"/>
+    </attribute>
+    <attribute id="MFZHI" order="245" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFZHI"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MFZHI"/>
+    </attribute>
+    <attribute id="MFZHI_DISP" order="246" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFZHI_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MFZHI_DISP"/>
+    </attribute>
+    <attribute id="FFZHI" order="247" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FFZHI"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FFZHI"/>
+    </attribute>
+    <attribute id="FFZHI_DISP" order="248" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FFZHI_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FFZHI_DISP"/>
+    </attribute>
+    <attribute id="RETPO" order="249" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RETPO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="RETPO"/>
+    </attribute>
+    <attribute id="AUREL" order="250" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUREL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AUREL"/>
+    </attribute>
+    <attribute id="BSGRU" order="251" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSGRU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BSGRU"/>
+    </attribute>
+    <attribute id="LFRET" order="252" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFRET"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LFRET"/>
+    </attribute>
+    <attribute id="MFRGR" order="253" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFRGR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MFRGR"/>
+    </attribute>
+    <attribute id="NRFHG" order="254" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NRFHG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NRFHG"/>
+    </attribute>
+    <attribute id="J_1BNBM" order="255" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BNBM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="J_1BNBM"/>
+    </attribute>
+    <attribute id="J_1BMATUSE" order="256" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BMATUSE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="J_1BMATUSE"/>
+    </attribute>
+    <attribute id="J_1BMATORG" order="257" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BMATORG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="J_1BMATORG"/>
+    </attribute>
+    <attribute id="J_1BOWNPRO" order="258" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BOWNPRO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="J_1BOWNPRO"/>
+    </attribute>
+    <attribute id="J_1BINDUST" order="259" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BINDUST"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="J_1BINDUST"/>
+    </attribute>
+    <attribute id="ABUEB" order="260" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABUEB"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABUEB"/>
+    </attribute>
+    <attribute id="NLABD" order="261" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NLABD"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NLABD"/>
+    </attribute>
+    <attribute id="NFABD" order="262" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NFABD"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NFABD"/>
+    </attribute>
+    <attribute id="KZBWS" order="263" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBWS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZBWS"/>
+    </attribute>
+    <attribute id="BONBA" order="264" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BONBA"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BONBA"/>
+    </attribute>
+    <attribute id="FABKZ" order="265" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FABKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FABKZ"/>
+    </attribute>
+    <attribute id="J_1AINDXP" order="266" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1AINDXP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="J_1AINDXP"/>
+    </attribute>
+    <attribute id="J_1AIDATEP" order="267" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1AIDATEP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="J_1AIDATEP"/>
+    </attribute>
+    <attribute id="MPROF" order="268" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MPROF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MPROF"/>
+    </attribute>
+    <attribute id="EGLKZ" order="269" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGLKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EGLKZ"/>
+    </attribute>
+    <attribute id="KZTLF" order="270" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZTLF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZTLF"/>
+    </attribute>
+    <attribute id="KZFME" order="271" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZFME"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZFME"/>
+    </attribute>
+    <attribute id="RDPRF" order="272" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RDPRF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="RDPRF"/>
+    </attribute>
+    <attribute id="TECHS" order="273" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TECHS"/>
+    </attribute>
+    <attribute id="CHG_SRV" order="274" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHG_SRV"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="CHG_SRV"/>
+    </attribute>
+    <attribute id="CHG_FPLNR" order="275" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHG_FPLNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="CHG_FPLNR"/>
+    </attribute>
+    <attribute id="MFRPN" order="276" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFRPN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MFRPN"/>
+    </attribute>
+    <attribute id="MFRNR" order="277" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFRNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MFRNR"/>
+    </attribute>
+    <attribute id="EMNFR" order="278" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMNFR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EMNFR"/>
+    </attribute>
+    <attribute id="NOVET" order="279" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOVET"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NOVET"/>
+    </attribute>
+    <attribute id="AFNAM" order="280" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFNAM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AFNAM"/>
+    </attribute>
+    <attribute id="TZONRC" order="281" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TZONRC"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TZONRC"/>
+    </attribute>
+    <attribute id="IPRKZ" order="282" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IPRKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="IPRKZ"/>
+    </attribute>
+    <attribute id="LEBRE" order="283" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEBRE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LEBRE"/>
+    </attribute>
+    <attribute id="BERID" order="284" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERID"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BERID"/>
+    </attribute>
+    <attribute id="XCONDITIONS" order="285" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCONDITIONS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="XCONDITIONS"/>
+    </attribute>
+    <attribute id="APOMS" order="286" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APOMS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="APOMS"/>
+    </attribute>
+    <attribute id="CCOMP" order="287" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCOMP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="CCOMP"/>
+    </attribute>
+    <attribute id="GRANT_NBR" order="288" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GRANT_NBR"/>
+    </attribute>
+    <attribute id="FKBER" order="289" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FKBER"/>
+    </attribute>
+    <attribute id="STATUS" order="290" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STATUS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STATUS"/>
+    </attribute>
+    <attribute id="RESLO" order="291" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESLO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="RESLO"/>
+    </attribute>
+    <attribute id="PRIO_URG" order="292" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRIO_URG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PRIO_URG"/>
+    </attribute>
+    <attribute id="PRIO_REQ" order="293" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRIO_REQ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PRIO_REQ"/>
+    </attribute>
+    <attribute id="EXCPE" order="294" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXCPE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EXCPE"/>
+    </attribute>
+    <attribute id="REFSITE" order="295" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REFSITE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="REFSITE"/>
+    </attribute>
+    <attribute id="MANDT_2" order="296" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MANDT_2"/>
+    </attribute>
+    <attribute id="EBELN_2" order="297" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN_2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EBELN_2"/>
+    </attribute>
+    <attribute id="EBELP_1" order="298" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EBELP_1"/>
+    </attribute>
+    <attribute id="ZEKKN" order="299" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEKKN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZEKKN"/>
+    </attribute>
+    <attribute id="LOEKZ_2" order="300" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEKZ_2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LOEKZ_2"/>
+    </attribute>
+    <attribute id="AEDAT_2" order="301" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT_2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AEDAT_2"/>
+    </attribute>
+    <attribute id="KFLAG" order="302" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFLAG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KFLAG"/>
+    </attribute>
+    <attribute id="MENGE_1" order="303" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MENGE_1"/>
+    </attribute>
+    <attribute id="MENGE_1_DISP" order="304" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_1_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MENGE_1_DISP"/>
+    </attribute>
+    <attribute id="VPROZ" order="305" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPROZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VPROZ"/>
+    </attribute>
+    <attribute id="NETWR_1" order="306" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NETWR_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NETWR_1"/>
+    </attribute>
+    <attribute id="SAKTO" order="307" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKTO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SAKTO"/>
+    </attribute>
+    <attribute id="GSBER" order="308" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GSBER"/>
+    </attribute>
+    <attribute id="KOSTL" order="309" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="PROJN" order="310" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROJN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PROJN"/>
+    </attribute>
+    <attribute id="VBELN" order="311" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VBELN"/>
+    </attribute>
+    <attribute id="VBELP" order="312" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VBELP"/>
+    </attribute>
+    <attribute id="VETEN" order="313" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VETEN"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VETEN"/>
+    </attribute>
+    <attribute id="KZBRB" order="314" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBRB"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZBRB"/>
+    </attribute>
+    <attribute id="ANLN1" order="315" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="316" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="AUFNR" order="317" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="WEMPF" order="318" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEMPF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WEMPF"/>
+    </attribute>
+    <attribute id="ABLAD" order="319" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABLAD"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABLAD"/>
+    </attribute>
+    <attribute id="KOKRS" order="320" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="XBKST" order="321" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBKST"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="XBKST"/>
+    </attribute>
+    <attribute id="XBAUF" order="322" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBAUF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="XBAUF"/>
+    </attribute>
+    <attribute id="XBPRO" order="323" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBPRO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="XBPRO"/>
+    </attribute>
+    <attribute id="EREKZ_1" order="324" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EREKZ_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EREKZ_1"/>
+    </attribute>
+    <attribute id="KSTRG" order="325" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTRG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KSTRG"/>
+    </attribute>
+    <attribute id="PAOBJNR" order="326" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAOBJNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PAOBJNR"/>
+    </attribute>
+    <attribute id="PRCTR" order="327" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="PS_PSP_PNR" order="328" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PS_PSP_PNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PS_PSP_PNR"/>
+    </attribute>
+    <attribute id="NPLNR" order="329" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NPLNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NPLNR"/>
+    </attribute>
+    <attribute id="AUFPL" order="330" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AUFPL"/>
+    </attribute>
+    <attribute id="IMKEY" order="331" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMKEY"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="IMKEY"/>
+    </attribute>
+    <attribute id="APLZL" order="332" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="APLZL"/>
+    </attribute>
+    <attribute id="VPTNR" order="333" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPTNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VPTNR"/>
+    </attribute>
+    <attribute id="FIPOS_1" order="334" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIPOS_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FIPOS_1"/>
+    </attribute>
+    <attribute id="RECID" order="335" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RECID"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="RECID"/>
+    </attribute>
+    <attribute id="ZZDUMMY1" order="336" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZDUMMY1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZZDUMMY1"/>
+    </attribute>
+    <attribute id="FISTL_1" order="337" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FISTL_1"/>
+    </attribute>
+    <attribute id="GEBER_1" order="338" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GEBER_1"/>
+    </attribute>
+    <attribute id="FKBER_1" order="339" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FKBER_1"/>
+    </attribute>
+    <attribute id="DABRZ" order="340" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DABRZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="DABRZ"/>
+    </attribute>
+    <attribute id="AUFPL_ORD" order="341" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL_ORD"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AUFPL_ORD"/>
+    </attribute>
+    <attribute id="APLZL_ORD" order="342" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL_ORD"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="APLZL_ORD"/>
+    </attribute>
+    <attribute id="MWSKZ_1" order="343" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MWSKZ_1"/>
+    </attribute>
+    <attribute id="TXJCD_1" order="344" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TXJCD_1"/>
+    </attribute>
+    <attribute id="NAVNW_1" order="345" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAVNW_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NAVNW_1"/>
+    </attribute>
+    <attribute id="KBLNR" order="346" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBLNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KBLNR"/>
+    </attribute>
+    <attribute id="KBLPOS" order="347" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBLPOS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KBLPOS"/>
+    </attribute>
+    <attribute id="LSTAR" order="348" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="PRZNR" order="349" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRZNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PRZNR"/>
+    </attribute>
+    <attribute id="GRANT_NBR_1" order="350" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GRANT_NBR_1"/>
+    </attribute>
+    <attribute id="EGRUP" order="351" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGRUP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EGRUP"/>
+    </attribute>
+    <attribute id="VNAME" order="352" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VNAME"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VNAME"/>
+    </attribute>
+    <attribute id="ZZURSACHE" order="353" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZURSACHE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZZURSACHE"/>
+    </attribute>
+    <attribute id="ZZPHASE" order="354" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZPHASE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZZPHASE"/>
+    </attribute>
+    <attribute id="MANDT_3" order="355" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_3"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MANDT_3"/>
+    </attribute>
+    <attribute id="PSPNR" order="356" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PSPNR"/>
+    </attribute>
+    <attribute id="POSID" order="357" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSID"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="POSID"/>
+    </attribute>
+    <attribute id="POST1" order="358" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POST1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="POST1"/>
+    </attribute>
+    <attribute id="OBJNR" order="359" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="PSPHI" order="360" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPHI"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PSPHI"/>
+    </attribute>
+    <attribute id="POSKI" order="361" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSKI"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="POSKI"/>
+    </attribute>
+    <attribute id="ERNAM_1" order="362" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ERNAM_1"/>
+    </attribute>
+    <attribute id="ERDAT" order="363" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="364" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AENAM"/>
+    </attribute>
+    <attribute id="AEDAT_3" order="365" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT_3"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AEDAT_3"/>
+    </attribute>
+    <attribute id="VERNR" order="366" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VERNR"/>
+    </attribute>
+    <attribute id="VERNA" order="367" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERNA"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VERNA"/>
+    </attribute>
+    <attribute id="ASTNR" order="368" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASTNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ASTNR"/>
+    </attribute>
+    <attribute id="ASTNA" order="369" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASTNA"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ASTNA"/>
+    </attribute>
+    <attribute id="PBUKR" order="370" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PBUKR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PBUKR"/>
+    </attribute>
+    <attribute id="PGSBR" order="371" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGSBR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PGSBR"/>
+    </attribute>
+    <attribute id="PKOKR" order="372" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PKOKR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PKOKR"/>
+    </attribute>
+    <attribute id="PRCTR_1" order="373" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PRCTR_1"/>
+    </attribute>
+    <attribute id="PRART" order="374" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRART"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PRART"/>
+    </attribute>
+    <attribute id="STUFE" order="375" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUFE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STUFE"/>
+    </attribute>
+    <attribute id="PLAKZ" order="376" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLAKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PLAKZ"/>
+    </attribute>
+    <attribute id="BELKZ" order="377" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BELKZ"/>
+    </attribute>
+    <attribute id="FAKKZ" order="378" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAKKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FAKKZ"/>
+    </attribute>
+    <attribute id="NPFAZ" order="379" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NPFAZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="NPFAZ"/>
+    </attribute>
+    <attribute id="ZUORD" order="380" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUORD"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZUORD"/>
+    </attribute>
+    <attribute id="TRMEQ" order="381" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRMEQ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TRMEQ"/>
+    </attribute>
+    <attribute id="KVEWE" order="382" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVEWE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KVEWE"/>
+    </attribute>
+    <attribute id="KAPPL" order="383" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="KALSM_1" order="384" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALSM_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KALSM_1"/>
+    </attribute>
+    <attribute id="ZSCHL" order="385" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZSCHL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZSCHL"/>
+    </attribute>
+    <attribute id="ABGSL" order="386" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGSL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABGSL"/>
+    </attribute>
+    <attribute id="AKOKR" order="387" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKOKR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AKOKR"/>
+    </attribute>
+    <attribute id="AKSTL" order="388" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKSTL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AKSTL"/>
+    </attribute>
+    <attribute id="FKOKR" order="389" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKOKR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FKOKR"/>
+    </attribute>
+    <attribute id="FKSTL" order="390" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKSTL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FKSTL"/>
+    </attribute>
+    <attribute id="FABKL" order="391" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FABKL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FABKL"/>
+    </attribute>
+    <attribute id="PSPRI" order="392" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPRI"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PSPRI"/>
+    </attribute>
+    <attribute id="EQUNR" order="393" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EQUNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EQUNR"/>
+    </attribute>
+    <attribute id="TPLNR" order="394" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPLNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TPLNR"/>
+    </attribute>
+    <attribute id="PWPOS" order="395" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PWPOS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PWPOS"/>
+    </attribute>
+    <attribute id="WERKS_1" order="396" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="WERKS_1"/>
+    </attribute>
+    <attribute id="TXTSP" order="397" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXTSP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TXTSP"/>
+    </attribute>
+    <attribute id="SLWID" order="398" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SLWID"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SLWID"/>
+    </attribute>
+    <attribute id="USR00" order="399" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR00"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR00"/>
+    </attribute>
+    <attribute id="USR01" order="400" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR01"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR01"/>
+    </attribute>
+    <attribute id="USR02" order="401" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR02"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR02"/>
+    </attribute>
+    <attribute id="USR03" order="402" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR03"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR03"/>
+    </attribute>
+    <attribute id="USR04" order="403" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR04"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR04"/>
+    </attribute>
+    <attribute id="USR04_DISP" order="404" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR04_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR04_DISP"/>
+    </attribute>
+    <attribute id="USE04" order="405" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USE04"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USE04"/>
+    </attribute>
+    <attribute id="USR05" order="406" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR05"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR05"/>
+    </attribute>
+    <attribute id="USR05_DISP" order="407" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR05_DISP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR05_DISP"/>
+    </attribute>
+    <attribute id="USE05" order="408" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USE05"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USE05"/>
+    </attribute>
+    <attribute id="USR06" order="409" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR06"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR06"/>
+    </attribute>
+    <attribute id="USE06" order="410" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USE06"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USE06"/>
+    </attribute>
+    <attribute id="USR07" order="411" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR07"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR07"/>
+    </attribute>
+    <attribute id="USE07" order="412" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USE07"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USE07"/>
+    </attribute>
+    <attribute id="USR08" order="413" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR08"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR08"/>
+    </attribute>
+    <attribute id="USR09" order="414" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR09"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR09"/>
+    </attribute>
+    <attribute id="USR10" order="415" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR10"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR10"/>
+    </attribute>
+    <attribute id="USR11" order="416" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USR11"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="USR11"/>
+    </attribute>
+    <attribute id="KOSTL_1" order="417" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KOSTL_1"/>
+    </attribute>
+    <attribute id="KTRG" order="418" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTRG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KTRG"/>
+    </attribute>
+    <attribute id="BERST" order="419" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERST"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BERST"/>
+    </attribute>
+    <attribute id="BERTR" order="420" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERTR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BERTR"/>
+    </attribute>
+    <attribute id="BERKO" order="421" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERKO"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BERKO"/>
+    </attribute>
+    <attribute id="BERBU" order="422" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERBU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="BERBU"/>
+    </attribute>
+    <attribute id="CLASF" order="423" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLASF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="CLASF"/>
+    </attribute>
+    <attribute id="SPSNR" order="424" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPSNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SPSNR"/>
+    </attribute>
+    <attribute id="SCOPE" order="425" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCOPE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SCOPE"/>
+    </attribute>
+    <attribute id="XSTAT" order="426" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="XSTAT"/>
+    </attribute>
+    <attribute id="TXJCD_2" order="427" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD_2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TXJCD_2"/>
+    </attribute>
+    <attribute id="ZSCHM" order="428" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZSCHM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZSCHM"/>
+    </attribute>
+    <attribute id="IMPRF" order="429" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMPRF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="IMPRF"/>
+    </attribute>
+    <attribute id="EVGEW" order="430" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EVGEW"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="EVGEW"/>
+    </attribute>
+    <attribute id="AENNR" order="431" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="AENNR"/>
+    </attribute>
+    <attribute id="SUBPR" order="432" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBPR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SUBPR"/>
+    </attribute>
+    <attribute id="POSTU" order="433" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSTU"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="POSTU"/>
+    </attribute>
+    <attribute id="PLINT" order="434" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLINT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PLINT"/>
+    </attribute>
+    <attribute id="LOEVM" order="435" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEVM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LOEVM"/>
+    </attribute>
+    <attribute id="KZBWS_1" order="436" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBWS_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KZBWS_1"/>
+    </attribute>
+    <attribute id="FPLNR_1" order="437" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FPLNR_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FPLNR_1"/>
+    </attribute>
+    <attribute id="TADAT" order="438" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TADAT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="TADAT"/>
+    </attribute>
+    <attribute id="IZWEK" order="439" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IZWEK"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="IZWEK"/>
+    </attribute>
+    <attribute id="ISIZE" order="440" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ISIZE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ISIZE"/>
+    </attribute>
+    <attribute id="IUMKZ" order="441" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IUMKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="IUMKZ"/>
+    </attribute>
+    <attribute id="ABUKR" order="442" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABUKR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ABUKR"/>
+    </attribute>
+    <attribute id="GRPKZ" order="443" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRPKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="GRPKZ"/>
+    </attribute>
+    <attribute id="PGPRF" order="444" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGPRF"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PGPRF"/>
+    </attribute>
+    <attribute id="LOGSYSTEM" order="445" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGSYSTEM"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="LOGSYSTEM"/>
+    </attribute>
+    <attribute id="PSPNR_LOGS" order="446" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPNR_LOGS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PSPNR_LOGS"/>
+    </attribute>
+    <attribute id="STORT" order="447" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STORT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="STORT"/>
+    </attribute>
+    <attribute id="FUNC_AREA" order="448" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FUNC_AREA"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="FUNC_AREA"/>
+    </attribute>
+    <attribute id="KLVAR" order="449" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLVAR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KLVAR"/>
+    </attribute>
+    <attribute id="KALNR" order="450" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KALNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="KALNR"/>
+    </attribute>
+    <attribute id="POSID_EDIT" order="451" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSID_EDIT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="POSID_EDIT"/>
+    </attribute>
+    <attribute id="PSPKZ" order="452" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="PSPKZ"/>
+    </attribute>
+    <attribute id="MATNR_1" order="453" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="MATNR_1"/>
+    </attribute>
+    <attribute id="VLPSP" order="454" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VLPSP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VLPSP"/>
+    </attribute>
+    <attribute id="VLPKZ" order="455" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VLPKZ"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VLPKZ"/>
+    </attribute>
+    <attribute id="SORT1" order="456" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SORT1"/>
+    </attribute>
+    <attribute id="SORT2" order="457" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT2"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SORT2"/>
+    </attribute>
+    <attribute id="SORT3" order="458" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORT3"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="SORT3"/>
+    </attribute>
+    <attribute id="VNAME_1" order="459" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VNAME_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="VNAME_1"/>
+    </attribute>
+    <attribute id="RECID_1" order="460" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RECID_1"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="RECID_1"/>
+    </attribute>
+    <attribute id="ETYPE" order="461" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETYPE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ETYPE"/>
+    </attribute>
+    <attribute id="OTYPE" order="462" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OTYPE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="OTYPE"/>
+    </attribute>
+    <attribute id="JIBCL" order="463" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="JIBCL"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="JIBCL"/>
+    </attribute>
+    <attribute id="JIBSA" order="464" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="JIBSA"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="JIBSA"/>
+    </attribute>
+    <attribute id="CGPL_GUID16" order="465" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CGPL_GUID16"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="CGPL_GUID16"/>
+    </attribute>
+    <attribute id="CGPL_LOGSYS" order="466" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CGPL_LOGSYS"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="CGPL_LOGSYS"/>
+    </attribute>
+    <attribute id="CGPL_OBJTYPE" order="467" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CGPL_OBJTYPE"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="CGPL_OBJTYPE"/>
+    </attribute>
+    <attribute id="ADPSP" order="468" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADPSP"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ADPSP"/>
+    </attribute>
+    <attribute id="ZZ_SBM_STORT" order="469" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZ_SBM_STORT"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZZ_SBM_STORT"/>
+    </attribute>
+    <attribute id="ZZ_SBM_ABTEILUNG" order="470" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZ_SBM_ABTEILUNG"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZZ_SBM_ABTEILUNG"/>
+    </attribute>
+    <attribute id="ZZ_SBM_KONSTRNR" order="471" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZ_SBM_KONSTRNR"/>
+      <keyMapping columnObjectName="M30_CV_MM_ME2K" columnName="ZZ_SBM_KONSTRNR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

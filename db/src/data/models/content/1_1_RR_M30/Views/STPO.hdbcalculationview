@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::STPO" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table STPO"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_STPO">
+    <resourceUri>M30_STPO</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_STPO">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="MANDT"/>
+    </attribute>
+    <attribute id="STLTY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLTY"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="STLTY"/>
+    </attribute>
+    <attribute id="STLNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLNR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="STLNR"/>
+    </attribute>
+    <attribute id="STLKN" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLKN"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="STLKN"/>
+    </attribute>
+    <attribute id="STPOZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STPOZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="STPOZ"/>
+    </attribute>
+    <attribute id="DATUV" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATUV"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="DATUV"/>
+    </attribute>
+    <attribute id="TECHV" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TECHV"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="TECHV"/>
+    </attribute>
+    <attribute id="AENNR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENNR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="AENNR"/>
+    </attribute>
+    <attribute id="LKENZ" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LKENZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="LKENZ"/>
+    </attribute>
+    <attribute id="VGKNT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGKNT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="VGKNT"/>
+    </attribute>
+    <attribute id="VGPZL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGPZL"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="VGPZL"/>
+    </attribute>
+    <attribute id="ANDAT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANDAT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ANDAT"/>
+    </attribute>
+    <attribute id="ANNAM" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANNAM"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ANNAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="AENAM"/>
+    </attribute>
+    <attribute id="IDNRK" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDNRK"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="IDNRK"/>
+    </attribute>
+    <attribute id="PSWRK" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSWRK"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="PSWRK"/>
+    </attribute>
+    <attribute id="POSTP" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSTP"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="POSTP"/>
+    </attribute>
+    <attribute id="POSNR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="POSNR"/>
+    </attribute>
+    <attribute id="SORTF" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORTF"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="SORTF"/>
+    </attribute>
+    <attribute id="MEINS" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="MEINS"/>
+    </attribute>
+    <attribute id="MENGE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="MENGE"/>
+    </attribute>
+    <attribute id="FMENG" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMENG"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="FMENG"/>
+    </attribute>
+    <attribute id="AUSCH" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSCH"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="AUSCH"/>
+    </attribute>
+    <attribute id="AVOAU" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AVOAU"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="AVOAU"/>
+    </attribute>
+    <attribute id="NETAU" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NETAU"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="NETAU"/>
+    </attribute>
+    <attribute id="SCHGT" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCHGT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="SCHGT"/>
+    </attribute>
+    <attribute id="BEIKZ" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEIKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="BEIKZ"/>
+    </attribute>
+    <attribute id="ERSKZ" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ERSKZ"/>
+    </attribute>
+    <attribute id="RVREL" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RVREL"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="RVREL"/>
+    </attribute>
+    <attribute id="SANFE" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SANFE"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="SANFE"/>
+    </attribute>
+    <attribute id="SANIN" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SANIN"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="SANIN"/>
+    </attribute>
+    <attribute id="SANKA" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SANKA"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="SANKA"/>
+    </attribute>
+    <attribute id="SANKO" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SANKO"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="SANKO"/>
+    </attribute>
+    <attribute id="SANVS" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SANVS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="SANVS"/>
+    </attribute>
+    <attribute id="STKKZ" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STKKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="STKKZ"/>
+    </attribute>
+    <attribute id="REKRI" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REKRI"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="REKRI"/>
+    </attribute>
+    <attribute id="REKRS" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REKRS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="REKRS"/>
+    </attribute>
+    <attribute id="CADPO" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CADPO"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="CADPO"/>
+    </attribute>
+    <attribute id="NFMAT" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NFMAT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="NFMAT"/>
+    </attribute>
+    <attribute id="NLFZT" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NLFZT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="NLFZT"/>
+    </attribute>
+    <attribute id="VERTI" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERTI"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="VERTI"/>
+    </attribute>
+    <attribute id="ALPOS" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALPOS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ALPOS"/>
+    </attribute>
+    <attribute id="EWAHR" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EWAHR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="EWAHR"/>
+    </attribute>
+    <attribute id="EKGRP" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKGRP"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="EKGRP"/>
+    </attribute>
+    <attribute id="LIFZT" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFZT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="LIFZT"/>
+    </attribute>
+    <attribute id="LIFNR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="PREIS" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREIS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="PREIS"/>
+    </attribute>
+    <attribute id="PEINH" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PEINH"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="PEINH"/>
+    </attribute>
+    <attribute id="WAERS" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="WAERS"/>
+    </attribute>
+    <attribute id="SAKTO" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKTO"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="SAKTO"/>
+    </attribute>
+    <attribute id="ROANZ" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROANZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ROANZ"/>
+    </attribute>
+    <attribute id="ROMS1" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMS1"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ROMS1"/>
+    </attribute>
+    <attribute id="ROMS2" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMS2"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ROMS2"/>
+    </attribute>
+    <attribute id="ROMS3" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMS3"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ROMS3"/>
+    </attribute>
+    <attribute id="ROMEI" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMEI"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ROMEI"/>
+    </attribute>
+    <attribute id="ROMEN" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROMEN"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ROMEN"/>
+    </attribute>
+    <attribute id="RFORM" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFORM"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="RFORM"/>
+    </attribute>
+    <attribute id="UPSKZ" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPSKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="UPSKZ"/>
+    </attribute>
+    <attribute id="VALKZ" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="VALKZ"/>
+    </attribute>
+    <attribute id="LTXSP" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTXSP"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="LTXSP"/>
+    </attribute>
+    <attribute id="POTX1" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POTX1"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="POTX1"/>
+    </attribute>
+    <attribute id="POTX2" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POTX2"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="POTX2"/>
+    </attribute>
+    <attribute id="OBJTY" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJTY"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="OBJTY"/>
+    </attribute>
+    <attribute id="MATKL" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATKL"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="MATKL"/>
+    </attribute>
+    <attribute id="WEBAZ" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WEBAZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="WEBAZ"/>
+    </attribute>
+    <attribute id="DOKAR" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKAR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="DOKAR"/>
+    </attribute>
+    <attribute id="DOKNR" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKNR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="DOKNR"/>
+    </attribute>
+    <attribute id="DOKVR" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKVR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="DOKVR"/>
+    </attribute>
+    <attribute id="DOKTL" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKTL"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="DOKTL"/>
+    </attribute>
+    <attribute id="CSSTR" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CSSTR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="CSSTR"/>
+    </attribute>
+    <attribute id="CLASS" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLASS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="CLASS"/>
+    </attribute>
+    <attribute id="KLART" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLART"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KLART"/>
+    </attribute>
+    <attribute id="POTPR" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POTPR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="POTPR"/>
+    </attribute>
+    <attribute id="AWAKZ" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWAKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="AWAKZ"/>
+    </attribute>
+    <attribute id="INSKZ" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="INSKZ"/>
+    </attribute>
+    <attribute id="VCEKZ" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VCEKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="VCEKZ"/>
+    </attribute>
+    <attribute id="VSTKZ" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VSTKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="VSTKZ"/>
+    </attribute>
+    <attribute id="VACKZ" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VACKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="VACKZ"/>
+    </attribute>
+    <attribute id="EKORG" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKORG"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="EKORG"/>
+    </attribute>
+    <attribute id="CLOBK" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLOBK"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="CLOBK"/>
+    </attribute>
+    <attribute id="CLMUL" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLMUL"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="CLMUL"/>
+    </attribute>
+    <attribute id="CLALT" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLALT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="CLALT"/>
+    </attribute>
+    <attribute id="CVIEW" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CVIEW"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="CVIEW"/>
+    </attribute>
+    <attribute id="KNOBJ" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNOBJ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KNOBJ"/>
+    </attribute>
+    <attribute id="LGORT" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGORT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="LGORT"/>
+    </attribute>
+    <attribute id="KZKUP" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKUP"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KZKUP"/>
+    </attribute>
+    <attribute id="INTRM" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTRM"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="INTRM"/>
+    </attribute>
+    <attribute id="TPEKZ" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TPEKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="TPEKZ"/>
+    </attribute>
+    <attribute id="STVKN" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STVKN"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="STVKN"/>
+    </attribute>
+    <attribute id="DVDAT" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DVDAT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="DVDAT"/>
+    </attribute>
+    <attribute id="DVNAM" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DVNAM"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="DVNAM"/>
+    </attribute>
+    <attribute id="DSPST" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DSPST"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="DSPST"/>
+    </attribute>
+    <attribute id="ALPST" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALPST"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ALPST"/>
+    </attribute>
+    <attribute id="ALPRF" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALPRF"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ALPRF"/>
+    </attribute>
+    <attribute id="ALPGR" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALPGR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ALPGR"/>
+    </attribute>
+    <attribute id="KZNFP" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZNFP"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KZNFP"/>
+    </attribute>
+    <attribute id="NFGRP" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NFGRP"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="NFGRP"/>
+    </attribute>
+    <attribute id="NFEAG" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NFEAG"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="NFEAG"/>
+    </attribute>
+    <attribute id="KNDVB" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNDVB"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KNDVB"/>
+    </attribute>
+    <attribute id="KNDBZ" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNDBZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KNDBZ"/>
+    </attribute>
+    <attribute id="KSTTY" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTTY"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KSTTY"/>
+    </attribute>
+    <attribute id="KSTNR" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTNR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KSTNR"/>
+    </attribute>
+    <attribute id="KSTKN" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTKN"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KSTKN"/>
+    </attribute>
+    <attribute id="KSTPZ" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTPZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KSTPZ"/>
+    </attribute>
+    <attribute id="CLSZU" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLSZU"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="CLSZU"/>
+    </attribute>
+    <attribute id="KZCLB" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZCLB"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="KZCLB"/>
+    </attribute>
+    <attribute id="AEHLP" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEHLP"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="AEHLP"/>
+    </attribute>
+    <attribute id="PRVBE" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRVBE"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="PRVBE"/>
+    </attribute>
+    <attribute id="NLFZV" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NLFZV"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="NLFZV"/>
+    </attribute>
+    <attribute id="NLFMV" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NLFMV"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="NLFMV"/>
+    </attribute>
+    <attribute id="IDPOS" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDPOS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="IDPOS"/>
+    </attribute>
+    <attribute id="IDHIS" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDHIS"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="IDHIS"/>
+    </attribute>
+    <attribute id="IDVAR" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDVAR"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="IDVAR"/>
+    </attribute>
+    <attribute id="ALEKZ" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALEKZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ALEKZ"/>
+    </attribute>
+    <attribute id="ITMID" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ITMID"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ITMID"/>
+    </attribute>
+    <attribute id="GUID" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GUID"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="GUID"/>
+    </attribute>
+    <attribute id="ITSOB" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ITSOB"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ITSOB"/>
+    </attribute>
+    <attribute id="RFPNT" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFPNT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="RFPNT"/>
+    </attribute>
+    <attribute id="GUIDX" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GUIDX"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="GUIDX"/>
+    </attribute>
+    <attribute id="ZZROHTEIL" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZROHTEIL"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ZZROHTEIL"/>
+    </attribute>
+    <attribute id="ZZALTERNAT" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZALTERNAT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ZZALTERNAT"/>
+    </attribute>
+    <attribute id="ZZDISPO" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZDISPO"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ZZDISPO"/>
+    </attribute>
+    <attribute id="ZZLIEFKNZ" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZLIEFKNZ"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ZZLIEFKNZ"/>
+    </attribute>
+    <attribute id="ZZFUCAT" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZFUCAT"/>
+      <keyMapping columnObjectName="M30_STPO" columnName="ZZFUCAT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

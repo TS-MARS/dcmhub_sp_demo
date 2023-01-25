@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::LIPS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table LIPS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_LIPS">
+    <resourceUri>M30_LIPS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_LIPS">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MANDT"/>
+    </attribute>
+    <attribute id="VBELN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VBELN"/>
+    </attribute>
+    <attribute id="POSNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="POSNR"/>
+    </attribute>
+    <attribute id="PSTYV" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTYV"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PSTYV"/>
+    </attribute>
+    <attribute id="ERNAM" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="ERZET" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERZET"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ERZET"/>
+    </attribute>
+    <attribute id="ERDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="MATNR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MATNR"/>
+    </attribute>
+    <attribute id="MATWA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATWA"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MATWA"/>
+    </attribute>
+    <attribute id="MATKL" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATKL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MATKL"/>
+    </attribute>
+    <attribute id="WERKS" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="WERKS"/>
+    </attribute>
+    <attribute id="LGORT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGORT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LGORT"/>
+    </attribute>
+    <attribute id="CHARG" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHARG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CHARG"/>
+    </attribute>
+    <attribute id="LICHN" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LICHN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LICHN"/>
+    </attribute>
+    <attribute id="KDMAT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDMAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KDMAT"/>
+    </attribute>
+    <attribute id="PRODH" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRODH"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PRODH"/>
+    </attribute>
+    <attribute id="LFIMG" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFIMG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LFIMG"/>
+    </attribute>
+    <attribute id="MEINS" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MEINS"/>
+    </attribute>
+    <attribute id="VRKME" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRKME"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VRKME"/>
+    </attribute>
+    <attribute id="UMVKZ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMVKZ"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMVKZ"/>
+    </attribute>
+    <attribute id="UMVKN" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMVKN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMVKN"/>
+    </attribute>
+    <attribute id="NTGEW" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NTGEW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="NTGEW"/>
+    </attribute>
+    <attribute id="BRGEW" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRGEW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BRGEW"/>
+    </attribute>
+    <attribute id="GEWEI" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEWEI"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="GEWEI"/>
+    </attribute>
+    <attribute id="VOLUM" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VOLUM"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VOLUM"/>
+    </attribute>
+    <attribute id="VOLEH" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VOLEH"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VOLEH"/>
+    </attribute>
+    <attribute id="KZTLF" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZTLF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZTLF"/>
+    </attribute>
+    <attribute id="UEBTK" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBTK"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UEBTK"/>
+    </attribute>
+    <attribute id="UEBTO" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEBTO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UEBTO"/>
+    </attribute>
+    <attribute id="UNTTO" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UNTTO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UNTTO"/>
+    </attribute>
+    <attribute id="CHSPL" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHSPL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CHSPL"/>
+    </attribute>
+    <attribute id="FAKSP" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAKSP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="FAKSP"/>
+    </attribute>
+    <attribute id="MBDAT" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBDAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MBDAT"/>
+    </attribute>
+    <attribute id="LGMNG" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGMNG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LGMNG"/>
+    </attribute>
+    <attribute id="ARKTX" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARKTX"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ARKTX"/>
+    </attribute>
+    <attribute id="LGPBE" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGPBE"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LGPBE"/>
+    </attribute>
+    <attribute id="VBELV" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELV"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VBELV"/>
+    </attribute>
+    <attribute id="POSNV" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNV"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="POSNV"/>
+    </attribute>
+    <attribute id="VBTYV" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBTYV"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VBTYV"/>
+    </attribute>
+    <attribute id="VGSYS" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGSYS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VGSYS"/>
+    </attribute>
+    <attribute id="VGBEL" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGBEL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VGBEL"/>
+    </attribute>
+    <attribute id="VGPOS" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VGPOS"/>
+    </attribute>
+    <attribute id="UPFLU" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPFLU"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UPFLU"/>
+    </attribute>
+    <attribute id="UEPOS" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UEPOS"/>
+    </attribute>
+    <attribute id="FKREL" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKREL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="FKREL"/>
+    </attribute>
+    <attribute id="LADGR" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LADGR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LADGR"/>
+    </attribute>
+    <attribute id="TRAGR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TRAGR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="TRAGR"/>
+    </attribute>
+    <attribute id="KOMKZ" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOMKZ"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KOMKZ"/>
+    </attribute>
+    <attribute id="LGNUM" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGNUM"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LGNUM"/>
+    </attribute>
+    <attribute id="LISPL" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LISPL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LISPL"/>
+    </attribute>
+    <attribute id="LGTYP" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGTYP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LGTYP"/>
+    </attribute>
+    <attribute id="LGPLA" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGPLA"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LGPLA"/>
+    </attribute>
+    <attribute id="BWTEX" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTEX"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BWTEX"/>
+    </attribute>
+    <attribute id="BWART" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWART"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BWART"/>
+    </attribute>
+    <attribute id="BWLVS" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWLVS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BWLVS"/>
+    </attribute>
+    <attribute id="KZDLG" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZDLG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZDLG"/>
+    </attribute>
+    <attribute id="BDART" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDART"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BDART"/>
+    </attribute>
+    <attribute id="PLART" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLART"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PLART"/>
+    </attribute>
+    <attribute id="MTART" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MTART"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MTART"/>
+    </attribute>
+    <attribute id="XCHPF" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCHPF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="XCHPF"/>
+    </attribute>
+    <attribute id="XCHAR" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCHAR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="XCHAR"/>
+    </attribute>
+    <attribute id="VGREF" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGREF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VGREF"/>
+    </attribute>
+    <attribute id="POSAR" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSAR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="POSAR"/>
+    </attribute>
+    <attribute id="BWTAR" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="SUMBD" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUMBD"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SUMBD"/>
+    </attribute>
+    <attribute id="MTVFP" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MTVFP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MTVFP"/>
+    </attribute>
+    <attribute id="EANNR" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EANNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="EANNR"/>
+    </attribute>
+    <attribute id="GSBER" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="GSBER"/>
+    </attribute>
+    <attribute id="VKBUR" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKBUR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VKBUR"/>
+    </attribute>
+    <attribute id="VKGRP" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKGRP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VKGRP"/>
+    </attribute>
+    <attribute id="VTWEG" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VTWEG"/>
+    </attribute>
+    <attribute id="SPART" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SPART"/>
+    </attribute>
+    <attribute id="GRKOR" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRKOR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="GRKOR"/>
+    </attribute>
+    <attribute id="FMENG" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMENG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="FMENG"/>
+    </attribute>
+    <attribute id="ANTLF" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANTLF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ANTLF"/>
+    </attribute>
+    <attribute id="VBEAF" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEAF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VBEAF"/>
+    </attribute>
+    <attribute id="VBEAV" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEAV"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VBEAV"/>
+    </attribute>
+    <attribute id="STAFO" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAFO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="STAFO"/>
+    </attribute>
+    <attribute id="WAVWR" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAVWR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="WAVWR"/>
+    </attribute>
+    <attribute id="KZWI1" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI1"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZWI1"/>
+    </attribute>
+    <attribute id="KZWI2" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI2"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZWI2"/>
+    </attribute>
+    <attribute id="KZWI3" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI3"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZWI3"/>
+    </attribute>
+    <attribute id="KZWI4" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI4"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZWI4"/>
+    </attribute>
+    <attribute id="KZWI5" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI5"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZWI5"/>
+    </attribute>
+    <attribute id="KZWI6" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWI6"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZWI6"/>
+    </attribute>
+    <attribute id="SOBKZ" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBKZ"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SOBKZ"/>
+    </attribute>
+    <attribute id="AEDAT" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="EAN11" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EAN11"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="EAN11"/>
+    </attribute>
+    <attribute id="KVGR1" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVGR1"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KVGR1"/>
+    </attribute>
+    <attribute id="KVGR2" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVGR2"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KVGR2"/>
+    </attribute>
+    <attribute id="KVGR3" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVGR3"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KVGR3"/>
+    </attribute>
+    <attribute id="KVGR4" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVGR4"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KVGR4"/>
+    </attribute>
+    <attribute id="KVGR5" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVGR5"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KVGR5"/>
+    </attribute>
+    <attribute id="MVGR1" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MVGR1"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MVGR1"/>
+    </attribute>
+    <attribute id="MVGR2" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MVGR2"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MVGR2"/>
+    </attribute>
+    <attribute id="MVGR3" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MVGR3"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MVGR3"/>
+    </attribute>
+    <attribute id="MVGR4" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MVGR4"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MVGR4"/>
+    </attribute>
+    <attribute id="MVGR5" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MVGR5"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MVGR5"/>
+    </attribute>
+    <attribute id="VPZUO" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPZUO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VPZUO"/>
+    </attribute>
+    <attribute id="VGTYP" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGTYP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VGTYP"/>
+    </attribute>
+    <attribute id="RFVGTYP" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFVGTYP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="RFVGTYP"/>
+    </attribute>
+    <attribute id="KOSTL" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="KOKRS" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="PAOBJNR" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAOBJNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PAOBJNR"/>
+    </attribute>
+    <attribute id="PRCTR" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="PS_PSP_PNR" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PS_PSP_PNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PS_PSP_PNR"/>
+    </attribute>
+    <attribute id="AUFNR" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="POSNR_PP" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSNR_PP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="POSNR_PP"/>
+    </attribute>
+    <attribute id="KDAUF" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDAUF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KDAUF"/>
+    </attribute>
+    <attribute id="KDPOS" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KDPOS"/>
+    </attribute>
+    <attribute id="VPMAT" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPMAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VPMAT"/>
+    </attribute>
+    <attribute id="VPWRK" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPWRK"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VPWRK"/>
+    </attribute>
+    <attribute id="PRBME" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRBME"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PRBME"/>
+    </attribute>
+    <attribute id="UMREF" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMREF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMREF"/>
+    </attribute>
+    <attribute id="KNTTP" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTTP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KNTTP"/>
+    </attribute>
+    <attribute id="KZVBR" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVBR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZVBR"/>
+    </attribute>
+    <attribute id="FIPOS" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="FIPOS"/>
+    </attribute>
+    <attribute id="FISTL" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="FISTL"/>
+    </attribute>
+    <attribute id="GEBER" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="GEBER"/>
+    </attribute>
+    <attribute id="PCKPF" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PCKPF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PCKPF"/>
+    </attribute>
+    <attribute id="BEDAR_LF" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEDAR_LF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BEDAR_LF"/>
+    </attribute>
+    <attribute id="CMPNT" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CMPNT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CMPNT"/>
+    </attribute>
+    <attribute id="KCMENG" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCMENG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCMENG"/>
+    </attribute>
+    <attribute id="KCBRGEW" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCBRGEW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCBRGEW"/>
+    </attribute>
+    <attribute id="KCNTGEW" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCNTGEW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCNTGEW"/>
+    </attribute>
+    <attribute id="KCVOLUM" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCVOLUM"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCVOLUM"/>
+    </attribute>
+    <attribute id="UECHA" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UECHA"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UECHA"/>
+    </attribute>
+    <attribute id="CUOBJ" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CUOBJ"/>
+    </attribute>
+    <attribute id="CUOBJ_CH" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ_CH"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CUOBJ_CH"/>
+    </attribute>
+    <attribute id="ANZSN" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZSN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ANZSN"/>
+    </attribute>
+    <attribute id="SERAIL" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERAIL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SERAIL"/>
+    </attribute>
+    <attribute id="KCGEWEI" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCGEWEI"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCGEWEI"/>
+    </attribute>
+    <attribute id="KCVOLEH" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCVOLEH"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCVOLEH"/>
+    </attribute>
+    <attribute id="SERNR" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SERNR"/>
+    </attribute>
+    <attribute id="ABRLI" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABRLI"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ABRLI"/>
+    </attribute>
+    <attribute id="ABART" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABART"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ABART"/>
+    </attribute>
+    <attribute id="ABRVW" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABRVW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ABRVW"/>
+    </attribute>
+    <attribute id="QPLOS" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QPLOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="QPLOS"/>
+    </attribute>
+    <attribute id="QTLOS" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QTLOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="QTLOS"/>
+    </attribute>
+    <attribute id="NACHL" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NACHL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="NACHL"/>
+    </attribute>
+    <attribute id="MAGRV" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAGRV"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MAGRV"/>
+    </attribute>
+    <attribute id="OBJKO" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJKO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="OBJKO"/>
+    </attribute>
+    <attribute id="OBJPO" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJPO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="OBJPO"/>
+    </attribute>
+    <attribute id="AESKD" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AESKD"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="AESKD"/>
+    </attribute>
+    <attribute id="SHKZG" order="145" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="PROSA" order="146" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROSA"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PROSA"/>
+    </attribute>
+    <attribute id="UEPVW" order="147" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UEPVW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UEPVW"/>
+    </attribute>
+    <attribute id="EMPST" order="148" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMPST"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="EMPST"/>
+    </attribute>
+    <attribute id="ABTNR" order="149" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABTNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ABTNR"/>
+    </attribute>
+    <attribute id="KOQUI" order="150" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOQUI"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KOQUI"/>
+    </attribute>
+    <attribute id="STADAT" order="151" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STADAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="STADAT"/>
+    </attribute>
+    <attribute id="AKTNR" order="152" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKTNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="AKTNR"/>
+    </attribute>
+    <attribute id="KNUMH_CH" order="153" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMH_CH"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KNUMH_CH"/>
+    </attribute>
+    <attribute id="PREFE" order="154" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PREFE"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PREFE"/>
+    </attribute>
+    <attribute id="EXART" order="155" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXART"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="EXART"/>
+    </attribute>
+    <attribute id="CLINT" order="156" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLINT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CLINT"/>
+    </attribute>
+    <attribute id="CHMVS" order="157" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHMVS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CHMVS"/>
+    </attribute>
+    <attribute id="ABELN" order="158" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABELN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ABELN"/>
+    </attribute>
+    <attribute id="ABELP" order="159" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABELP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ABELP"/>
+    </attribute>
+    <attribute id="LFIMG_FLO" order="160" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFIMG_FLO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LFIMG_FLO"/>
+    </attribute>
+    <attribute id="LGMNG_FLO" order="161" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGMNG_FLO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LGMNG_FLO"/>
+    </attribute>
+    <attribute id="KCMENG_FLO" order="162" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCMENG_FLO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCMENG_FLO"/>
+    </attribute>
+    <attribute id="KZUMW" order="163" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZUMW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZUMW"/>
+    </attribute>
+    <attribute id="KMPMG" order="164" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMPMG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KMPMG"/>
+    </attribute>
+    <attribute id="AUREL" order="165" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUREL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="AUREL"/>
+    </attribute>
+    <attribute id="KPEIN" order="166" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KPEIN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KPEIN"/>
+    </attribute>
+    <attribute id="KMEIN" order="167" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMEIN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KMEIN"/>
+    </attribute>
+    <attribute id="NETPR" order="168" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NETPR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="NETPR"/>
+    </attribute>
+    <attribute id="NETWR" order="169" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NETWR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="NETWR"/>
+    </attribute>
+    <attribute id="KOWRR" order="170" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOWRR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KOWRR"/>
+    </attribute>
+    <attribute id="KZBEW" order="171" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBEW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZBEW"/>
+    </attribute>
+    <attribute id="MFRGR" order="172" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MFRGR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MFRGR"/>
+    </attribute>
+    <attribute id="CHHPV" order="173" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHHPV"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CHHPV"/>
+    </attribute>
+    <attribute id="ABFOR" order="174" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABFOR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ABFOR"/>
+    </attribute>
+    <attribute id="ABGES" order="175" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGES"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ABGES"/>
+    </attribute>
+    <attribute id="MBUHR" order="176" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBUHR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MBUHR"/>
+    </attribute>
+    <attribute id="WKTNR" order="177" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKTNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="WKTNR"/>
+    </attribute>
+    <attribute id="WKTPS" order="178" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKTPS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="WKTPS"/>
+    </attribute>
+    <attribute id="J_1BCFOP" order="179" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BCFOP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="J_1BCFOP"/>
+    </attribute>
+    <attribute id="J_1BTAXLW1" order="180" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTAXLW1"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="J_1BTAXLW1"/>
+    </attribute>
+    <attribute id="J_1BTAXLW2" order="181" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTAXLW2"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="J_1BTAXLW2"/>
+    </attribute>
+    <attribute id="J_1BTXSDC" order="182" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BTXSDC"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="J_1BTXSDC"/>
+    </attribute>
+    <attribute id="SITUA" order="183" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SITUA"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SITUA"/>
+    </attribute>
+    <attribute id="RSNUM" order="184" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSNUM"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="RSNUM"/>
+    </attribute>
+    <attribute id="RSPOS" order="185" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="RSPOS"/>
+    </attribute>
+    <attribute id="RSART" order="186" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSART"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="RSART"/>
+    </attribute>
+    <attribute id="KANNR" order="187" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KANNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KANNR"/>
+    </attribute>
+    <attribute id="KZFME" order="188" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZFME"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZFME"/>
+    </attribute>
+    <attribute id="PROFL" order="189" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROFL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PROFL"/>
+    </attribute>
+    <attribute id="KCMENGVME" order="190" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCMENGVME"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCMENGVME"/>
+    </attribute>
+    <attribute id="KCMENGVMEF" order="191" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KCMENGVMEF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KCMENGVMEF"/>
+    </attribute>
+    <attribute id="KZBWS" order="192" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBWS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZBWS"/>
+    </attribute>
+    <attribute id="PSPNR" order="193" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSPNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PSPNR"/>
+    </attribute>
+    <attribute id="EPRIO" order="194" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EPRIO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="EPRIO"/>
+    </attribute>
+    <attribute id="RULES" order="195" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RULES"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="RULES"/>
+    </attribute>
+    <attribute id="KZBEF" order="196" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBEF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZBEF"/>
+    </attribute>
+    <attribute id="MPROF" order="197" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MPROF"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="MPROF"/>
+    </attribute>
+    <attribute id="EMATN" order="198" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMATN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="EMATN"/>
+    </attribute>
+    <attribute id="LGBZO" order="199" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGBZO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LGBZO"/>
+    </attribute>
+    <attribute id="HANDLE" order="200" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HANDLE"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="HANDLE"/>
+    </attribute>
+    <attribute id="VERURPOS" order="201" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERURPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VERURPOS"/>
+    </attribute>
+    <attribute id="LIFEXPOS" order="202" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFEXPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LIFEXPOS"/>
+    </attribute>
+    <attribute id="NOATP" order="203" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOATP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="NOATP"/>
+    </attribute>
+    <attribute id="NOPCK" order="204" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOPCK"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="NOPCK"/>
+    </attribute>
+    <attribute id="RBLVS" order="205" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RBLVS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="RBLVS"/>
+    </attribute>
+    <attribute id="BERID" order="206" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERID"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BERID"/>
+    </attribute>
+    <attribute id="BESTQ" order="207" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BESTQ"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BESTQ"/>
+    </attribute>
+    <attribute id="UMBSQ" order="208" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMBSQ"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMBSQ"/>
+    </attribute>
+    <attribute id="UMMAT" order="209" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMMAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMMAT"/>
+    </attribute>
+    <attribute id="UMWRK" order="210" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMWRK"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMWRK"/>
+    </attribute>
+    <attribute id="UMLGO" order="211" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMLGO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMLGO"/>
+    </attribute>
+    <attribute id="UMCHA" order="212" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMCHA"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMCHA"/>
+    </attribute>
+    <attribute id="UMBAR" order="213" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMBAR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMBAR"/>
+    </attribute>
+    <attribute id="UMSOK" order="214" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSOK"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMSOK"/>
+    </attribute>
+    <attribute id="SONUM" order="215" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SONUM"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SONUM"/>
+    </attribute>
+    <attribute id="USONU" order="216" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USONU"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="USONU"/>
+    </attribute>
+    <attribute id="AKKUR" order="217" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKKUR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="AKKUR"/>
+    </attribute>
+    <attribute id="AKMNG" order="218" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AKMNG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="AKMNG"/>
+    </attribute>
+    <attribute id="VKGRU" order="219" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKGRU"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VKGRU"/>
+    </attribute>
+    <attribute id="SHKZG_UM" order="220" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG_UM"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="SHKZG_UM"/>
+    </attribute>
+    <attribute id="INSMK" order="221" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSMK"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="INSMK"/>
+    </attribute>
+    <attribute id="KZECH" order="222" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZECH"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZECH"/>
+    </attribute>
+    <attribute id="FLGWM" order="223" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLGWM"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="FLGWM"/>
+    </attribute>
+    <attribute id="BERKZ" order="224" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BERKZ"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BERKZ"/>
+    </attribute>
+    <attribute id="HUPOS" order="225" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HUPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="HUPOS"/>
+    </attribute>
+    <attribute id="NOWAB" order="226" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOWAB"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="NOWAB"/>
+    </attribute>
+    <attribute id="KONTO" order="227" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONTO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KONTO"/>
+    </attribute>
+    <attribute id="KZEAR" order="228" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZEAR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZEAR"/>
+    </attribute>
+    <attribute id="HSDAT" order="229" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSDAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="HSDAT"/>
+    </attribute>
+    <attribute id="VFDAT" order="230" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VFDAT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="VFDAT"/>
+    </attribute>
+    <attribute id="LFGJA" order="231" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFGJA"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LFGJA"/>
+    </attribute>
+    <attribute id="LFBNR" order="232" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFBNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LFBNR"/>
+    </attribute>
+    <attribute id="LFPOS" order="233" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFPOS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LFPOS"/>
+    </attribute>
+    <attribute id="GRUND" order="234" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRUND"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="GRUND"/>
+    </attribute>
+    <attribute id="FOBWA" order="235" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FOBWA"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="FOBWA"/>
+    </attribute>
+    <attribute id="DLVTP" order="236" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DLVTP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="DLVTP"/>
+    </attribute>
+    <attribute id="EXBWR" order="237" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXBWR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="EXBWR"/>
+    </attribute>
+    <attribute id="BPMNG" order="238" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="BPMNG"/>
+    </attribute>
+    <attribute id="EXVKW" order="239" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXVKW"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="EXVKW"/>
+    </attribute>
+    <attribute id="CMPRE_FLT" order="240" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CMPRE_FLT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="CMPRE_FLT"/>
+    </attribute>
+    <attribute id="KZPOD" order="241" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZPOD"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZPOD"/>
+    </attribute>
+    <attribute id="LFDEZ" order="242" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFDEZ"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="LFDEZ"/>
+    </attribute>
+    <attribute id="UMREV" order="243" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMREV"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UMREV"/>
+    </attribute>
+    <attribute id="PODREL" order="244" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PODREL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PODREL"/>
+    </attribute>
+    <attribute id="KZUML" order="245" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZUML"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZUML"/>
+    </attribute>
+    <attribute id="FKBER" order="246" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="FKBER"/>
+    </attribute>
+    <attribute id="GRANT_NBR" order="247" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="GRANT_NBR"/>
+    </attribute>
+    <attribute id="KZWSO" order="248" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWSO"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="KZWSO"/>
+    </attribute>
+    <attribute id="GMCONTROL" order="249" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GMCONTROL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="GMCONTROL"/>
+    </attribute>
+    <attribute id="POSTING_CHANGE" order="250" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSTING_CHANGE"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="POSTING_CHANGE"/>
+    </attribute>
+    <attribute id="UM_PS_PSP_PNR" order="251" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UM_PS_PSP_PNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="UM_PS_PSP_PNR"/>
+    </attribute>
+    <attribute id="PRE_VL_ETENS" order="252" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRE_VL_ETENS"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="PRE_VL_ETENS"/>
+    </attribute>
+    <attribute id="ZZNPLNR" order="253" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZNPLNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ZZNPLNR"/>
+    </attribute>
+    <attribute id="ZZAUFPL" order="254" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZAUFPL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ZZAUFPL"/>
+    </attribute>
+    <attribute id="ZZAPLZL" order="255" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZAPLZL"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ZZAPLZL"/>
+    </attribute>
+    <attribute id="ZZEBELN" order="256" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZEBELN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ZZEBELN"/>
+    </attribute>
+    <attribute id="ZZEBELP" order="257" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZEBELP"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ZZEBELP"/>
+    </attribute>
+    <attribute id="ZZZEKKN" order="258" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZZEKKN"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ZZZEKKN"/>
+    </attribute>
+    <attribute id="ZZAUFNR" order="259" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZAUFNR"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ZZAUFNR"/>
+    </attribute>
+    <attribute id="ZZSERNR_TEXT" order="260" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZSERNR_TEXT"/>
+      <keyMapping columnObjectName="M30_LIPS" columnName="ZZSERNR_TEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

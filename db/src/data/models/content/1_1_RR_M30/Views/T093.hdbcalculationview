@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T093" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T093"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_T093">
+    <resourceUri>M30_T093</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_T093">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_T093" columnName="MANDT"/>
+    </attribute>
+    <attribute id="AFAPL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFAPL"/>
+      <keyMapping columnObjectName="M30_T093" columnName="AFAPL"/>
+    </attribute>
+    <attribute id="AFABER" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABER"/>
+      <keyMapping columnObjectName="M30_T093" columnName="AFABER"/>
+    </attribute>
+    <attribute id="XSTORE" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTORE"/>
+      <keyMapping columnObjectName="M30_T093" columnName="XSTORE"/>
+    </attribute>
+    <attribute id="ABVOR1" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABVOR1"/>
+      <keyMapping columnObjectName="M30_T093" columnName="ABVOR1"/>
+    </attribute>
+    <attribute id="AFABE1" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE1"/>
+      <keyMapping columnObjectName="M30_T093" columnName="AFABE1"/>
+    </attribute>
+    <attribute id="ANTEI1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANTEI1"/>
+      <keyMapping columnObjectName="M30_T093" columnName="ANTEI1"/>
+    </attribute>
+    <attribute id="ABVOR2" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABVOR2"/>
+      <keyMapping columnObjectName="M30_T093" columnName="ABVOR2"/>
+    </attribute>
+    <attribute id="AFABE2" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE2"/>
+      <keyMapping columnObjectName="M30_T093" columnName="AFABE2"/>
+    </attribute>
+    <attribute id="ANTEI2" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANTEI2"/>
+      <keyMapping columnObjectName="M30_T093" columnName="ANTEI2"/>
+    </attribute>
+    <attribute id="ABVOR3" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABVOR3"/>
+      <keyMapping columnObjectName="M30_T093" columnName="ABVOR3"/>
+    </attribute>
+    <attribute id="AFABE3" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE3"/>
+      <keyMapping columnObjectName="M30_T093" columnName="AFABE3"/>
+    </attribute>
+    <attribute id="ANTEI3" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANTEI3"/>
+      <keyMapping columnObjectName="M30_T093" columnName="ANTEI3"/>
+    </attribute>
+    <attribute id="ABVOR4" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABVOR4"/>
+      <keyMapping columnObjectName="M30_T093" columnName="ABVOR4"/>
+    </attribute>
+    <attribute id="AFABE4" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE4"/>
+      <keyMapping columnObjectName="M30_T093" columnName="AFABE4"/>
+    </attribute>
+    <attribute id="ANTEI4" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANTEI4"/>
+      <keyMapping columnObjectName="M30_T093" columnName="ANTEI4"/>
+    </attribute>
+    <attribute id="VZANSW" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZANSW"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZANSW"/>
+    </attribute>
+    <attribute id="VZREST" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZREST"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZREST"/>
+    </attribute>
+    <attribute id="BUHBKT" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUHBKT"/>
+      <keyMapping columnObjectName="M30_T093" columnName="BUHBKT"/>
+    </attribute>
+    <attribute id="VIEW0" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VIEW0"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VIEW0"/>
+    </attribute>
+    <attribute id="VIEW1" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VIEW1"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VIEW1"/>
+    </attribute>
+    <attribute id="VIEW2" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VIEW2"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VIEW2"/>
+    </attribute>
+    <attribute id="VIEW3" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VIEW3"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VIEW3"/>
+    </attribute>
+    <attribute id="VIEW4" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VIEW4"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VIEW4"/>
+    </attribute>
+    <attribute id="VIEW5" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VIEW5"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VIEW5"/>
+    </attribute>
+    <attribute id="VIEW6" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VIEW6"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VIEW6"/>
+    </attribute>
+    <attribute id="VZINVZ" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZINVZ"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZINVZ"/>
+    </attribute>
+    <attribute id="VZAWMA" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZAWMA"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZAWMA"/>
+    </attribute>
+    <attribute id="VZNAFA" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZNAFA"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZNAFA"/>
+    </attribute>
+    <attribute id="VZSAFA" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZSAFA"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZSAFA"/>
+    </attribute>
+    <attribute id="VZAAFA" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZAAFA"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZAAFA"/>
+    </attribute>
+    <attribute id="VZINDW" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZINDW"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZINDW"/>
+    </attribute>
+    <attribute id="VZZINS" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZZINS"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZZINS"/>
+    </attribute>
+    <attribute id="VZINDA" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VZINDA"/>
+      <keyMapping columnObjectName="M30_T093" columnName="VZINDA"/>
+    </attribute>
+    <attribute id="AFABEO" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABEO"/>
+      <keyMapping columnObjectName="M30_T093" columnName="AFABEO"/>
+    </attribute>
+    <attribute id="XBEREP" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBEREP"/>
+      <keyMapping columnObjectName="M30_T093" columnName="XBEREP"/>
+    </attribute>
+    <attribute id="CORRBE" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CORRBE"/>
+      <keyMapping columnObjectName="M30_T093" columnName="CORRBE"/>
+    </attribute>
+    <attribute id="GAFABER" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GAFABER"/>
+      <keyMapping columnObjectName="M30_T093" columnName="GAFABER"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

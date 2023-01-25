@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ANKA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table ANKA"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="M30_ANKA">
+    <resourceUri>M30_ANKA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="M30_ANKA">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="MANDT"/>
+    </attribute>
+    <attribute id="ANLKL" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLKL"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ANLKL"/>
+    </attribute>
+    <attribute id="ERNAM" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="ERDAT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="AENAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="XLOEV" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLOEV"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XLOEV"/>
+    </attribute>
+    <attribute id="XSPEA" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPEA"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XSPEA"/>
+    </attribute>
+    <attribute id="XOPVW" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XOPVW"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XOPVW"/>
+    </attribute>
+    <attribute id="NUMKR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMKR"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="NUMKR"/>
+    </attribute>
+    <attribute id="KTOGR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOGR"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="KTOGR"/>
+    </attribute>
+    <attribute id="ANKAR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANKAR"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ANKAR"/>
+    </attribute>
+    <attribute id="FELEI" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FELEI"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="FELEI"/>
+    </attribute>
+    <attribute id="BEGRU" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEGRU"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="BEGRU"/>
+    </attribute>
+    <attribute id="ZUAWA" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUAWA"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ZUAWA"/>
+    </attribute>
+    <attribute id="GSBER" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="GSBER"/>
+    </attribute>
+    <attribute id="WERKS" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="WERKS"/>
+    </attribute>
+    <attribute id="KOSTL" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="LSTAR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="ANEQK" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANEQK"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ANEQK"/>
+    </attribute>
+    <attribute id="ANEQS" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANEQS"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ANEQS"/>
+    </attribute>
+    <attribute id="MACKZ" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MACKZ"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="MACKZ"/>
+    </attribute>
+    <attribute id="LAND1" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LAND1"/>
+    </attribute>
+    <attribute id="LIFNR" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="LIEFE" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIEFE"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LIEFE"/>
+    </attribute>
+    <attribute id="ANLUE" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLUE"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ANLUE"/>
+    </attribute>
+    <attribute id="EIGKZ" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EIGKZ"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="EIGKZ"/>
+    </attribute>
+    <attribute id="VMGLI" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMGLI"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="VMGLI"/>
+    </attribute>
+    <attribute id="XVRMW" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVRMW"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XVRMW"/>
+    </attribute>
+    <attribute id="INVSL" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVSL"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="INVSL"/>
+    </attribute>
+    <attribute id="ORD41" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORD41"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ORD41"/>
+    </attribute>
+    <attribute id="ORD42" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORD42"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ORD42"/>
+    </attribute>
+    <attribute id="ORD43" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORD43"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ORD43"/>
+    </attribute>
+    <attribute id="ORD44" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORD44"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ORD44"/>
+    </attribute>
+    <attribute id="IZWEK" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IZWEK"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="IZWEK"/>
+    </attribute>
+    <attribute id="HERST" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERST"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="HERST"/>
+    </attribute>
+    <attribute id="MEINS" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="MEINS"/>
+    </attribute>
+    <attribute id="FEINS" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FEINS"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="FEINS"/>
+    </attribute>
+    <attribute id="INKEN" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INKEN"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="INKEN"/>
+    </attribute>
+    <attribute id="FIAMT" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIAMT"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="FIAMT"/>
+    </attribute>
+    <attribute id="STADT" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STADT"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="STADT"/>
+    </attribute>
+    <attribute id="ANLTP" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLTP"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ANLTP"/>
+    </attribute>
+    <attribute id="XUNTV" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XUNTV"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XUNTV"/>
+    </attribute>
+    <attribute id="XAKTIV" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAKTIV"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XAKTIV"/>
+    </attribute>
+    <attribute id="LEAFI" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEAFI"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LEAFI"/>
+    </attribute>
+    <attribute id="LEJAR" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEJAR"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LEJAR"/>
+    </attribute>
+    <attribute id="LEPER" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEPER"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LEPER"/>
+    </attribute>
+    <attribute id="LRYTH" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LRYTH"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LRYTH"/>
+    </attribute>
+    <attribute id="LMZIN" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMZIN"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LMZIN"/>
+    </attribute>
+    <attribute id="LEANZ" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEANZ"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LEANZ"/>
+    </attribute>
+    <attribute id="LETXT" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LETXT"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LETXT"/>
+    </attribute>
+    <attribute id="AIMMO" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AIMMO"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="AIMMO"/>
+    </attribute>
+    <attribute id="GDLGRP" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GDLGRP"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="GDLGRP"/>
+    </attribute>
+    <attribute id="XERWRT" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XERWRT"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XERWRT"/>
+    </attribute>
+    <attribute id="XANLGR" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XANLGR"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XANLGR"/>
+    </attribute>
+    <attribute id="XINVM" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XINVM"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="XINVM"/>
+    </attribute>
+    <attribute id="LEART" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEART"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="LEART"/>
+    </attribute>
+    <attribute id="ABGSL" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABGSL"/>
+      <keyMapping columnObjectName="M30_ANKA" columnName="ABGSL"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
