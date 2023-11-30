@@ -1,5 +1,5 @@
 _schema-version: '2.1'
-ID: dcmhub_roro_m30
+ID: dcmhub_sp_demo
 version: 0.0.1
 #--- Template History ---#
 # Version ; Comments
@@ -8,19 +8,19 @@ version: 0.0.1
 #------------------------#
 
 modules:
-  - name: dcmhub_roro_m30-db
+  - name: dcmhub_sp_demo-db
     type: hdb
     path: db
     requires:
-      - name: dcmhub_roro_m30-hdi-container
+      - name: dcmhub_sp_demo-hdi-container
       - name: cross-container-service
         group: SERVICE_REPLACEMENTS
         properties:
           key: ServiceName_1
           service: '~{the-service-name}'      
-  - name: xsjs_roro_m30
+  - name: xsjs_sp_demo
     type: nodejs
-    path: xsjs_roro_m30
+    path: xsjs_sp_demo
     properties:
       SESSION_TIMEOUT: 60
       INCOMING_CONNECTION_TIMEOUT: 3600000
@@ -29,17 +29,17 @@ modules:
         properties:
           url: '${default-url}'
     requires:
-      - name: dcmhub_roro_m30-hdi-container
-      - name: dcmhub_roro_m30-db
-      - name: dcmhub_roro_m30-uaa
-      - name: dcmhub_roro_m30-fs      
-  - name: tool_roro_m30
+      - name: dcmhub_sp_demo-hdi-container
+      - name: dcmhub_sp_demo-db
+      - name: dcmhub_sp_demo-uaa
+      - name: dcmhub_sp_demo-fs      
+  - name: tool_sp_demo
     type: html5
-    path: tool_roro_m30
+    path: tool_sp_demo
     requires:
-      - name: flp-tool_roro_m30-client
-      - name: dcmhub_roro_m30-uaa
-      - name: dcmhub_roro_m30-ui5
+      - name: flp-tool_sp_demo-client
+      - name: dcmhub_sp_demo-uaa
+      - name: dcmhub_sp_demo-ui5
       - name: xsjs_api
         group: destinations
         properties:
@@ -61,47 +61,43 @@ modules:
         - clientid: '*'
           identityzone: '*'          
 
-  - name: webjava_roro_m30
+  - name: webjava_sp_demo
     type: java
-    path: webjava_roro_m30
+    path: webjava_sp_demo
     parameters:
        memory: 512M
     provides:
-     - name: webjava_roro_m30_api
+     - name: webjava_sp_demo_api
        properties:
           url: ${default-url}
     requires:
-     - name: dcmhub_roro_m30-hdi-container
+     - name: dcmhub_sp_demo-hdi-container
        properties:
           JBP_CONFIG_RESOURCE_CONFIGURATION: '[tomcat/webapps/ROOT/META-INF/context.xml:
              {"service_name_for_DefaultDB" : "~{hdi-container-name}"}]'
 
 resources:
-  - name: dcmhub_roro_m30-hdi-container
+  - name: dcmhub_sp_demo-hdi-container
     type: com.sap.xs.hdi-container
     properties:
       hdi-container-name: '${service-name}'
   - name: cross-container-service
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: DCMHUB-RORO-M30
+      service-name: DCMHUB-RM
     properties:
       the-service-name: '${service-name}'
-  - name: dcmhub_roro_m30-ui5
+  - name: dcmhub_sp_demo-ui5
     type: org.cloudfoundry.managed-service
     parameters:
       service: sapui5_sb
       service-plan: sapui5-1.71
-  - name: dcmhub_roro_m30-uaa
+  - name: dcmhub_sp_demo-uaa
     type: org.cloudfoundry.existing-service
     parameters:
       service-name: portal-uaa-dcmhubflp
-  - name: flp-tool_roro_m30-client
+  - name: flp-tool_sp_demo-client
     type: com.sap.portal.site-content
     parameters:
       config:
-        siteId: dcmhubflp
-  - name: dcmhub_roro_m30-fs
-    type: com.sap.xs.fs
-    parameters:
-      service-name: FILEDIR_RORO_M30
+        siteId: dcmhubflpdemo

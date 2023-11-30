@@ -1,7 +1,7 @@
 {
-"SDA_TCURF": {"target": {"object": "RORO_M30_TCURF","schema": "SDA_RORO_M30"}},
-"SDA_TCURN": {"target": {"object": "RORO_M30_TCURN","schema": "SDA_RORO_M30"}},
-"SDA_TCURR": {"target": {"object": "RORO_M30_TCURR","schema": "SDA_RORO_M30"}},
-"SDA_TCURV": {"target": {"object": "RORO_M30_TCURV","schema": "SDA_RORO_M30"}},
-"SDA_TCURX": {"target": {"object": "RORO_M30_TCURX","schema": "SDA_RORO_M30"}}
+"SDA_TCURF": {"target": {"object": "SP_DEMO_TCURF","schema": "SDA_SP_DEMO"}},
+"SDA_TCURN": {"target": {"object": "SP_DEMO_TCURN","schema": "SDA_SP_DEMO"}},
+"SDA_TCURR": {"target": {"object": "SP_DEMO_TCURR","schema": "SDA_SP_DEMO"}},
+"SDA_TCURV": {"target": {"object": "SP_DEMO_TCURV","schema": "SDA_SP_DEMO"}},
+"SDA_TCURX": {"target": {"object": "SP_DEMO_TCURX","schema": "SDA_SP_DEMO"}}
 }

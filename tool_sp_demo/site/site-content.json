@@ -1,0 +1,59 @@
+{
+	"roles": {
+		"Everyone": {
+			"_version": "1.0",
+			"identification": {
+				"id": "Everyone",
+				"namespace": "",
+				"entityType": "role"
+			},
+			"payload": {
+				"catalogs": [],
+				"groups": [
+					{
+						"id": "tool_sp_demo_GroupId"
+					}
+				]
+			}
+		}
+	},
+	"applications": {},
+	"groups": {
+		"tool_sp_demo_GroupId": {
+			"identification": {
+				"id": "tool_sp_demo_GroupId",
+				"i18n": "i18n/i18n.properties",
+				"namespace": "",
+				"title": "SP_DEMO"
+			},
+			"payload": {
+				"tiles": [
+					{
+						"id": "tool_sp_demo_tile",
+						"title": "SP_DEMO",
+						"subTitle": "Launchpad",
+						"icon": "sap-icon://share-2",
+						"appId": "tool_sp_demo",
+						"target": {
+							"semanticObject": "tool_sp_demo",
+							"action": "show",
+							"parameters": []
+						}
+					}
+				]
+			}
+		}
+	},
+	"siteThemes": {
+		"sap_belize_plus": {
+			"description": "SAP Belize Plus",
+			"name": "sap_belize_plus",
+			"path": "sap_belize_plus"
+		},
+		"sap_belize": {
+			"description": "SAP Belize",
+			"name": "sap_belize",
+			"path": "sap_belize"
+		}
+	}
+}
