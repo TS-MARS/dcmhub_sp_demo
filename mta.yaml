@@ -32,7 +32,6 @@ modules:
       - name: dcmhub_sp_demo-hdi-container
       - name: dcmhub_sp_demo-db
       - name: dcmhub_sp_demo-uaa
-      - name: dcmhub_sp_demo-fs      
   - name: tool_sp_demo
     type: html5
     path: tool_sp_demo
@@ -60,21 +59,6 @@ modules:
       SAP_JWT_TRUST_ACL:
         - clientid: '*'
           identityzone: '*'          
-
-  - name: webjava_sp_demo
-    type: java
-    path: webjava_sp_demo
-    parameters:
-       memory: 512M
-    provides:
-     - name: webjava_sp_demo_api
-       properties:
-          url: ${default-url}
-    requires:
-     - name: dcmhub_sp_demo-hdi-container
-       properties:
-          JBP_CONFIG_RESOURCE_CONFIGURATION: '[tomcat/webapps/ROOT/META-INF/context.xml:
-             {"service_name_for_DefaultDB" : "~{hdi-container-name}"}]'
 
 resources:
   - name: dcmhub_sp_demo-hdi-container
