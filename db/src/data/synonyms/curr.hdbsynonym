@@ -1,7 +1,0 @@
-{
-"SDA_TCURF": {"target": {"object": "SP_DEMO_TCURF","schema": "SDA_SP_DEMO"}},
-"SDA_TCURN": {"target": {"object": "SP_DEMO_TCURN","schema": "SDA_SP_DEMO"}},
-"SDA_TCURR": {"target": {"object": "SP_DEMO_TCURR","schema": "SDA_SP_DEMO"}},
-"SDA_TCURV": {"target": {"object": "SP_DEMO_TCURV","schema": "SDA_SP_DEMO"}},
-"SDA_TCURX": {"target": {"object": "SP_DEMO_TCURX","schema": "SDA_SP_DEMO"}}
-}

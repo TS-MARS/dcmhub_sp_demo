@@ -68,7 +68,7 @@ resources:
   - name: cross-container-service
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: DCMHUB-RM
+      service-name: DCMHUB-DEV
     properties:
       the-service-name: '${service-name}'
   - name: dcmhub_sp_demo-ui5
@@ -79,7 +79,7 @@ resources:
   - name: dcmhub_sp_demo-uaa
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: portal-uaa-dcmhubflp
+      service-name: portal-uaa-dcmhubflpdemo
   - name: flp-tool_sp_demo-client
     type: com.sap.portal.site-content
     parameters:

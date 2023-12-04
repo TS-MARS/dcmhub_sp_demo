@@ -1,16 +1,1 @@
-{
-    "type": "mta",
-    "builders": {
-        "default": "mtabuilder",
-        "configs": {}
-    },
-    "runners": {
-        "configs": {}
-    },
-    "attributes": {
-        "sap.watt.common.setting": [
-            "{\"generation\":[{\"templateId\":\"hanatemplates.hanamtaproject\",\"templateVersion\":\"1.0.0\",\"dateTimeStamp\":\"Thu, 05 May 2022 17:08:22 GMT\"}],\"translation\":{\"translationDomain\":\"\",\"supportedLanguages\":\"en,fr,de\",\"defaultLanguage\":\"en\",\"defaultI18NPropertyFile\":\"i18n.properties\",\"resourceModelName\":\"i18n\"},\"basevalidator\":{\"services\":{\"js\":\"jsValidator\",\"json\":\"jsonValidator\",\"xml\":\"xmlValidator\"}},\"hdbInactiveFiles\":{\"inactiveFileList\":[\"/dcmhubsp_demo/db/src/data/loads/TableText.csv\",\"/dcmhubsp_demo/db/src/data/loads/TableConfig.csv\",\"/dcmhubsp_demo/db/src/data/loads/Table.csv\",\"/dcmhubsp_demo/db/src/data/loads/SubApplication.csv\",\"/dcmhubsp_demo/db/src/data/loads/customFieldText.csv\",\"/dcmhubsp_demo/db/src/data/loads/applicationText.csv\",\"/dcmhubsp_demo/db/src/data/loads/Application.csv\",\"/dcmhubsp_demo/db/src/data/synonyms/checktables.hdbsynonym\",\"/dcmhubsp_demo/db/src/data/synonyms/curr.hdbsynonym\",\"/dcmhubsp_demo/db/src/data/synonyms/sp_demo.hdbsynonym\",\"/dcmhub_sp_demo/db/src/data/loads/Application.csv\",\"/dcmhub_sp_demo/db/src/data/loads/Table.csv\",\"/dcmhub_sp_demo/db/src/data/loads/SubApplication.csv\",\"/dcmhub_sp_demo/db/src/data/loads/applicationText.csv\",\"/dcmhub_sp_demo/db/src/data/loads/TableText.csv\",\"/dcmhub_sp_demo/db/src/data/loads/customFieldText.csv\",\"/dcmhub_sp_demo/db/src/data/synonyms/sp_demo.hdbsynonym\",\"/dcmhub_sp_demo/db/src/data/synonyms/checktables.hdbsynonym\",\"/dcmhub_sp_demo/db/src/data/synonyms/curr.hdbsynonym\"]}}"
-        ]
-    },
-    "mixinTypes": []
-}
+{"type":"mta","builders":{"default":"mtabuilder","configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"generation\":[{\"templateId\":\"hanatemplates.hanamtaproject\",\"templateVersion\":\"1.0.0\",\"dateTimeStamp\":\"Thu, 05 May 2022 17:08:22 GMT\"}],\"translation\":{\"translationDomain\":\"\",\"supportedLanguages\":\"en,fr,de\",\"defaultLanguage\":\"en\",\"defaultI18NPropertyFile\":\"i18n.properties\",\"resourceModelName\":\"i18n\"},\"basevalidator\":{\"services\":{\"js\":\"jsValidator\",\"json\":\"jsonValidator\",\"xml\":\"xmlValidator\"}},\"hdbInactiveFiles\":{\"inactiveFileList\":[\"/dcmhubsp_demo/db/src/data/loads/TableText.csv\",\"/dcmhubsp_demo/db/src/data/loads/TableConfig.csv\",\"/dcmhubsp_demo/db/src/data/loads/Table.csv\",\"/dcmhubsp_demo/db/src/data/loads/SubApplication.csv\",\"/dcmhubsp_demo/db/src/data/loads/customFieldText.csv\",\"/dcmhubsp_demo/db/src/data/loads/applicationText.csv\",\"/dcmhubsp_demo/db/src/data/loads/Application.csv\",\"/dcmhubsp_demo/db/src/data/synonyms/checktables.hdbsynonym\",\"/dcmhubsp_demo/db/src/data/synonyms/curr.hdbsynonym\",\"/dcmhubsp_demo/db/src/data/synonyms/sp_demo.hdbsynonym\"]}}"]},"mixinTypes":[]}
