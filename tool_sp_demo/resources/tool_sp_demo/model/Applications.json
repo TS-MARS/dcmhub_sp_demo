@@ -28,7 +28,7 @@
                                 "type": "default.TableSetType"
                             },
                             "SUBAPPLICATIONID": "VIEW",
-                            "TABLEID": "",
+                            "TABLEID": "VIEW",
                             "DDTEXT": "Test-SP",
                             "FAV": "false"
                         }

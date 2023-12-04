@@ -36,12 +36,8 @@
 				"type": "JSON"
 			},
 			"toolTableService": {
-				"uri": "../xsodata/tooltableservice.xsodata/",
-				"type": "OData",
-				"settings": {
-					"odataVersion": "2.0",
-					"localUri": "localService/metadata.xml"
-				}
+				"uri": "model/Filters.json",
+				"type": "JSON"
 			},
 			"personalization": {
 				"uri": "../xsodata/fav.xsodata/",
@@ -117,7 +113,7 @@
 				"preload": true
 			},
 			"toolTableServiceSet": {
-				"type": "sap.ui.model.odata.v2.ODataModel",
+				"type": "sap.ui.model.json.JSONModel",
 				"dataSource": "toolTableService",
 				"defaultBindingMode": "TwoWay",
 				"preload": true
