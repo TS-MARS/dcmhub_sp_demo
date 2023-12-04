@@ -1029,312 +1029,302 @@ sap.ui.define([
 				var oDataColumnAll = {
 					columns: []
 				};
-				this.getOwnerComponent().getModel("toolTableServiceSet").read(
-					"/TableFieldLabelSetParameters(IP_TABNAME='" + oTableId.TableId + "',IP_DDLANGUAGE='" + sLanguage +
-					"',IP_KEYFLAG='*')/Results", {
-					sorters: [new sap.ui.model.Sorter("POSITION")],
-					//						filters: aFilters,
-					success: function (oResult) {
-						// add rows in the standard sap tables
-						// Begin 0901
-						var iCount = 0;
-						if (this.getView().getModel("AllTableResult").getData()[oTableId.TableId.toLowerCase()] !== undefined) {
-							iCount = this.getView().getModel("AllTableResult").getData()[oTableId.TableId.toLowerCase()].length;
-						}
+				var oResult = this.getOwnerComponent().getModel("toolTableServiceSet").getData();
+				// add rows in the standard sap tables
+				// Begin 0901
+				var iCount = 0;
+				if (this.getView().getModel("AllTableResult").getData()[oTableId.TableId.toLowerCase()] !== undefined) {
+					iCount = this.getView().getModel("AllTableResult").getData()[oTableId.TableId.toLowerCase()].length;
+				}
 
-						for (var i = 0; i < oResult.results.length; i++) {
-							var property = oResult.results[i];
-							if (this._techFlag === true) {
-								oDataColumn.columns.push({
-									column_width: "11rem", // 1001
-									column_name: property.FIELDNAME, //property.SCRTEXT_M,
-									column_property: property.FIELDNAME,
-									column_visible: true,
-									column_index: i,
-									column_filter: "",
-									column_filterto: "",
-									column_sort: false,
-									column_tab: oTableId.TableId,
-									column_tab_desc: oTableId.TableDescription,
-									count: iCount,
-									column_type: property.TYPE
-								});
+				for (var i = 0; i < oResult.results.length; i++) {
+					var property = oResult.results[i];
+					if (this._techFlag === true) {
+						oDataColumn.columns.push({
+							column_width: "11rem", // 1001
+							column_name: property.FIELDNAME, //property.SCRTEXT_M,
+							column_property: property.FIELDNAME,
+							column_visible: true,
+							column_index: i,
+							column_filter: "",
+							column_filterto: "",
+							column_sort: false,
+							column_tab: oTableId.TableId,
+							column_tab_desc: oTableId.TableDescription,
+							count: iCount,
+							column_type: property.TYPE
+						});
+					} else {
+						oDataColumn.columns.push({
+							column_width: "11rem", // 1001
+							column_name: property.SCRTEXT_M,
+							column_property: property.FIELDNAME,
+							column_visible: true,
+							column_index: i,
+							column_filter: "",
+							column_filterto: "",
+							column_sort: false,
+							column_tab: oTableId.TableId,
+							column_tab_desc: oTableId.TableDescription,
+							count: iCount,
+							column_type: property.TYPE
+						});
+					}
+				}
+
+				// for each table retrieve the personalization
+				if (this._techFlag === true) {
+					var oPersonalizer = this.getPersonalizationInstance("myTablesSettingTech", namespace + "_" + oTableId.TableId.toUpperCase());
+				} else {
+					var oPersonalizer = this.getPersonalizationInstance("myTablesSetting", namespace + "_" + oTableId.TableId.toUpperCase());
+				}
+
+				oReadPromise = oPersonalizer.getPersData()
+					.done(function (oPersData) {
+						if (oPersData !== undefined) {
+							oDataColumn = oPersData;
+						}
+					})
+					.fail(function () {
+
+					});
+				var oTableColumnModel = new JSONModel(oDataColumn); // model for just keys for selections
+				var oTableColumnModelAll = new JSONModel(oDataColumnAll); // model for all columns
+
+				this.getView().setModel(oTableColumnModelAll, "tableSettings");
+				oTableColumnModel.setSizeLimit(oDataColumn.columns.length);
+				this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].setVisible(true);
+				this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
+					oTableColumnModel, "tables");
+				this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
+					oTableColumnModel, "settings");
+				this.getView().setModel(this.getOwnerComponent().getModel("tables"), "table");
+				var oTableModel = this.getOwnerComponent().getModel("tables");
+
+				//oTableModel.metadataLoaded().then(function(){
+				//	BusyIndicator.show(0);
+
+				// Begin 1001
+				this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(this.getView()
+					.getModel("AllTableResult"));
+				// End 1001
+				//this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getTable().setModel(this.getOwnerComponent().getModel(
+				//	"tables"));
+				// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
+				// 	oTableModel);
+				// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].unbindRows();
+
+				// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].bindRows({
+				// 	path: "/" + oTableId.TableId.toLowerCase() + this._paraStatement
+				// });
+				// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(true);
+				// oDataColumn.columns.forEach(function (oColumn, iIndex) {
+				// 	if (this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+				// 			iIndex] !==
+				// 		undefined) {
+				// 		this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+				// 			iIndex].getTemplate().bindProperty(
+				// 			"text", {
+				// 				parts: [{
+				// 					path: oColumn.column_property
+				// 				}, {
+				// 					path: oColumn.column_type
+				// 				}],
+				// 				formatter: this.columnFormatter
+				// 			});
+				// 		this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+				// 				iIndex]._propertyName =
+				// 			oColumn.column_property;
+				// 	}
+				// }.bind(this));
+
+
+				// BusyIndicator.hide();
+
+				this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(true);
+				var wherefilter = this._applyWhereFilter(this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
+					0], oTableId.TableId);
+				var where = "";
+				var count = 0;
+				wherefilter.forEach(function (oPreSelectedFilter) {
+					count = count + 1;
+					var fieldstring = "\"" + oPreSelectedFilter.sPath + "\"";
+					switch (oPreSelectedFilter.sOperator) {
+						case "EQ":
+							if (count !== 1) {
+								var n = where.indexOf(oPreSelectedFilter.sPath);
+
+								if (n !== -1) //There is a hit	
+								{
+									where = where.slice(0, -1);
+									where = where + " OR " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+								} else {
+									where = where + " AND ( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+								}
 							} else {
-								oDataColumn.columns.push({
-									column_width: "11rem", // 1001
-									column_name: property.SCRTEXT_M,
-									column_property: property.FIELDNAME,
-									column_visible: true,
-									column_index: i,
-									column_filter: "",
-									column_filterto: "",
-									column_sort: false,
-									column_tab: oTableId.TableId,
-									column_tab_desc: oTableId.TableDescription,
-									count: iCount,
-									column_type: property.TYPE
-								});
+								where = where + "( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
 							}
-						}
-
-						// for each table retrieve the personalization
-						if (this._techFlag === true) {
-							var oPersonalizer = this.getPersonalizationInstance("myTablesSettingTech", namespace + "_" + oTableId.TableId.toUpperCase());
-						} else {
-							var oPersonalizer = this.getPersonalizationInstance("myTablesSetting", namespace + "_" + oTableId.TableId.toUpperCase());
-						}
-
-						oReadPromise = oPersonalizer.getPersData()
-							.done(function (oPersData) {
-								if (oPersData !== undefined) {
-									oDataColumn = oPersData;
-								}
-							})
-							.fail(function () {
-
-							});
-						var oTableColumnModel = new JSONModel(oDataColumn); // model for just keys for selections
-						var oTableColumnModelAll = new JSONModel(oDataColumnAll); // model for all columns
-
-						this.getView().setModel(oTableColumnModelAll, "tableSettings");
-						oTableColumnModel.setSizeLimit(oDataColumn.columns.length);
-						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].setVisible(true);
-						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
-							oTableColumnModel, "tables");
-						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
-							oTableColumnModel, "settings");
-						this.getView().setModel(this.getOwnerComponent().getModel("tables"), "table");
-						var oTableModel = this.getOwnerComponent().getModel("tables");
-
-						//oTableModel.metadataLoaded().then(function(){
-						//	BusyIndicator.show(0);
-
-						// Begin 1001
-						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(this.getView()
-							.getModel("AllTableResult"));
-						// End 1001
-						//this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getTable().setModel(this.getOwnerComponent().getModel(
-						//	"tables"));
-						// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
-						// 	oTableModel);
-						// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].unbindRows();
-
-						// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].bindRows({
-						// 	path: "/" + oTableId.TableId.toLowerCase() + this._paraStatement
-						// });
-						// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(true);
-						// oDataColumn.columns.forEach(function (oColumn, iIndex) {
-						// 	if (this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-						// 			iIndex] !==
-						// 		undefined) {
-						// 		this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-						// 			iIndex].getTemplate().bindProperty(
-						// 			"text", {
-						// 				parts: [{
-						// 					path: oColumn.column_property
-						// 				}, {
-						// 					path: oColumn.column_type
-						// 				}],
-						// 				formatter: this.columnFormatter
-						// 			});
-						// 		this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-						// 				iIndex]._propertyName =
-						// 			oColumn.column_property;
-						// 	}
-						// }.bind(this));
-
-
-						// BusyIndicator.hide();
-
-						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(true);
-						var wherefilter = this._applyWhereFilter(this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
-							0], oTableId.TableId);
-						var where = "";
-						var count = 0;
-						wherefilter.forEach(function (oPreSelectedFilter) {
-							count = count + 1;
-							var fieldstring = "\"" + oPreSelectedFilter.sPath + "\"";
-							switch (oPreSelectedFilter.sOperator) {
-								case "EQ":
-									if (count !== 1) {
-										var n = where.indexOf(oPreSelectedFilter.sPath);
-
-										if (n !== -1) //There is a hit	
-										{
-											where = where.slice(0, -1);
-											where = where + " OR " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
-										} else {
-											where = where + " AND ( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
-										}
-									} else {
-										where = where + "( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
-									}
-									break;
-								case "Contains":
-									if (count !== 1) {
-										where = where + " AND ";
-									}
-									where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "%'";
-									break;
-								case "EndsWith":
-									if (count !== 1) {
-										where = where + " AND ";
-									}
-									where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "'";
-									break;
-								case "StartsWith":
-									if (count !== 1) {
-										where = where + " AND ";
-									}
-									where = where + fieldstring + " LIKE '" + oPreSelectedFilter.oValue1 + "%'";
-									break;
-								case "BT":
-									if (count !== 1) {
-										where = where + " AND ";
-									}
-									where = where + fieldstring + " BETWEEN '" + oPreSelectedFilter.oValue1 + "' AND '" + oPreSelectedFilter
-										.oValue2 + "'";
-									break;
-								case "GT":
-									if (count !== 1) {
-										where = where + " AND ";
-									}
-									where = where + fieldstring + " >'" + oPreSelectedFilter.oValue1 + "'";
-									break;
-								case "LT":
-									where = where + fieldstring + " <'" + oPreSelectedFilter.oValue1 + "'";
-									break;
-								case "GE":
-									where = where + fieldstring + " >='" + oPreSelectedFilter.oValue1 + "'";
-									break;
-								case "LE":
-									if (count !== 1) {
-										where = where + " AND ";
-									}
-									where = where + fieldstring + " <='" + oPreSelectedFilter.oValue1 + "'";
-									break;
+							break;
+						case "Contains":
+							if (count !== 1) {
+								where = where + " AND ";
 							}
-						});
-						//where = encodeURIComponent(where);		
-
-						// $.ajax({
-						// type: "GET",
-						// contentType: "application/json",
-						// url: "../../xsjs/dataLoad.xsjs?field=*&table=" + oTableId.TableId + "&where=" + where,
-						// dataType: "json",
-						// async: true,
-						// success: function (data) {
-						$.post("../../xsjs/dataLoad.xsjs", {
-							"field": "*",
-							"table": oTableId.TableId,
-							"where": where
-						},
-							function (data) {
-								//var count = data.length;
-								//data[0].count  = data.length;
-
-								var columndata = that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
-									0].getModel("tables").getData().columns;
-								//.columns[15].column_type.substring(0,7)
-								var totals = {};
-								for (var j = 0; j < data.length; j++) {
-
-									data[j].Color = '';
-
-								}
-								for (var i = 0; i < columndata.length; i++) {
-									if (columndata[i].column_type.substring(0, 7) === 'DECIMAL') {
-										var columnname = columndata[i].column_property;
-										var value = 0;
-										for (var j = 0; j < data.length; j++) {
-											value = value * 1 + data[j][columnname] * 1;
-
-										}
-										totals[columnname] = value;
-									} else {
-										var columnname = columndata[i].column_property;
-										totals[columnname] = '';
-									}
-								}
-								totals.Color = 'X';
-								totals.navigated = true;
-								data.push(totals);
-								data[0].count = data.length - 1;
-
-								//var counttotal = new sap.ui.model.json.JSONModel(count);
-								var a = new sap.ui.model.json.JSONModel(data);
-								a.setSizeLimit(999999);
-								//t.setModel(a);
-								//t.bindRows("/");
-								//that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(counttotal);
-								that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(a);
-								//that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].unbindRows();
-
-								that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].bindRows("/");
-								that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(false);
-							})
-							.fail(function (oError) {
-								that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(false);
-
-							});
-
-
-						oDataColumn.columns.forEach(function (oColumn, iIndex) {
-							if (this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-								iIndex] !==
-								undefined) {
-								this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-									iIndex].getTemplate().bindProperty(
-										"text", { parts: [{ path: oColumn.column_property }, { path: oColumn.column_type }], formatter: this.columnFormatter });
-								this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-									iIndex]._propertyName =
-									oColumn.column_property;
+							where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "%'";
+							break;
+						case "EndsWith":
+							if (count !== 1) {
+								where = where + " AND ";
 							}
-						}.bind(this));
-						//	}.bind(this));
-						var oTemplate = new RowAction({
-							items: [
-								// new RowActionItem({
-								// 	icon: "sap-icon://navigation-right-arrow",
-								// 	text: "EKPO",
-								// 	press: function (oEvent) {
-								// 		that.onRowSelect(oEvent.getSource().getText(), oEvent.getSource().getRowAction().getRow().getRowBindingContext()
-								// 			.getProperty("EBELN"));
-								// 	}
-								// }),
-								// new RowActionItem({
-								// 	icon: "sap-icon://navigation-right-arrow",
-								// 	text: "EKKN",
-								// 	press: function (oEvent) {
-								// 		that.onRowSelect(oEvent.getSource().getText());
-								// 	}
-								// }),
-								// Changes row details feature start
-								new RowActionItem({
-									icon: "sap-icon://message-information",
-									text: "Details",
-									press: function (oEvent) {
-										that.rowDetails(oDataColumn.columns, oEvent.getSource().getBindingContext().getProperty(oEvent.getSource().getBindingContext()
-											.getPath()));
-									}
-								})
-								// Changes row details feature end
-							]
-						});
-
-						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setRowActionTemplate(
-							oTemplate);
-						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setRowActionCount(
-							1);
-						//this._applyDefaultSetting(this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
-						//	0], oTableId.TableId);
-
-					}.bind(this),
-
-					error: function (oError) {
-
+							where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "'";
+							break;
+						case "StartsWith":
+							if (count !== 1) {
+								where = where + " AND ";
+							}
+							where = where + fieldstring + " LIKE '" + oPreSelectedFilter.oValue1 + "%'";
+							break;
+						case "BT":
+							if (count !== 1) {
+								where = where + " AND ";
+							}
+							where = where + fieldstring + " BETWEEN '" + oPreSelectedFilter.oValue1 + "' AND '" + oPreSelectedFilter
+								.oValue2 + "'";
+							break;
+						case "GT":
+							if (count !== 1) {
+								where = where + " AND ";
+							}
+							where = where + fieldstring + " >'" + oPreSelectedFilter.oValue1 + "'";
+							break;
+						case "LT":
+							where = where + fieldstring + " <'" + oPreSelectedFilter.oValue1 + "'";
+							break;
+						case "GE":
+							where = where + fieldstring + " >='" + oPreSelectedFilter.oValue1 + "'";
+							break;
+						case "LE":
+							if (count !== 1) {
+								where = where + " AND ";
+							}
+							where = where + fieldstring + " <='" + oPreSelectedFilter.oValue1 + "'";
+							break;
 					}
 				});
+				//where = encodeURIComponent(where);		
+
+				// $.ajax({
+				// type: "GET",
+				// contentType: "application/json",
+				// url: "../../xsjs/dataLoad.xsjs?field=*&table=" + oTableId.TableId + "&where=" + where,
+				// dataType: "json",
+				// async: true,
+				// success: function (data) {
+				$.post("../../xsjs/query.xsjs", {
+					"field": "*",
+					"table": oTableId.TableId,
+					"where": where
+				},
+					function (data) {
+						//var count = data.length;
+						//data[0].count  = data.length;
+
+						var columndata = that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
+							0].getModel("tables").getData().columns;
+						//.columns[15].column_type.substring(0,7)
+						var totals = {};
+						for (var j = 0; j < data.length; j++) {
+
+							data[j].Color = '';
+
+						}
+						for (var i = 0; i < columndata.length; i++) {
+							if (columndata[i].column_type.substring(0, 7) === 'DECIMAL') {
+								var columnname = columndata[i].column_property;
+								var value = 0;
+								for (var j = 0; j < data.length; j++) {
+									value = value * 1 + data[j][columnname] * 1;
+
+								}
+								totals[columnname] = value;
+							} else {
+								var columnname = columndata[i].column_property;
+								totals[columnname] = '';
+							}
+						}
+						totals.Color = 'X';
+						totals.navigated = true;
+						data.push(totals);
+						data[0].count = data.length - 1;
+
+						//var counttotal = new sap.ui.model.json.JSONModel(count);
+						var a = new sap.ui.model.json.JSONModel(data);
+						a.setSizeLimit(999999);
+						//t.setModel(a);
+						//t.bindRows("/");
+						//that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(counttotal);
+						that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(a);
+						//that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].unbindRows();
+
+						that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].bindRows("/");
+						that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(false);
+					})
+					.fail(function (oError) {
+						that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(false);
+
+					});
+
+
+				oDataColumn.columns.forEach(function (oColumn, iIndex) {
+					if (this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+						iIndex] !==
+						undefined) {
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+							iIndex].getTemplate().bindProperty(
+								"text", { parts: [{ path: oColumn.column_property }, { path: oColumn.column_type }], formatter: this.columnFormatter });
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+							iIndex]._propertyName =
+							oColumn.column_property;
+					}
+				}.bind(this));
+				//	}.bind(this));
+				var oTemplate = new RowAction({
+					items: [
+						// new RowActionItem({
+						// 	icon: "sap-icon://navigation-right-arrow",
+						// 	text: "EKPO",
+						// 	press: function (oEvent) {
+						// 		that.onRowSelect(oEvent.getSource().getText(), oEvent.getSource().getRowAction().getRow().getRowBindingContext()
+						// 			.getProperty("EBELN"));
+						// 	}
+						// }),
+						// new RowActionItem({
+						// 	icon: "sap-icon://navigation-right-arrow",
+						// 	text: "EKKN",
+						// 	press: function (oEvent) {
+						// 		that.onRowSelect(oEvent.getSource().getText());
+						// 	}
+						// }),
+						// Changes row details feature start
+						new RowActionItem({
+							icon: "sap-icon://message-information",
+							text: "Details",
+							press: function (oEvent) {
+								that.rowDetails(oDataColumn.columns, oEvent.getSource().getBindingContext().getProperty(oEvent.getSource().getBindingContext()
+									.getPath()));
+							}
+						})
+						// Changes row details feature end
+					]
+				});
+
+				this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setRowActionTemplate(
+					oTemplate);
+				this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setRowActionCount(
+					1);
+				//this._applyDefaultSetting(this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
+				//	0], oTableId.TableId);
+
+
 			}.bind(this));
 
 		},

@@ -1,74 +1,76 @@
-[
-    {
-        "__metadata": {
-            "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/tooltableservice.xsodata/TableFieldLabelSet(IP_KEYFLAG='*',IP_DDLANGUAGE='E',IP_TABNAME='VIEW',TABNAME='VIEW',DDLANGUAGE='E',KEYFLAG='X')",
-            "type": "default.TableFieldLabelSetType"
+{
+    "results": [
+        {
+            "__metadata": {
+                "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/tooltableservice.xsodata/TableFieldLabelSet(IP_KEYFLAG='*',IP_DDLANGUAGE='E',IP_TABNAME='VIEW',TABNAME='VIEW',DDLANGUAGE='E',KEYFLAG='X')",
+                "type": "default.TableFieldLabelSetType"
+            },
+            "IP_KEYFLAG": "*",
+            "IP_DDLANGUAGE": "E",
+            "IP_TABNAME": "VIEW",
+            "TABNAME": "VIEW",
+            "POSITION": 1,
+            "FIELDNAME": "BUKRS",
+            "KEYFLAG": "X",
+            "DDTEXT": "BUKRS",
+            "REPTEXT": "BUKRS",
+            "SCRTEXT_S": "BUKRS",
+            "SCRTEXT_M": "BUKRS",
+            "SCRTEXT_L": "BUKRS",
+            "DDLANGUAGE": "E",
+            "DEFAULT": null,
+            "MANDATORY": null,
+            "PARAMETER": null,
+            "CHECKTABLE": null,
+            "TYPE": "INTEGER(10,0)"
         },
-        "IP_KEYFLAG": "*",
-        "IP_DDLANGUAGE": "E",
-        "IP_TABNAME": "VIEW",
-        "TABNAME": "VIEW",
-        "POSITION": 1,
-        "FIELDNAME": "BUKRS",
-        "KEYFLAG": "X",
-        "DDTEXT": "BUKRS",
-        "REPTEXT": "BUKRS",
-        "SCRTEXT_S": "BUKRS",
-        "SCRTEXT_M": "BUKRS",
-        "SCRTEXT_L": "BUKRS",
-        "DDLANGUAGE": "E",
-        "DEFAULT": null,
-        "MANDATORY": null,
-        "PARAMETER": null,
-        "CHECKTABLE": null,
-        "TYPE": "INTEGER(10,0)"
-    },
-    {
-        "__metadata": {
-            "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/tooltableservice.xsodata/TableFieldLabelSet(IP_KEYFLAG='*',IP_DDLANGUAGE='E',IP_TABNAME='VIEW',TABNAME='VIEW',DDLANGUAGE='E',KEYFLAG='X')",
-            "type": "default.TableFieldLabelSetType"
+        {
+            "__metadata": {
+                "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/tooltableservice.xsodata/TableFieldLabelSet(IP_KEYFLAG='*',IP_DDLANGUAGE='E',IP_TABNAME='VIEW',TABNAME='VIEW',DDLANGUAGE='E',KEYFLAG='X')",
+                "type": "default.TableFieldLabelSetType"
+            },
+            "IP_KEYFLAG": "*",
+            "IP_DDLANGUAGE": "E",
+            "IP_TABNAME": "VIEW",
+            "TABNAME": "VIEW",
+            "POSITION": 2,
+            "FIELDNAME": "BELNR",
+            "KEYFLAG": "X",
+            "DDTEXT": "BELNR",
+            "REPTEXT": "BELNR",
+            "SCRTEXT_S": "BELNR",
+            "SCRTEXT_M": "BELNR",
+            "SCRTEXT_L": "BELNR",
+            "DDLANGUAGE": "E",
+            "DEFAULT": null,
+            "MANDATORY": null,
+            "PARAMETER": null,
+            "CHECKTABLE": null,
+            "TYPE": "INTEGER(10,0)"
         },
-        "IP_KEYFLAG": "*",
-        "IP_DDLANGUAGE": "E",
-        "IP_TABNAME": "VIEW",
-        "TABNAME": "VIEW",
-        "POSITION": 2,
-        "FIELDNAME": "BELNR",
-        "KEYFLAG": "X",
-        "DDTEXT": "BELNR",
-        "REPTEXT": "BELNR",
-        "SCRTEXT_S": "BELNR",
-        "SCRTEXT_M": "BELNR",
-        "SCRTEXT_L": "BELNR",
-        "DDLANGUAGE": "E",
-        "DEFAULT": null,
-        "MANDATORY": null,
-        "PARAMETER": null,
-        "CHECKTABLE": null,
-        "TYPE": "INTEGER(10,0)"
-    },
-    {
-        "__metadata": {
-            "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/tooltableservice.xsodata/TableFieldLabelSet(IP_KEYFLAG='*',IP_DDLANGUAGE='E',IP_TABNAME='VIEW',TABNAME='VIEW',DDLANGUAGE='E',KEYFLAG='X')",
-            "type": "default.TableFieldLabelSetType"
-        },
-        "IP_KEYFLAG": "*",
-        "IP_DDLANGUAGE": "E",
-        "IP_TABNAME": "VIEW",
-        "TABNAME": "VIEW",
-        "POSITION": 3,
-        "FIELDNAME": "GJAHR",
-        "KEYFLAG": "X",
-        "DDTEXT": "GJAHR",
-        "REPTEXT": "GJAHR",
-        "SCRTEXT_S": "GJAHR",
-        "SCRTEXT_M": "GJAHR",
-        "SCRTEXT_L": "GJAHR",
-        "DDLANGUAGE": "E",
-        "DEFAULT": null,
-        "MANDATORY": null,
-        "PARAMETER": null,
-        "CHECKTABLE": null,
-        "TYPE": "NVARCHAR(10)"
-    }
-]
+        {
+            "__metadata": {
+                "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/tooltableservice.xsodata/TableFieldLabelSet(IP_KEYFLAG='*',IP_DDLANGUAGE='E',IP_TABNAME='VIEW',TABNAME='VIEW',DDLANGUAGE='E',KEYFLAG='X')",
+                "type": "default.TableFieldLabelSetType"
+            },
+            "IP_KEYFLAG": "*",
+            "IP_DDLANGUAGE": "E",
+            "IP_TABNAME": "VIEW",
+            "TABNAME": "VIEW",
+            "POSITION": 3,
+            "FIELDNAME": "GJAHR",
+            "KEYFLAG": "X",
+            "DDTEXT": "GJAHR",
+            "REPTEXT": "GJAHR",
+            "SCRTEXT_S": "GJAHR",
+            "SCRTEXT_M": "GJAHR",
+            "SCRTEXT_L": "GJAHR",
+            "DDLANGUAGE": "E",
+            "DEFAULT": null,
+            "MANDATORY": null,
+            "PARAMETER": null,
+            "CHECKTABLE": null,
+            "TYPE": "NVARCHAR(10)"
+        }
+    ]
+}
