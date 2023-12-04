@@ -928,66 +928,56 @@ sap.ui.define([
 				};
 				aPromiseAll.push(new Promise(function (resolve, reject) {
 					// Retrieve the column fields that are keys
-					this.getOwnerComponent().getModel("toolTableServiceSet").read(
-						"/TableFieldLabelSetParameters(IP_TABNAME='" + oTableId.TableId + "',IP_DDLANGUAGE='" + sLanguage +
-						"',IP_KEYFLAG='*')/Results", {
-						sorters: [new sap.ui.model.Sorter("MANDATORY", true), new sap.ui.model.Sorter("POSITION")],
-						success: function (oResult) {
-							for (var i = 0; i < oResult.results.length; i++) {
-								var property = oResult.results[i];
-								var mandatory = false;
-								// Convert mandatory flag to a true/false
-								if (property.MANDATORY === "X") {
-									mandatory = true;
-								}
-
-								if (this._techFlag === true) {
-									oDataColumn.columns.push({
-										column_width: "3rem", // 1001
-										column_name: property.FIELDNAME,
-										column_property: property.FIELDNAME,
-										column_visible: true,
-										column_index: i,
-										column_filter: "",
-										column_filterto: "",
-										column_sort: false,
-										column_tab: oTableId.TableId,
-										column_tab_desc: oTableId.TableDescription,
-										column_mandatory: mandatory,
-										column_parameter: property.PARAMETER,
-										column_default: property.DEFAULT,
-										column_checktable: property.CHECKTABLE,
-										column_type: property.TYPE
-									});
-								} else {
-									oDataColumn.columns.push({
-										column_width: "11rem", // 1001
-										column_name: property.SCRTEXT_M,
-										column_property: property.FIELDNAME,
-										column_visible: true,
-										column_index: i,
-										column_filter: "",
-										column_filterto: "",
-										column_sort: false,
-										column_tab: oTableId.TableId,
-										column_tab_desc: oTableId.TableDescription,
-										column_mandatory: mandatory,
-										column_parameter: property.PARAMETER,
-										column_default: property.DEFAULT,
-										column_checktable: property.CHECKTABLE,
-										column_type: property.TYPE
-									});
-								}
-							}
-
-							aDataColumnKey.push(oDataColumn);
-							resolve();
-						}.bind(this),
-						error: function (oError) {
-
-							reject();
+					var oResult = this.getOwnerComponent().getModel("toolTableServiceSet").getData();
+					for (var i = 0; i < oResult.results.length; i++) {
+						var property = oResult.results[i];
+						var mandatory = false;
+						// Convert mandatory flag to a true/false
+						if (property.MANDATORY === "X") {
+							mandatory = true;
 						}
-					});
+
+						if (this._techFlag === true) {
+							oDataColumn.columns.push({
+								column_width: "3rem", // 1001
+								column_name: property.FIELDNAME,
+								column_property: property.FIELDNAME,
+								column_visible: true,
+								column_index: i,
+								column_filter: "",
+								column_filterto: "",
+								column_sort: false,
+								column_tab: oTableId.TableId,
+								column_tab_desc: oTableId.TableDescription,
+								column_mandatory: mandatory,
+								column_parameter: property.PARAMETER,
+								column_default: property.DEFAULT,
+								column_checktable: property.CHECKTABLE,
+								column_type: property.TYPE
+							});
+						} else {
+							oDataColumn.columns.push({
+								column_width: "11rem", // 1001
+								column_name: property.SCRTEXT_M,
+								column_property: property.FIELDNAME,
+								column_visible: true,
+								column_index: i,
+								column_filter: "",
+								column_filterto: "",
+								column_sort: false,
+								column_tab: oTableId.TableId,
+								column_tab_desc: oTableId.TableDescription,
+								column_mandatory: mandatory,
+								column_parameter: property.PARAMETER,
+								column_default: property.DEFAULT,
+								column_checktable: property.CHECKTABLE,
+								column_type: property.TYPE
+							});
+						}
+					}
+
+					aDataColumnKey.push(oDataColumn);
+					resolve();
 				}.bind(this)));
 			}.bind(this));
 			Promise.all(aPromiseAll, oReadPromise).then(function (values) {
