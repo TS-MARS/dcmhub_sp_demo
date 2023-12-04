@@ -21,11 +21,18 @@
                     "SUBAPPLICATIONID": "VIEW",
                     "INACTIVE": null,
                     "TEXT": "",
-                    "TableSet": {
-                        "__deferred": {
-                            "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/application.xsodata/SubApplicationSet(POSITION=1,APPLICATIONID='Tables',SUBAPPLICATIONID='AACP')/TableSet"
+                    "TableSet": [
+                        {
+                            "__metadata": {
+                                "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/application.xsodata/TableSet(SUBAPPLICATIONID='AD_AAD1',TABLEID='AD_AAD1')",
+                                "type": "default.TableSetType"
+                            },
+                            "SUBAPPLICATIONID": "VIEW",
+                            "TABLEID": "",
+                            "DDTEXT": "Test-SP",
+                            "FAV": "false"
                         }
-                    }
+                    ]
                 }
             ]
         }
