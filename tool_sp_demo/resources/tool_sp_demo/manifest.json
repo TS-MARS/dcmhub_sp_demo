@@ -36,7 +36,7 @@
 				"type": "JSON"
 			},
 			"toolTableService": {
-				"uri": "model/Filters.json",
+				"uri": "model/TableFieldLabelSet.json",
 				"type": "JSON"
 			},
 			"personalization": {
