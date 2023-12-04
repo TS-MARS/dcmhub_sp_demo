@@ -14,9 +14,9 @@
 				</tnt:header>
 				<tnt:sideContent width="320px">
 					<tnt:SideNavigation expanded="true">
-						<tnt:NavigationList id="IdNavigationList" items="{path: '/ApplicationSet',templateShareable: false}">
-							<tnt:NavigationListItem text="{TEXT}" items="{path: 'SubApplicationSet',templateShareable: false}" key="{APPLICATIONID}" icon="{ICON}" expanded="false">
-								<tnt:NavigationListItem text="{SUBAPPLICATIONID} {TEXT}" key="{SUBAPPLICATIONID}" select=".onItemSelect"/>
+						<tnt:NavigationList id="IdNavigationList">
+							<tnt:NavigationListItem text="TEST" key="app-testId" expanded="true">
+								<tnt:NavigationListItem text="VIEWS" key="subapp-viewId" select=".onItemSelect"/>
 							</tnt:NavigationListItem>
 						</tnt:NavigationList>
 						<tnt:fixedItem>

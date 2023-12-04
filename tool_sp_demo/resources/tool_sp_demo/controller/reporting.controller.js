@@ -34,8 +34,8 @@ sap.ui.define([
 			var techFlag;
 			var oReadPromise = [];
 
-			this.getOwnerComponent().getModel("toolTableServiceSet").attachRequestSent(function (oEvent) {});
-			this.getOwnerComponent().getModel("toolTableServiceSet").attachRequestCompleted(function (oEvent) {});
+			this.getOwnerComponent().getModel("toolTableServiceSet").attachRequestSent(function (oEvent) { });
+			this.getOwnerComponent().getModel("toolTableServiceSet").attachRequestCompleted(function (oEvent) { });
 			var oModel = new JSONModel("model/mock.json");
 			this.getView().setModel(oModel);
 			this.getView().setModel(new JSONModel(), "AllTableResult"); // 1001
@@ -44,9 +44,9 @@ sap.ui.define([
 			this._paraStatement = "";
 			this._cancel = "";
 			// Begin 0901
-		//	this.getOwnerComponent().getModel("tables").attachRequestSent(function (oEvent) {
-				//BusyIndicator.show(0);
-		//	});
+			//	this.getOwnerComponent().getModel("tables").attachRequestSent(function (oEvent) {
+			//BusyIndicator.show(0);
+			//	});
 			// this.getOwnerComponent().getModel("tables").attachRequestCompleted(function (oData) {
 			// 	if (this.byId("myTableTabContainer")._getSelectedItemContent() !== null) {
 			// 		var oContent;
@@ -89,7 +89,7 @@ sap.ui.define([
 						self._techFlag = techFlag;
 					}
 				})
-				.fail(function () {});
+				.fail(function () { });
 
 		},
 
@@ -584,34 +584,34 @@ sap.ui.define([
 							where = where + " AND "
 						}
 						switch (oPreSelectedFilter.ColOperator) {
-						case "EQ":
-							where = where + oPreSelectedFilter.FieldName + " = '" + oPreSelectedFilter.ColFilter + "'";
-							break;
-						case "Contains":
-							where = where + oPreSelectedFilter.FieldName + " LIKE '%" + oPreSelectedFilter.ColFilter + "%'";
-							break;
-						case "EndsWith":
-							where = where + oPreSelectedFilter.FieldName + " LIKE '%" + oPreSelectedFilter.ColFilter + "'";
-							break;
-						case "StartsWith":
-							where = where + oPreSelectedFilter.FieldName + " LIKE '" + oPreSelectedFilter.ColFilter + "%'";
-							break;
-						case "BT":
-							where = where + oPreSelectedFilter.FieldName + " BETWEEN '" + oPreSelectedFilter.ColFilter + "' AND '" + oPreSelectedFilter
-								.ColFilterTo + "'";
-							break;
-						case "GT":
-							where = where + oPreSelectedFilter.FieldName + " >'" + oPreSelectedFilter.ColFilter + "'";
-							break;
-						case "LT":
-							where = where + oPreSelectedFilter.FieldName + " <'" + oPreSelectedFilter.ColFilter + "'";
-							break;
-						case "GE":
-							where = where + oPreSelectedFilter.FieldName + " >='" + oPreSelectedFilter.ColFilter + "'";
-							break;
-						case "LE":
-							where = where + oPreSelectedFilter.FieldName + " <='" + oPreSelectedFilter.ColFilter + "'";
-							break;
+							case "EQ":
+								where = where + oPreSelectedFilter.FieldName + " = '" + oPreSelectedFilter.ColFilter + "'";
+								break;
+							case "Contains":
+								where = where + oPreSelectedFilter.FieldName + " LIKE '%" + oPreSelectedFilter.ColFilter + "%'";
+								break;
+							case "EndsWith":
+								where = where + oPreSelectedFilter.FieldName + " LIKE '%" + oPreSelectedFilter.ColFilter + "'";
+								break;
+							case "StartsWith":
+								where = where + oPreSelectedFilter.FieldName + " LIKE '" + oPreSelectedFilter.ColFilter + "%'";
+								break;
+							case "BT":
+								where = where + oPreSelectedFilter.FieldName + " BETWEEN '" + oPreSelectedFilter.ColFilter + "' AND '" + oPreSelectedFilter
+									.ColFilterTo + "'";
+								break;
+							case "GT":
+								where = where + oPreSelectedFilter.FieldName + " >'" + oPreSelectedFilter.ColFilter + "'";
+								break;
+							case "LT":
+								where = where + oPreSelectedFilter.FieldName + " <'" + oPreSelectedFilter.ColFilter + "'";
+								break;
+							case "GE":
+								where = where + oPreSelectedFilter.FieldName + " >='" + oPreSelectedFilter.ColFilter + "'";
+								break;
+							case "LE":
+								where = where + oPreSelectedFilter.FieldName + " <='" + oPreSelectedFilter.ColFilter + "'";
+								break;
 						}
 
 					});
@@ -629,7 +629,7 @@ sap.ui.define([
 					},
 					dataType: "json",
 					async: true,
-					success: function (data, textStatus, jqXHR) {},
+					success: function (data, textStatus, jqXHR) { },
 					error: function (oError) {
 						var errText = $.parseHTML(oError.responseText);
 					}
@@ -725,13 +725,13 @@ sap.ui.define([
 											MessageBox.show(
 
 												self.getView().getModel("i18n").getResourceBundle().getText("mandatoryfields"), {
-													icon: MessageBox.Icon.ERROR,
-													title: self.getView().getModel("i18n").getResourceBundle().getText("inputval"),
-													actions: [MessageBox.Action.CLOSE],
-													onClose: function (oAction) {
-														/ * do something * /
-													}
+												icon: MessageBox.Icon.ERROR,
+												title: self.getView().getModel("i18n").getResourceBundle().getText("inputval"),
+												actions: [MessageBox.Action.CLOSE],
+												onClose: function (oAction) {
+													/ * do something * /
 												}
+											}
 											);
 											checkFlag = false;
 										}
@@ -879,7 +879,7 @@ sap.ui.define([
 			var flag;
 			var that = this; //Variant
 			var oComponent = this.getOwnerComponent(); //Variant
-			
+
 			oData.table.forEach(function (oTableId, iTableIndex) {
 
 				// for each table retrieve the personalization
@@ -905,7 +905,7 @@ sap.ui.define([
 						variantModel = new sap.ui.model.json.JSONModel(oContainer.getItemKeys());
 						that.getView().setModel(variantModel, "variants");
 					});
-					// variant Management End
+				// variant Management End
 				oReadPromise = oPersonalizer.getPersData()
 					.done(function (oPersData) {
 						if (oPersData !== undefined) {
@@ -931,63 +931,63 @@ sap.ui.define([
 					this.getOwnerComponent().getModel("toolTableServiceSet").read(
 						"/TableFieldLabelSetParameters(IP_TABNAME='" + oTableId.TableId + "',IP_DDLANGUAGE='" + sLanguage +
 						"',IP_KEYFLAG='*')/Results", {
-							sorters: [new sap.ui.model.Sorter("MANDATORY",true),new sap.ui.model.Sorter("POSITION")],
-							success: function (oResult) {
-								for (var i = 0; i < oResult.results.length; i++) {
-									var property = oResult.results[i];
-									var mandatory = false;
-									// Convert mandatory flag to a true/false
-									if (property.MANDATORY === "X") {
-										mandatory = true;
-									}
-
-									if (this._techFlag === true) {
-										oDataColumn.columns.push({
-											column_width: "3rem", // 1001
-											column_name: property.FIELDNAME,
-											column_property: property.FIELDNAME,
-											column_visible: true,
-											column_index: i,
-											column_filter: "",
-											column_filterto: "",
-											column_sort: false,
-											column_tab: oTableId.TableId,
-											column_tab_desc: oTableId.TableDescription,
-											column_mandatory: mandatory,
-											column_parameter: property.PARAMETER,
-											column_default: property.DEFAULT,
-											column_checktable: property.CHECKTABLE,
-											column_type: property.TYPE
-										});
-									} else {
-										oDataColumn.columns.push({
-											column_width: "11rem", // 1001
-											column_name: property.SCRTEXT_M,
-											column_property: property.FIELDNAME,
-											column_visible: true,
-											column_index: i,
-											column_filter: "",
-											column_filterto: "",
-											column_sort: false,
-											column_tab: oTableId.TableId,
-											column_tab_desc: oTableId.TableDescription,
-											column_mandatory: mandatory,
-											column_parameter: property.PARAMETER,
-											column_default: property.DEFAULT,
-											column_checktable: property.CHECKTABLE,
-											column_type: property.TYPE
-										});
-									}
+						sorters: [new sap.ui.model.Sorter("MANDATORY", true), new sap.ui.model.Sorter("POSITION")],
+						success: function (oResult) {
+							for (var i = 0; i < oResult.results.length; i++) {
+								var property = oResult.results[i];
+								var mandatory = false;
+								// Convert mandatory flag to a true/false
+								if (property.MANDATORY === "X") {
+									mandatory = true;
 								}
 
-								aDataColumnKey.push(oDataColumn);
-								resolve();
-							}.bind(this),
-							error: function (oError) {
-
-								reject();
+								if (this._techFlag === true) {
+									oDataColumn.columns.push({
+										column_width: "3rem", // 1001
+										column_name: property.FIELDNAME,
+										column_property: property.FIELDNAME,
+										column_visible: true,
+										column_index: i,
+										column_filter: "",
+										column_filterto: "",
+										column_sort: false,
+										column_tab: oTableId.TableId,
+										column_tab_desc: oTableId.TableDescription,
+										column_mandatory: mandatory,
+										column_parameter: property.PARAMETER,
+										column_default: property.DEFAULT,
+										column_checktable: property.CHECKTABLE,
+										column_type: property.TYPE
+									});
+								} else {
+									oDataColumn.columns.push({
+										column_width: "11rem", // 1001
+										column_name: property.SCRTEXT_M,
+										column_property: property.FIELDNAME,
+										column_visible: true,
+										column_index: i,
+										column_filter: "",
+										column_filterto: "",
+										column_sort: false,
+										column_tab: oTableId.TableId,
+										column_tab_desc: oTableId.TableDescription,
+										column_mandatory: mandatory,
+										column_parameter: property.PARAMETER,
+										column_default: property.DEFAULT,
+										column_checktable: property.CHECKTABLE,
+										column_type: property.TYPE
+									});
+								}
 							}
-						});
+
+							aDataColumnKey.push(oDataColumn);
+							resolve();
+						}.bind(this),
+						error: function (oError) {
+
+							reject();
+						}
+					});
 				}.bind(this)));
 			}.bind(this));
 			Promise.all(aPromiseAll, oReadPromise).then(function (values) {
@@ -1007,7 +1007,7 @@ sap.ui.define([
 					this._openKeySelectionFragment();
 				}
 				//this._openKeySelectionFragment();
-			}.bind(this)).catch(function (reason) {});
+			}.bind(this)).catch(function (reason) { });
 
 		},
 		_setTable: function (oData) {
@@ -1042,309 +1042,309 @@ sap.ui.define([
 				this.getOwnerComponent().getModel("toolTableServiceSet").read(
 					"/TableFieldLabelSetParameters(IP_TABNAME='" + oTableId.TableId + "',IP_DDLANGUAGE='" + sLanguage +
 					"',IP_KEYFLAG='*')/Results", {
-						sorters: [new sap.ui.model.Sorter("POSITION")],
-						//						filters: aFilters,
-						success: function (oResult) {
-							// add rows in the standard sap tables
-							// Begin 0901
-							var iCount = 0;
-							if (this.getView().getModel("AllTableResult").getData()[oTableId.TableId.toLowerCase()] !== undefined) {
-								iCount = this.getView().getModel("AllTableResult").getData()[oTableId.TableId.toLowerCase()].length;
-							}
+					sorters: [new sap.ui.model.Sorter("POSITION")],
+					//						filters: aFilters,
+					success: function (oResult) {
+						// add rows in the standard sap tables
+						// Begin 0901
+						var iCount = 0;
+						if (this.getView().getModel("AllTableResult").getData()[oTableId.TableId.toLowerCase()] !== undefined) {
+							iCount = this.getView().getModel("AllTableResult").getData()[oTableId.TableId.toLowerCase()].length;
+						}
 
-							for (var i = 0; i < oResult.results.length; i++) {
-								var property = oResult.results[i];
-								if (this._techFlag === true) {
-									oDataColumn.columns.push({
-										column_width: "11rem", // 1001
-										column_name: property.FIELDNAME, //property.SCRTEXT_M,
-										column_property: property.FIELDNAME,
-										column_visible: true,
-										column_index: i,
-										column_filter: "",
-										column_filterto: "",
-										column_sort: false,
-										column_tab: oTableId.TableId,
-										column_tab_desc: oTableId.TableDescription,
-										count: iCount,
-										column_type: property.TYPE
-									});
-								} else {
-									oDataColumn.columns.push({
-										column_width: "11rem", // 1001
-										column_name: property.SCRTEXT_M,
-										column_property: property.FIELDNAME,
-										column_visible: true,
-										column_index: i,
-										column_filter: "",
-										column_filterto: "",
-										column_sort: false,
-										column_tab: oTableId.TableId,
-										column_tab_desc: oTableId.TableDescription,
-										count: iCount,
-										column_type: property.TYPE
-									});
-								}
-							}
-
-							// for each table retrieve the personalization
+						for (var i = 0; i < oResult.results.length; i++) {
+							var property = oResult.results[i];
 							if (this._techFlag === true) {
-                                var oPersonalizer = this.getPersonalizationInstance("myTablesSettingTech", namespace+"_" + oTableId.TableId.toUpperCase());
-                            } else {
-                                var oPersonalizer = this.getPersonalizationInstance("myTablesSetting", namespace+"_" + oTableId.TableId.toUpperCase());
-                            }
-
-							oReadPromise = oPersonalizer.getPersData()
-								.done(function (oPersData) {
-									if (oPersData !== undefined) {
-										oDataColumn = oPersData;
-									}
-								})
-								.fail(function () {
-
+								oDataColumn.columns.push({
+									column_width: "11rem", // 1001
+									column_name: property.FIELDNAME, //property.SCRTEXT_M,
+									column_property: property.FIELDNAME,
+									column_visible: true,
+									column_index: i,
+									column_filter: "",
+									column_filterto: "",
+									column_sort: false,
+									column_tab: oTableId.TableId,
+									column_tab_desc: oTableId.TableDescription,
+									count: iCount,
+									column_type: property.TYPE
 								});
-							var oTableColumnModel = new JSONModel(oDataColumn); // model for just keys for selections
-							var oTableColumnModelAll = new JSONModel(oDataColumnAll); // model for all columns
+							} else {
+								oDataColumn.columns.push({
+									column_width: "11rem", // 1001
+									column_name: property.SCRTEXT_M,
+									column_property: property.FIELDNAME,
+									column_visible: true,
+									column_index: i,
+									column_filter: "",
+									column_filterto: "",
+									column_sort: false,
+									column_tab: oTableId.TableId,
+									column_tab_desc: oTableId.TableDescription,
+									count: iCount,
+									column_type: property.TYPE
+								});
+							}
+						}
 
-							this.getView().setModel(oTableColumnModelAll, "tableSettings");
-							oTableColumnModel.setSizeLimit(oDataColumn.columns.length);
-							this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].setVisible(true);
-							this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
-								oTableColumnModel, "tables");
-							this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
-								oTableColumnModel, "settings");
-							this.getView().setModel(this.getOwnerComponent().getModel("tables"), "table");
-							var oTableModel = this.getOwnerComponent().getModel("tables");
+						// for each table retrieve the personalization
+						if (this._techFlag === true) {
+							var oPersonalizer = this.getPersonalizationInstance("myTablesSettingTech", namespace + "_" + oTableId.TableId.toUpperCase());
+						} else {
+							var oPersonalizer = this.getPersonalizationInstance("myTablesSetting", namespace + "_" + oTableId.TableId.toUpperCase());
+						}
 
-							//oTableModel.metadataLoaded().then(function(){
+						oReadPromise = oPersonalizer.getPersData()
+							.done(function (oPersData) {
+								if (oPersData !== undefined) {
+									oDataColumn = oPersData;
+								}
+							})
+							.fail(function () {
+
+							});
+						var oTableColumnModel = new JSONModel(oDataColumn); // model for just keys for selections
+						var oTableColumnModelAll = new JSONModel(oDataColumnAll); // model for all columns
+
+						this.getView().setModel(oTableColumnModelAll, "tableSettings");
+						oTableColumnModel.setSizeLimit(oDataColumn.columns.length);
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].setVisible(true);
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
+							oTableColumnModel, "tables");
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
+							oTableColumnModel, "settings");
+						this.getView().setModel(this.getOwnerComponent().getModel("tables"), "table");
+						var oTableModel = this.getOwnerComponent().getModel("tables");
+
+						//oTableModel.metadataLoaded().then(function(){
 						//	BusyIndicator.show(0);
 
-							// Begin 1001
-							this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(this.getView()
-								.getModel("AllTableResult"));
-							// End 1001
-							//this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getTable().setModel(this.getOwnerComponent().getModel(
-							//	"tables"));
-							// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
-							// 	oTableModel);
-							// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].unbindRows();
+						// Begin 1001
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(this.getView()
+							.getModel("AllTableResult"));
+						// End 1001
+						//this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getTable().setModel(this.getOwnerComponent().getModel(
+						//	"tables"));
+						// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(
+						// 	oTableModel);
+						// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].unbindRows();
 
-							// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].bindRows({
-							// 	path: "/" + oTableId.TableId.toLowerCase() + this._paraStatement
-							// });
-							// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(true);
-							// oDataColumn.columns.forEach(function (oColumn, iIndex) {
-							// 	if (this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-							// 			iIndex] !==
-							// 		undefined) {
-							// 		this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-							// 			iIndex].getTemplate().bindProperty(
-							// 			"text", {
-							// 				parts: [{
-							// 					path: oColumn.column_property
-							// 				}, {
-							// 					path: oColumn.column_type
-							// 				}],
-							// 				formatter: this.columnFormatter
-							// 			});
-							// 		this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-							// 				iIndex]._propertyName =
-							// 			oColumn.column_property;
-							// 	}
-							// }.bind(this));
-							
+						// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].bindRows({
+						// 	path: "/" + oTableId.TableId.toLowerCase() + this._paraStatement
+						// });
+						// this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(true);
+						// oDataColumn.columns.forEach(function (oColumn, iIndex) {
+						// 	if (this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+						// 			iIndex] !==
+						// 		undefined) {
+						// 		this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+						// 			iIndex].getTemplate().bindProperty(
+						// 			"text", {
+						// 				parts: [{
+						// 					path: oColumn.column_property
+						// 				}, {
+						// 					path: oColumn.column_type
+						// 				}],
+						// 				formatter: this.columnFormatter
+						// 			});
+						// 		this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+						// 				iIndex]._propertyName =
+						// 			oColumn.column_property;
+						// 	}
+						// }.bind(this));
 
-							// BusyIndicator.hide();
-							
-							this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(true);
-							var wherefilter = this._applyWhereFilter(this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
-									0], oTableId.TableId);
-							var where = "";
-						 	var count = 0;
-						 	wherefilter.forEach(function (oPreSelectedFilter) {
-						 	count = count + 1;
-						 	var fieldstring = "\"" + oPreSelectedFilter.sPath + "\"";
-						 	switch (oPreSelectedFilter.sOperator) {
-						 	case "EQ":
-						 		if (count !== 1) {
-						 			var n = where.indexOf(oPreSelectedFilter.sPath);
-						 			
-									if (n !== -1) //There is a hit	
-									{
-										where = where.slice(0, -1);
-						 				where = where + " OR " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
-									}else
-									{
-										where = where + " AND ( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+
+						// BusyIndicator.hide();
+
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(true);
+						var wherefilter = this._applyWhereFilter(this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
+							0], oTableId.TableId);
+						var where = "";
+						var count = 0;
+						wherefilter.forEach(function (oPreSelectedFilter) {
+							count = count + 1;
+							var fieldstring = "\"" + oPreSelectedFilter.sPath + "\"";
+							switch (oPreSelectedFilter.sOperator) {
+								case "EQ":
+									if (count !== 1) {
+										var n = where.indexOf(oPreSelectedFilter.sPath);
+
+										if (n !== -1) //There is a hit	
+										{
+											where = where.slice(0, -1);
+											where = where + " OR " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+										} else {
+											where = where + " AND ( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+										}
+									} else {
+										where = where + "( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
 									}
-						 		}else
-						 		{
-						 		where = where + "( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
-						 		}
-						 		break;
-						 	case "Contains":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "%'";
-						 		break;
-						 	case "EndsWith":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	case "StartsWith":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " LIKE '" + oPreSelectedFilter.oValue1 + "%'";
-						 		break;
-						 	case "BT":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " BETWEEN '" + oPreSelectedFilter.oValue1 + "' AND '" + oPreSelectedFilter
-						 			.oValue2 + "'";
-						 		break;
-						 	case "GT":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " >'" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	case "LT":
-						 		where = where + fieldstring + " <'" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	case "GE":
-						 		where = where + fieldstring + " >='" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	case "LE":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " <='" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	}
-						 });	
-						 //where = encodeURIComponent(where);		
-									
-										// $.ajax({
-										// type: "GET",
-										// contentType: "application/json",
-										// url: "../../xsjs/dataLoad.xsjs?field=*&table=" + oTableId.TableId + "&where=" + where,
-										// dataType: "json",
-										// async: true,
-										// success: function (data) {
-										$.post("../../xsjs/dataLoad.xsjs", {"field": "*",
-																  "table": oTableId.TableId,
-																  "where": where},
-											function(data){	
-											//var count = data.length;
-											//data[0].count  = data.length;
-											
-											var columndata = that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
-												0].getModel("tables").getData().columns;
-											//.columns[15].column_type.substring(0,7)
-											var totals = {};
-											for (var j = 0; j < data.length; j++) {
+									break;
+								case "Contains":
+									if (count !== 1) {
+										where = where + " AND ";
+									}
+									where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "%'";
+									break;
+								case "EndsWith":
+									if (count !== 1) {
+										where = where + " AND ";
+									}
+									where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "'";
+									break;
+								case "StartsWith":
+									if (count !== 1) {
+										where = where + " AND ";
+									}
+									where = where + fieldstring + " LIKE '" + oPreSelectedFilter.oValue1 + "%'";
+									break;
+								case "BT":
+									if (count !== 1) {
+										where = where + " AND ";
+									}
+									where = where + fieldstring + " BETWEEN '" + oPreSelectedFilter.oValue1 + "' AND '" + oPreSelectedFilter
+										.oValue2 + "'";
+									break;
+								case "GT":
+									if (count !== 1) {
+										where = where + " AND ";
+									}
+									where = where + fieldstring + " >'" + oPreSelectedFilter.oValue1 + "'";
+									break;
+								case "LT":
+									where = where + fieldstring + " <'" + oPreSelectedFilter.oValue1 + "'";
+									break;
+								case "GE":
+									where = where + fieldstring + " >='" + oPreSelectedFilter.oValue1 + "'";
+									break;
+								case "LE":
+									if (count !== 1) {
+										where = where + " AND ";
+									}
+									where = where + fieldstring + " <='" + oPreSelectedFilter.oValue1 + "'";
+									break;
+							}
+						});
+						//where = encodeURIComponent(where);		
 
-											data[j].Color = '';
+						// $.ajax({
+						// type: "GET",
+						// contentType: "application/json",
+						// url: "../../xsjs/dataLoad.xsjs?field=*&table=" + oTableId.TableId + "&where=" + where,
+						// dataType: "json",
+						// async: true,
+						// success: function (data) {
+						$.post("../../xsjs/dataLoad.xsjs", {
+							"field": "*",
+							"table": oTableId.TableId,
+							"where": where
+						},
+							function (data) {
+								//var count = data.length;
+								//data[0].count  = data.length;
 
-										}
-											for (var i = 0; i < columndata.length; i++) {
-												if (columndata[i].column_type.substring(0, 7) === 'DECIMAL') {
-													var columnname = columndata[i].column_property;
-													var value = 0;
-													for (var j = 0; j < data.length; j++) {
-														value = value * 1 + data[j][columnname] * 1;
+								var columndata = that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
+									0].getModel("tables").getData().columns;
+								//.columns[15].column_type.substring(0,7)
+								var totals = {};
+								for (var j = 0; j < data.length; j++) {
 
-													}
-													totals[columnname] = value;
-												} else {
-													var columnname = columndata[i].column_property;
-													totals[columnname] = '';
-												}
-											}
-											totals.Color = 'X';
-											totals.navigated = true;
-											data.push(totals);
-											data[0].count  = data.length - 1;
-											
-											//var counttotal = new sap.ui.model.json.JSONModel(count);
-											var a = new sap.ui.model.json.JSONModel(data);
-											a.setSizeLimit(999999);
-											//t.setModel(a);
-											//t.bindRows("/");
-											//that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(counttotal);
-											that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(a);
-											//that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].unbindRows();
+									data[j].Color = '';
 
-											that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].bindRows("/");
-											that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(false);
-										}) 
-										.fail(function (oError) {
-											that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(false);
-										
-									});
-
-							
-							oDataColumn.columns.forEach(function (oColumn, iIndex) {
-								if (this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-										iIndex] !==
-									undefined) {
-									this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-										iIndex].getTemplate().bindProperty(
-										"text",{ parts:[{ path: oColumn.column_property},{path: oColumn.column_type}],formatter: this.columnFormatter});
-									this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
-											iIndex]._propertyName =
-										oColumn.column_property;
 								}
-							}.bind(this));							
-							//	}.bind(this));
-							var oTemplate = new RowAction({
-								items: [
-									// new RowActionItem({
-									// 	icon: "sap-icon://navigation-right-arrow",
-									// 	text: "EKPO",
-									// 	press: function (oEvent) {
-									// 		that.onRowSelect(oEvent.getSource().getText(), oEvent.getSource().getRowAction().getRow().getRowBindingContext()
-									// 			.getProperty("EBELN"));
-									// 	}
-									// }),
-									// new RowActionItem({
-									// 	icon: "sap-icon://navigation-right-arrow",
-									// 	text: "EKKN",
-									// 	press: function (oEvent) {
-									// 		that.onRowSelect(oEvent.getSource().getText());
-									// 	}
-									// }),
-									// Changes row details feature start
-									new RowActionItem({
-										icon: "sap-icon://message-information",
-										text: "Details",
-										press: function (oEvent) {
-											that.rowDetails(oDataColumn.columns, oEvent.getSource().getBindingContext().getProperty(oEvent.getSource().getBindingContext()
-												.getPath()));
+								for (var i = 0; i < columndata.length; i++) {
+									if (columndata[i].column_type.substring(0, 7) === 'DECIMAL') {
+										var columnname = columndata[i].column_property;
+										var value = 0;
+										for (var j = 0; j < data.length; j++) {
+											value = value * 1 + data[j][columnname] * 1;
+
 										}
-									})
-									// Changes row details feature end
-								]
+										totals[columnname] = value;
+									} else {
+										var columnname = columndata[i].column_property;
+										totals[columnname] = '';
+									}
+								}
+								totals.Color = 'X';
+								totals.navigated = true;
+								data.push(totals);
+								data[0].count = data.length - 1;
+
+								//var counttotal = new sap.ui.model.json.JSONModel(count);
+								var a = new sap.ui.model.json.JSONModel(data);
+								a.setSizeLimit(999999);
+								//t.setModel(a);
+								//t.bindRows("/");
+								//that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(counttotal);
+								that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setModel(a);
+								//that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].unbindRows();
+
+								that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].bindRows("/");
+								that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(false);
+							})
+							.fail(function (oError) {
+								that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setBusy(false);
+
 							});
 
-							this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setRowActionTemplate(
-								oTemplate);
-							this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setRowActionCount(
-								1);
-							//this._applyDefaultSetting(this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
-							//	0], oTableId.TableId);
 
-						}.bind(this),
+						oDataColumn.columns.forEach(function (oColumn, iIndex) {
+							if (this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+								iIndex] !==
+								undefined) {
+								this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+									iIndex].getTemplate().bindProperty(
+										"text", { parts: [{ path: oColumn.column_property }, { path: oColumn.column_type }], formatter: this.columnFormatter });
+								this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].getColumns()[
+									iIndex]._propertyName =
+									oColumn.column_property;
+							}
+						}.bind(this));
+						//	}.bind(this));
+						var oTemplate = new RowAction({
+							items: [
+								// new RowActionItem({
+								// 	icon: "sap-icon://navigation-right-arrow",
+								// 	text: "EKPO",
+								// 	press: function (oEvent) {
+								// 		that.onRowSelect(oEvent.getSource().getText(), oEvent.getSource().getRowAction().getRow().getRowBindingContext()
+								// 			.getProperty("EBELN"));
+								// 	}
+								// }),
+								// new RowActionItem({
+								// 	icon: "sap-icon://navigation-right-arrow",
+								// 	text: "EKKN",
+								// 	press: function (oEvent) {
+								// 		that.onRowSelect(oEvent.getSource().getText());
+								// 	}
+								// }),
+								// Changes row details feature start
+								new RowActionItem({
+									icon: "sap-icon://message-information",
+									text: "Details",
+									press: function (oEvent) {
+										that.rowDetails(oDataColumn.columns, oEvent.getSource().getBindingContext().getProperty(oEvent.getSource().getBindingContext()
+											.getPath()));
+									}
+								})
+								// Changes row details feature end
+							]
+						});
 
-						error: function (oError) {
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setRowActionTemplate(
+							oTemplate);
+						this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[0].setRowActionCount(
+							1);
+						//this._applyDefaultSetting(this.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
+						//	0], oTableId.TableId);
 
-						}
-					});
+					}.bind(this),
+
+					error: function (oError) {
+
+					}
+				});
 			}.bind(this));
 
 		},
@@ -1393,7 +1393,7 @@ sap.ui.define([
 		},
 		removeSortItem: function (oEvent) {
 			oEvent.getSource().removeSortItem(oEvent.getParameter("index"));
-		},		
+		},
 		handleSort: function (oEvent) {
 			oEvent.preventDefault();
 			var oTable = oEvent.getSource();
@@ -1453,23 +1453,22 @@ sap.ui.define([
 				filters: [oFilter, aFiltersColor],
 				and: false
 			});
-			
-			if(oTable.getBinding("rows").aApplicationFilters.length>0){
-			oFilterFinal = oTable.getBinding("rows").aApplicationFilters;
-			if (oEvent.getParameters().value !== '') {
-			oFilterFinal[0].aFilters[0].aFilters.push(oPreFilter);
-			}
-			else{
-				for(var i=0;i<oFilterFinal[0].aFilters[0].aFilters.length;i++)
-				{
-					if(oFilterFinal[0].aFilters[0].aFilters[i].sPath === oEvent.getParameters().column.getFilterProperty()){
-						oFilterFinal[0].aFilters[0].aFilters.splice(i, 1);
 
+			if (oTable.getBinding("rows").aApplicationFilters.length > 0) {
+				oFilterFinal = oTable.getBinding("rows").aApplicationFilters;
+				if (oEvent.getParameters().value !== '') {
+					oFilterFinal[0].aFilters[0].aFilters.push(oPreFilter);
+				}
+				else {
+					for (var i = 0; i < oFilterFinal[0].aFilters[0].aFilters.length; i++) {
+						if (oFilterFinal[0].aFilters[0].aFilters[i].sPath === oEvent.getParameters().column.getFilterProperty()) {
+							oFilterFinal[0].aFilters[0].aFilters.splice(i, 1);
+
+						}
 					}
 				}
 			}
-			}
-						oTable.getBinding("rows").filter(oFilterFinal, sap.ui.model.FilterType.Application);
+			oTable.getBinding("rows").filter(oFilterFinal, sap.ui.model.FilterType.Application);
 			var filterData = oTable.getBinding("rows");
 			var data = [];
 			filterData.getContexts().forEach(function (oRow) {
@@ -1484,7 +1483,7 @@ sap.ui.define([
 			//.columns[15].column_type.substring(0,7)
 			var totals = {};
 			// Handle Sort Start
-			
+
 			// Handle Sort End
 
 			for (var i = 0; i < columndata.length; i++) {
@@ -1534,7 +1533,7 @@ sap.ui.define([
 			oTable.getBinding("rows").filter(oFilterFinal, sap.ui.model.FilterType.Application);
 			oEvent.getParameters().column.setFiltered(true);
 			oEvent.getParameters().column.setFilterValue(oEvent.getParameters().value);
-		},	
+		},
 		/*
 		onSettingButtonPressed: function (oEvent) {
 			
@@ -1565,8 +1564,8 @@ sap.ui.define([
 			}
 			
 		},
-		*/	
-		onPressOk: function (oEvent) {  
+		*/
+		onPressOk: function (oEvent) {
 			var aEntry = [];
 			var aSort = [];
 			var oTable = this._oDialogSetting.getModel("tables").getData("columns").columns[0].column_tab;
@@ -1578,18 +1577,18 @@ sap.ui.define([
 			//	this._selectedTable.setModel(oModelTable,"tables");	
 			var column = this._selectedTable.getColumns();
 			var finalColumns = [];
-			for(var i=0;i<oTableColumns.columns.length;i++){
-				for(var j=0;j<column.length;j++){
-					if(oTableColumns.columns[i].column_property===column[j]._propertyName){
+			for (var i = 0; i < oTableColumns.columns.length; i++) {
+				for (var j = 0; j < column.length; j++) {
+					if (oTableColumns.columns[i].column_property === column[j]._propertyName) {
 						finalColumns.push(column[j]);
 						continue;
 					}
 				}
 			}
-			
+
 			this._selectedTable.removeAllColumns();
-			for(var i=0;i<column.length;i++){
-			this._selectedTable.addColumn(finalColumns[i]);
+			for (var i = 0; i < column.length; i++) {
+				this._selectedTable.addColumn(finalColumns[i]);
 			}
 			oEvent.getSource().getPanels()[1].getFilterItems().forEach(function (oFilter) {
 				var oEntry = {
@@ -1606,7 +1605,7 @@ sap.ui.define([
 					operation: oSort1.getOperation()
 				};
 				aSort.push(oSort);
-			});			
+			});
 			var oModel = new JSONModel(aEntry);
 			var oModelSort = new JSONModel(aSort);
 			this.getView().setModel(oModel, "settingsFilter");
@@ -1615,9 +1614,9 @@ sap.ui.define([
 			this._applySortSetting(this._selectedTable, oTable);
 			// Save personalization 
 			if (this._techFlag === true) {
-				this.savePersonalization("myTablesSettingTech", namespace+"_" + oTable, oTableColumns);
+				this.savePersonalization("myTablesSettingTech", namespace + "_" + oTable, oTableColumns);
 			} else {
-				this.savePersonalization("myTablesSetting", namespace+"_" + oTable, oTableColumns);
+				this.savePersonalization("myTablesSetting", namespace + "_" + oTable, oTableColumns);
 			}
 			this._oDialogSetting.close();
 		},
@@ -1677,7 +1676,7 @@ sap.ui.define([
 			});
 			return aFilters;
 			//oTable.getBinding("rows").filter(aFilters, sap.ui.model.FilterType.Application);
-		},		
+		},
 		_applyFilterSetting: function (oTable, oTabName) {
 			var oTabName = oTabName;
 			var aFilters = [];
@@ -1735,7 +1734,7 @@ sap.ui.define([
 			//.columns[15].column_type.substring(0,7)
 			var totals = {};
 			// Handle Sort Start
-			
+
 			// Handle Sort End
 
 			for (var i = 0; i < columndata.length; i++) {
@@ -1783,7 +1782,7 @@ sap.ui.define([
 			//oTable.getModel().loadData();
 
 			//oTable.getBinding("rows").getContextData(oTable.getBinding("rows").getAllCurrentContexts()[0])
-			oTable.getBinding("rows").filter(oFilterFinal, sap.ui.model.FilterType.Application);			
+			oTable.getBinding("rows").filter(oFilterFinal, sap.ui.model.FilterType.Application);
 		},
 
 		_applySortSetting: function (oTable, oTabName) {
@@ -1830,7 +1829,7 @@ sap.ui.define([
 			//var sPath = oEvent.getSource().getParent().getParent().getBinding("rows").getPath();
 			//this._sServiceUrl = '../xsodata/service.xsodata' + sPath;
 			//if (!this._oTable) {
-				this._oTable = oEvent.getSource().getParent().getParent();
+			this._oTable = oEvent.getSource().getParent().getParent();
 			//}
 
 			//oTable = this._oTable;
@@ -1839,97 +1838,98 @@ sap.ui.define([
 			aCols = this.createColumnConfig(oEvent.getSource().getParent().getParent().getColumns()[0].getBindingContext(
 				"tables").getProperty("/"));
 
-			function excelProcess(){
-				
-						console.log("Execution");
-								var data = [];
-								var data = that._oTable.getBinding('rows').oList;
-								//for(var i=0;i<keys.length;i++){
-								//	data.push(that._oTable.getBinding('rows').getModel().getProperty("/"+keys[i]));
-								//}
-								var columns = that._oTable.getBinding('columns').oList;
-								var columnName,columnProperty;
-								var datafull =[];
-								let columnheader = [];
-								for(var i=0;i<columns.length;i++){
-									if(columns[i].column_visible === true)
-									{
-									columnheader.push(columns[i].column_name+"["+columns[i].column_property+"]");
-									}
-								}
-								datafull.push(columnheader);
-								for(var j=0;j<data.length;j++){
-									var dataarray = [];
-									for(var i=0;i<columns.length;i++){
-										if(columns[i].column_visible === true)
-										{
-											columnName = columns[i].column_property;
-											columnProperty = columns[i].column_type;
-										if (columns[i].column_type === 'DATS' || columns[i].column_type === 'TIMESTAMP') {
-											
-											data[j][columnName] = that.dataFormatter(data[j][columnName],columnProperty,"CLIENT");
-										}
-										
-										var property = data[j][columnName];
-										dataarray.push(property);
-										}
-									}
-									var property = dataarray;
-									datafull.push(Object.values(property));
-								}	
-								var wb = XLSX.utils.book_new();
-								
-								var workSheet1 = XLSX.utils.aoa_to_sheet(datafull,{
-				 								 			dense : true,
-				 								 			raw : true});	
-								var workBook1 = XLSX.utils.book_new();
-													XLSX.utils.book_append_sheet(workBook1,workSheet1,"Export");
-													var sFileName = "Export1.xlsx";
-													XLSX.writeFile(workBook1,sFileName,{ type: 'binary',
-																						bookSST: true, 
-																					   compression: true  });							
-								that._oDialogExcel.then(function(oDialog) {
-									oDialog.close();
-									});
-								that._cancel = "";
+			function excelProcess() {
+
+				console.log("Execution");
+				var data = [];
+				var data = that._oTable.getBinding('rows').oList;
+				//for(var i=0;i<keys.length;i++){
+				//	data.push(that._oTable.getBinding('rows').getModel().getProperty("/"+keys[i]));
+				//}
+				var columns = that._oTable.getBinding('columns').oList;
+				var columnName, columnProperty;
+				var datafull = [];
+				let columnheader = [];
+				for (var i = 0; i < columns.length; i++) {
+					if (columns[i].column_visible === true) {
+						columnheader.push(columns[i].column_name + "[" + columns[i].column_property + "]");
+					}
+				}
+				datafull.push(columnheader);
+				for (var j = 0; j < data.length; j++) {
+					var dataarray = [];
+					for (var i = 0; i < columns.length; i++) {
+						if (columns[i].column_visible === true) {
+							columnName = columns[i].column_property;
+							columnProperty = columns[i].column_type;
+							if (columns[i].column_type === 'DATS' || columns[i].column_type === 'TIMESTAMP') {
+
+								data[j][columnName] = that.dataFormatter(data[j][columnName], columnProperty, "CLIENT");
 							}
-			//var oModel = oRowBinding.getModel();
-		//	var promiseDialog = new Promise(function (resolve,reject){
-						if (!this._oDialogExcel) {
-							this._oDialogExcel = Fragment.load({
-								name: namespace+".view.fragment.ProgressDialogFragment",
-								controller: this
-							}).then(function (oDialog) {
-								
-								this.getView().addDependent(oDialog);
-								console.log("Fragment Load");
-								return oDialog;
-						}.bind(this));
+
+							var property = data[j][columnName];
+							dataarray.push(property);
 						}
-						this._oDialogExcel.then(function (oDialog) {
-							oDialog.open();
-							setTimeout(function () {
-								excelProcess();
-							}, 5000);
-						}.bind(this));	
-	
-						//});
-						//promiseDialog.then(function(){			
-								//var keys = that._oTable.getBinding('rows').aKeys;
-								
+					}
+					var property = dataarray;
+					datafull.push(Object.values(property));
+				}
+				var wb = XLSX.utils.book_new();
+
+				var workSheet1 = XLSX.utils.aoa_to_sheet(datafull, {
+					dense: true,
+					raw: true
+				});
+				var workBook1 = XLSX.utils.book_new();
+				XLSX.utils.book_append_sheet(workBook1, workSheet1, "Export");
+				var sFileName = "Export1.xlsx";
+				XLSX.writeFile(workBook1, sFileName, {
+					type: 'binary',
+					bookSST: true,
+					compression: true
+				});
+				that._oDialogExcel.then(function (oDialog) {
+					oDialog.close();
+				});
+				that._cancel = "";
+			}
+			//var oModel = oRowBinding.getModel();
+			//	var promiseDialog = new Promise(function (resolve,reject){
+			if (!this._oDialogExcel) {
+				this._oDialogExcel = Fragment.load({
+					name: namespace + ".view.fragment.ProgressDialogFragment",
+					controller: this
+				}).then(function (oDialog) {
+
+					this.getView().addDependent(oDialog);
+					console.log("Fragment Load");
+					return oDialog;
+				}.bind(this));
+			}
+			this._oDialogExcel.then(function (oDialog) {
+				oDialog.open();
+				setTimeout(function () {
+					excelProcess();
+				}, 5000);
+			}.bind(this));
+
 			//});
-			console.log("End");			
+			//promiseDialog.then(function(){			
+			//var keys = that._oTable.getBinding('rows').aKeys;
+
+			//});
+			console.log("End");
 		},
 
 		createColumnConfig: function (aColumn) {
 			var aCols = [];
 			aColumn.columns.forEach(function (oColumn) {
-				if(oColumn.column_visible === true){
-				aCols.push({
-					property: oColumn.column_property,
-					label: oColumn.column_name,
-					type: EdmType.String
-				});
+				if (oColumn.column_visible === true) {
+					aCols.push({
+						property: oColumn.column_property,
+						label: oColumn.column_name,
+						type: EdmType.String
+					});
 				}
 			});
 			return aCols;
@@ -2139,112 +2139,112 @@ sap.ui.define([
 							checktable = obj.column_tab.toLowerCase();
 							var searchtable = obj.column_tab.toUpperCase();
 							var where = "";
-						 	var count = 0;
-						 	aSearchFilter.forEach(function (oPreSelectedFilter) {
-						 	count = count + 1;
-						 	var fieldstring = "\"" + oPreSelectedFilter.sPath + "\"";
-						 	switch (oPreSelectedFilter.sOperator) {
-						 	case "EQ":
-						 		if (count !== 1) {
-						 			var n = where.indexOf(oPreSelectedFilter.sPath);
-						 			
-									if (n !== -1) //There is a hit	
-									{
-										where = where.slice(0, -1);
-						 				where = where + " OR " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
-									}else
-									{
-										where = where + " AND ( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+							var count = 0;
+							aSearchFilter.forEach(function (oPreSelectedFilter) {
+								count = count + 1;
+								var fieldstring = "\"" + oPreSelectedFilter.sPath + "\"";
+								switch (oPreSelectedFilter.sOperator) {
+									case "EQ":
+										if (count !== 1) {
+											var n = where.indexOf(oPreSelectedFilter.sPath);
+
+											if (n !== -1) //There is a hit	
+											{
+												where = where.slice(0, -1);
+												where = where + " OR " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+											} else {
+												where = where + " AND ( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+											}
+										} else {
+											where = where + "( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
+										}
+										break;
+									case "Contains":
+										if (count !== 1) {
+											where = where + " AND ";
+										}
+										where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "%'";
+										break;
+									case "EndsWith":
+										if (count !== 1) {
+											where = where + " AND ";
+										}
+										where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "'";
+										break;
+									case "StartsWith":
+										if (count !== 1) {
+											where = where + " AND ";
+										}
+										where = where + fieldstring + " LIKE '" + oPreSelectedFilter.oValue1 + "%'";
+										break;
+									case "BT":
+										if (count !== 1) {
+											where = where + " AND ";
+										}
+										where = where + fieldstring + " BETWEEN '" + oPreSelectedFilter.oValue1 + "' AND '" + oPreSelectedFilter
+											.oValue2 + "'";
+										break;
+									case "GT":
+										if (count !== 1) {
+											where = where + " AND ";
+										}
+										where = where + fieldstring + " >'" + oPreSelectedFilter.oValue1 + "'";
+										break;
+									case "LT":
+										where = where + fieldstring + " <'" + oPreSelectedFilter.oValue1 + "'";
+										break;
+									case "GE":
+										where = where + fieldstring + " >='" + oPreSelectedFilter.oValue1 + "'";
+										break;
+									case "LE":
+										if (count !== 1) {
+											where = where + " AND ";
+										}
+										where = where + fieldstring + " <='" + oPreSelectedFilter.oValue1 + "'";
+										break;
+								}
+							});
+							//where = encodeURIComponent(where);					
+							//New Method
+							$.post("../../xsjs/searchHelp.xsjs", {
+								"field": field,
+								"table": searchtable,
+								"where": where
+							},
+								function (data) {
+
+									var aUniqueObject = [];
+									for (var i = 0; i < data.length; i++) {
+										Object.values(data[i]).forEach(function (sValue) {
+											var oUnique = {};
+											oUnique.Key = sValue;
+											oUnique.Name = self.dataFormatter(sValue, obj.column_type, "CLIENT");
+											aUniqueObject.push(oUnique);
+										});
 									}
-						 		}else
-						 		{
-						 		where = where + "( " + fieldstring + " = '" + oPreSelectedFilter.oValue1 + "' )";
-						 		}
-						 		break;
-						 	case "Contains":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "%'";
-						 		break;
-						 	case "EndsWith":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " LIKE '%" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	case "StartsWith":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " LIKE '" + oPreSelectedFilter.oValue1 + "%'";
-						 		break;
-						 	case "BT":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " BETWEEN '" + oPreSelectedFilter.oValue1 + "' AND '" + oPreSelectedFilter
-						 			.oValue2 + "'";
-						 		break;
-						 	case "GT":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " >'" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	case "LT":
-						 		where = where + fieldstring + " <'" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	case "GE":
-						 		where = where + fieldstring + " >='" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	case "LE":
-						 		if (count !== 1) {
-						 		where = where + " AND ";
-						 		}
-						 		where = where + fieldstring + " <='" + oPreSelectedFilter.oValue1 + "'";
-						 		break;
-						 	}
-						 });	
-						 //where = encodeURIComponent(where);					
-						//New Method
-						$.post("../../xsjs/searchHelp.xsjs", {"field": field,
-																  "table": searchtable,
-																  "where": where},
-								function(data){
-								
-							var aUniqueObject = [];	
-							for (var i = 0; i < data.length; i++) {
-								Object.values(data[i]).forEach(function (sValue) {
-									var oUnique = {};
-									oUnique.Key = sValue;
-									oUnique.Name = self.dataFormatter(sValue, obj.column_type,"CLIENT");
-									aUniqueObject.push(oUnique);
-								});		
-                            }							
-								
-							aSearchHelpValue[obj.column_property] = aUniqueObject;
-							a = new sap.ui.model.json.JSONModel(aUniqueObject);
-							t.setModel(a);
-							t.bindRows("/");
-							self._pBusyDialog.then(function(oBusyDialog) {
+
+									aSearchHelpValue[obj.column_property] = aUniqueObject;
+									a = new sap.ui.model.json.JSONModel(aUniqueObject);
+									t.setModel(a);
+									t.bindRows("/");
+									self._pBusyDialog.then(function (oBusyDialog) {
 										oBusyDialog.close();
-							});		
-							//resolve();
-							// error: function (oError) {
-							// 		self._pBusyDialog.then(function(oBusyDialog) {
-							// 			oBusyDialog.close();
-										
-							// 		});
-							// 			reject();								
-							// }
-						}).fail(function (oError) {
-							 		self._pBusyDialog.then(function(oBusyDialog) {
-									oBusyDialog.close();							
-						});						
-						});													
-							
-							
+									});
+									//resolve();
+									// error: function (oError) {
+									// 		self._pBusyDialog.then(function(oBusyDialog) {
+									// 			oBusyDialog.close();
+
+									// 		});
+									// 			reject();								
+									// }
+								}).fail(function (oError) {
+									self._pBusyDialog.then(function (oBusyDialog) {
+										oBusyDialog.close();
+									});
+								});
+
+
 							/*this.getView().getModel("tables").read("/" + checktable + this._paraStatement, {
 								filters: aSearchFilter,
 								//						sorters: [new sap.ui.model.Sorter("field")],
@@ -2285,10 +2285,10 @@ sap.ui.define([
 
 						}
 					} catch (e) {
-						this._pBusyDialog.then(function(oBusyDialog) {
-										oBusyDialog.close();
-										
-									});
+						this._pBusyDialog.then(function (oBusyDialog) {
+							oBusyDialog.close();
+
+						});
 					}
 
 				}.bind(this)));
@@ -2305,11 +2305,11 @@ sap.ui.define([
 				this._oValueHelpDialogGeneral.close();
 				//	MessageToast.show("The operation has been cancelled");
 			}
-		},	
+		},
 		onDialogExcelClosed: function (oEvent) {
 			if (oEvent.getParameter("cancelPressed")) {
 				this._cancel = "X";
-			} 
+			}
 		},
 		onFilterBarSearchGeneral: function (e) {
 			var t = this._oBasicSearchFieldGeneral.getValue(),
@@ -2363,60 +2363,60 @@ sap.ui.define([
 		onFullScreenPressed: function (oEvent) {
 			var oTemModel1 = new JSONModel();
 			var oTemModel2 = new JSONModel();
-			
+
 			var oModelTable = oEvent.getSource().getParent().getParent().getModel("tables");
 			var oModelTableData = oEvent.getSource().getParent().getParent().getModel();
 			//var oDataModel = this.getView().getModel("tables");
-			var oTableDesc; 
+			var oTableDesc;
 			this._selectedTable = oEvent.getSource().getParent().getParent();
 			if (!this._oDialogFull) {
 				Fragment.load({
-					name: namespace+".view.fragment.tablesfull",
+					name: namespace + ".view.fragment.tablesfull",
 					controller: this
 				}).then(function (oDialog) {
-					
+
 					this._oDialogFull = oDialog;
 					this._oDialogFull.setModel(oTemModel1);
-					this._oDialogFull.setModel(oTemModel2,"tables");
+					this._oDialogFull.setModel(oTemModel2, "tables");
 					var oTable = sap.ui.getCore().byId("tableFull");
 					oTable.unbindRows();
 
 
 					this._oDialogFull.setModel(oModelTable, "tables");
-				//	this._oDialogFull.setModel(oDataModel);
+					//	this._oDialogFull.setModel(oDataModel);
 					this._oDialogFull.setModel(oModelTableData);
 					oTableDesc = this._oDialogFull.getModel("tables").getData("columns").columns[0].column_tab;
-					oTable.bindRows("/");		
-					this._oDialogFull.getModel("tables").getData("columns").columns.forEach(function (oTab,iIndex) {
-					 oTable.getColumns()[iIndex].getTemplate().bindProperty(
-					 	"text",oTab.column_property);
-					oTable.getColumns()._propertyName = oTab.column_property;
-			});					
+					oTable.bindRows("/");
+					this._oDialogFull.getModel("tables").getData("columns").columns.forEach(function (oTab, iIndex) {
+						oTable.getColumns()[iIndex].getTemplate().bindProperty(
+							"text", oTab.column_property);
+						oTable.getColumns()._propertyName = oTab.column_property;
+					});
 					this._applyFilterSetting(oTable, oTableDesc);
 					this.getView().addDependent(oDialog);
 					this._oDialogFull.open();
 				}.bind(this));
 			} else {
-				
+
 				this._oDialogFull.setModel(oTemModel1);
-				this._oDialogFull.setModel(oTemModel2,"tables");
+				this._oDialogFull.setModel(oTemModel2, "tables");
 				var oTable = sap.ui.getCore().byId("tableFull");
 				oTable.unbindRows();
-				
+
 				this._oDialogFull.setModel(oModelTable, "tables");
 				//this._oDialogFull.setModel(oDataModel);
 				this._oDialogFull.setModel(oModelTableData);
 
-					oTableDesc = this._oDialogFull.getModel("tables").getData("columns").columns[0].column_tab;
-					oTable.unbindRows();
-					oTable.bindRows("/");						
-					this._oDialogFull.getModel("tables").getData("columns").columns.forEach(function (oTab,iIndex) {
+				oTableDesc = this._oDialogFull.getModel("tables").getData("columns").columns[0].column_tab;
+				oTable.unbindRows();
+				oTable.bindRows("/");
+				this._oDialogFull.getModel("tables").getData("columns").columns.forEach(function (oTab, iIndex) {
 
-					 oTable.getColumns()[iIndex].getTemplate().bindProperty(
-					 	"text",oTab.column_property);
-					
+					oTable.getColumns()[iIndex].getTemplate().bindProperty(
+						"text", oTab.column_property);
+
 					oTable.getColumns()._propertyName = oTab.column_property;
-			});			
+				});
 				this._applyFilterSetting(oTable, oTableDesc);
 				this._oDialogFull.open();
 			}
@@ -2510,7 +2510,7 @@ sap.ui.define([
 				var property = this.mBindingInfos.text.parts[1].path;
 				var n = property.indexOf("(");
 				var column_type = "";
-				 
+
 				if (n === -1) {
 					column_type = property;
 				} else {
@@ -2548,53 +2548,46 @@ sap.ui.define([
 
 						var first = sValue.substr(i, 1);
 						var wbs_new = "";
-						if( first !== "S" && first !== "C")
-						{
+						if (first !== "S" && first !== "C") {
 							var mask = "X.00000.00.00.00.00.00.0"
-						}else if(first === "S")
-						{
+						} else if (first === "S") {
 							var mask = "X.00000.00.00.00.00.00"
-						}else
-						{
+						} else {
 							var mask = "X.00000.00.00000"
 						}
 						var countvalue = 0;
 						for (var i = 0; i < mask.length; i++) {
 							var x = mask.substr(i, 1);
-							if(x === "X")
-							{
+							if (x === "X") {
 								wbs_new = sValue.substr(0, 1);
 								countvalue += 1;
 								continue;
 							}
-							if(x === ".")
-							{
+							if (x === ".") {
 								wbs_new += x;
 							}
-							if(x === "0")
-							{
+							if (x === "0") {
 								var y = sValue.substr(countvalue, 1);
 								wbs_new += y;
 								countvalue += 1;
 							}
 						}
 						var flag = "";
-						do{
-						var index = wbs_new.lastIndexOf(".");
-						var offset = wbs_new.length - index;
-						var z = wbs_new.substr(index+1, offset-1);
-						if(z === "0" || z === "00" || z === "00000")
-							{
-								var wbs_new = wbs_new.substr(0, wbs_new.length-offset);	
+						do {
+							var index = wbs_new.lastIndexOf(".");
+							var offset = wbs_new.length - index;
+							var z = wbs_new.substr(index + 1, offset - 1);
+							if (z === "0" || z === "00" || z === "00000") {
+								var wbs_new = wbs_new.substr(0, wbs_new.length - offset);
 							}
-						
-						else{
-							wbs = wbs_new;
-							flag = "X";
+
+							else {
+								wbs = wbs_new;
+								flag = "X";
 							}
 						}
-						while(flag !== "X")
-							return wbs;
+						while (flag !== "X")
+						return wbs;
 					} else {
 						return sValue;
 					}
@@ -2640,59 +2633,52 @@ sap.ui.define([
 
 						return dateFormat.format(dateValue);
 					}
-					}else if (column_property === "POSID") {
+				} else if (column_property === "POSID") {
 
 					if (sValue !== undefined) {
 						var wbs = "";
 						var first = sValue.substr(i, 1);
 						var wbs_new = "";
-						if( first !== "S" && first !== "C")
-						{
+						if (first !== "S" && first !== "C") {
 							var mask = "X.00000.00.00.00.00.00.0"
-						}else if(first === "S")
-						{
+						} else if (first === "S") {
 							var mask = "X.00000.00.00.00.00.00"
-						}else
-						{
+						} else {
 							var mask = "X.00000.00.00000"
 						}
 						var countvalue = 0;
 						for (var i = 0; i < mask.length; i++) {
 							var x = mask.substr(i, 1);
-							if(x === "X")
-							{
+							if (x === "X") {
 								wbs_new = sValue.substr(0, 1);
 								countvalue += 1;
 								continue;
 							}
-							if(x === ".")
-							{
+							if (x === ".") {
 								wbs_new += x;
 							}
-							if(x === "0")
-							{
+							if (x === "0") {
 								var y = sValue.substr(countvalue, 1);
 								wbs_new += y;
 								countvalue += 1;
 							}
 						}
 						var flag = "";
-						do{
-						var index = wbs_new.lastIndexOf(".");
-						var offset = wbs_new.length - index;
-						var z = wbs_new.substr(index+1, offset-1);
-						if(z === "0" || z === "00" || z === "00000")
-							{
-								var wbs_new = wbs_new.substr(0, wbs_new.length-offset);	
+						do {
+							var index = wbs_new.lastIndexOf(".");
+							var offset = wbs_new.length - index;
+							var z = wbs_new.substr(index + 1, offset - 1);
+							if (z === "0" || z === "00" || z === "00000") {
+								var wbs_new = wbs_new.substr(0, wbs_new.length - offset);
 							}
-						
-						else{
-							wbs = wbs_new;
-							flag = "X";
+
+							else {
+								wbs = wbs_new;
+								flag = "X";
 							}
 						}
-						while(flag !== "X")
-							return wbs;
+						while (flag !== "X")
+						return wbs;
 					} else {
 						return sValue;
 					}
@@ -2712,15 +2698,15 @@ sap.ui.define([
 			var oModel = this.getOwnerComponent().getModel("navigationSet");
 			oModel.read("/TableSet", {
 				filters: [new Filter({
-						path: "TABLEID",
-						operator: FilterOperator.EQ,
-						value1: entity
-					}),
-					new Filter({
-						path: "SUBAPPLICATIONID",
-						operator: FilterOperator.NE,
-						value1: "FV"
-					})
+					path: "TABLEID",
+					operator: FilterOperator.EQ,
+					value1: entity
+				}),
+				new Filter({
+					path: "SUBAPPLICATIONID",
+					operator: FilterOperator.NE,
+					value1: "FV"
+				})
 				],
 				success: function (oData) {
 					that.getView().byId("toolPage").getSideContent().setSelectedKey(oData.results[0].SUBAPPLICATIONID);
@@ -2930,17 +2916,17 @@ sap.ui.define([
 		onManageVariant: function (oEvent) {
 			this.onDeleteVariant(oEvent.getParameters().deleted);
 		},
-		standardVariantReset : function(){
+		standardVariantReset: function () {
 			var selectedTab = this.byId("myTableTabContainer").getSelectedItem();
-				var dialog = this._oDialogSelectionKey[selectedTab];
-				dialog.getContent().slice(1).forEach(function (oLayout, oLayoutIndex) {
-					oLayout.getContent().forEach(function (oTable, oTableIndex) {
-						oTable.getItems().forEach(function (oItem, oItemIndex) {
-							var tokens = [];
-							oItem.getCells()[2].setTokens(tokens);
-						});
+			var dialog = this._oDialogSelectionKey[selectedTab];
+			dialog.getContent().slice(1).forEach(function (oLayout, oLayoutIndex) {
+				oLayout.getContent().forEach(function (oTable, oTableIndex) {
+					oTable.getItems().forEach(function (oItem, oItemIndex) {
+						var tokens = [];
+						oItem.getCells()[2].setTokens(tokens);
 					});
 				});
+			});
 		}
 	});
 });
