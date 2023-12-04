@@ -1,0 +1,33 @@
+{
+    "ApplicationSet": [
+        {
+            "__metadata": {
+                "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/application.xsodata/ApplicationSet(POSITION=0,APPLICATIONID='FV')",
+                "type": "default.ApplicationSetType"
+            },
+            "POSITION": 0,
+            "APPLICATIONID": "TEST",
+            "INACTIVE": null,
+            "ICON": "",
+            "TEXT": "TEST",
+            "SubApplicationSet": [
+                {
+                    "__metadata": {
+                        "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/application.xsodata/SubApplicationSet(POSITION=1,APPLICATIONID='Tables',SUBAPPLICATIONID='AACP')",
+                        "type": "default.SubApplicationSetType"
+                    },
+                    "POSITION": 1,
+                    "APPLICATIONID": "VIEW",
+                    "SUBAPPLICATIONID": "VIEW",
+                    "INACTIVE": null,
+                    "TEXT": "",
+                    "TableSet": {
+                        "__deferred": {
+                            "uri": "https://ecs-80-158-33-97.reverse.open-telekom-cloud.com:51063/xsodata/application.xsodata/SubApplicationSet(POSITION=1,APPLICATIONID='Tables',SUBAPPLICATIONID='AACP')/TableSet"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

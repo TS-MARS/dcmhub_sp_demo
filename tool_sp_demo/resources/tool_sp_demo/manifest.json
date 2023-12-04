@@ -32,12 +32,8 @@
 		"dataSources": {
 			"navigationService": {
 				"preload": true,
-				"uri": "../xsodata/application.xsodata/",
-				"type": "OData",
-				"settings": {
-					"odataVersion": "2.0",
-					"localUri": "localService/metadata.xml"
-				}
+				"uri": "model/Applications.json",
+				"type": "JSON"
 			},
 			"toolTableService": {
 				"uri": "../xsodata/tooltableservice.xsodata/",
