@@ -1219,7 +1219,7 @@ sap.ui.define([
 				// dataType: "json",
 				// async: true,
 				// success: function (data) {
-				$.post("../../xsjs/query.xsjs", {
+				$.post("../../xsjs/storeprocedure.xsjs", {
 					"field": "*",
 					"table": oTableId.TableId,
 					"where": where

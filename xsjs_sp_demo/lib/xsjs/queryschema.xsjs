@@ -5,7 +5,8 @@ function showData(field, table = "DUMMY", where) {
 
   // Load procedure of specific schema
   var results = connection.executeQuery(
-    `SELECT CURRENT_SCHEMA "current schema" FROM ${table} WHERE ${where};`
+    //`SELECT CURRENT_SCHEMA "current schema" FROM ${table} WHERE ${where};`
+    `SELECT CURRENT_SCHEMA "current schema" FROM DUMMY;`
   );
 
   var body = JSON.stringify(results);
