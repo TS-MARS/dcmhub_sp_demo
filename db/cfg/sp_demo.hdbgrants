@@ -2,14 +2,14 @@
 	"ServiceName_1": {
 		"object_owner": {
 			"schema_privileges": [{
-				"reference": "SDA",
-				"privileges_with_grant_option": ["SELECT", "SELECT METADATA"]
+				"reference": "RM",
+				"privileges_with_grant_option": ["SELECT", "INSERT", "UPDATE", "EXECUTE", "TRIGGER", "DELETE", "DROP", "CREATE ANY", "DEBUG", "REFERENCES"]
 			}]
 		},
 		"application_user": {
 			"schema_privileges": [{
-				"reference": "SDA",
-				"privileges_with_grant_option": ["SELECT", "SELECT METADATA"]
+				"reference": "RM",
+				"privileges_with_grant_option": ["SELECT", "INSERT", "UPDATE", "EXECUTE", "TRIGGER", "DELETE", "DROP", "CREATE ANY", "DEBUG", "REFERENCES"]
 			}]
 		}
 	}
