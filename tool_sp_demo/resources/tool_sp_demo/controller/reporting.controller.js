@@ -1231,9 +1231,11 @@ sap.ui.define([
 					"BELNR": sBelnr,
 					"GJAHR": sGjahr
 				},
-					function (data) {
+					function (result) {
 						//var count = data.length;
 						//data[0].count  = data.length;
+
+						let data = result.OV_RESULT;
 
 						var columndata = that.byId("myTableTabContainer")._getSelectedItemContent()[1].getContent()[iTableIndex].getContent()[
 							0].getModel("tables").getData().columns;
