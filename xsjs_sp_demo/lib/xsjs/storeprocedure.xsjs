@@ -8,9 +8,9 @@ function showData(inMandt, inBukrs, inBelnr, inGjahr) {
 
   var results = procedure({
     IN_MANDT: inMandt, // 800,
-    IN_MANDT: inBukrs, // 3000,
+    IN_BUKRS: inBukrs, // 3000,
     IN_BELNR: inBelnr, // 1900000270,
-    IN_GJAHR: inGjahr, // 2013,
+    IN_GJAHR: inGjahr  // 2013,
   });
   var body = JSON.stringify(results);
 
