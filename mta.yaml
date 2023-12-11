@@ -68,7 +68,7 @@ resources:
   - name: cross-container-service
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: DCMHUB-DEV
+      service-name: DCMHUB-RM
     properties:
       the-service-name: '${service-name}'
   - name: dcmhub_sp_demo-ui5
