@@ -1219,10 +1219,17 @@ sap.ui.define([
 				// dataType: "json",
 				// async: true,
 				// success: function (data) {
+
+				const sMandt = wherefilter.find(filter => filter.sPath === 'MANDT')?.oValue1 || '800';
+				const sBukrs = wherefilter.find(filter => filter.sPath === 'BUKRS')?.oValue1;
+				const sBelnr = wherefilter.find(filter => filter.sPath === 'BELNR')?.oValue1;
+				const sGjahr = wherefilter.find(filter => filter.sPath === 'GJAHR')?.oValue1;
+
 				$.post("../../xsjs/storeprocedure.xsjs", {
-					"field": "*",
-					"table": oTableId.TableId,
-					"where": where
+					"MANDT": sMandt,
+					"BURKS": sBukrs,
+					"BELNR": sBelnr,
+					"GJAHR": sGjahr
 				},
 					function (data) {
 						//var count = data.length;
